@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/searh"
+        android:orderInCategory="0"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/main_action"
+        android:orderInCategory="0"
+        android:showAsAction="always">
+        <menu android:id="@+id/menu_list" >
+            <item
+                android:id="@+id/menuItemHome"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="Home"/>
+            <item
+                android:id="@+id/menuItem0"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="SpeedMath"/>
+            <item
+                android:id="@+id/menuItem1"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="QuantitativeMath"/>
+            <item
+                android:id="@+id/menuItem2"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="LogicalMath"/>
+            <item
+                android:id="@+id/menuItem3"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="KidsMath"/>
+            <item
+                android:id="@+id/menuItem4"
+                android:icon="@drawable/next"
+                android:showAsAction="always"
+                android:title="TestYourIQ"/>
+        </menu>
+    </item>
+
+</menu>
