@@ -1,108 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:background="@drawable/back"
-    android:orientation="vertical"
-    android:padding="5dip" >
+    android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/level_1_head_img"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/level_1_item_linear_layout"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="33dp"
-        android:background="#000000"
-        android:padding="1dp"
-        android:src="@drawable/speed_math" />
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/level_1_head_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/level_1_thanks"
-        android:layout_alignRight="@+id/level_1_prepair"
-        android:layout_below="@+id/level_1_head_img"
-        android:layout_marginTop="36dp"
-        android:text="1"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#040404"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
+        <ImageView
+            android:id="@+id/level_1_image_view"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:scaleType="center"/>
 
-    <ImageView
-        android:id="@+id/level_1_tail_img"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="60dp"
-        android:src="@android:drawable/btn_star_big_on" />
+        <TextView
+            android:id="@+id/level_1_title_view"
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#343434"/>
 
-    <TextView
-        android:id="@+id/level_1_left_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/level_1_head_text"
-        android:layout_below="@+id/level_1_head_text"
-        android:layout_marginTop="22dp"
-        android:layout_toLeftOf="@+id/level_1_tail_img"
-        android:text="Take Tour"
-        android:textColor="#343434"
-        android:textSize="12sp" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/level_1_thanks"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/level_1_tail_img"
-        android:layout_alignRight="@+id/level_1_right_text"
-        android:layout_marginBottom="44dp"
-        android:text="Thank You For Visiting"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#040404"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
+    <com.xieon.level_1.ExpandingLayout
+            android:id="@+id/level_1_expanding_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:visibility="gone">
 
-    <TextView
-        android:id="@+id/level_1_prepair"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/level_1_thanks"
-        android:layout_alignLeft="@+id/level_1_thanks"
-        android:text="We are prepairing matter"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#040404"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
+        <TextView
+            android:id="@+id/level_1_text_view"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#343434"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"/>
 
-    <TextView
-        android:id="@+id/level_1_right_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/level_1_left_text"
-        android:layout_alignBottom="@+id/level_1_left_text"
-        android:layout_toRightOf="@+id/level_1_head_img"
-        android:text="Take Test"
-        android:textColor="#343434"
-        android:textSize="12sp" />
+    </com.xieon.level_1.ExpandingLayout>
 
-    <TextView
-        android:id="@+id/level_1_header_url"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="1"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#a7d3ff"
-        android:textSize="15sp"
-        android:textStyle="bold"
-        android:typeface="sans" />
     
-</RelativeLayout>
+</LinearLayout>

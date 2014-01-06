@@ -1,4 +1,4 @@
-package com.example.math4u_1;
+package com.xieon.constant;
 
 public interface AppConstants {
 
