@@ -5,7 +5,7 @@ import java.util.List;
 
 import android.os.Bundle;
 
-import com.example.math4u_1.R;
+import com.xieon.main.R;
 import com.xieon.main.BaseActivity;
 
 public class Level_1_HeadActivity extends BaseActivity {

@@ -3,7 +3,7 @@ package com.xieon.main;
 import java.util.HashMap;
 import java.util.List;
 
-import com.example.math4u_1.R;
+import com.xieon.main.R;
 import com.xieon.constant.AppConstants;
 
 import android.app.Activity;

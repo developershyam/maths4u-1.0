@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import com.example.math4u_1.R;
+import com.xieon.main.R;
 
 /**
  * A custom listview which supports the preview of extra content corresponding to each cell

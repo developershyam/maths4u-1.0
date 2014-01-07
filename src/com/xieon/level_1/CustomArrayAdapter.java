@@ -38,7 +38,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.example.math4u_1.R;
+import com.xieon.main.R;
 
 /**
  * This is a custom array adapter used to populate the listview whose items will
