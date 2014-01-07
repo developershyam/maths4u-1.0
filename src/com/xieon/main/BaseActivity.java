@@ -13,20 +13,17 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.xieon.main.R;
-import com.xieon.constant.AppConstants;
-import com.xieon.level_1.Level_1_HeadActivity;
-import com.xieon.utility.AppUtility;
-
-import android.animation.LayoutTransition;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.ViewGroup;
+
+import com.xieon.constant.AppConstants;
+import com.xieon.level_1.Level_1_HeadActivity;
+import com.xieon.quiz.InputActivity;
+import com.xieon.utility.AppUtility;
 
 public class BaseActivity extends Activity {
 
@@ -49,13 +46,6 @@ public class BaseActivity extends Activity {
 		inflater.inflate(R.menu.mainmenu, menu);
 		Drawable d = getResources().getDrawable(R.drawable.actionbar_img);
 		getActionBar().setBackgroundDrawable(d);
-		
-		//animate().translationX(400).withLayer(); 
-		
-		/*LayoutTransition l = new LayoutTransition();
-	    l.enableTransitionType(LayoutTransition.CHANGING);
-	    ViewGroup viewGroup = (ViewGroup) findViewById(R.id.menu_list);
-	    viewGroup.setLayoutTransition(l);*/
 		
 		return super.onCreateOptionsMenu(menu);
 	}
@@ -81,7 +71,7 @@ public class BaseActivity extends Activity {
 			handleClickItem(3);
 			return true;
 		case R.id.menuItem4:
-			handleClickItem(4);
+			startQuiz(4);
 			return true;
 		
 		default:
@@ -206,6 +196,14 @@ public class BaseActivity extends Activity {
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
+	}
+	private void startQuiz(int position) {
+
+		Intent intent = new Intent();
+		intent.setClass(getBaseContext(), InputActivity.class);
+
+		
+		startActivity(intent);
 	}
 
 }

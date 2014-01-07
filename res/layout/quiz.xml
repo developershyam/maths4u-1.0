@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/labelName"
+        android:layout_alignBottom="@+id/labelName"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:layout_marginRight="10dp" 
+        android:background="@drawable/edittext_selector" 
+        android:inputType="textPersonName" >
+
+       <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/labelName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/editName"
+        android:ems="10"
+        android:text="   Name :" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editName"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/labelName"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp" 
+        android:background="@drawable/edittext_selector"
+        android:inputType="number" />
+		
+
+    <TextView
+        android:id="@+id/labelAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editAge"
+        android:layout_alignBottom="@+id/editAge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/labelName"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:text="   Age :" />
+
+    <Spinner
+        android:id="@+id/quizLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editAge"
+        android:layout_marginTop="27dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/quizStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quizLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/org_bt"
+        android:text="Start" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/last_img"
+        android:ems="10" />
+    
+</RelativeLayout>
