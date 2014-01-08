@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import com.xieon.constant.AppConstants;
 import com.xieon.level_1.Level_1_HeadActivity;
 import com.xieon.quiz.InputActivity;
+import com.xieon.quiz.QuestionActivity;
 import com.xieon.utility.AppUtility;
 
 public class BaseActivity extends Activity {
@@ -200,7 +201,7 @@ public class BaseActivity extends Activity {
 	private void startQuiz(int position) {
 
 		Intent intent = new Intent();
-		intent.setClass(getBaseContext(), InputActivity.class);
+		intent.setClass(getBaseContext(), QuestionActivity.class);
 
 		
 		startActivity(intent);

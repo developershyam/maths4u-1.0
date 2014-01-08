@@ -1,5 +1,7 @@
 package com.xieon.quiz;
 
+import java.io.InputStream;
+
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
 
@@ -21,7 +23,7 @@ public class InputActivity extends BaseActivity {
 	        super.onCreate(savedInstanceState);
 	        setContentView(R.layout.quiz);
 	        Spinner dropdown = (Spinner)findViewById(R.id.quizLevel);
-	        String[] items = new String[]{"Low Level", "Medium Level", "High level"};
+	        String[] items = new String[]{"Select Level","Low Level", "Medium Level", "High Level"};
 	        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, items);
 	        dropdown.setAdapter(adapter);
 	        Button start = (Button)findViewById(R.id.quizStart);
