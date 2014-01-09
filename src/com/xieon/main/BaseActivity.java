@@ -14,6 +14,7 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.Menu;
@@ -29,7 +30,8 @@ import com.xieon.utility.AppUtility;
 public class BaseActivity extends Activity {
 
 	private List<HashMap<String, String>> listdata;
-
+	private Context context;
+	
 	public List<HashMap<String, String>> getListdata() {
 		setListData();
 		return listdata;
@@ -47,7 +49,7 @@ public class BaseActivity extends Activity {
 		inflater.inflate(R.menu.mainmenu, menu);
 		Drawable d = getResources().getDrawable(R.drawable.actionbar_img);
 		getActionBar().setBackgroundDrawable(d);
-		
+		createContext();
 		return super.onCreateOptionsMenu(menu);
 	}
 
@@ -198,13 +200,23 @@ public class BaseActivity extends Activity {
 			ex.printStackTrace();
 		}
 	}
+	
 	private void startQuiz(int position) {
 
 		Intent intent = new Intent();
-		intent.setClass(getBaseContext(), QuestionActivity.class);
-
-		
+		intent.setClass(getBaseContext(), InputActivity.class);
 		startActivity(intent);
 	}
+	
+	public Context getContext() {
+		return context;
+	}
 
+	public void setContext(Context context) {
+		this.context = context;
+	}
+	
+	public void createContext() {
+		this.context = getApplicationContext();
+	}
 }

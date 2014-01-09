@@ -12,7 +12,7 @@ import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
 import com.xieon.utility.AppUtility;
 
-public class InputActivity extends BaseActivity {
+public class QuizCompleteActivity extends BaseActivity {
 	
 	 @Override
 	 protected void onCreate(Bundle savedInstanceState) {

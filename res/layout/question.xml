@@ -84,7 +84,7 @@
               android:layout_alignParentLeft="true"
               android:layout_alignParentRight="true"
               android:layout_below="@+id/quizStart"
-              android:layout_marginTop="15dp"
+              android:layout_marginTop="10dp"
               android:ems="0"
                />
 

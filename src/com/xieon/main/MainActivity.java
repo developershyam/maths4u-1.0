@@ -2,19 +2,15 @@ package com.xieon.main;
 
 import java.util.HashMap;
 import java.util.List;
-
-import com.xieon.main.R;
-import com.xieon.constant.AppConstants;
-import com.xieon.level_1.Level_1_HeadActivity;
-import com.xieon.utility.AppUtility;
-
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import com.xieon.constant.AppConstants;
+import com.xieon.level_1.Level_1_HeadActivity;
+import com.xieon.utility.AppUtility;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
