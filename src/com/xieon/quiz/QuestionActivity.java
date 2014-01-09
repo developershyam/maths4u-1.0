@@ -16,6 +16,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
+import com.xieon.model.User;
 import com.xieon.utility.AppUtility;
 
 public class QuestionActivity extends BaseActivity {
@@ -41,8 +42,20 @@ public class QuestionActivity extends BaseActivity {
 				// Perform action on click
 				v.startAnimation(buttonClick);
 				index++;
-				if(index<maxQues)
-					setQuestion(index);
+				if(index<maxQues){
+					RadioGroup rg = (RadioGroup) findViewById(R.id.radioButtons);
+				    final String userAnswer = ((RadioButton)findViewById(rg.getCheckedRadioButtonId() )).getText().toString();
+				    questions.get(index-1).setUserAnswer(userAnswer);
+				    setQuestion(index);
+				}else{
+					
+					Intent intent = new Intent();
+            		intent.setClass(getBaseContext(), QuizCompleteActivity.class);            		
+            		intent.putExtra("user", new User());
+            		String score=createScore(questions);
+            		intent.putExtra("user", score);
+            		startActivity(intent);
+				}
 
 			}
 		});
@@ -111,5 +124,18 @@ public class QuestionActivity extends BaseActivity {
 		}
 		return newQues;
 	}
-	 
+	
+	public String createScore(List<Question> questions){
+		String score="";
+		int scoreValue=0;		
+		int size=questions.size();
+		for (int i = 0; i < size; i++) {
+			if(questions.get(i).getAnswer().endsWith(questions.get(i).getUserAnswer())){
+				scoreValue+=1;
+			}
+				
+		}
+		score=(scoreValue*100/size)+" % ";
+		return score;
+	}
 }

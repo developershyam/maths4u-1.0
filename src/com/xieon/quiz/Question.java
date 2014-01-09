@@ -9,6 +9,7 @@ public class Question {
 	String option3;
 	String option4;
 	String answer;
+	String userAnswer;
 
 	public String getQuestion() {
 		return question;
@@ -65,12 +66,23 @@ public class Question {
 	public void setNum(String num) {
 		this.num = num;
 	}
+	
+
+	public String getUserAnswer() {
+		return userAnswer;
+	}
+
+	public void setUserAnswer(String userAnswer) {
+		this.userAnswer = userAnswer;
+	}
 
 	@Override
 	public String toString() {
-		return "Question [question=" + question + ", option1=" + option1
-				+ ", option2=" + option2 + ", option3=" + option3
-				+ ", option4=" + option4 + ", answer=" + answer + "]";
+		return "Question [num=" + num + ", question=" + question + ", option1="
+				+ option1 + ", option2=" + option2 + ", option3=" + option3
+				+ ", option4=" + option4 + ", answer=" + answer
+				+ ", userAnswer=" + userAnswer + "]";
 	}
 
+	
 }

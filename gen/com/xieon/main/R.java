@@ -76,11 +76,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int test_math=0x7f020027;
     }
     public static final class id {
-        public static final int editAge=0x7f090020;
-        public static final int editName=0x7f09001e;
-        public static final int footer=0x7f090023;
-        public static final int labelAge=0x7f090021;
-        public static final int labelName=0x7f09001f;
+        public static final int editAge=0x7f09001d;
+        public static final int editName=0x7f09001b;
+        public static final int footer=0x7f090020;
+        public static final int labelAge=0x7f09001e;
+        public static final int labelName=0x7f09001c;
         public static final int level_0_head_img=0x7f090007;
         public static final int level_0_head_imgL=0x7f090002;
         public static final int level_0_head_text=0x7f090009;
@@ -110,11 +110,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int questionFooter=0x7f09001a;
         public static final int questionLevel=0x7f090014;
         public static final int questionNoLevel=0x7f090012;
-        public static final int quizLevel=0x7f090022;
+        public static final int quizLevel=0x7f09001f;
         public static final int quizStart=0x7f090013;
-        public static final int quiz_complete_msg=0x7f09001c;
-        public static final int quiz_complete_name=0x7f09001b;
-        public static final int quiz_complete_score=0x7f09001d;
+        public static final int quiz_complete_msg=0x7f090022;
+        public static final int quiz_complete_name=0x7f090021;
+        public static final int quiz_complete_score=0x7f090023;
         public static final int radioButton1=0x7f090016;
         public static final int radioButton2=0x7f090017;
         public static final int radioButton3=0x7f090018;
@@ -128,8 +128,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int level_1=0x7f030002;
         public static final int level_1_man=0x7f030003;
         public static final int question=0x7f030004;
-        public static final int quiz_complete=0x7f030005;
-        public static final int quiz_input=0x7f030006;
+        public static final int quiz=0x7f030005;
+        public static final int quiz_complete=0x7f030006;
+        public static final int quiz_input=0x7f030007;
     }
     public static final class menu {
         public static final int mainmenu=0x7f080000;
