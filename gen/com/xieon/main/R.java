@@ -76,11 +76,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int test_math=0x7f020027;
     }
     public static final class id {
-        public static final int editAge=0x7f09001f;
-        public static final int editName=0x7f09001d;
-        public static final int footer=0x7f090022;
-        public static final int labelAge=0x7f090020;
-        public static final int labelName=0x7f09001e;
+        public static final int editAge=0x7f090020;
+        public static final int editName=0x7f09001e;
+        public static final int footer=0x7f090023;
+        public static final int labelAge=0x7f090021;
+        public static final int labelName=0x7f09001f;
         public static final int level_0_head_img=0x7f090007;
         public static final int level_0_head_imgL=0x7f090002;
         public static final int level_0_head_text=0x7f090009;
@@ -99,27 +99,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int level_1_text_view=0x7f090010;
         public static final int level_1_title_view=0x7f09000e;
         public static final int listview=0x7f090000;
-        public static final int menuItem0=0x7f090027;
-        public static final int menuItem1=0x7f090028;
-        public static final int menuItem2=0x7f090029;
-        public static final int menuItem3=0x7f09002a;
-        public static final int menuItem4=0x7f09002b;
-        public static final int menuItemHome=0x7f090026;
-        public static final int menu_list=0x7f090025;
-        public static final int menu_settings=0x7f090024;
+        public static final int menuItem0=0x7f090028;
+        public static final int menuItem1=0x7f090029;
+        public static final int menuItem2=0x7f09002a;
+        public static final int menuItem3=0x7f09002b;
+        public static final int menuItem4=0x7f09002c;
+        public static final int menuItemHome=0x7f090027;
+        public static final int menu_list=0x7f090026;
+        public static final int menu_settings=0x7f090025;
         public static final int questionFooter=0x7f09001a;
         public static final int questionLevel=0x7f090014;
         public static final int questionNoLevel=0x7f090012;
-        public static final int quizLevel=0x7f090021;
+        public static final int quizLevel=0x7f090022;
         public static final int quizStart=0x7f090013;
-        public static final int quiz_complete_msg=0x7f09001b;
-        public static final int quiz_complete_score=0x7f09001c;
+        public static final int quiz_complete_msg=0x7f09001c;
+        public static final int quiz_complete_name=0x7f09001b;
+        public static final int quiz_complete_score=0x7f09001d;
         public static final int radioButton1=0x7f090016;
         public static final int radioButton2=0x7f090017;
         public static final int radioButton3=0x7f090018;
         public static final int radioButton4=0x7f090019;
         public static final int radioButtons=0x7f090015;
-        public static final int search=0x7f090023;
+        public static final int search=0x7f090024;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

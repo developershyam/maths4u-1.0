@@ -7,7 +7,7 @@
     tools:context=".MainActivity" >
 
     <TextView
-        android:id="@+id/quiz_complete_msg"
+        android:id="@+id/quiz_complete_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -18,20 +18,44 @@
         android:ems="10"
         android:textColor="#343434"
         android:textSize="20sp"
-        android:text="Quiz Sucessfully Completed" />
+        android:text="Hi shyam," />
     
-    <TextView
-        android:id="@+id/quiz_complete_score"
+     <TextView
+        android:id="@+id/quiz_complete_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
-        android:layout_below="@+id/quiz_complete_msg"
-        android:gravity="center" 
+       android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quiz_complete_name"
+        android:layout_marginTop="52dp"
         android:ems="10"
+        android:gravity="center"
         android:textColor="#343434"
         android:textSize="20sp"
         android:text="Quiz Sucessfully Completed" />
 
-   
+    <TextView
+        android:id="@+id/quiz_complete_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/quiz_complete_msg"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:gravity="center"
+        android:text="You scored 90%"
+        android:textColor="#343434"
+        android:textSize="20sp" />
+    
+     <Button
+            android:id="@+id/quizStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quiz_complete_score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/org_bt"
+            android:text="Play Once Again" />
     
 </RelativeLayout>
