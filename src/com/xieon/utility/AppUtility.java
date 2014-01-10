@@ -53,6 +53,7 @@ public class AppUtility {
 			value = rand.nextInt(max);
 			randomNumbers.add(value);
 		}
+		System.out.println("generatedv random num: " +randomNumbers );
 		return randomNumbers;
 	}
 }

@@ -24,7 +24,7 @@ public class QuestionActivity extends BaseActivity {
 	List<Question> questions;
 	int index=0;
 	int maxQues;
-
+	User user;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,6 +32,7 @@ public class QuestionActivity extends BaseActivity {
 		Button start = (Button) findViewById(R.id.quizStart);
 		Intent intent=getIntent();
 		String json=intent.getStringExtra("questions");
+		user=(User)intent.getSerializableExtra("user");
 		questions=getQuestions(json);
 		questions=getLimitedQuestion(questions, AppUtility.generateRandom(5, 20));
 		maxQues=questions.size();
@@ -42,19 +43,28 @@ public class QuestionActivity extends BaseActivity {
 				// Perform action on click
 				v.startAnimation(buttonClick);
 				index++;
+				System.out.println("maxQues: " + maxQues);
 				if(index<maxQues){
 					RadioGroup rg = (RadioGroup) findViewById(R.id.radioButtons);
 				    final String userAnswer = ((RadioButton)findViewById(rg.getCheckedRadioButtonId() )).getText().toString();
 				    questions.get(index-1).setUserAnswer(userAnswer);
 				    setQuestion(index);
+				    System.out.println("index: " + index);
 				}else{
+					System.out.println("last index: " + index);
+					RadioGroup rg = (RadioGroup) findViewById(R.id.radioButtons);
+				    final String userAnswer = ((RadioButton)findViewById(rg.getCheckedRadioButtonId() )).getText().toString();
+				    questions.get(index-1).setUserAnswer(userAnswer);
 					
 					Intent intent = new Intent();
             		intent.setClass(getBaseContext(), QuizCompleteActivity.class);            		
-            		intent.putExtra("user", new User());
+            		
             		String score=createScore(questions);
-            		intent.putExtra("user", score);
+            		user.setScore(score);
+            		intent.putExtra("user", user);
+            		
             		startActivity(intent);
+            		System.out.println("List of questions: " + questions);
 				}
 
 			}
@@ -122,6 +132,7 @@ public class QuestionActivity extends BaseActivity {
 			quesNum=itr.next();
 			newQues.add(questions.get(quesNum));
 		}
+		System.out.println("List of limited questions: " + questions);
 		return newQues;
 	}
 	
@@ -130,10 +141,15 @@ public class QuestionActivity extends BaseActivity {
 		int scoreValue=0;		
 		int size=questions.size();
 		for (int i = 0; i < size; i++) {
-			if(questions.get(i).getAnswer().endsWith(questions.get(i).getUserAnswer())){
-				scoreValue+=1;
-			}
-				
+			try {
+				if(questions.get(i).getAnswer().endsWith(questions.get(i).getUserAnswer())){
+					scoreValue+=1;
+				}	
+				System.out.println("question num: "+i+", question size: "+size+" question: "+questions.get(i));
+			} catch (Exception e) {
+				System.out.println("Exception: while creating score "+e);
+				System.out.println("question: "+questions.get(i));
+			}			
 		}
 		score=(scoreValue*100/size)+" % ";
 		return score;
