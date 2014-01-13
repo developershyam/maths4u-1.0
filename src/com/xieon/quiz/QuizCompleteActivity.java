@@ -20,7 +20,7 @@ public class QuizCompleteActivity extends BaseActivity {
 	        setContentView(R.layout.quiz_complete);
 	        Intent intent=getIntent();
 	        user=(User)intent.getSerializableExtra("user");
-	        Button start = (Button)findViewById(R.id.quizStart);
+	        Button start = (Button)findViewById(R.id.quiz_complete_play);
 	        TextView name = (TextView)findViewById(R.id.quiz_complete_name);
 	        name.setText("Hi "+user.getUserName()+",");
 	        TextView score = (TextView)findViewById(R.id.quiz_complete_score);
@@ -31,6 +31,7 @@ public class QuizCompleteActivity extends BaseActivity {
                     // Perform action on click   
                 	v.startAnimation(buttonClick);
                 	Intent intent = new Intent();
+                	intent.putExtra("user", user);
             		intent.setClass(getBaseContext(), InputActivity.class);
             		startActivity(intent);
                 }

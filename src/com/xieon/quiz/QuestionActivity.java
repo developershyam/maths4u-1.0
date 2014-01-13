@@ -60,11 +60,12 @@ public class QuestionActivity extends BaseActivity {
             		intent.setClass(getBaseContext(), QuizCompleteActivity.class);            		
             		
             		String score=createScore(questions);
+            		System.out.println("score: " + score);
             		user.setScore(score);
             		intent.putExtra("user", user);
-            		
+            		System.out.println("user: " + user);
             		startActivity(intent);
-            		System.out.println("List of questions: " + questions);
+            		
 				}
 
 			}
