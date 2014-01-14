@@ -1,5 +1,11 @@
 package com.xieon.quiz;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +18,7 @@ import android.widget.TextView;
 
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
+import com.xieon.model.Topic;
 import com.xieon.model.User;
 import com.xieon.utility.AppUtility;
 
@@ -66,6 +73,8 @@ public class InputActivity extends BaseActivity {
             		startActivity(intent);
                 }
             });
+	        
+	        
 	 }
 	
 }

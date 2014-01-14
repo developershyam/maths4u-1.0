@@ -41,6 +41,10 @@
             android:name="com.xieon.quiz.QuizCompleteActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.xieon.main.ExpandableList"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>

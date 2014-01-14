@@ -1,15 +1,25 @@
 package com.xieon.main;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
+
 import com.xieon.constant.AppConstants;
 import com.xieon.level_1.Level_1_HeadActivity;
+import com.xieon.model.Topic;
+import com.xieon.quiz.QuizCompleteActivity;
 import com.xieon.utility.AppUtility;
 
 /**
@@ -63,6 +73,22 @@ public class MainActivity extends BaseActivity {
 
 				// start the  activity
 				startActivity(intent);
+				
+			}
+		});
+		
+		final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.level_0_last);
+		relativeLayout.setOnClickListener(new OnClickListener() {
+
+			public void onClick(View view) {
+			
+    	        String json=AppUtility.loadJSON(getContext(),"speedmath.json");
+    	        
+    	        Intent intent = new Intent();
+        		intent.setClass(getBaseContext(), ExpandableList.class);            		      		
+        		intent.putExtra("json", json);    		
+        		startActivity(intent);
+    	        
 				
 			}
 		});

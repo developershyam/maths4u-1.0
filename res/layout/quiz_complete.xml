@@ -52,10 +52,20 @@
             android:id="@+id/quiz_complete_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/quiz_complete_solution"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/org_bt"
+            android:text="Play Again" />
+     
+      <Button
+            android:id="@+id/quiz_complete_solution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/quiz_complete_score"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="52dp"
             android:background="@drawable/org_bt"
-            android:text="Play Once Again" />
+            android:text="Solution" />
     
 </RelativeLayout>
