@@ -62,7 +62,8 @@ public class BaseActivity extends Activity {
 			setHome();
 			return true;
 		case R.id.menuItem0:
-			handleClickItem(0);
+			//handleClickItem(0);
+			setSpeed();
 			return true;
 		case R.id.menuItem1:
 			handleClickItem(1);
@@ -218,5 +219,12 @@ public class BaseActivity extends Activity {
 	
 	public void createContext() {
 		this.context = getApplicationContext();
+	}
+	
+	public void setSpeed() {
+		Intent intent = new Intent();
+		intent.setClass(getBaseContext(), ContentActivity.class);
+
+		startActivity(intent);
 	}
 }

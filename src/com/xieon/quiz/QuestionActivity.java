@@ -107,6 +107,7 @@ public class QuestionActivity extends BaseActivity {
 		RadioButton radioButton3=(RadioButton)findViewById(R.id.radioButton3);
 		RadioButton radioButton4=(RadioButton)findViewById(R.id.radioButton4);
 		RadioGroup radioGroup=(RadioGroup)findViewById(R.id.radioButtons);
+		
 		radioGroup.clearCheck();
 		questionNoLevel.setText("Q. "+(position+1));
 		questionLevel.setText(question.getQuestion());

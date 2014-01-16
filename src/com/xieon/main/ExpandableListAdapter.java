@@ -11,9 +11,11 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.animation.AlphaAnimation;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
  
 public class ExpandableListAdapter extends BaseExpandableListAdapter {
@@ -75,6 +77,15 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
             }
         });
  
+        RelativeLayout relativeLayout = (RelativeLayout) convertView.findViewById(R.id.child);
+        final AlphaAnimation buttonClick = new AlphaAnimation(1F, 0.8F);
+        relativeLayout.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				v.startAnimation(buttonClick);
+			}
+		});
         item.setText(laptop);
         return convertView;
     }
