@@ -1,0 +1,103 @@
+[
+	{
+		"num":"1",
+		"topic":"Square of a number containing only ’1′",
+		"contents":
+					[
+						{
+							"content1":
+"<html><body>111X111 = 12321
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ Find no. of 1’s in given number = 3
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Write 1234….. upto number of 1’s in given number in ascending order i.e. 123
+<br/><font size=15 color=black><b>Step 3:-</b></font>
+ Than write descending nos. upto 1, next to previous no. i.e. 12321
+<br/><br/>
+<font size=15 color=black><b>Example:-</b></font>
+<br/>
+ Suppose we want to find the square of 1111 here number of 1’s are 4
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ so we will write (123…….n) upto 4 i.e. 1234
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Than we will write nos. in descending order, next to previous no. = 1234321 
+</body></html>"
+							
+						},
+						{
+							
+							"content2":
+"<html><body>Suppose we want to find the square of 11 here number of 1’s are 2
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ so we will write (123…….n) upto 2 i.e. 12
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Than we will write nos. in descending order, next to previous no. = 121
+</body></html>" 				
+										
+						},
+						{
+							"content3":
+"<html><body>111X111 = 12321
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ Find no. of 1’s in given number = 3
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Write 1234….. upto number of 1’s in given number in ascending order i.e. 123
+<br/><font size=15 color=black><b>Step 3:-</b></font>
+ Than write descending nos. upto 1, next to previous no. i.e. 12321
+<br/><br/>
+<font size=15 color=black><b>Example:-</b></font>
+<br/>
+ Suppose we want to find the square of 1111 here number of 1’s are 4
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ so we will write (123…….n) upto 4 i.e. 1234
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Than we will write nos. in descending order, next to previous no. = 1234321 
+</body></html>"
+							
+						},
+						{
+							
+							"content4":
+"<html><body>Suppose we want to find the square of 11 here number of 1’s are 2
+<br/><font size=15 color=black><b>Step 1:-</b></font>
+ so we will write (123…….n) upto 2 i.e. 12
+<br/><font size=15 color=black><b>Step 2:-</b></font>
+ Than we will write nos. in descending order, next to previous no. = 121
+</body></html>" 				
+										
+						}
+						
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Square of a Number ending in 5",
+		"contents":
+					[
+						{
+							"content1":
+"65X65=4225
+Step 1:- Multiply the left part/digit to the left part/digit plus one: 6X (6+1) =42
+Step 2:- Write the number “25” next to the number from first step: 4225
+										
+Example:
+
+Suppose we want to find the square of 75.
+Here last digit is ’5′ and left part is ’7′
+Step 1: Multiply left part to left part plus one: 7 X (7+1) = 56
+Step 2: Write 56 and 25 together:- 5625"  
+						
+						},
+						{
+					
+							"content2":
+"Suppose we want to find the square of 115.
+Here last digit is ’5′ and left part is ’11′
+Step 1: Multiply left part to left part plus one: 11 X (11+1) = 132
+Step 2: Write 132 and 25 together:- 13225"
+																					
+						}
+					]
+	}
+]
+
