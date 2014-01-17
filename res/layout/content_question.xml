@@ -9,7 +9,7 @@
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/content_back_next"
+        android:layout_above="@+id/content_question_back_next"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true" >
@@ -20,7 +20,7 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/content_questionNoLevel"
+                android:id="@+id/content_question_questionNoLevel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -32,13 +32,13 @@
                 android:width="50dp" />
 
             <TextView
-                android:id="@+id/content_questionLevel"
+                android:id="@+id/content_question_questionLevel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_alignTop="@+id/content_questionNoLevel"
+                android:layout_alignTop="@+id/content_question_questionNoLevel"
                 android:layout_marginRight="20dp"
-                android:layout_toRightOf="@+id/content_questionNoLevel"
+                android:layout_toRightOf="@+id/content_question_questionNoLevel"
                 android:ems="10"
                 android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
        	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -48,14 +48,17 @@
             
 
            <LinearLayout
-                android:id="@+id/content_option1"
+                android:id="@+id/content_question_option1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:layout_below="@+id/content_questionLevel" >
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/content_question_questionLevel" >
 
                 <Button
-                    android:id="@+id/content_option1_bt"
+                    android:id="@+id/content_question_option1_bt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A."
@@ -63,24 +66,27 @@
                     android:background="@drawable/white_box" />
 
                 <TextView
-                    android:id="@+id/content_option1_txt"
+                    android:id="@+id/content_question_option1_txt"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="25dp"
-                     android:layout_marginRight="20dp"
-                    android:text="Option1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
-
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:text="Option1" />
                 
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/content_option2"
+                android:id="@+id/content_question_option2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:layout_below="@+id/content_option1" >
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"                
+                android:layout_below="@+id/content_question_option1" >
 
                 <Button
-                    android:id="@+id/content_option2_bt"
+                    android:id="@+id/content_question_option2_bt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="B." 
@@ -88,24 +94,27 @@
                     android:background="@drawable/white_box"/>
 
                 <TextView
-                    android:id="@+id/content_option2_txt"
+                    android:id="@+id/content_question_option2_txt"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="20dp"
+                     android:padding="10dp"
                     android:text="Option2" />
-
                 
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/content_option3"
+                android:id="@+id/content_question_option3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:layout_below="@+id/content_option2" >
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/content_question_option2" >
 
                 <Button
-                    android:id="@+id/content_option3_bt"
+                    android:id="@+id/content_question_option3_bt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="C." 
@@ -113,24 +122,28 @@
                     android:background="@drawable/white_box"/>
 
                 <TextView
-                    android:id="@+id/content_option3_txt"
+                    android:id="@+id/content_question_option3_txt"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="20dp"
+                     android:padding="10dp"
                     android:text="Option3" />
 
                 
             </LinearLayout>
             <LinearLayout
-                android:id="@+id/content_option4"
+                android:id="@+id/content_question_option4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
-                android:layout_below="@+id/content_option3" >
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/content_question_option3" >
 
                 <Button
-                    android:id="@+id/content_option4_bt"
+                    android:id="@+id/content_question_option4_bt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="D." 
@@ -138,39 +151,40 @@
                     android:background="@drawable/white_box"/>
 
                 <TextView
-                    android:id="@+id/content_option4_txt"
+                    android:id="@+id/content_question_option4_txt"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="20dp"
+                     android:padding="10dp"
                     android:text="Option4" />
 
                 
             </LinearLayout>
 
             <TextView
-                android:id="@+id/content_questionFooter"
+                android:id="@+id/content_question_questionFooter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentRight="true"
-                android:layout_below="@+id/content_option2"
+                android:layout_below="@+id/content_question_option2"
                 android:layout_marginTop="10dp"
                 android:ems="0" />
         </RelativeLayout>
     </ScrollView>
 
     <RelativeLayout
-        android:id="@+id/content_back_next"
+        android:id="@+id/content_question_back_next"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/content_last"
+        android:layout_above="@+id/content_question_last"
         android:layout_alignParentLeft="true"
         android:background="@drawable/light_gray"
         android:orientation="vertical" >
 
         <ImageView
-            android:id="@+id/content_back"
+            android:id="@+id/content_question_back"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentLeft="true"
@@ -180,7 +194,7 @@
             android:padding="1dp" />
 
         <ImageView
-            android:id="@+id/content_next"
+            android:id="@+id/content_question_next"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentRight="true"
@@ -191,7 +205,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/content_last"
+        android:id="@+id/content_question_last"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -200,7 +214,7 @@
         android:orientation="vertical" >
 
         <ImageView
-            android:id="@+id/content_home"
+            android:id="@+id/content_question_home"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentLeft="true"
@@ -210,42 +224,42 @@
             android:padding="1dp" />
 
         <ImageView
-            android:id="@+id/content_question"
+            android:id="@+id/content_question_question"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="29dp"
-            android:layout_toRightOf="@+id/content_home"
+            android:layout_toRightOf="@+id/content_question_home"
             android:background="@drawable/question"
             android:padding="1dp" />
 
         <ImageView
-            android:id="@+id/content_key"
+            android:id="@+id/content_question_key"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="29dp"
-            android:layout_toRightOf="@+id/content_question"
+            android:layout_toRightOf="@+id/content_question_question"
             android:background="@drawable/key"
             android:padding="1dp" />
 
         <ImageView
-            android:id="@+id/content_setting"
+            android:id="@+id/content_question_setting"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="29dp"
-            android:layout_toRightOf="@+id/content_key"
+            android:layout_toRightOf="@+id/content_question_key"
             android:background="@drawable/setting"
             android:padding="1dp" />
 
         <ImageView
-            android:id="@+id/content_right"
+            android:id="@+id/content_question_wright"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="29dp"
-            android:layout_toRightOf="@+id/content_setting"
+            android:layout_toRightOf="@+id/content_question_setting"
             android:background="@drawable/wright"
             android:padding="1dp" />
     </RelativeLayout>
