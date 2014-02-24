@@ -1,0 +1,228 @@
+[
+	{
+		"num":"1",
+		"topic":"Base Square Trick",
+		"contents":
+					[ {"content1":
+					"
+					<br/>If you know base method you will be able to square any no. within seconds.
+					<br/>All the other methods are just an exaggeration of this base method. If you clearly understand this one, I bet other methods will be very simple to you.
+					<br/>The base Square method is known as 'Yavadunam Thavaunikrutya Vargamca Yojayet Sutram' but you don't need to memorize this horrible name. Just learn the method.
+					<br/><b>The method say:-</b>  There are three bases in Vedic mathematics 10, 100 and 1000. Choose the base which is nearby to the number.
+					<br/>There are two cases explained in Examples:-
+					<br/><b>Case I (Using Actual Base)</b>
+					<br/><b>Case II (Using Convenient Base)</b>
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Case I (Using Actual Base)</b>
+					<br/>13X13=169
+					<br/>Number = 13,				 Actual Base=10
+					<br/><b>Step 1:-</b> Find the difference between number and actual base: 13-10=3
+					<br/><br/><b>Step 2:-</b> Square the difference: 3X3=9
+					<br/><br/><b>Step 3:-</b> Add difference to the original no.; 13+3=16
+					<br/><br/><b>Step 4:-</b> Put both the numbers together 169
+					<br/><br/><b>Note:-</b> For actual base 10 take only unit's digit from step 2, extra digits will be carry forwarded. For actual base 100 take last 2 digits from step 2, extra digits will be carry forwarded.
+					"},
+					{"example2":
+					"
+					<b>Case II (Using Convenient Base)</b>
+					<br/>34X34 = 1156
+					<br/>For some cases no. is too far from actual base, so it is difficult to find square of difference, there we can use convenient base method:-
+					<br/>Number = 34		 Actual Base=10		Convenient Base=30
+					<br/><b>Step 1:-</b> Find the difference between number and convenient base i.e. 34-30=4
+					<br/><br/><b>Step 2:-</b> Square the difference i.e. 4X4=16
+					<br/><br/><b>Step 3:-</b> Add difference to the original number i.e. 34+4=38
+					<br/><br/><b>Step 4:-</b> Find the ratio between convenient base and actual base i.e. 30/10= 3
+					<br/><br/><b>Step 5:-</b> Multiply this ratio to number obtained from step 2 i.e. 38X3=114
+					<br/><br/><b>Step 6:-</b> Carry forward the extra digit from step 2 and put both nos. together i.e. 114+1/6  is 1156
+					<br/><br/><b>Note:-</b>  For actual base 10 take only unit’s digit from step 2, extra digits will be carry forwarded. For actual base 100 take last 2 digits from step 2, extra digits will be carry forwarded.	
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},	
+	{
+		"num":"2",
+		"topic":"Square of number from 51 to 59",
+		"contents":
+					[ {"content1":
+					"
+					<b>54X54=2916</b>
+					<br/><b>Step 1:-</b> Add unit's digit to 25 i.e. 25+4 = 29
+					<br/><br/><b>Step 2:-</b> Square unit's digit i.e. 4X4=16
+					<br/><br/><b>Step 3:-</b> Put both the numbers together i.e. 2916
+					<br/><br/><b>Note:-</b>  If no. obtained from step 2 is less than 10 than put a zero before it.								
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 53</b>
+					<br/><b>Step 1:-</b> Add unit's digit to 25 i.e. 25+3 = 28
+					<br/><br/><b>Step 2:-</b> Square unit's digit i.e. 3X3=09
+					<br/><br/><b>Step 3:-</b> Put both the numbers together i.e. 2809
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 59</b>
+					<br/><b>Step 1:-</b> Add unit's digit to 25 i.e. 25+9 = 34
+					<br/><br/><b>Step 2:-</b> Square unit's digit i.e. 9X9=81
+					<br/><br/><b>Step 3:-</b> Put both the numbers together i.e. 3481					
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"3",
+		"topic":"Square of a number between 10 to 19",
+		"contents":
+					[ {"content1":
+					"
+					<b>13X13=169</b>
+					<br/><b>Step 1:-</b> Add unit's digit to no. itself i.e. 13+3 = 16
+					<br/><br/><b>Step 2:-</b> Square unit's digit i.e. 3X3 = 9
+					<br/><br/><b>Step 3:-</b> Put both the numbers together i.e.169
+					<br/><br/><b>Note:-</b> If square of unit's digit is 2 digit no. than carry forward extra digit to left hand side.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 18</b>
+					<br/><b>Step 1:-</b> Add unit's digit to no. itself i.e. 18+8 = 26
+					<br/><br/><b>Step 2:-</b> Square unit's digit i.e. 8X8 = 64
+					<br/><br/><b>Step 3:-</b> As square of unit's digit is 2 digit no. so extra digit '6' will be carry forwarded: 26+6=32
+					<br/><br/><b>Step 4:-</b> Put remaining digit together i.e. 324.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 99</b>
+					<br/>Here number of 9's are 2
+					<br/><b>Step 1:-</b>So we will write 999... upto (2-1) 1 time, followed by 8  i.e. 98 
+					<br/><br/><b>Step 2:-</b> Than write '0' upto (2-1) 1 time followed by 1 = 9801
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"4",
+		"topic":"Square of a number close to 100",
+		"contents":
+					[ {"content1":
+					"
+					<b>96X96=9216</b>
+					<br/><b>Step 1:-</b> Subtract 100 from number: 96-100=-4
+					<br/><br/><b>Step 2:-</b> Square the difference obtained from step 1 i.e. -4X-4=16
+					<br/><br/><b>Step 3:-</b> Add the difference to the original no. i.e. 96-4=92
+					<br/><br/><b>Step 4:-</b> Put both the numbers together i.e. 9216
+					<br/><br/><b>Note:-</b> If no. obtained from step 2 is less than 10 than put a zero before it.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 102</b>
+					<br/><b>Step 1:-</b> Subtract 100 from number i.e. 102-100=2
+					<br/><br/><b>Step 2:-</b> Square the difference obtained from step 1 i.e. 2X2=04
+					<br/><br/><b>Step 3:-</b> Add the difference to the original no. i.e. 102+2=104
+					<br/><br/><b>Step 4:-</b> Put both the numbers together i.e. 10404
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 107</b>
+					<br/><b>Step 1:-</b> Subtract 100 from number i.e. 107-100=7
+					<br/><br/><b>Step 2:-</b> Square the difference obtained from step 1 i.e. 7X7=49
+					<br/><br/><b>Step 3:-</b> Add the difference to the original no. i.e. 107+7=114
+					<br/><br/><b>Step 4:-</b> Put both the numbers together i.e. 11449
+
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"5",
+		"topic":"Square of a number containing only '9'",
+		"contents":
+					[ {"content1":
+					"
+					<b>999X999=998001</b>
+					<br/><b>Step 1:-</b> Find no. of 9's in given number = 3
+					<br/><br/><b>Step 2:-</b> Write '9' upto n-1 times, followed by single digit '8'= 998
+					<br/><br/><b>Step 3:-</b> Than Write '0' upto n-1 times, followed by single digit '1' = 998001
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 9999</b>
+					<br/>Here number of 9's are 4
+					<br/><b>Step 1:-</b> So we will write 999... upto (4-1) 3 times, followed by 8 is 9998
+					<br/><br/><b>Step 2:-</b> Than write '0' upto (4-1) 3 times followed by 1 = 99980001 
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 99</b>
+					<br/>Hhere number of 9's are 2
+					<br/><b>Step 1:-</b> So we will write 999... upto (2-1) 1 time, followed by 8 is 98
+					<br/><br/><b>Step 2:-</b> Than write '0' upto (2-1) 1 time followed by 1 = 9801
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"6",
+		"topic":"Square of a number containing only '1'",
+		"contents":
+					[ {"content1":
+					"
+					<b>111X111=12321</b>
+					<br/><b>Step 1:-</b> Find no. of 1's in given number = 3
+					<br/><br/><b>Step 2:-</b> Write 1234... upto number of 1's in given number in ascending order = 123
+					<br/><br/><b>Step 3:-</b> Than write descending nos. upto 1, next to previous no. = 12321
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 1111</b>
+					<br/>ere number of 1's are 4
+					<br/><b>Step 1:-</b> So we will write 123...n upto 4 is 1234
+					<br/><br/><b>Step 2:-</b> Than we will write nos. in descending order, next to previous no. = 1234321
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 11</b>
+					<br/>Here number of 1’s are 2
+					<br/><b>Step 1:-</b> PSo we will write 123...n upto 2 is 12
+					<br/><br/><b>Step 2:-</b> Than we will write nos. in descending order, next to previous no. = 121
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"7",
+		"topic":"Square of a Number ending in 5",
+		"contents":
+					[ {"content1":
+					"
+					<b>65X65=4225</b>
+					<br/><b>Step 1:-</b> Multiply the left part/digit to the left part/digit plus one: 6X (6+1) =42
+					<br/><br/><b>Step 2:-</b> Write the number '25' next to the number from first step= 4225
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to find the square of 75</b>
+					<br/>Here last digit is ’5′ and left part is '7'
+					<br/><b>Step 1:-</b> Multiply left part to left part plus one: 7 X (7+1) = 56
+					<br/><br/><b>Step 2:-</b> Write 56 and 25 together i.e. 5625
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to find the square of 115</b>
+					<br/>Here last digit is '5' and left part is '11'
+					<br/><b>Step 1:-</b> Multiply left part to left part plus one: 11 X (11+1) = 132
+					<br/><br/><b>Step 2:-</b> Write 132 and 25 together i.e. 13225
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	}
+	
+]

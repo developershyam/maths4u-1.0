@@ -1,0 +1,93 @@
+[
+	{
+		"num":"1",
+		"topic":"Adding 10 consecutive numbers",
+		"contents":
+					[ {"content1":
+					"
+					<b>15+16+17+18+19+20+21+22+23+24</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 15+4 = 19
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 195
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add from 93 to 102</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 93+4 = 97
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 975
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add from 36 to 45</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 36+4 = 40
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},	
+	{
+		"num":"2",
+		"topic":"Adding n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1+2+3+4+5+6+7+8+9+10+11+12+13 = 91</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 13+1 = 14
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series: 14x13 = 182
+					<br/><br/><b>Step 3:-</b> Divide this number by 2: 182/2 = 91
+					<br/><br/><b>Note:-</b>  Or use this formula for adding n numbers starting from 1: n(n+1)/2.					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add from 1 to 99</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 99+1 = 100
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 100x99 = 9900
+					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 9900/2 = 4950
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add from 1 to 34</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 34+1 = 35
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 35x34 = 1190
+					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 1190/2 = 595					
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"3",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	}
+	
+]

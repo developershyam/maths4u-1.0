@@ -218,7 +218,7 @@ public class BaseActivity extends Activity {
 	}
 	
 	public void createContext() {
-		this.context = getApplicationContext();
+		this.context = getBaseContext();
 	}
 	
 	public void setSpeed() {

@@ -27,7 +27,7 @@
         android:layout_toRightOf="@+id/level_0_head_img"
         android:text="Take Tour"
         android:textColor="#343434"
-        android:textSize="12sp" />
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/level_0_head_text"
@@ -40,7 +40,7 @@
         android:text="   Speed Maths"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#040404"
-        android:textSize="15sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         android:typeface="sans" />
 
@@ -62,6 +62,6 @@
         android:layout_toRightOf="@+id/level_0_left_text"
         android:text="Take Test"
         android:textColor="#343434"
-        android:textSize="12sp" />
+        android:textSize="13sp" />
 
 </RelativeLayout>

@@ -4,12 +4,13 @@
 		"topic":"Multiplication",
 		"subtopic":
 					[
-						{"subtopic1":"•	Multiplication base method"},
+						{"subtopic1":"•	Multiplying any 2 digit number"},
 						{"subtopic2":"•	Multiply 2 digit no. by 11"},
 						{"subtopic3":"•	Multiply even no. by 5"},
 						{"subtopic4":"•	Multiply between 10 and 19"},
 						{"subtopic5":"•	Multiply by 125"},
-						{"subtopic6":"•	Multiplication to the left or right"}
+						{"subtopic6":"•	Multiply by 9, 99, 999 etc."},
+						{"subtopic7":"•	Multiplying numbers close to 100 or 1000"}
 					]
 	},
 	{
@@ -18,11 +19,11 @@
 		"subtopic":
 					[
 						{"subtopic1":"•	Base Square Trick"},
-						{"subtopic2":"Square of numbers from 51 to 59"},
-						{"subtopic3":"•	Square of a number close to 100"},
-						{"subtopic4":"•	Square of a number close to 10"},
-						{"subtopic5":"•	Square of a number containing only ’9′"},
-						{"subtopic6":"•	Square of a number containing only ’1′"},
+						{"subtopic2":"•	Square of numbers from 51 to 59"},
+						{"subtopic3":"•	Square of a number from 10 to 19"},
+						{"subtopic4":"•	Square of a number close to 100"},
+						{"subtopic5":"•	Square of a number containing only '9'"},
+						{"subtopic6":"•	Square of a number containing only '1'"},
 						{"subtopic7":"•	Square of a Number ending in 5"}	
 
 						
@@ -30,29 +31,33 @@
 	},
 	{
 		"num":"3",
-		"topic":"Division",
+		"topic":"Addition",
 		"subtopic":
 					[
-						{"subtopic1":"•	Divide by 5, 50, 500 etc"},
-						{"subtopic2":"•	Basic method of Division"}					]
+						{"subtopic1":"•	Adding 10 consecutive numbers"},
+						{"subtopic2":"•	Adding n nos."},
+						{"subtopic3":"•	Adding square of n numbers"}					
+					]
 	},
 	{
 		"num":"4",
 		"topic":"Divisibility",
 		"subtopic":
 					[
-						{"subtopic1":"•	 Divisibility by 3"},
-						{"subtopic2":"•	 Divisibility by 4"},
-						{"subtopic3":"•	 Divisibility by 5"},
-						{"subtopic4":"•	 Divisibility by 7"},
-						{"subtopic5":"•	 Divisibility by 8"},
-						{"subtopic6":"•	 Divisibility by 9"},
-						{"subtopic7":"•	 Divisibility by 11"},
-						{"subtopic8":"•	 Divisibility by 13"},
-						{"subtopic9":"•  Divisibility by 17"},
-						{"subtopic10":"•  Divisibility by 19"},
-						{"subtopic11":"•  Divisibility by 21"},
-						{"subtopic12":"•  Divisibility by 23"}
+						{"subtopic1":"•	Divisibility by 2"},
+						{"subtopic2":"•	Divisibility by 3"},
+						{"subtopic3":"•	Divisibility by 4"},
+						{"subtopic4":"•	Divisibility by 5"},
+						{"subtopic5":"•	Divisibility by 6"},
+						{"subtopic6":"•	Divisibility by 7"},
+						{"subtopic7":"•	Divisibility by 8"},
+						{"subtopic8":"•	Divisibility by 9"},
+						{"subtopic9":"•	Divisibility by 11"},
+						{"subtopic10":"•	Divisibility by 13"},
+						{"subtopic11":"•  Divisibility by 17"},
+						{"subtopic12":"•  Divisibility by 19"},
+						{"subtopic13":"•  Divisibility by 21"},
+						{"subtopic14":"•  Divisibility by 23"}
 						
 					]
 	},
@@ -61,8 +66,8 @@
 		"topic":"Miscellaneous",
 		"subtopic":
 					[
-						{"subtopic1":"•	Adding n nos."},
-						{"subtopic2":"•	Adding square of n nos."},
+						{"subtopic1":"•	Division by 5,50,500 etc."},
+						{"subtopic2":"•	Finding Cube of any no."},
 						{"subtopic3":"•	Finding Cube of any no."},
 						{"subtopic4":"•	Finding Square root of any no."}						
 					]

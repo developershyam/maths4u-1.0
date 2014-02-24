@@ -2,7 +2,7 @@
 <Level_0>
 	<ListData>
 	    <id>1</id>
-		<headText>   Speed Math</headText>
+		<headText>Speed Math</headText>
 		<leftText>Take Tour</leftText>
 		<rightText>Take Test</rightText>
 		<headImg>level_0_speed</headImg>
@@ -10,7 +10,7 @@
 	</ListData>
 	<ListData>
 	    <id>2</id>
-		<headText>   Quantitative Math</headText>
+		<headText>Quantitative Math</headText>
 		<leftText>Take Tour</leftText>
 		<rightText>Take Test</rightText>
 		<headImg>level_0_quant</headImg>
@@ -18,7 +18,7 @@
 	</ListData>
 	<ListData>
 	    <id>3</id>
-		<headText>   Logical Math</headText>
+		<headText>Logical Math</headText>
 		<leftText>Take Tour</leftText>
 		<rightText>Take Test</rightText>
 		<headImg>level_0_logical</headImg>
@@ -26,7 +26,7 @@
 	</ListData>
 	<ListData>
 	    <id>4</id>
-		<headText>   Kids Math</headText>
+		<headText>Kids Math</headText>
 		<leftText>Take Tour</leftText>
 		<rightText>Take Test</rightText>
 		<headImg>level_0_kids</headImg>
@@ -34,7 +34,7 @@
 	</ListData>
 	<ListData>
 	    <id>5</id>
-		<headText>   Test Your IQ</headText>
+		<headText>Test Your IQ</headText>
 		<leftText>Take Tour</leftText>
 		<rightText>Take Test</rightText>
 		<headImg>level_0_quiz</headImg>

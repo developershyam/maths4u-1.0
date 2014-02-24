@@ -1,11 +1,7 @@
 package com.xieon.main;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,8 +14,7 @@ import android.widget.RelativeLayout;
 
 import com.xieon.constant.AppConstants;
 import com.xieon.level_1.Level_1_HeadActivity;
-import com.xieon.model.Topic;
-import com.xieon.quiz.QuizCompleteActivity;
+import com.xieon.speedmath.ContentList;
 import com.xieon.utility.AppUtility;
 
 /**
@@ -59,6 +54,13 @@ public class MainActivity extends BaseActivity {
 				//view.animate().alpha(0);
 				
 				Intent intent = new Intent();
+				if(position==0){
+					System.out.println("position="+position);
+					String json=AppUtility.loadJSON(getContext(),"speedmath.json");
+					intent.setClass(getBaseContext(), com.xieon.speedmath.ExpandableList.class);
+					intent.putExtra(
+							"json",json);
+				}else{
 				intent.setClass(MainActivity.this, Level_1_HeadActivity.class);
 
 				// parameters
@@ -69,7 +71,7 @@ public class MainActivity extends BaseActivity {
 						AppConstants.HEADER_URL,
 						AppUtility.shrink(listdata.get(position).get(
 								AppConstants.HEAD_TEXT)));
-				
+				}
 
 				// start the  activity
 				startActivity(intent);
@@ -82,11 +84,8 @@ public class MainActivity extends BaseActivity {
 
 			public void onClick(View view) {
 			
-    	        String json=AppUtility.loadJSON(getContext(),"speedmath.json");
-    	        
     	        Intent intent = new Intent();
-        		intent.setClass(getBaseContext(), ExpandableList.class);            		      		
-        		intent.putExtra("json", json);    		
+        		intent.setClass(getBaseContext(), ContentList.class);            		      		
         		startActivity(intent);
     	        
 				

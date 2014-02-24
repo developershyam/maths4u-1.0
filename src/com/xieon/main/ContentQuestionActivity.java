@@ -16,8 +16,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.xieon.model.Example;
 import com.xieon.model.TheoryContent;
 import com.xieon.model.Topic;
+import com.xieon.quiz.QuestionActivity;
 import com.xieon.utility.AppUtility;
 
 /**
@@ -29,17 +31,21 @@ import com.xieon.utility.AppUtility;
 public class ContentQuestionActivity extends BaseActivity {
 
 	int currentQuestion=0;
-	int currentTopic=0;
-	int maxTopic=0;
-	List<TheoryContent> theoryContents;
-	TextView contentHeadNumView;
-	TextView contentHeadView;
-	TextView contentView;
+	int currentExample=0;
+	int maxExample=0;
+	List<Example> examples;
+	TextView contentQuestionNumView;
+	TextView contentQuestionView;
 	Button opt1;
 	Button opt2;
 	Button opt3;
 	Button opt4;
+	Button solution;
 	Button selectedOpt;
+	TextView optText1;
+	TextView optText2;
+	TextView optText3;
+	TextView optText4;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -58,27 +64,41 @@ public class ContentQuestionActivity extends BaseActivity {
 		opt2 = (Button) findViewById(R.id.content_question_option2_bt);
 		opt3 = (Button) findViewById(R.id.content_question_option3_bt);
 		opt4 = (Button) findViewById(R.id.content_question_option4_bt);
-		/*theoryContents=getTheoryContent();
-		maxTopic=theoryContents.get(currentQuestion).getContents().size();
-		contentHeadNumView= (TextView) findViewById(R.id.content_text_head_num);
-		contentHeadView = (TextView) findViewById(R.id.content_text_head);
-		contentView = (TextView) findViewById(R.id.content_text_content);
-		contentHeadNumView.setText((currentTopic+1)+". ");
-		contentHeadView.setText(theoryContents.get(currentQuestion).getTopic());
-		contentView.setText(Html.fromHtml(theoryContents.get(currentQuestion).getContents().get(currentTopic)));*/
+		solution = (Button) findViewById(R.id.content_question_solution_bt);
+		
+		optText1=(TextView)findViewById(R.id.content_question_option1_txt);
+		optText2=(TextView)findViewById(R.id.content_question_option2_txt);
+		optText3=(TextView)findViewById(R.id.content_question_option3_txt);
+		optText4=(TextView)findViewById(R.id.content_question_option4_txt);
+		
+		
+		examples=getTheoryExample();
+		maxExample=examples.size();
+		contentQuestionNumView= (TextView) findViewById(R.id.content_question_questionNoLevel);
+		contentQuestionView = (TextView) findViewById(R.id.content_question_questionLevel);
+		contentQuestionNumView.setText((currentExample+1)+". ");
+		contentQuestionView.setText(examples.get(currentExample).getQuestion());
+		optText1.setText(examples.get(currentExample).getOption1());
+		optText2.setText(examples.get(currentExample).getOption2());
+		optText3.setText(examples.get(currentExample).getOption3());
+		optText4.setText(examples.get(currentExample).getOption4());
 		
 		backBt.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				v.startAnimation(animation);
-				int temp=currentTopic;
-				currentTopic--;
-				if(currentTopic>=0 && currentTopic<maxTopic){
-					contentHeadNumView.setText((currentTopic+1)+". ");
-					contentView.setText(Html.fromHtml(theoryContents.get(currentQuestion).getContents().get(currentTopic)));
+				int temp=currentExample;
+				currentExample--;
+				if(currentExample>=0 && currentExample<maxExample){
+					contentQuestionNumView.setText((currentExample+1)+". ");
+					contentQuestionView.setText(examples.get(currentExample).getQuestion());
+					optText1.setText(examples.get(currentExample).getOption1());
+					optText2.setText(examples.get(currentExample).getOption2());
+					optText3.setText(examples.get(currentExample).getOption3());
+					optText4.setText(examples.get(currentExample).getOption4());
 				}
 				else{
-					currentTopic=temp;
+					currentExample=temp;
 				}
 			}
 		});
@@ -86,14 +106,18 @@ public class ContentQuestionActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				v.startAnimation(animation);
-				int temp=currentTopic;
-				currentTopic++;
-				if(currentTopic>=0 && currentTopic<maxTopic){
-					contentHeadNumView.setText((currentTopic+1)+". ");
-					contentView.setText(Html.fromHtml(theoryContents.get(currentQuestion).getContents().get(currentTopic)));
+				int temp=currentExample;
+				currentExample++;
+				if(currentExample>=0 && currentExample<maxExample){
+					contentQuestionNumView.setText((currentExample+1)+". ");
+					contentQuestionView.setText(examples.get(currentExample).getQuestion());
+					optText1.setText(examples.get(currentExample).getOption1());
+					optText2.setText(examples.get(currentExample).getOption2());
+					optText3.setText(examples.get(currentExample).getOption3());
+					optText4.setText(examples.get(currentExample).getOption4());
 				}
 				else{
-					currentTopic=temp;
+					currentExample=temp;
 				}
 			}
 		});
@@ -136,8 +160,15 @@ public class ContentQuestionActivity extends BaseActivity {
 				v.startAnimation(animation);
 				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
 				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);
+				Drawable redBox = getResources().getDrawable(R.drawable.red_box);
 				
-				opt1.setBackground(greenBox);
+				if(examples.get(currentExample).getOption1().endsWith(examples.get(currentExample).getAnswer())){
+					opt1.setBackground(greenBox);
+				}
+				else{
+					opt1.setBackground(redBox);
+				}
+				
 				if(selectedOpt!=null)
 					selectedOpt.setBackground(whiteBox);
 				selectedOpt=opt1;				
@@ -149,8 +180,14 @@ public class ContentQuestionActivity extends BaseActivity {
 				v.startAnimation(animation);
 				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
 				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);
+				Drawable redBox = getResources().getDrawable(R.drawable.red_box);
 				
-				opt2.setBackground(greenBox);
+				if(examples.get(currentExample).getOption2().endsWith(examples.get(currentExample).getAnswer())){
+					opt2.setBackground(greenBox);
+				}
+				else{
+					opt2.setBackground(redBox);
+				}
 				if(selectedOpt!=null)
 					selectedOpt.setBackground(whiteBox);
 				selectedOpt=opt2;
@@ -160,10 +197,18 @@ public class ContentQuestionActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				v.startAnimation(animation);
-				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
-				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);
 				
-				opt3.setBackground(greenBox);				
+				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
+				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);				
+				Drawable redBox = getResources().getDrawable(R.drawable.red_box);
+				
+				if(examples.get(currentExample).getOption3().endsWith(examples.get(currentExample).getAnswer())){
+					opt3.setBackground(greenBox);
+				}
+				else{
+					opt3.setBackground(redBox);
+				}
+
 				if(selectedOpt!=null)
 					selectedOpt.setBackground(whiteBox);
 				selectedOpt=opt3;
@@ -173,41 +218,59 @@ public class ContentQuestionActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				v.startAnimation(animation);
-				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
-				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);
 				
-				opt4.setBackground(greenBox);
+				Drawable greenBox = getResources().getDrawable(R.drawable.green_box);
+				Drawable whiteBox = getResources().getDrawable(R.drawable.white_box);				
+				Drawable redBox = getResources().getDrawable(R.drawable.red_box);
+				
+				if(examples.get(currentExample).getOption4().endsWith(examples.get(currentExample).getAnswer())){
+					opt4.setBackground(greenBox);
+				}
+				else{
+					opt4.setBackground(redBox);
+				}
+
 				if(selectedOpt!=null)
 					selectedOpt.setBackground(whiteBox);
 				selectedOpt=opt4;
 			}
 		});
+		solution.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				v.startAnimation(animation);
+				Intent intent = new Intent();				
+				intent.setClass(getBaseContext(), ContentSolutionActivity.class);
+				Example example=examples.get(currentExample);
+				intent.putExtra("example", example);
+				startActivity(intent);
+			}
+		});
 	}
-	private List<TheoryContent> getTheoryContent(){
+	private List<Example> getTheoryExample(){
 		
-		List<TheoryContent> theoryContents=new ArrayList<TheoryContent>();
-		String json=AppUtility.loadJSON(getBaseContext(), "speedmath_therory.json");
+		List<Example> examples=new ArrayList<Example>();
+		String json=AppUtility.loadJSON(getBaseContext(), "speedmath_example.json");
 		try {
 			JSONArray jsonArray = new JSONArray(json);
 			for (int i = 0; i < jsonArray.length(); i++) {
 				JSONObject jsonObject = jsonArray.getJSONObject(i);
-				TheoryContent theoryContent = new TheoryContent();
-				theoryContent.setNum(jsonObject.getString("num"));
-				theoryContent.setTopic(jsonObject.getString("topic"));
-				JSONArray contentArray= jsonObject.getJSONArray(("contents"));
-				List<String> contents=new ArrayList<String>();
-				for (int j = 0; j < contentArray.length(); j++) {
-					JSONObject contentObject = contentArray.getJSONObject(j);
-					String content=contentObject.getString("content"+(j+1));
-					contents.add(content);
-				}
-				theoryContent.setContents(contents);
-				theoryContents.add(theoryContent);
+				Example example = new Example();
+				example.setNum(jsonObject.getString("num"));
+				example.setQuestion(jsonObject.getString("question"));
+				example.setOption1(jsonObject.getString("option1"));
+				example.setOption2(jsonObject.getString("option2"));
+				example.setOption3(jsonObject.getString("option3"));
+				example.setOption4(jsonObject.getString("option4"));
+				example.setAnswer(jsonObject.getString("answer"));
+				example.setSolution(jsonObject.getString("solution"));
+				examples.add(example);
+				
 			}
 		} catch (Exception e) {
-			System.out.println("Exception in getTheoryContent: "+e);
+			System.out.println("Exception in getTheoryExample: "+e);
 		}
-		return theoryContents;
+		return examples;
 	}
 	
 

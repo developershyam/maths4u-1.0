@@ -1,23 +1,39 @@
 [
 	{
 		"num":"1",
-		"topic":"•	Square of a number containing only ’1′",
-		"subtopic":
-					[
-						{"subtopic1":"Tpoic 1"},
-						{"subtopic2":"Tpoic 2"}
-					]
+		"question":"111X111=?",
+		"option1":"12324",
+		"option2":"12323",
+		"option3":"12322",
+		"option4":"12321",
+		"answer":"12321",
+		"solution":"<html><body>111X111 = 12321
+					<br/><font size=15 color=black><b>Step 1:-</b></font>
+					 Find no. of 1’s in given number = 3
+					<br/><font size=15 color=black><b>Step 2:-</b></font>
+					 Write 1234….. upto number of 1’s in given number in ascending order i.e. 123
+					<br/><font size=15 color=black><b>Step 3:-</b></font>
+					 Than write descending nos. upto 1, next to previous no. i.e. 12321
+					</body></html>"
+									
+		
 	},
-	{
+		{
 		"num":"2",
-		"topic":"Kids Math",
-		"subtopic":
-					[
-						{"subtopic1":"Tpoic 1"},
-						{"subtopic2":"Tpoic 2"},
-						{"subtopic3":"Tpoic 3"},
-						{"subtopic4":"Tpoic 4"}	
-					]
+		"question":"65X65=?",
+		"option1":"4225",
+		"option2":"4226",
+		"option3":"4227",
+		"option4":"4228",
+		"answer":"4225",
+		"solution":"<html><body>65X65=4225
+					<br/><font size=15 color=black><b>Step 1:-</b></font>
+					 Multiply the left part/digit to the left part/digit plus one: 6X (6+1) =42
+					<br/><font size=15 color=black><b>Step 2:-</b></font>
+					Write the number �25� next to the number from first step: 4225
+					</body></html>"
+									
+		
 	}
 ]
 

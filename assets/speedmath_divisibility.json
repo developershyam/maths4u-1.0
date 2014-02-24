@@ -1,0 +1,262 @@
+[
+	{
+		"num":"1",
+		"topic":"Divisibility by 2",
+		"contents":
+					[ {"content1":
+					"
+					<b>478/2= 239 </b>
+					<br/><b>Step 1:-</b> Take last digit of number i.e. 8
+					<br/><br/><b>Step 2:-</b>  Check whether it is even number or odd number i.e. 8/2 = 4 (even number)
+					<br/><br/><b>Step 3:-</b>  If last digit is even number than number is divisible by 2 else not.
+					"				
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '573' is divisible by 2 or not</b>
+					<br/><b>Step 1:-</b> Take last digit of number: 3
+					<br/><br/><b>Step 2:-</b> Check whether it is even number or odd number: 3/2 = Quotient 1, Remainder = 1 (Odd number)
+					<br/><br/><b>Step 3:-</b> As last digit is odd number than number is not divisible by 2.
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '99934654' is divisible by 2 or not</b>
+					<br/><b>Step 1:-</b> Take last digit of number: 4
+					<br/><br/><b>Step 2:-</b> Check whether it is even number or odd number: 4/2 = Quotient 0, Remainder = 0 (Even number)
+					<br/><br/><b>Step 3:-</b> As last digit is even number than number is divisible by 2.
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},	
+	{
+		"num":"2",
+		"topic":"Divisibility by 3",
+		"contents":
+					[ {"content1":
+					"
+					<b>732/3= 244, (divisible by 3) </b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 7+3+2 = 12
+					<br/><br/><b>Step 2:-</b> Check this number is divisible by 3 or not i.e. 12/3 = 4 (Divisible)
+					<br/><br/><b>Note:-</b>  If number obtained from step 1 is very large number than we can continue the same method.										
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '1022' is divisible by 3 or not</b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 1+0+2+2 = 5
+					<br/><br/><b>Step 2:-</b> Check this number is divisible by 3 or not: 5/3 = Quotient = 1 Remainder = 2 (Not Divisible)
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '99924654' is divisible by 3 or not</b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 9+9+9+9+2+4+6+5+4 = 57
+					<br/><br/><b>Step 2:-</b>Add digits of this number: 5+7=12
+					<br/><br/><b>Step 3:-</b>Check this number is divisible by 3 or not: 12/3 = 4 (Divisible)
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"3",
+		"topic":"Divisibility by 4",
+		"contents":
+					[ {"content1":
+					"
+					<b>4784/4= 1196 (Divisible by 4)</b>
+					<br/><b>Step 1:-</b> Take last two digit of number: 84
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 4 or not: 84/4 = 21 (Divisible)
+					<br/><br/><b>Note:-</b> <br/><br/><b>Step 2:-</b> Check whether it is divisible by 4 or not: 84/4 = 21 (Divisible)
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '7842' is divisible by 4 or not</b>
+					<br/><b>Step 1:-</b> Take last two digit of number: 42
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 4 or not: 42/4 = Quotient = 10, Remainder = 2 (Not Divisible by 4)					
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '9876872' is divisible by 4 or not</b>
+					<br/><b>Step 1:-</b> Take last two digit of number: 72
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 4 or not: 72/4 = 18 (Divisible)
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"4",
+		"topic":"Divisibility by 5",
+		"contents":
+					[ {"content1":
+					"
+					<b>9825/5= 1965 (Divisible by 5)</b>
+					<br/><b>Step 1:-</b> If last digit of number is '0' or '5' than it is divisible by 5 else not.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '57279' is divisible by 5 or not</b>
+					<br/><b>Step 1:-</b> As last digit of number is '9', so it is not divisible by 5
+					<br/><br/><b>Step 2:-</b> As last digit is odd number than number is not divisible by 2.
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '75640' is divisible by 5 or not</b>
+					<br/><b>Step 1:-</b> As last digit of number is '0', so it is divisible by 5
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"5",
+		"topic":"Divisibility by 6",
+		"contents":
+					[ {"content1":
+					"
+					<b>738/2= 123 (Divisible by 6)</b>
+					<br/><b>Step 1:-</b> Check whether last digit of number is even number or not: 8/2 = 4 (even number)
+					<br/><br/><b>Step 2:-</b> Add digits of original number: 7+3+8 = 18
+					<br/><br/><b>Step 3:-</b> If this number is divisible by 3, than original number is divisible by 6 else not: 18/3 = 6 (Divisible)
+					<br/><br/><b>Note:-</b> If a number is divisible from both 2 and 3, it is divisible by 6
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '4800' is divisible by 6 or not</b>
+					<br/><b>Step 1:-</b> Check whether last digit of number is even number or not: 0/2 = 0 (even number)
+					<br/><br/><b>Step 2:-</b> Add digits of original number: 4+8+0+0 = 12
+					<br/><br/><b>Step 3:-</b> This number is divisible by 3, so original number is divisible by 6: 12/3 = 4 (Divisible)
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '98765643' is divisible by 6 or not</b>
+					<br/><b>Step 1:-</b> Check whether last digit of number is even number or not: 3/2 = Quotient 1, Remainder 1 (Odd number)
+					<br/><br/><b>Step 2:-</b> Thus number is not divisible by 6
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"6",
+		"topic":"Divisibility by 7",
+		"contents":
+					[ {"content1":
+					"
+					<b>539/7= 77 (Divisible by 7)</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-2': 9X-2 = -18
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 53 + -18 = 35
+					<br/><br/><b>Step 3:-</b> If this number is divisible by 7 than original number is divisible by 7 else not: 35/7 = 5 (Divisible by 7)
+					<br/><br/><b>Note: -</b> If number is very large than repeat step 1 and step 2 for the number obtained from step 2.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '7752' is divisible by 7 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to “-2”: 2X-2 = -4
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 775 + -4 = 771
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 1X-2 = -2
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 77+ -2 = 75
+					<br/><br/><b>Step 5:-</b> This number is not divisible by 7, so original number is not divisible by 7: 75/7 = Quotient 10, Remainder 5 
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '8673' is divisible by 7 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-2': 3X-2 = -6
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 867 + -6 = 861
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 1X-2 = -2
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 86+ -2 = 84
+					<br/><br/><b>Step 5:-</b> This number is divisible by 7, so original number is also divisible by 7: 84/7 = 12
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"7",
+		"topic":"Divisibility by 8",
+		"contents":
+					[ {"content1":
+					"
+					<b>4384/8= 548 (Divisible by 8)</b>
+					<br/><b>Step 1:-</b> Take last three digits of number: 384
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 8 or not: 384/8 = 48 (Divisible)
+					<br/><br/><b>Note:-</b> If last 3 digits are divisible by 8 than number is divisible by 8 else not.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '7842' is divisible by 8 or not</b>
+					<br/><b>Step 1:-</b> Take last two digit of number: 842
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 8 or not: 842/4 = Quotient = 105, Remainder = 2 (Not Divisible by 8)
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '636688' is divisible by 8 or not</b>
+					<br/><b>Step 1:-</b> Take last two digit of number: 688
+					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 8 or not: 688/8 = 86 (Divisible)
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"8",
+		"topic":"Divisibility by 9",
+		"contents":
+					[ {"content1":
+					"
+					<b>93519/9= 10391, (divisible by 9) </b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 9+3+5+1+9 = 27
+					<br/><br/><b>Step 2:-</b> Check this number is divisible by 9 or not: 27/9 = 3 (Divisible)
+					<br/><br/><b>Note:-</b> If number obtained from step 1 is very large number than we can continue the same method.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '72564' is divisible by 9 or not</b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 7+2+5+6+4 = 24
+					<br/><br/><b>Step 2:-</b> Check this number is divisible by 9 or not: 24/9 = Quotient = 2 Remainder = 6 (Not Divisible)
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '9992465163' is divisible by 9 or not</b>
+					<br/><b>Step 1:-</b> Add digits of originals number: 9+9+9+9+2+4+6+5+1+6+3 = 63
+					<br/><br/><b>Step 2:-</b> Add digits of this number: 6+3=9
+					<br/><br/><b>Step 3:-</b> Check this number is divisible by 9 or not: 9/9 = 1 (Divisible)
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"9",
+		"topic":"Divisibility by 11",
+		"contents":
+					[ {"content1":
+					"
+					<b>75460/11= 6860 (Divisible by 11)</b>
+					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 7+4+0 = 11
+					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 5+6 = 11
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 11 – 11 = 0
+					<br/><br/><b>Step 4:-</b> If this number is '0' or multiple of 11 than original number is divisible by 11: (Divisible by 11)
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '208351' is divisible by 11 or not</b>
+					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 2+8+5 = 15
+					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 0+3+1 = 4
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 15 – 4 = 11
+					<br/><br/><b>Step 4:-</b> As '11' is a multiple of 11, thus this number is divisible by 11 
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '50984522' is divisible by 11 or not</b>
+					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 5+9+4+2 = 20
+					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 0+8+5+2 = 15
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 20 – 15 = 5
+					<br/><br/><b>Step 4:-</b> As 5 is not multiple of 11, Thus number is not divisible by 11
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	}
+	
+]

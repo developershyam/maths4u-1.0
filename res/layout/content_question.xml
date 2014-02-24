@@ -161,7 +161,23 @@
 
                 
             </LinearLayout>
-
+			<LinearLayout
+                android:id="@+id/content_question_solution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/content_question_option4" >
+                <Button
+                    android:id="@+id/content_question_solution_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Solution" 
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/last_img"/>
+    	</LinearLayout>
             <TextView
                 android:id="@+id/content_question_questionFooter"
                 android:layout_width="wrap_content"

@@ -1,0 +1,223 @@
+[
+	{
+		"num":"1",
+		"topic":"Multiplying any 2 digit number",
+		"contents":
+					[ {"content1":
+					"
+					<b>31X22=682</b>
+					<br/><b>Step 1:-</b>  Multiply ten's digit of both numbers: 3X2=6
+					<br/><br/><b>Step 2:-</b>  Cross multiply unit's and ten's digit of both numbers and add them: 3X2+1X2 = 6+2 = 8
+					<br/><br/><b>Step 3:-</b>  Multiply unit's digit of both numbers: 1X2=2
+					<br/><br/><b>Step 4:-</b>  Put all three numbers together: 682
+					<br/><br/><b>Note:-</b>    In case if numbers from step 2 and step 3 are 2 digit numbers than carry forward the extra digit to left hand side.
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 47 to 69</b>
+					<br/><b>Step 1:-</b> Multiply ten's digit of both numbers: 4X6=24
+					<br/><br/><b>Step 2:-</b> Cross multiply unit's and ten's digit of both numbers and add them: 4X9+7X6 = 36+42 = 78
+					<br/><br/><b>Step 3:-</b> Multiply unit's digit of both numbers: 7X9=63
+					<br/><br/><b>Step 4:-</b> Putting all three numbers together: 24|78|63
+					<br/><br/><b>Step 5:-</b> As number from step 3 is 2 digit no. so carry forwarding extra digit (6) to left hand side: 24|78+6|3 = 24|84|3
+					<br/><br/><b>Step 6:-</b> New obtained number 84 is also a two digit number so carry forward extra digit (8) to left hand side: 24+8|4|3 = 3243
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 72 to 23</b>
+					<br/><b>Step 1:-</b> Multiply ten's digit of both numbers: 7X2=14
+					<br/><br/><b>Step 2:-</b> Cross multiply unit's and ten's digit of both numbers and add them: 7X3+2X2 = 21+4 = 25
+					<br/><br/><b>Step 3:-</b> Multiply unit's digit of both numbers: 2X2=4
+					<br/><br/><b>Step 4:-</b> Putting all three numbers together: 14|25|4
+					<br/><br/><b>Step 5:-</b> As number from step 2 is a two digit number so carry forward extra digit (2) to left hand side: 14+2|5|4 = 1654
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},	
+	{
+		"num":"2",
+		"topic":"Multiply 2 digit no. by 11",
+		"contents":
+					[ {"content1":
+					"
+					<b>36X11=396</b>
+					<br/><b>Step 1:-</b> Add both digits of two digit number: 3+6 = 9
+					<br/><br/><b>Step 2:-</b> Place the result in between both digits: 396
+					<br/><br/><b>Note:-</b>  If sum of both digits is 2 digit number than carry forward extra digit to left hand side.										
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 47 to 11</b>
+					<br/><b>Step 1:-</b> Add both digits of two digit number: 4+7 = 11
+					<br/><br/><b>Step 2:-</b> As result is a 2 digit no. than place the result by carry forwarding extra digit to left hand side:  4/11/7 : 517
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 62 to 11</b>
+					<br/><b>Step 1:-</b> Add both digits of two digit number: 6+2 = 8
+					<br/><br/><b>Step 2:-</b> Place the result in between both digits: 682
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"3",
+		"topic":"Multiply even digit number by 5",
+		"contents":
+					[ {"content1":
+					"
+					<b>362X5=1810</b>
+					<br/><b>Step 1:-</b> Divide the number by 2: 362/2 = 181
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 1810
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 248 to 5</b>
+					<br/><b>Step 1:-</b> Divide the number by 2: 248/2 = 124
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 1240					
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 66 to 5</b>
+					<br/><b>Step 1:-</b> Divide the number by 2: 66/2 = 33
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 330
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"4",
+		"topic":"Multiply between 10 and 19",
+		"contents":
+					[ {"content1":
+					"
+					<b>12X15=180</b>
+					<br/><b>Step 1:-</b> Add the larger number to the rightmost digit of other number: 15+2 = 17
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 170
+					<br/><br/><b>Step 3:-</b> Multiply the rightmost digits of both numbers: 2X5 = 10
+					<br/><br/><b>Step 4:-</b> Add results from step 2 and step 3: 170+10 = 180
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 15 to 17</b>
+					<br/><b>Step 1:-</b> Add the larger number to the unit digit of other number: 17+5 = 22
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 220
+					<br/><br/><b>Step 3:-</b> Multiply the rightmost digits of both numbers: 5X7 = 35
+					<br/><br/><b>Step 4:-</b> Add results from step 2 and step 3: 220+35 = 255
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 19 to 12</b>
+					<br/><b>Step 1:-</b> Add the larger number to the unit digit of other number: 19+2 = 21
+					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 210
+					<br/><br/><b>Step 3:-</b> Multiply the rightmost digits of both numbers: 9X2 = 18
+					<br/><br/><b>Step 4:-</b> Add results from step 2 and step 3: 210+18 = 228
+
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"5",
+		"topic":"Multiply by 125",
+		"contents":
+					[ {"content1":
+					"
+					<b>82X125=10250</b>
+					<br/><b>Step 1:-</b> Place three zeros at the end of number: 82000
+					<br/><br/><b>Step 2:-</b> Divide the result from step 1 by 2: 82000/2 = 41000
+					<br/><br/><b>Step 3:-</b> Divide the result from step 2 by 2: 41000/2 = 21500
+					<br/><br/><b>Step 4:-</b> Divide the result from step 2 by 2: 21500/2 = 10500 
+					<br/><br/><b>Note:-</b> You can also divide the result from step 1 by 8: 82000/8 = 10500
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 69 to 125</b>
+					<br/><b>Step 1:-</b> Place three zeros at the end of number: 69000
+					<br/><br/><b>Step 2:-</b> Divide the result from step 1 by 2: 69000/2 = 34500
+					<br/><br/><b>Step 3:-</b> Divide the result from step 2 by 2: 34500/2 = 17250
+					<br/><br/><b>Step 4:-</b> Divide the result from step 2 by 2: 17250/2 = 8625 
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 44 to 125</b>
+					<br/><b>Step 1:-</b> Place three zeros at the end of number: 44000
+					<br/><br/><b>Step 2:-</b> Divide the result from step 1 by 2: 44000/2 = 22000
+					<br/><br/><b>Step 3:-</b> Divide the result from step 2 by 2: 22000/2 = 11000
+					<br/><br/><b>Step 4:-</b> Divide the result from step 2 by 2: 11000/2 = 5500
+
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"6",
+		"topic":"Multiply by 9, 99, 999 etc.",
+		"contents":
+					[ {"content1":
+					"
+					<b>72X99=7128</b>
+					<br/><b>Step 1:-</b> Place a zero at the end of number for each 9's: 7200
+					<br/><br/><b>Step 2:-</b> Subtract original number from step 1: 7200-72=7128
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 42 to 99</b>
+					<br/><b>Step 1:-</b> Place a zero at the end of number for each 9's: 4200
+					<br/><br/><b>Step 2:-</b> Subtract original number from step 1: 4200-42 = 4158
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 34 to 999</b>
+					<br/><b>Step 1:-</b> Place a zero at the end of number for each 9's: 34000
+					<br/><br/><b>Step 2:-</b> Subtract original number from step 1: 34000-34 = 33966
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"7",
+		"topic":"Multiplying numbers close to 100 or 1000",
+		"contents":
+					[ {"content1":
+					"
+					<b>92X98=9016</b>
+					<br/><b>Step 1:-</b> Subtract 100 from first number: 92-100 = -8
+					<br/><br/><b>Step 2:-</b> Subtract 100 from first number: 98-100 = -2
+					<br/><br/><b>Step 3:-</b> Multiply both numbers from step 1 and step 2: -8X-2=16
+					<br/><br/><b>Step 4:-</b> Either add the number from step 2 to first no. or add number to step 1 from second number: 92 + (-2) = 90/ 98 + (-8) = 90
+					<br/><br/><b>Step 5:-</b> Put both numbers from step 3 and step 4 together: 9016
+					<br/><br/><b>Note:-</b> If number from step 3 is negative no. then add 2 zeros to the step 4 and add both numbers (See Example 2)
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Let's multiply 102 to 105</b>
+					<br/><b>Step 1:-</b> Subtract 100 from first number: 102-100 = 2
+					<br/><br/><b>Step 2:-</b> Subtract 100 from first number: 105-100 = 5
+					<br/><br/><b>Step 3:-</b> Multiply both numbers from step 1 and step 2: 2X5=10
+					<br/><br/><b>Step 4:-</b> Either add the number from step 2 to first no. or add number to step 1 from second number: 102 + 5 = 107/ 105 + 2 = 107
+					<br/><br/><b>Step 5:-</b> Put both numbers from step 3 and step 4 together: 10710 
+					"},
+					{"example2":
+					"
+					<b>Let's multiply 92 to 104</b>
+					<br/><b>Step 1:-</b> Subtract 100 from first number: 92-100 = -8
+					<br/><br/><b>Step 2:-</b> Subtract 100 from first number: 104-100 = 4
+					<br/><br/><b>Step 3:-</b> Multiply both numbers from step 1 and step 2: -8X4=-32
+					<br/><br/><b>Step 4:-</b> Either add the number from step 2 to first no. or add number to step 1 from second number: 92 + 4 = 96/ 104 + (-8) = 96
+					<br/><br/><b>Step 5:-</b> As number from step 3 is a negative number so put 2 zeros to 96: 9600
+					<br/><br/><b>Step 6:-</b> Add both numbers: 9600+ (-32) = 9568
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	}
+	
+]
