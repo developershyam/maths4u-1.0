@@ -9,7 +9,6 @@ import org.json.JSONObject;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
@@ -17,9 +16,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.xieon.model.Example;
-import com.xieon.model.TheoryContent;
-import com.xieon.model.Topic;
-import com.xieon.quiz.QuestionActivity;
 import com.xieon.utility.AppUtility;
 
 /**

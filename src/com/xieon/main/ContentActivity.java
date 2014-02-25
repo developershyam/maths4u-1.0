@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.xieon.model.TheoryContent;
-import com.xieon.model.Topic;
 import com.xieon.utility.AppUtility;
 
 /**

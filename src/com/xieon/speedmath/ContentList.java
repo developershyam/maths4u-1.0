@@ -17,7 +17,7 @@ import android.widget.ImageView;
 
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
-import com.xieon.model.TheoryContent2;
+import com.xieon.model.TheoryContent;
 import com.xieon.utility.AppUtility;
 
 public class ContentList extends BaseActivity {
@@ -31,7 +31,7 @@ public class ContentList extends BaseActivity {
 	List<String> childList;
 	Map<String, List<String>> topicCollections;
 	ExpandableListView expListView;
-	List<TheoryContent2> theoryContent2s;
+	List<TheoryContent> theoryContents;
 	ContentList contentList;
 
 	@Override
@@ -43,8 +43,8 @@ public class ContentList extends BaseActivity {
 		childPosition = intent.getIntExtra("childPosition", 0);
 		currentTopic = childPosition;
 		setContentView(R.layout.speedmath_home);
-		theoryContent2s = getTheoryContent();
-		maxTopic = theoryContent2s.size();
+		theoryContents = getTheoryContent();
+		maxTopic = theoryContents.size();
 		createGroupList();
 		expListView = (ExpandableListView) findViewById(R.id.speedmath_home_topic_list);
 		final ContentListAdapter expListAdapter = new ContentListAdapter(
@@ -88,19 +88,19 @@ public class ContentList extends BaseActivity {
 			groupList = new ArrayList<String>();
 			topicCollections = new LinkedHashMap<String, List<String>>();
 
-			TheoryContent2 theoryContent2 = theoryContent2s.get(currentTopic);
+			TheoryContent theoryContent = theoryContents.get(currentTopic);
 
-			groupList.add(theoryContent2.getNum() + ". "
-					+ theoryContent2.getTopic());
-			topicCollections.put(theoryContent2.getNum() + ". "
-					+ theoryContent2.getTopic(), theoryContent2.getContents());
+			groupList.add(theoryContent.getNum() + ". "
+					+ theoryContent.getTopic());
+			topicCollections.put(theoryContent.getNum() + ". "
+					+ theoryContent.getTopic(), theoryContent.getContents());
 
 			groupList.add("Examples");
-			topicCollections.put("Examples", theoryContent2.getExamples());
+			topicCollections.put("Examples", theoryContent.getExamples());
 
 			groupList.add("Practice Questions");
 			topicCollections.put("Practice Questions",
-					theoryContent2.getPracticeQuestions());
+					theoryContent.getPracticeQuestions());
 
 		} catch (Exception e) {
 			System.out.println("Exception: while loading InputActivity#Topics "
@@ -116,10 +116,10 @@ public class ContentList extends BaseActivity {
 		return (int) (pixels * scale + 0.5f);
 	}
 
-	private List<TheoryContent2> getTheoryContent() {
+	private List<TheoryContent> getTheoryContent() {
 
 		System.out.println("groupPosition="+groupPosition);
-		List<TheoryContent2> theoryContents = new ArrayList<TheoryContent2>();
+		List<TheoryContent> theoryContents = new ArrayList<TheoryContent>();
 		String json="";
 		if(groupPosition==0){
 			json = AppUtility.loadJSON(getBaseContext(),
@@ -133,6 +133,9 @@ public class ContentList extends BaseActivity {
 		}else if(groupPosition==3){
 			json = AppUtility.loadJSON(getBaseContext(),
 					"speedmath_divisibility.json");
+		}else if(groupPosition==4){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"speedmath_miscellaneous.json");
 		}else{
 			json = AppUtility.loadJSON(getBaseContext(),
 					"speedmath_multiplication.json");
@@ -143,7 +146,7 @@ public class ContentList extends BaseActivity {
 			JSONArray jsonArray = new JSONArray(json);
 			for (int i = 0; i < jsonArray.length(); i++) {
 				JSONObject jsonObject = jsonArray.getJSONObject(i);
-				TheoryContent2 theoryContent = new TheoryContent2();
+				TheoryContent theoryContent = new TheoryContent();
 				theoryContent.setNum(jsonObject.getString("num"));
 				theoryContent.setTopic(jsonObject.getString("topic"));
 				JSONArray contentArray = jsonObject.getJSONArray(("contents"));
@@ -186,20 +189,20 @@ public class ContentList extends BaseActivity {
 		groupList = new ArrayList<String>();
 		topicCollections = new LinkedHashMap<String, List<String>>();
 
-		TheoryContent2 theoryContent2 = theoryContent2s.get(currentTopic);
+		TheoryContent theoryContent = theoryContents.get(currentTopic);
 
-		groupList.add(theoryContent2.getNum() + ". "
-				+ theoryContent2.getTopic());
+		groupList.add(theoryContent.getNum() + ". "
+				+ theoryContent.getTopic());
 		topicCollections.put(
-				theoryContent2.getNum() + ". " + theoryContent2.getTopic(),
-				theoryContent2.getContents());
+				theoryContent.getNum() + ". " + theoryContent.getTopic(),
+				theoryContent.getContents());
 
 		groupList.add("Examples");
-		topicCollections.put("Examples", theoryContent2.getExamples());
+		topicCollections.put("Examples", theoryContent.getExamples());
 
 		groupList.add("Practice Questions");
 		topicCollections.put("Practice Questions",
-				theoryContent2.getPracticeQuestions());
+				theoryContent.getPracticeQuestions());
 
 		expListView = (ExpandableListView) findViewById(R.id.speedmath_home_topic_list);
 		final ContentListAdapter expListAdapter = new ContentListAdapter(

@@ -55,9 +55,7 @@
 						{"subtopic9":"•	Divisibility by 11"},
 						{"subtopic10":"•	Divisibility by 13"},
 						{"subtopic11":"•  Divisibility by 17"},
-						{"subtopic12":"•  Divisibility by 19"},
-						{"subtopic13":"•  Divisibility by 21"},
-						{"subtopic14":"•  Divisibility by 23"}
+						{"subtopic12":"•  Divisibility by 19"}
 						
 					]
 	},
@@ -67,9 +65,8 @@
 		"subtopic":
 					[
 						{"subtopic1":"•	Division by 5,50,500 etc."},
-						{"subtopic2":"•	Finding Cube of any no."},
-						{"subtopic3":"•	Finding Cube of any no."},
-						{"subtopic4":"•	Finding Square root of any no."}						
+						{"subtopic2":"•	Finding Square root of any no."},
+						{"subtopic3":"•	Finding Cube root of any no."}						
 					]
 	}
 	

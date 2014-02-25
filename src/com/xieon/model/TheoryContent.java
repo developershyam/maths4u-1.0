@@ -7,6 +7,8 @@ public class TheoryContent {
 	String num;
 	String topic;
 	List<String> contents;
+	List<String> examples;
+	List<String> practiceQuestions;
 
 	public String getNum() {
 		return num;
@@ -32,10 +34,30 @@ public class TheoryContent {
 		this.contents = contents;
 	}
 
+	
+	public List<String> getExamples() {
+		return examples;
+	}
+
+	public void setExamples(List<String> examples) {
+		this.examples = examples;
+	}
+
+	public List<String> getPracticeQuestions() {
+		return practiceQuestions;
+	}
+
+	public void setPracticeQuestions(List<String> practiceQuestions) {
+		this.practiceQuestions = practiceQuestions;
+	}
+
 	@Override
 	public String toString() {
-		return "TheoryContent [num=" + num + ", topic=" + topic + ", contents="
-				+ contents + "]";
+		return "TheoryContent [num=" + num + ", topic=" + topic
+				+ ", contents=" + contents + ", examples=" + examples
+				+ ", practiceQuestions=" + practiceQuestions + "]";
 	}
+
+	
 
 }

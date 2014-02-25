@@ -153,7 +153,7 @@
 					[ {"example1":
 					"
 					<b>Suppose you want to see '7752' is divisible by 7 or not</b>
-					<br/><b>Step 1:-</b> Multiply last digit of number to “-2”: 2X-2 = -4
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-2': 2X-2 = -4
 					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 775 + -4 = 771
 					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 1X-2 = -2
 					<br/><br/><b>Step 4:-</b> Repeating step 2: 77+ -2 = 75
@@ -235,7 +235,7 @@
 					<b>75460/11= 6860 (Divisible by 11)</b>
 					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 7+4+0 = 11
 					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 5+6 = 11
-					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 11 – 11 = 0
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 11 - 11 = 0
 					<br/><br/><b>Step 4:-</b> If this number is '0' or multiple of 11 than original number is divisible by 11: (Divisible by 11)
 					"}],
 		"examples":
@@ -244,7 +244,7 @@
 					<b>Suppose you want to see '208351' is divisible by 11 or not</b>
 					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 2+8+5 = 15
 					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 0+3+1 = 4
-					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 15 – 4 = 11
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 15 - 4 = 11
 					<br/><br/><b>Step 4:-</b> As '11' is a multiple of 11, thus this number is divisible by 11 
 					"},
 					{"example2":
@@ -252,8 +252,112 @@
 					<b>Suppose you want to see '50984522' is divisible by 11 or not</b>
 					<br/><b>Step 1:-</b> Find the sum of digits in odd place: 5+9+4+2 = 20
 					<br/><br/><b>Step 2:-</b> Find sum of digits at even place: 0+8+5+2 = 15
-					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 20 – 15 = 5
+					<br/><br/><b>Step 3:-</b> Find difference between number obtained from step 1 and step 2: 20 - 15 = 5
 					<br/><br/><b>Step 4:-</b> As 5 is not multiple of 11, Thus number is not divisible by 11
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"10",
+		"topic":"Divisibility by 13",
+		"contents":
+					[ {"content1":
+					"
+					<b>1144/13 = 88 (Divisible by 13)</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '4': 4X4 = 16
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 114 + 16 = 130
+					<br/><br/><b>Step 3:-</b> If this number is divisible by 13 than original number is divisible by 13 else not: 130/13 = 10 (Divisible by 13)
+					<br/><br/><b>Step 4:-</b> If number is very large than repeat step 1 and step 2 for the number obtained from step 2.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '58787' is divisible by 13 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '4': 7X4 = 28
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 5878 + 28 = 5906
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 6X4 = 24
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 590+ 24 = 614
+					<br/><br/><b>Step 5:-</b> Again repeating step 1 and step 2: 61+ 16 = 77
+					<br/><br/><b>Step 6:-</b> This number is not divisible by 13, so original number is not divisible by 13: 77/13 = Quotient 5, Remainder 12 
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '5174' is divisible by 13 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '4': 4X4 = 16
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 517 + 16 = 533
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 3X4 = 12
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 53+ 12 = 65
+					<br/><br/><b>Step 5:-</b> This number is divisible by 13, so original number is also divisible by 13: 65/13 = 5
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"11",
+		"topic":"Divisibility by 17",
+		"contents":
+					[ {"content1":
+					"
+					<b>1921/17 = 113 (Divisible by 17)</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-5': 1X-5 = -5
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 192 + -5 = 187
+					<br/><br/><b>Step 3:-</b> If this number is divisible by 17 than original number is divisible by 17 else not: 187/17 = 11 (Divisible by 17)
+					<br/><br/><b>Note:-</b> If number is very large than repeat step 1 and step 2 for the number obtained from step 2.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '60554' is divisible by 17 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-5': 4X-5 = -20
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 6055 + -20 = 6035
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 5X-5 = -25
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 603+ -25 = 578
+					<br/><br/><b>Step 5:-</b> Again repeating step 1 and step 2: 57+ 8X-5 = 57 + -40 = 17
+					<br/><br/><b>Step 6:-</b> This number is divisible by 17, so original number is also divisible by 17: 17/17 = 1
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '8806' is divisible by 17 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '-5': 6X-5 = -30
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 880 + -30 = 850
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 0X-5 = 0
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 85 + 0 = 85
+					<br/><br/><b>Step 5:-</b> This number is divisible by 17, so original number is also divisible by 17: 85/17 = 5
+					"}],
+		"practices":
+					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+	},
+	{
+		"num":"12",
+		"topic":"Divisibility by 19",
+		"contents":
+					[ {"content1":
+					"
+					<b>1691/19 = 89 (Divisible by 19)</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '2': 1X2 = 2
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 169 + 2 = 171
+					<br/><br/><b>Step 3:-</b> If this number is divisible by 19 than original number is divisible by 19 else not: 171/19 = 9 (Divisible by 19)
+					<br/><br/><b>Step 4:-</b> If number is very large than repeat step 1 and step 2 for the number obtained from step 2.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose you want to see '16169' is divisible by 19 or not</b>
+					<br/><b>Step 1:-</b> Multiply last digit of number to '2': 9X2 = 18
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 1616 + 18 = 1634
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 4X2 = 8
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 163 + 8 = 171
+					<br/><br/><b>Step 5:-</b> This number is divisible by 19, so original number is also divisible by 19: 171/19 = 9
+					"},
+					{"example2":
+					"
+					<b>Suppose you want to see '9941' is divisible by 19 or not</b>
+					<br/><b>Step 1:-</b>Multiply last digit of number to '2': 1X2 = 2
+					<br/><br/><b>Step 2:-</b> Add this number to the remaining number: 994 + 2 = 996
+					<br/><br/><b>Step 3:-</b> As this number is large so by repeating step 1: 6X2 = 12
+					<br/><br/><b>Step 4:-</b> Repeating step 2: 99+ 12 = 111
+					<br/><br/><b>Step 5:-</b> This number is not divisible by 19, so original number is also not divisible by 19: 111/5 = Quotient 5, Remainder 16
 					"}],
 		"practices":
 					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
