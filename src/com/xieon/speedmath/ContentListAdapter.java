@@ -2,7 +2,6 @@ package com.xieon.speedmath;
 
 import java.util.List;
 import java.util.Map;
-
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Typeface;
@@ -12,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
-
 import com.xieon.main.R;
 
 public class ContentListAdapter extends BaseExpandableListAdapter {
@@ -42,28 +40,24 @@ public class ContentListAdapter extends BaseExpandableListAdapter {
 		final String laptop = (String) getChild(groupPosition, childPosition);
 		LayoutInflater inflater = context.getLayoutInflater();
 
-		if (convertView == null) {
-			convertView = inflater.inflate(R.layout.child_text, null);
+		if(groupPosition==2){
+			if (convertView == null) {
+				convertView = inflater.inflate(R.layout.speedmath_practice_question, null);
+			}
+			
+			/*TextView item = (TextView) convertView
+					.findViewById(R.id.child_text_heading);
+			item.setText(Html.fromHtml(laptop));*/
+			
+		}else{
+			if (convertView == null) {
+				convertView = inflater.inflate(R.layout.child_text, null);
+			}
+			
+			TextView item = (TextView) convertView
+					.findViewById(R.id.child_text_heading);
+			item.setText(Html.fromHtml(laptop));
 		}
-		/*
-		 * RelativeLayout relativeLayout = (RelativeLayout) convertView
-		 * .findViewById(R.id.child_text); final AlphaAnimation buttonClick =
-		 * new AlphaAnimation(1F, 0.8F); relativeLayout.setOnClickListener(new
-		 * OnClickListener() {
-		 * 
-		 * @Override public void onClick(View v) {
-		 * 
-		 * v.startAnimation(buttonClick);
-		 * System.out.println("\n***position**\n");
-		 * System.out.println("groupPosition=" + groupPosition +
-		 * ", childPosition=" + childPosition); Intent intent = new Intent();
-		 * Context context = v.getContext(); intent.setClass(context,
-		 * ContentList.class); context.startActivity(intent); } });
-		 */
-
-		TextView item = (TextView) convertView
-				.findViewById(R.id.child_text_heading);
-		item.setText(Html.fromHtml(laptop));
 		return convertView;
 	}
 

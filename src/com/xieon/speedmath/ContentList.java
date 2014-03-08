@@ -63,7 +63,6 @@ public class ContentList extends BaseActivity {
 					currentTopic++;
 					chageTopic();
 				}
-
 			}
 		});
 		ImageView backButton = (ImageView) findViewById(R.id.speedmath_home_back);
