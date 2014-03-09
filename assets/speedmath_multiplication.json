@@ -34,7 +34,23 @@
 					<br/><br/><b>Step 5:-</b> As number from step 2 is a two digit number so carry forward extra digit (2) to left hand side: 14+2|5|4 = 1654
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"31X25", "answer1":"775"},
+					{"question2":"78X42", "answer2":"3276"},
+					{"question3":"33X12", "answer3":"396"},
+					{"question4":"85X26", "answer4":"2210"},
+					{"question5":"95X11", "answer5":"1045"},
+					{"question6":"52X87", "answer6":"4524"},
+					{"question7":"59X35", "answer7":"2065"},
+					{"question8":"77X55", "answer8":"4235"},
+					{"question9":"62X14", "answer9":"868"},
+					{"question10":"38X56", "answer10":"2128"},
+					{"question11":"22X89", "answer11":"1958"},
+					{"question12":"19X29", "answer12":"551"},
+					{"question13":"87X98", "answer13":"8526"},
+					{"question14":"45X26", "answer14":"1170"},
+					{"question15":"78X93", "answer15":"7254"}
+					]
 	},	
 	{
 		"num":"2",
@@ -61,7 +77,23 @@
 					<br/><br/><b>Step 2:-</b> Place the result in between both digits: 682
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"49X11", "answer1":"539"},
+					{"question2":"45X11", "answer2":"495"},
+					{"question3":"35X11", "answer3":"385"},
+					{"question4":"81X11", "answer4":"891"},
+					{"question5":"87X11", "answer5":"957"},
+					{"question6":"12X11", "answer6":"132"},
+					{"question7":"75X11", "answer7":"825"},
+					{"question8":"96X11", "answer8":"1056"},
+					{"question9":"65X11", "answer9":"715"},
+					{"question10":"15X11", "answer10":"165"},
+					{"question11":"32X11", "answer11":"352"},
+					{"question12":"89X11", "answer12":"979"},
+					{"question13":"39X11", "answer13":"429"},
+					{"question14":"97X11", "answer14":"1067"},
+					{"question15":"78X11", "answer15":"858"}
+					]
 	},
 	{
 		"num":"3",
@@ -87,7 +119,23 @@
 					<br/><br/><b>Step 2:-</b> Put a zero at the end of result from step 1: 330
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"26X5", "answer1":"130"},
+					{"question2":"4592X5", "answer2":"22960"},
+					{"question3":"32X5", "answer3":"160"},
+					{"question4":"6258X5", "answer4":"31290"},
+					{"question5":"6254X5", "answer5":"31270"},
+					{"question6":"324X5", "answer6":"1620"},
+					{"question7":"852X5", "answer7":"4260"},
+					{"question8":"294X5", "answer8":"1470"},
+					{"question9":"36X5", "answer9":"180"},
+					{"question10":"98X5", "answer10":"490"},
+					{"question11":"22X5", "answer11":"110"},
+					{"question12":"82X5", "answer12":"410"},
+					{"question13":"78X5", "answer13":"390"},
+					{"question14":"84X5", "answer14":"420"},
+					{"question15":"962X5", "answer15":"4810"}
+					]
 	},
 	{
 		"num":"4",
@@ -120,7 +168,23 @@
 
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"12X13", "answer1":"156"},
+					{"question2":"16X15", "answer2":"240"},
+					{"question3":"18X11", "answer3":"198"},
+					{"question4":"13X19", "answer4":"247"},
+					{"question5":"12X16", "answer5":"192"},
+					{"question6":"19X18", "answer6":"342"},
+					{"question7":"16X10", "answer7":"160"},
+					{"question8":"19X15", "answer8":"285"},
+					{"question9":"17X13", "answer9":"221"},
+					{"question10":"15X11", "answer10":"165"},
+					{"question11":"17X12", "answer11":"204"},
+					{"question12":"16X17", "answer12":"272"},
+					{"question13":"19X17", "answer13":"323"},
+					{"question14":"14X13", "answer14":"182"},
+					{"question15":"14X19", "answer15":"266"}
+					]
 	},
 	{
 		"num":"5",
@@ -154,7 +218,23 @@
 
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"54X125", "answer1":"6750"},
+					{"question2":"12X125", "answer2":"1500"},
+					{"question3":"48X125", "answer3":"6000"},
+					{"question4":"44X125", "answer4":"5500"},
+					{"question5":"936X125", "answer5":"117000"},
+					{"question6":"124X125", "answer6":"15500"},
+					{"question7":"147X125", "answer7":"18375"},
+					{"question8":"14X125", "answer8":"1750"},
+					{"question9":"32X125", "answer9":"4000"},
+					{"question10":"847X125", "answer10":"105875"},
+					{"question11":"486X125", "answer11":"60750"},
+					{"question12":"52X125", "answer12":"6500"},
+					{"question13":"17X125", "answer13":"2125"},
+					{"question14":"97X125", "answer14":"12125"},
+					{"question15":"78X125", "answer15":"9750"}
+					]
 	},
 	{
 		"num":"6",
@@ -180,7 +260,23 @@
 					<br/><br/><b>Step 2:-</b> Subtract original number from step 1: 34000-34 = 33966
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"49X99", "answer1":"4581"},
+					{"question2":"15X9", "answer2":"135"},
+					{"question3":"62X999", "answer3":"61938"},
+					{"question4":"98X9", "answer4":"882"},
+					{"question5":"989X9", "answer5":"8901"},
+					{"question6":"157X99", "answer6":"15543"},
+					{"question7":"325X999", "answer7":"324675"},
+					{"question8":"285X9", "answer8":"2565"},
+					{"question9":"2458X99", "answer9":"243342"},
+					{"question10":"1548X9", "answer10":"13932"},
+					{"question11":"3225X99", "answer11":"319275"},
+					{"question12":"32X999", "answer12":"31968"},
+					{"question13":"3254X99", "answer13":"322146"},
+					{"question14":"3587X9", "answer14":"32283"},
+					{"question15":"3597X99", "answer15":"356103"}
+					]
 	},
 	{
 		"num":"7",
@@ -217,7 +313,23 @@
 					<br/><br/><b>Step 6:-</b> Add both numbers: 9600+ (-32) = 9568
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"92X99", "answer1":"9108"},
+					{"question2":"93X107", "answer2":"9951"},
+					{"question3":"105X102", "answer3":"10710"},
+					{"question4":"106X93", "answer4":"9858"},
+					{"question5":"99X95", "answer5":"9405"},
+					{"question6":"105X103", "answer6":"10815"},
+					{"question7":"95X105", "answer7":"9975"},
+					{"question8":"96X104", "answer8":"9984"},
+					{"question9":"93X92", "answer9":"8856"},
+					{"question10":"101X107", "answer10":"10807"},
+					{"question11":"96X102", "answer11":"9792"},
+					{"question12":"103X99", "answer12":"10197"},
+					{"question13":"1044X94", "answer13":"9776"},
+					{"question14":"94X97", "answer14":"9118"},
+					{"question15":"102X106", "answer15":"10812"}
+					]
 	}
 	
 ]

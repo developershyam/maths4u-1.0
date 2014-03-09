@@ -8,7 +8,7 @@ public class TheoryContent {
 	String topic;
 	List<String> contents;
 	List<String> examples;
-	List<String> practiceQuestions;
+	List<PracticeQuestion> practiceQuestions;
 
 	public String getNum() {
 		return num;
@@ -43,11 +43,11 @@ public class TheoryContent {
 		this.examples = examples;
 	}
 
-	public List<String> getPracticeQuestions() {
+	public List<PracticeQuestion> getPracticeQuestions() {
 		return practiceQuestions;
 	}
 
-	public void setPracticeQuestions(List<String> practiceQuestions) {
+	public void setPracticeQuestions(List<PracticeQuestion> practiceQuestions) {
 		this.practiceQuestions = practiceQuestions;
 	}
 

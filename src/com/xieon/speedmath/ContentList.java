@@ -13,14 +13,17 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ImageView;
 
+import com.google.gson.Gson;
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
+import com.xieon.model.PracticeQuestion;
 import com.xieon.model.TheoryContent;
 import com.xieon.utility.AppUtility;
 
-public class ContentList extends BaseActivity {
+public class ContentList extends BaseActivity implements OnGroupClickListener{
 
 	int current = 0;
 	int currentTopic = 0;
@@ -51,6 +54,7 @@ public class ContentList extends BaseActivity {
 				contentList, groupList, topicCollections);
 		expListView.setAdapter(expListAdapter);
 		expListView.expandGroup(0);
+		expListView.setOnGroupClickListener(this);
 		// setGroupIndicatorToRight();
 		final AlphaAnimation animation = new AlphaAnimation(1F, 0.2F);
 		ImageView nextButton = (ImageView) findViewById(R.id.speedmath_home_next);
@@ -100,7 +104,7 @@ public class ContentList extends BaseActivity {
 
 			groupList.add("Practice Questions");
 			topicCollections.put("Practice Questions",
-					theoryContent.getPracticeQuestions());
+					new ArrayList<String>());
 
 		} catch (Exception e) {
 			System.out.println("Exception: while loading InputActivity#Topics "
@@ -169,14 +173,19 @@ public class ContentList extends BaseActivity {
 				theoryContent.setExamples(examples);
 				JSONArray practiceArray = jsonObject
 						.getJSONArray(("practices"));
-				List<String> practices = new ArrayList<String>();
+				List<PracticeQuestion> practiceQuestions = new ArrayList<PracticeQuestion>();
 				for (int j = 0; j < practiceArray.length(); j++) {
 					JSONObject practiceObject = practiceArray.getJSONObject(j);
-					String practice = practiceObject.getString("practice"
+					PracticeQuestion practiceQuestion=new PracticeQuestion();
+					String question = practiceObject.getString("question"
 							+ (j + 1));
-					practices.add(practice);
+					String answer = practiceObject.getString("answer"
+							+ (j + 1));
+					practiceQuestion.setQuestion(question);
+					practiceQuestion.setAnswer(answer);
+					practiceQuestions.add(practiceQuestion);
 				}
-				theoryContent.setPracticeQuestions(practices);
+				theoryContent.setPracticeQuestions(practiceQuestions);
 				theoryContents.add(theoryContent);
 			}
 		} catch (Exception e) {
@@ -202,12 +211,30 @@ public class ContentList extends BaseActivity {
 
 		groupList.add("Practice Questions");
 		topicCollections.put("Practice Questions",
-				theoryContent.getPracticeQuestions());
+				new ArrayList<String>());
 
 		expListView = (ExpandableListView) findViewById(R.id.speedmath_home_topic_list);
 		final ContentListAdapter expListAdapter = new ContentListAdapter(
 				contentList, groupList, topicCollections);
 		expListView.setAdapter(expListAdapter);
 		expListView.expandGroup(0);
+	}
+
+	@Override
+	public boolean onGroupClick(ExpandableListView parent, View v,
+			int groupPosition, long id) {
+		
+		if(groupPosition==2){
+			Intent intent = new Intent();
+			intent.putExtra("groupPosition", this.groupPosition);
+			intent.putExtra("currentTopic", currentTopic);
+			Gson gson = new Gson();
+			String jsonPractice = gson.toJson(theoryContents.get(currentTopic).getPracticeQuestions());
+			intent.putExtra("json", jsonPractice);
+			intent.setClass(getBaseContext(), PracticeQuestionActivity.class);            		      		
+			startActivity(intent);
+		}
+		
+		return false;
 	}
 }

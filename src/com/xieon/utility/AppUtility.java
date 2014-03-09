@@ -49,11 +49,14 @@ public class AppUtility {
 		int value;
 		Random rand = new Random();
 		HashSet<Integer> randomNumbers = new HashSet<Integer>();
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < size;) {
 			value = rand.nextInt(max);
-			randomNumbers.add(value);
+			boolean flag=randomNumbers.add(value);
+			if(flag){
+				i++;
+			}
 		}
-		System.out.println("generatedv random num: " +randomNumbers );
+		System.out.println("generated random num: " +randomNumbers );
 		return randomNumbers;
 	}
 }

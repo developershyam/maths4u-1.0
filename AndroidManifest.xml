@@ -65,6 +65,10 @@
             android:name="com.xieon.speedmath.ContentList"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="com.xieon.speedmath.PracticeQuestionActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
