@@ -41,7 +41,22 @@
 					<br/><br/><b>Note:-</b>  For actual base 10 take only unit’s digit from step 2, extra digits will be carry forwarded. For actual base 100 take last 2 digits from step 2, extra digits will be carry forwarded.	
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[  {"question1":"102X102", "answer1":"10404"},
+						{"question2":"32X32", "answer2":"1024"},
+						{"question3":"12X12", "answer3":"144"},
+						{"question4":"98X98", "answer4":"9604"},
+						{"question5":"94X94", "answer5":"8836"},
+						{"question6":"18X18", "answer6":"324"},
+						{"question7":"23X23", "answer7":"529"},
+						{"question8":"42X42", "answer8":"1764"},
+						{"question9":"69X69", "answer9":"4761"},
+						{"question10":"73X73", "answer10":"5329"},
+						{"question11":"94X94", "answer11":"8836"},
+						{"question12":"36X36", "answer12":"1296"},
+						{"question13":"34X34", "answer13":"1156"},
+						{"question14":"95X95", "answer14":"9025"},
+						{"question15":"42X42", "answer15":"1764"}
+					]
 	},	
 	{
 		"num":"2",
@@ -71,7 +86,18 @@
 					<br/><br/><b>Step 3:-</b> Put both the numbers together i.e. 3481					
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"53X53", "answer1":"2809"},
+					{"question2":"52X52", "answer2":"2704"},
+					{"question3":"51X51", "answer3":"2601"},
+					{"question4":"59X59", "answer4":"3481"},
+					{"question5":"56X56", "answer5":"3136"},
+					{"question6":"55X55", "answer6":"3025"},
+					{"question7":"54X54", "answer7":"2916"},
+					{"question8":"58X58", "answer8":"3364"},
+					{"question9":"57X57", "answer9":"3249"},
+					{"question10":"50X50", "answer10":"2500"} 
+					]
 	},
 	{
 		"num":"3",
@@ -102,7 +128,18 @@
 					<br/><br/><b>Step 2:-</b> Than write '0' upto (2-1) 1 time followed by 1 = 9801
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"12X12", "answer1":"144"},
+					{"question2":"13X13", "answer2":"169"},
+					{"question3":"16X16", "answer3":"256"},
+					{"question4":"19X19", "answer4":"361"},
+					{"question5":"11X11", "answer5":"121"},
+					{"question6":"14X14", "answer6":"196"},
+					{"question7":"17X17", "answer7":"289"},
+					{"question8":"18X18", "answer8":"324"},
+					{"question9":"15X15", "answer9":"225"},
+					{"question10":"10X10", "answer10":"100"}
+					]
 	},
 	{
 		"num":"4",
@@ -136,7 +173,23 @@
 
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"97X97", "answer1":"9409"},
+					{"question2":"102X102", "answer2":"10404"},
+					{"question3":"108X108", "answer3":"11664"},
+					{"question4":"104X104", "answer4":"10816"},
+					{"question5":"94X94", "answer5":"8836"},
+					{"question6":"92X92", "answer6":"8464"},
+					{"question7":"99X99", "answer7":"9801"},
+					{"question8":"105X105", "answer8":"11025"},
+					{"question9":"106X106", "answer9":"11236"},
+					{"question10":"95X95", "answer10":"9025"},
+					{"question11":"107X107", "answer11":"11449"},
+					{"question12":"103X103", "answer12":"10609"},
+					{"question13":"109X109", "answer13":"11881"},
+					{"question14":"98X98", "answer14":"9604"},
+					{"question15":"93X93", "answer15":"8649"}
+					]
 	},
 	{
 		"num":"5",
@@ -165,7 +218,13 @@
 					<br/><br/><b>Step 2:-</b> Than write '0' upto (2-1) 1 time followed by 1 = 9801
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"99X99", "answer1":"9801"},
+					{"question2":"999X999", "answer2":"998001"},
+					{"question3":"9X9", "answer3":"81"},
+					{"question4":"9999X9999", "answer4":"99980001"},
+					{"question5":"99999X99999", "answer5":"9999800001"}
+					]
 	},
 	{
 		"num":"6",
@@ -194,7 +253,13 @@
 					<br/><br/><b>Step 2:-</b> Than we will write nos. in descending order, next to previous no. = 121
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"111X111", "answer1":"12321"},
+					{"question2":"11X11", "answer2":"121"},
+					{"question3":"1111X1111", "answer3":"1234321"},
+					{"question4":"11111X11111", "answer4":"123454321"},
+					{"question5":"111111X111111", "answer5":"12345654321"}
+					]
 	},
 	{
 		"num":"7",
@@ -222,7 +287,23 @@
 					<br/><br/><b>Step 2:-</b> Write 132 and 25 together i.e. 13225
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"65X65", "answer1":"4225"},
+					{"question2":"15X15", "answer2":"225"},
+					{"question3":"25X25", "answer3":"625"},
+					{"question4":"105X105", "answer4":"11025"},
+					{"question5":"35X35", "answer5":"1225"},
+					{"question6":"45X45", "answer6":"2025"},
+					{"question7":"55X55", "answer7":"3025"},
+					{"question8":"335X335", "answer8":"112225"},
+					{"question9":"75X75", "answer9":"5625"},
+					{"question10":"95X95", "answer10":"9025"},
+					{"question11":"85X85", "answer11":"7225"},
+					{"question12":"125X125", "answer12":"15625"},
+					{"question13":"145X145", "answer13":"21025"},
+					{"question14":"225X225", "answer14":"50625"},
+					{"question15":"155X155", "answer15":"24025"}
+					]
 	}
 	
 ]

@@ -71,7 +71,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 	private List<PracticeQuestion> getSelectPracticeQuestion(
 			List<PracticeQuestion> data) {
 		List<PracticeQuestion> practiceQuestions = new ArrayList<PracticeQuestion>();
-		HashSet<Integer> selected = AppUtility.generateRandom(5, 15);
+		HashSet<Integer> selected = AppUtility.generateRandom(5, data.size());
 		for (Iterator iterator = selected.iterator(); iterator.hasNext();) {
 			int loc = (Integer) iterator.next();
 			PracticeQuestion practiceQuestion = data.get(loc);
