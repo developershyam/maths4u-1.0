@@ -24,7 +24,23 @@
 					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"Add numbers from 19 to 28", "answer1":"235"},
+					{"question2":"Add numbers from 42 to 51", "answer2":"465"},
+					{"question3":"Add numbers from 106 to 115", "answer3":"1105"},
+					{"question4":"Add numbers from 22 to 31", "answer4":"265"},
+					{"question5":"Add numbers from 43 to 52", "answer5":"475"},
+					{"question6":"Add numbers from 235 to 244", "answer6":"2395"},
+					{"question7":"Add numbers from 436 to 445", "answer7":"4405"},
+					{"question8":"Add numbers from 29 to 38", "answer8":"335"},
+					{"question9":"Add numbers from 5001 to 5010", "answer9":"50055"},
+					{"question10":"Add numbers from 192 to 201", "answer10":"1965"},
+					{"question11":"Add numbers from 648 to 657", "answer11":"6525"},
+					{"question12":"Add numbers from 269 to 278", "answer12":"2735"},
+					{"question13":"Add numbers from 542 to 551", "answer13":"5465"},
+					{"question14":"Add numbers from 35 to 44", "answer14":"395"},
+					{"question15":"Add numbers from 10001 to 10010", "answer15":"100055"} 
+					]
 	},	
 	{
 		"num":"2",
@@ -54,7 +70,18 @@
 					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 1190/2 = 595					
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"Add numbers from 1 to 19", "answer1":"190"},
+					{"question2":"Add numbers from 1 to 51", "answer2":"2326"},
+					{"question3":"Add numbers from 1 to 12", "answer3":"78"},
+					{"question4":"Add numbers from 1 to 31", "answer4":"496"},
+					{"question5":"Add numbers from 1 to 22", "answer5":"253"},
+					{"question6":"Add numbers from 1 to 44", "answer6":"990"},
+					{"question7":"Add numbers from 1 to 952", "answer7":"453628"},
+					{"question8":"Add numbers from 1 to 29", "answer8":"435"},
+					{"question9":"Add numbers from 1 to 49", "answer9":"1225"},
+					{"question10":"Add numbers from 1 to 199", "answer10":"19900"}					
+					]
 	},
 	{
 		"num":"3",
@@ -87,7 +114,18 @@
 					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350"},
+					{"question9":"Add  square of numbers from 1 to 17", "answer9":"1785"},
+					{"question10":"Add  square of numbers from 1 to 8", "answer10":"204"}
+					]
 	}
 	
 ]

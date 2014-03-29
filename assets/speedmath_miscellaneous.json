@@ -24,7 +24,23 @@
 					<br/><br/><b>Step 2:-</b> In case of 500, shifting decimal point by 3: 79.154
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"Divide 456 by 5", "answer1":"91.2"},
+					{"question2":"Divide 4328 by 50", "answer2":"86.56"},
+					{"question3":"Divide 9880 by 5", "answer3":"1976"},
+					{"question4":"Divide 96968 by 500", "answer4":"193.936"},
+					{"question5":"Divide 498 by 5", "answer5":"99.6"},
+					{"question6":"Divide 3210 by 50", "answer6":"64.2"},
+					{"question7":"Divide 7780 by 5", "answer7":"1556"},
+					{"question8":"Divide 321 by 5", "answer8":"64.2"},
+					{"question9":"Divide 8589 by 50", "answer9":"171.78"},
+					{"question10":"Divide 7545 by 500", "answer10":"15.09"},
+					{"question11":"Divide 2525 by 5", "answer11":"505"},
+					{"question12":"Divide 976 by 50", "answer12":"19.52"},
+					{"question13":"Divide 8768 by 5", "answer13":"1753.6"},
+					{"question14":"Divide 9860 by 50", "answer14":"197.2"},
+					{"question15":"Divide 881 by 5", "answer15":"176.2"}
+					]
 	},	
 	{
 		"num":"2",
@@ -32,35 +48,51 @@
 		"contents":
 					[ {"content1":
 					"
-					<b>To find out square root of any number you should know square of numbers from '0 to 9' and their last digit: √1296 = 36</b>
-					<br/><b>Step 1:-</b> Ignore last 2 digits from the number, and find new number “N”: 1296 = N = 12
-					<br/><br/><b>Step 2:-</b> Check between 0-9 which number’s square is just less than or equal to this new number “N”. It will be left part of your answer “L”: Square of “3” i.e. “9” is just less than 12. So L = 3
-					<br/><br/><b>Step 3:-</b> Check between 0-9 which number’s square’s last digit is equal to the last digit of original number. One of those 2 numbers is right part of your answer “R”: Square of 4 i.e. “16” and square of 6 i.e. “36” has last digit as “6”. R = 4/6 
-					<br/><br/><b>Step 4:-</b> Find L*(L+1), If this is less than or equal to “N” than bigger number will be right part of your answer else smaller number: 3*(3+1) = “12” = “N” R= 6
+					<b>To find out square root of any number you should know square of numbers from '0 to 9' and their last digit: âˆš1296 = 36</b>
+					<br/><b>Step 1:-</b> Ignore last 2 digits from the number, and find new number â€œNâ€�: 1296 = N = 12
+					<br/><br/><b>Step 2:-</b> Check between 0-9 which numberâ€™s square is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Square of â€œ3â€� i.e. â€œ9â€� is just less than 12. So L = 3
+					<br/><br/><b>Step 3:-</b> Check between 0-9 which numberâ€™s squareâ€™s last digit is equal to the last digit of original number. One of those 2 numbers is right part of your answer â€œRâ€�: Square of 4 i.e. â€œ16â€� and square of 6 i.e. â€œ36â€� has last digit as â€œ6â€�. R = 4/6 
+					<br/><br/><b>Step 4:-</b> Find L*(L+1), If this is less than or equal to â€œNâ€� than bigger number will be right part of your answer else smaller number: 3*(3+1) = â€œ12â€� = â€œNâ€� R= 6
 					<br/><br/><b>Step 5:-</b> Put both left and right part of answers together: L|R = 3|6 = 36
-					<br/><br/><b>Note:-</b>  If Last digit of number is 0 or 5 than right part of answer will also be “0” or “5” 					
+					<br/><br/><b>Note:-</b>  If Last digit of number is 0 or 5 than right part of answer will also be â€œ0â€� or â€œ5â€� 					
 					"}],
 		"examples":
 					[ {"example1":
 					"
 					<b>Suppose we want to find square root of 2025</b>
-					<br/><b>Step 1:-</b> :- Ignore last 2 digits from the number, and find new number “N”: 2025 = N = 20
-					<br/><br/><b>Step 2:-</b>Check between 0-9 which number’s square is just less than or equal to this new number “N”. It will be left part of your answer “L”: Square of “4” i.e. “16” is just less than 20. So L = 4
+					<br/><b>Step 1:-</b> :- Ignore last 2 digits from the number, and find new number â€œNâ€�: 2025 = N = 20
+					<br/><br/><b>Step 2:-</b>Check between 0-9 which numberâ€™s square is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Square of â€œ4â€� i.e. â€œ16â€� is just less than 20. So L = 4
 					<br/><br/><b>Step 3:-</b> As last digit of original number is 5 so it will be right part of answer: R=5
 					<br/><br/><b>Step 4:-</b> Put both left and right part of answers together: L|R = 4|5 = 45
 					"},
 					{"example2":
 					"
 					<b>Suppose we want to find square root of 3844</b>
-					<br/><b>Step 1:-</b> Ignore last 2 digits from the number, and find new number “N”: 3844 = N = 38
-					<br/><br/><b>Step 2:-</b> Check between 0-9 which number’s square is just less than or equal to this new number “N”. It will be left part of your answer “L”: Square of “6” i.e. “36” is just less than 38. So L = 6
-					<br/><br/><b>Step 3:-</b> Check between 0-9 which number’s square’s last digit is equal to the last digit of original number. One of those 2 numbers is right part of your answer “R”: Square of 2 i.e. “4” and square of 8 i.e. “64” has last digit as “4”. R = 2/8 
-					<br/><br/><b>Step 4:-</b> Find L*(L+1), If this is less than or equal to “N” than bigger number will be right part of your answer else smaller number: 6*(6+1) = 42 > “N”; R= 2 
+					<br/><b>Step 1:-</b> Ignore last 2 digits from the number, and find new number â€œNâ€�: 3844 = N = 38
+					<br/><br/><b>Step 2:-</b> Check between 0-9 which numberâ€™s square is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Square of â€œ6â€� i.e. â€œ36â€� is just less than 38. So L = 6
+					<br/><br/><b>Step 3:-</b> Check between 0-9 which numberâ€™s squareâ€™s last digit is equal to the last digit of original number. One of those 2 numbers is right part of your answer â€œRâ€�: Square of 2 i.e. â€œ4â€� and square of 8 i.e. â€œ64â€� has last digit as â€œ4â€�. R = 2/8 
+					<br/><br/><b>Step 4:-</b> Find L*(L+1), If this is less than or equal to â€œNâ€� than bigger number will be right part of your answer else smaller number: 6*(6+1) = 42 > â€œNâ€�; R= 2 
 					<br/><br/><b>Step 5:-</b> Put both left and right part of answers together: L|R = 6|2 = 62
 									
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 					
+					{"question1":"what is square root of 1521?", "answer1":"39"},
+					{"question2":"what is square root of 2025?", "answer2":"45"},
+					{"question3":"what is square root of 6561?", "answer3":"81"},
+					{"question4":"what is square root of 8464?", "answer4":"92"},
+					{"question5":"what is square root of 10404?", "answer5":"102"},
+					{"question6":"what is square root of 961?", "answer6":"31"},
+					{"question7":"what is square root of 4356?", "answer7":"66"},
+					{"question8":"what is square root of 3481?", "answer8":"59"},
+					{"question9":"what is square root of 11881?", "answer9":"109"},
+					{"question10":"what is square root of 14641?", "answer10":"121"},
+					{"question11":"what is square root of 1764?", "answer11":"42"},
+					{"question12":"what is square root of 2500?", "answer12":"50"},
+					{"question13":"what is square root of 289?", "answer13":"17"},
+					{"question14":"what is square root of 484?", "answer14":"22"},
+					{"question15":"what is square root of 2304?", "answer15":"48"}
+					]
 	},
 	{
 		"num":"3",
@@ -68,7 +100,7 @@
 		"contents":
 					[ {"content1":
 					"
-					<b>To find out square root of any number you should know cube of numbers from “0 to 9” and their last digit. FYR here is the table for that</b>
+					<b>To find out square root of any number you should know cube of numbers from â€œ0 to 9â€� and their last digit. FYR here is the table for that</b>
 					<br/><b>Number	|	Cube	|	Last digit of Cube</b>					    	
 					<br/>	1						1						1
 					<br/>	2						8						8
@@ -80,31 +112,47 @@
 					<br/>	8						512						2
 					<br/>	9						729						9
 					<br/>-----------------------------------------------------
-					<br/><b>3√571787 = 83</b>
-					<br/><b>Step 1:-</b> Ignore last 3 digits from the number, and find new number “N”: 571787 = N = 571
-					<br/><br/><b>Step 2:-</b> Check from above table which number’s cube is just less than or equal to this new number “N”. It will be left part of your answer “L”: Cube of “8” i.e. “512” is just less than 571. So L = 8
-					<br/><br/><b>Step 3:-</b> Check from above table which number’s cube’s last digit is equal to the last digit of original number. That numbers is right part of your answer “R”: Cube of 3 i.e. “27” has last digit as “7”. R = 3 
+					<br/><b>3âˆš571787 = 83</b>
+					<br/><b>Step 1:-</b> Ignore last 3 digits from the number, and find new number â€œNâ€�: 571787 = N = 571
+					<br/><br/><b>Step 2:-</b> Check from above table which numberâ€™s cube is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Cube of â€œ8â€� i.e. â€œ512â€� is just less than 571. So L = 8
+					<br/><br/><b>Step 3:-</b> Check from above table which numberâ€™s cubeâ€™s last digit is equal to the last digit of original number. That numbers is right part of your answer â€œRâ€�: Cube of 3 i.e. â€œ27â€� has last digit as â€œ7â€�. R = 3 
 					<br/><br/><b>Step 4:-</b> : Put both left and right part of answers together: L|R = 8|3 = 83
 					"}],
 		"examples":
 					[ {"example1":
 					"
 					<b>Suppose we want to find cube root of 9261</b>
-					<br/><b>Step 1:-</b> Ignore last 3 digits from the number, and find new number “N”: 9261 = N = 9
-					<br/><br/><b>Step 2:-</b> Check from above table which number’s cube is just less than or equal to this new number “N”. It will be left part of your answer “L”: Cube of “2” i.e. “8” is just less than 9. So L = 2
-					<br/><br/><b>Step 3:-</b> Check from above table which number’s cube’s last digit is equal to the last digit of original number. That numbers is right part of your answer “R”: Cube of 1 i.e. “1” has last digit as “1”. R = 1  
+					<br/><b>Step 1:-</b> Ignore last 3 digits from the number, and find new number â€œNâ€�: 9261 = N = 9
+					<br/><br/><b>Step 2:-</b> Check from above table which numberâ€™s cube is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Cube of â€œ2â€� i.e. â€œ8â€� is just less than 9. So L = 2
+					<br/><br/><b>Step 3:-</b> Check from above table which numberâ€™s cubeâ€™s last digit is equal to the last digit of original number. That numbers is right part of your answer â€œRâ€�: Cube of 1 i.e. â€œ1â€� has last digit as â€œ1â€�. R = 1  
 					<br/><br/><b>Step 4:-</b> Put both left and right part of answers together: L|R = 2|1 = 21
 					"},
 					{"example2":
 					"
 					<b>Suppose we want to find cube root of 117649</b>
-					<br/><b>Step 1:-</b>Ignore last 3 digits from the number, and find new number “N”: 117649 = N = 117
-					<br/><br/><b>Step 2:-</b>Check from above table which number’s cube is just less than or equal to this new number “N”. It will be left part of your answer “L”: Cube of “4” i.e. “64” is just less than 117. So L = 4
-					<br/><br/><b>Step 3:-</b> Check from above table which number’s cube’s last digit is equal to the last digit of original number. That numbers is right part of your answer “R”: Cube of 9 i.e. “729” has last digit as “9”. R = 9 
+					<br/><b>Step 1:-</b>Ignore last 3 digits from the number, and find new number â€œNâ€�: 117649 = N = 117
+					<br/><br/><b>Step 2:-</b>Check from above table which numberâ€™s cube is just less than or equal to this new number â€œNâ€�. It will be left part of your answer â€œLâ€�: Cube of â€œ4â€� i.e. â€œ64â€� is just less than 117. So L = 4
+					<br/><br/><b>Step 3:-</b> Check from above table which numberâ€™s cubeâ€™s last digit is equal to the last digit of original number. That numbers is right part of your answer â€œRâ€�: Cube of 9 i.e. â€œ729â€� has last digit as â€œ9â€�. R = 9 
 					<br/><br/><b>Step 4:-</b> Put both left and right part of answers together: L|R = 4|9 = 49
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					{"question1":"what is Cube root of 2197?", "answer1":"13"},
+					{"question2":"what is Cube root of 238328?", "answer2":"62"},
+					{"question3":"what is Cube root of 79507?", "answer3":"43"},
+					{"question4":"what is Cube root of 531441?", "answer4":"81"},
+					{"question5":"what is Cube root of 166375?", "answer5":"55"},
+					{"question6":"what is Cube root of 5832?", "answer6":"18"},
+					{"question7":"what is Cube root of 9261?", "answer7":"21"},
+					{"question8":"what is Cube root of 512?", "answer8":"8"},
+					{"question9":"what is Cube root of 103823?", "answer9":"47"},
+					{"question10":"what is Cube root of 1404928?", "answer10":"112"},
+					{"question11":"what is Cube root of 117649?", "answer11":"49"},
+					{"question12":"what is Cube root of 29791?", "answer12":"31"},
+					{"question13":"what is Cube root of 343000?", "answer13":"70"},
+					{"question14":"what is Cube root of 1259712?", "answer14":"108"},
+					{"question15":"what is Cube root of 287496?", "answer15":"66"}
+					]
 	}
 	
 ]

@@ -27,7 +27,23 @@
 					<br/><br/><b>Step 3:-</b> As last digit is even number than number is divisible by 2.
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					{"question1":"Is 735 divisible by 2?", "answer1":"No"},
+				    {"question2":"Is 54532 divisible by 2?", "answer2":"Yes"},
+				    {"question3":"Is 7680 divisible by 2?", "answer3":"Yes"},
+				    {"question4":"Is 4139 divisible by 2?", "answer4":"No"},
+				    {"question5":"Is 908 divisible by 2?", "answer5":"Yes"},
+				    {"question6":"Is 76591 divisible by 2?", "answer6":"No"},
+				    {"question7":"Is 129876 divisible by 2?", "answer7":"Yes"},
+				    {"question8":"Is 9875 divisible by 2?", "answer8":"No"},
+				    {"question9":"Is 678 divisible by 2?", "answer9":"Yes"},
+				    {"question10":"Is  233 divisible by 2?", "answer10":"No"},
+				    {"question11":"Is  453783 divisible by 2?", "answer11":"No"},
+				    {"question12":"Is 75439 divisible by 2?", "answer12":"No"},
+				    {"question13":"Is 432 divisible by 2?", "answer13":"Yes"},
+				    {"question14":"Is 98652 divisible by 2?", "answer14":"Yes"},
+				    {"question15":"Is 56464 divisible by 2?", "answer15":"Yes"}
+					]
 	},	
 	{
 		"num":"2",
@@ -55,7 +71,23 @@
 					<br/><br/><b>Step 3:-</b>Check this number is divisible by 3 or not: 12/3 = 4 (Divisible)
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					  {"question1":"Is 439 divisible by 3?", "answer1":"No"},
+					  {"question2":"Is 98264 divisible by 3?", "answer2":"Yes"},
+					  {"question3":"Is 2488 divisible by 3?", "answer3":"Yes"},
+					  {"question4":"Is 48975 divisible by 3?", "answer4":"No"},
+					  {"question5":"Is 22357 divisible by 3?", "answer5":"Yes"},
+					  {"question6":"Is 147 divisible by 3?", "answer6":"No"},
+					  {"question7":"Is 5497 divisible by 3?", "answer7":"Yes"},
+					  {"question8":"Is 22547 divisible by 3?", "answer8":"No"},
+					  {"question9":"Is 9849735147 divisible by 3?", "answer9":"Yes"},
+					  {"question10":"Is 14325 divisible by 3?", "answer10":"No"},
+					  {"question11":"Is 133484 divisible by 3?", "answer11":"No"},
+					  {"question12":"Is 21588 divisible by 3?", "answer12":"No"},
+					  {"question13":"Is 25875 divisible by 3?", "answer13":"Yes"},
+					  {"question14":"Is 7878 divisible by 3?", "answer14":"Yes"},
+					  {"question15":"Is 46745 divisible by 3?", "answer15":"Yes"}
+					]
 	},
 	{
 		"num":"3",
@@ -82,7 +114,23 @@
 					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 4 or not: 72/4 = 18 (Divisible)
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					  {"question1":"Is 735 divisible by 4?", "answer1":"No"},
+					  {"question2":"Is 456 divisible by 4?", "answer2":"Yes"},
+					  {"question3":"Is 983548 divisible by 4?", "answer3":"Yes"},
+					  {"question4":"Is 1247 divisible by 4?", "answer4":"No"},
+					  {"question5":"Is 45724 divisible by 4?", "answer5":"Yes"},
+					  {"question6":"Is 465478 divisible by 4?", "answer6":"No"},
+					  {"question7":"Is 3643646987 divisible by 4?", "answer7":"No"},
+					  {"question8":"Is 432154 divisible by 4?", "answer8":"No"},
+					  {"question9":"Is 42980 divisible by 4?", "answer9":"Yes"},
+					  {"question10":"Is 65240 divisible by 4?", "answer10":"Yes"},
+					  {"question11":"Is 4410 divisible by 4?", "answer11":"No"},
+					  {"question12":"Is 74875 divisible by 4?", "answer12":"No"},
+					  {"question13":"Is 654676 divisible by 4?", "answer13":"Yes"},
+					  {"question14":"Is 212152 divisible by 4?", "answer14":"Yes"},
+					  {"question15":"Is 7352 divisible by 4?", "answer15":"Yes"}
+					]
 	},
 	{
 		"num":"4",
@@ -106,7 +154,23 @@
 					<br/><b>Step 1:-</b> As last digit of number is '0', so it is divisible by 5
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[ 
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					]
 	},
 	{
 		"num":"5",
@@ -135,7 +199,24 @@
 					<br/><br/><b>Step 2:-</b> Thus number is not divisible by 6
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"6",
@@ -169,7 +250,24 @@
 					<br/><br/><b>Step 5:-</b> This number is divisible by 7, so original number is also divisible by 7: 84/7 = 12
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"7",
@@ -196,7 +294,24 @@
 					<br/><br/><b>Step 2:-</b> Check whether it is divisible by 8 or not: 688/8 = 86 (Divisible)
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"8",
@@ -224,7 +339,24 @@
 					<br/><br/><b>Step 3:-</b> Check this number is divisible by 9 or not: 9/9 = 1 (Divisible)
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"9",
@@ -256,7 +388,24 @@
 					<br/><br/><b>Step 4:-</b> As 5 is not multiple of 11, Thus number is not divisible by 11
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"10",
@@ -291,7 +440,24 @@
 					<br/><br/><b>Step 5:-</b> This number is divisible by 13, so original number is also divisible by 13: 65/13 = 5
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"11",
@@ -326,7 +492,24 @@
 					<br/><br/><b>Step 5:-</b> This number is divisible by 17, so original number is also divisible by 17: 85/17 = 5
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	},
 	{
 		"num":"12",
@@ -360,7 +543,24 @@
 					<br/><br/><b>Step 5:-</b> This number is not divisible by 19, so original number is also not divisible by 19: 111/5 = Quotient 5, Remainder 16
 					"}],
 		"practices":
-					[ {"practice1":"practice1"},{"practice2":"practice2"},{"practice3":"practice3"}]
+					[
+					  {"question1":"Is 7350 divisible by 5?", "answer1":"Yes"},
+					  {"question2":"Is 2482 divisible by 5?", "answer2":"No"},
+					  {"question3":"Is 4872 divisible by 5?", "answer3":"No"},
+					  {"question4":"Is 73255 divisible by 5?", "answer4":"Yes"},
+					  {"question5":"Is 2355 divisible by 5?", "answer5":"Yes"},
+					  {"question6":"Is 458795402 divisible by 5?", "answer6":"No"},
+					  {"question7":"Is 457220 divisible by 5?", "answer7":"Yes"},
+					  {"question8":"Is 67972 divisible by 5?", "answer8":"No"},
+					  {"question9":"Is 324605 divisible by 5?", "answer9":"Yes"},
+					  {"question10":"Is 8687545 divisible by 5?", "answer10":"Yes"},
+					  {"question11":"Is 2456757 divisible by 5?", "answer11":"No"},
+					  {"question12":"Is 2245 divisible by 5?", "answer12":"Yes"},
+					  {"question13":"Is 5670 divisible by 5?", "answer13":"Yes"},
+					  {"question14":"Is 98524 divisible by 5?", "answer14":"No"},
+					  {"question15":"Is 3235 divisible by 5?", "answer15":"Yes"}
+					
+					]
 	}
 	
 ]
