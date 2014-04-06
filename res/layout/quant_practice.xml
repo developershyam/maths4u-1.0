@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/quant_practice_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quant_practice_question_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. 1 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25X25 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_eq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quant_practice_question_input1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quant_practice_question_button1"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/check"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quant_practice_layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quant_practice_question_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. 2 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25X25 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_eq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quant_practice_question_input2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quant_practice_question_button2"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/check"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quant_practice_layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quant_practice_question_num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. 3 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25X25 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_eq3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quant_practice_question_input3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quant_practice_question_button3"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/check"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quant_practice_layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quant_practice_question_num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. 4 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25X25 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_eq4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quant_practice_question_input4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quant_practice_question_button4"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/check"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quant_practice_layout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/quant_practice_question_num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q. 5 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25X25 "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/quant_practice_question_eq5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" = "
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/quant_practice_question_input5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:inputType="text"
+            android:text=""
+            android:textColor="#343434"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/quant_practice_question_button5"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/check"
+            android:textColor="#343434"
+            android:textSize="20sp"
+            android:width="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quant_practice_buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/quant_practice_back"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/quant_practice_refresh"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh" />
+    </LinearLayout>
+
+</LinearLayout>

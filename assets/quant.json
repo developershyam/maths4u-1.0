@@ -1,0 +1,81 @@
+[
+	{
+		"num":"1",
+		"topic":"Arithmetic",
+		"subtopic":
+					[
+						{"subtopic1":"•	Averages"},
+						{"subtopic2":"•	Interest"},
+						{"subtopic3":"•	Mixture & Allegations"},
+						{"subtopic4":"•	Partnership"},
+						{"subtopic5":"•	Percentages"},
+						{"subtopic6":"•	Profit & Loss"},
+						{"subtopic7":"•	Ratio & Proportion"},
+						{"subtopic8":"•	Time & Work"},
+						{"subtopic9":"•	Time, Speed & Distance"}
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Algebra",
+		"subtopic":
+					[
+						{"subtopic1":"•	Basic  Algebraic Operation"},
+						{"subtopic2":"•	Simple Equation"},
+						{"subtopic3":"•	Simultaneous Equation"},
+						{"subtopic4":"•	Quadratic Equation"},
+						{"subtopic5":"•	Inequations"}
+						
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Numeric",
+		"subtopic":
+					[
+						{"subtopic1":"•	Progression"},
+						{"subtopic2":"•	X"},
+						{"subtopic3":"•	Y"},
+						{"subtopic4":"•	Z"}													
+					]
+	},
+	{
+		"num":"4",
+		"topic":"Mordern Maths",
+		"subtopic":
+					[
+						{"subtopic1":"•	Permutation & Combinations"},
+						{"subtopic2":"•	Probability"},
+						{"subtopic3":"•	Logarithm"},
+						{"subtopic4":"•	Set Theory"}					
+					]
+	},
+	{
+		"num":"5",
+		"topic":"Geometry",
+		"subtopic":
+					[
+						{"subtopic1":"•	Point & Lines"},
+						{"subtopic2":"•	Triangles"},
+						{"subtopic3":"•	Circles"},
+						{"subtopic4":"•	Quadrilateral & Polygons"},
+						{"subtopic5":"•	Area"},
+						{"subtopic6":"•	Menstruation"},
+						{"subtopic7":"•	Coordinate Geometry"}						
+					]
+	}
+	,
+	{
+		"num":"6",
+		"topic":"Trignometry",
+		"subtopic":
+					[
+						{"subtopic1":"•	A"},
+						{"subtopic2":"•	B"},
+						{"subtopic3":"•	C"}						
+					]
+	}
+	
+	
+]
+

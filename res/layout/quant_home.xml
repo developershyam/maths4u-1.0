@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <ExpandableListView
+        android:id="@+id/quant_home_topic_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/quant_home_back_next" >
+    </ExpandableListView>
+  <RelativeLayout
+        android:id="@+id/quant_home_back_next"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quant_home_last"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/light_gray"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/quant_home_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/back_bt"
+            android:padding="1dp" />
+
+        <ImageView
+            android:id="@+id/quant_home_next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/next"
+            android:padding="1dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/quant_home_last"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/last_img"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/quant_home_home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/home"
+            android:padding="1dp" />
+
+        <ImageView
+            android:id="@+id/quant_home_question"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@+id/quant_home_home"
+            android:background="@drawable/question"
+            android:padding="1dp" />
+
+        <ImageView
+            android:id="@+id/quant_home_key"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@+id/quant_home_question"
+            android:background="@drawable/key"
+            android:padding="1dp" />
+
+        <ImageView
+            android:id="@+id/quant_home_setting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@+id/quant_home_key"
+            android:background="@drawable/setting"
+            android:padding="1dp" />
+
+        <ImageView
+            android:id="@+id/quant_home_wright"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:layout_toRightOf="@+id/quant_home_setting"
+            android:background="@drawable/wright"
+            android:padding="1dp" />
+    </RelativeLayout>
+</RelativeLayout>

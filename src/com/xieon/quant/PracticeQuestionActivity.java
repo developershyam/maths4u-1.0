@@ -1,4 +1,4 @@
-package com.xieon.speedmath;
+package com.xieon.quant;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -32,7 +32,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.speedmath_practice);
+		setContentView(R.layout.quant_practice);
 		Intent intent = getIntent();
 		groupPosition = intent.getIntExtra("groupPosition", 0);
 		childPosition = intent.getIntExtra("currentTopic", 0);
@@ -44,7 +44,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 		selectedPracticeQuestions = getSelectPracticeQuestion(practiceQuestions);
 		setSelectPracticeQuestion(selectedPracticeQuestions);
 
-		Button back = (Button) findViewById(R.id.speedmath_practice_back);
+		Button back = (Button) findViewById(R.id.quant_practice_back);
 		back.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -57,7 +57,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 			}
 		});
 
-		Button refresh = (Button) findViewById(R.id.speedmath_practice_refresh);
+		Button refresh = (Button) findViewById(R.id.quant_practice_refresh);
 		refresh.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -83,10 +83,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 	private void setSelectPracticeQuestion(List<PracticeQuestion> data) {
 
 		final PracticeQuestion practiceQuestion1 = data.get(0);
-		TextView text1 = (TextView) findViewById(R.id.speedmath_practice_question_text1);
+		TextView text1 = (TextView) findViewById(R.id.quant_practice_question_text1);
 		text1.setText(practiceQuestion1.getQuestion());
-		final EditText input1 = (EditText) findViewById(R.id.speedmath_practice_question_input1);
-		Button check1 = (Button) findViewById(R.id.speedmath_practice_question_button1);
+		final EditText input1 = (EditText) findViewById(R.id.quant_practice_question_input1);
+		Button check1 = (Button) findViewById(R.id.quant_practice_question_button1);
 		check1.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -103,10 +103,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 		});
 
 		final PracticeQuestion practiceQuestion2 = data.get(1);
-		TextView text2 = (TextView) findViewById(R.id.speedmath_practice_question_text2);
+		TextView text2 = (TextView) findViewById(R.id.quant_practice_question_text2);
 		text2.setText(practiceQuestion2.getQuestion());
-		final EditText input2 = (EditText) findViewById(R.id.speedmath_practice_question_input2);
-		Button check2 = (Button) findViewById(R.id.speedmath_practice_question_button2);
+		final EditText input2 = (EditText) findViewById(R.id.quant_practice_question_input2);
+		Button check2 = (Button) findViewById(R.id.quant_practice_question_button2);
 		check2.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -123,10 +123,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 		});
 
 		final PracticeQuestion practiceQuestion3 = data.get(2);
-		TextView text3 = (TextView) findViewById(R.id.speedmath_practice_question_text3);
+		TextView text3 = (TextView) findViewById(R.id.quant_practice_question_text3);
 		text3.setText(practiceQuestion3.getQuestion());
-		final EditText input3 = (EditText) findViewById(R.id.speedmath_practice_question_input3);
-		Button check3 = (Button) findViewById(R.id.speedmath_practice_question_button3);
+		final EditText input3 = (EditText) findViewById(R.id.quant_practice_question_input3);
+		Button check3 = (Button) findViewById(R.id.quant_practice_question_button3);
 		check3.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -143,10 +143,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 		});
 
 		final PracticeQuestion practiceQuestion4 = data.get(3);
-		TextView text4 = (TextView) findViewById(R.id.speedmath_practice_question_text4);
+		TextView text4 = (TextView) findViewById(R.id.quant_practice_question_text4);
 		text4.setText(practiceQuestion4.getQuestion());
-		final EditText input4 = (EditText) findViewById(R.id.speedmath_practice_question_input4);
-		Button check4 = (Button) findViewById(R.id.speedmath_practice_question_button4);
+		final EditText input4 = (EditText) findViewById(R.id.quant_practice_question_input4);
+		Button check4 = (Button) findViewById(R.id.quant_practice_question_button4);
 		check4.setOnClickListener(new View.OnClickListener() {
 
 			@Override
@@ -163,10 +163,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 		});
 
 		final PracticeQuestion practiceQuestion5 = data.get(4);
-		TextView text5 = (TextView) findViewById(R.id.speedmath_practice_question_text5);
+		TextView text5 = (TextView) findViewById(R.id.quant_practice_question_text5);
 		text5.setText(practiceQuestion5.getQuestion());
-		final EditText input5 = (EditText) findViewById(R.id.speedmath_practice_question_input5);
-		Button check5 = (Button) findViewById(R.id.speedmath_practice_question_button5);
+		final EditText input5 = (EditText) findViewById(R.id.quant_practice_question_input5);
+		Button check5 = (Button) findViewById(R.id.quant_practice_question_button5);
 		check5.setOnClickListener(new View.OnClickListener() {
 
 			@Override
