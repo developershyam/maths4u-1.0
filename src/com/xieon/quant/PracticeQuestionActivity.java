@@ -9,8 +9,11 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.AlphaAnimation;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -24,54 +27,81 @@ public class PracticeQuestionActivity extends BaseActivity {
 
 	int groupPosition;
 	int childPosition;
-	int maxPractice;
-	int currentPractic;
-	List<PracticeQuestion> selectedPracticeQuestions;
+	int current;
+	int max;
 	List<PracticeQuestion> practiceQuestions;
+	List<PracticeQuestion> data;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.quant_practice);
+		
 		Intent intent = getIntent();
 		groupPosition = intent.getIntExtra("groupPosition", 0);
 		childPosition = intent.getIntExtra("currentTopic", 0);
 		String json = intent.getStringExtra("json");
 		Gson gson = new Gson();
-		practiceQuestions = gson.fromJson(json,
+		data = gson.fromJson(json,
 				new TypeToken<List<PracticeQuestion>>() {
 				}.getType());
-		selectedPracticeQuestions = getSelectPracticeQuestion(practiceQuestions);
-		setSelectPracticeQuestion(selectedPracticeQuestions);
-
-		Button back = (Button) findViewById(R.id.quant_practice_back);
-		back.setOnClickListener(new View.OnClickListener() {
-
+		max=data.size();
+		practiceQuestions=createRandom(data);
+		setPracticeQuestion(practiceQuestions, current);
+		
+		Button check=(Button)findViewById(R.id.quant_check);
+		Button explain=(Button)findViewById(R.id.quant_explaination);
+		Button next=(Button)findViewById(R.id.quant_next);
+		Button back=(Button)findViewById(R.id.quant_bck);
+		
+		final AlphaAnimation animation = new AlphaAnimation(1F, 0.2F);
+		
+		check.setOnClickListener(new View.OnClickListener(){
 			@Override
-			public void onClick(View arg0) {
-				Intent intent = new Intent();
-				intent.putExtra("groupPosition", groupPosition);
-				intent.putExtra("currentTopic", childPosition);
-				intent.setClass(getBaseContext(), ContentList.class);
-				startActivity(intent);
+			public void onClick(View v) {
+
+				v.startAnimation(animation);
+				RadioButton option1=(RadioButton) findViewById(R.id.quant_radioButton1);
+				RadioButton option2=(RadioButton) findViewById(R.id.quant_radioButton2);
+				RadioButton option3=(RadioButton) findViewById(R.id.quant_radioButton3);
+				RadioButton option4=(RadioButton) findViewById(R.id.quant_radioButton4);
+				option1.setBackgroundColor(Color.WHITE);
+				option2.setBackgroundColor(Color.WHITE);
+				option3.setBackgroundColor(Color.WHITE);
+				option4.setBackgroundColor(Color.WHITE);
+				
+				PracticeQuestion practiceQuestion=practiceQuestions.get(current);
+				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+				int id=radioGroup.getCheckedRadioButtonId();
+				RadioButton option=(RadioButton) findViewById(id);
+				
+				if(practiceQuestion.getAnswer().equalsIgnoreCase(option.getText().toString())){					
+					option.setBackgroundColor(Color.GREEN);
+				}
+				else{
+					option.setBackgroundColor(Color.RED);
+				}
 			}
 		});
-
-		Button refresh = (Button) findViewById(R.id.quant_practice_refresh);
-		refresh.setOnClickListener(new View.OnClickListener() {
-
+		next.setOnClickListener(new View.OnClickListener(){
 			@Override
-			public void onClick(View arg0) {
-				refresh();
+			public void onClick(View v) {
+
+				if (current < max-1) {
+					v.startAnimation(animation);
+					current++;
+					setPracticeQuestion(practiceQuestions, current);
+				}
 			}
 		});
-
+		
+		
+		
 	}
-
-	private List<PracticeQuestion> getSelectPracticeQuestion(
+	private List<PracticeQuestion> createRandom(
 			List<PracticeQuestion> data) {
 		List<PracticeQuestion> practiceQuestions = new ArrayList<PracticeQuestion>();
-		HashSet<Integer> selected = AppUtility.generateRandom(5, data.size());
+		HashSet<Integer> selected = AppUtility.generateRandom(max, max);
 		for (Iterator iterator = selected.iterator(); iterator.hasNext();) {
 			int loc = (Integer) iterator.next();
 			PracticeQuestion practiceQuestion = data.get(loc);
@@ -79,113 +109,24 @@ public class PracticeQuestionActivity extends BaseActivity {
 		}
 		return practiceQuestions;
 	}
+	
+	private void setPracticeQuestion(List<PracticeQuestion> data, int current) {
 
-	private void setSelectPracticeQuestion(List<PracticeQuestion> data) {
-
-		final PracticeQuestion practiceQuestion1 = data.get(0);
-		TextView text1 = (TextView) findViewById(R.id.quant_practice_question_text1);
-		text1.setText(practiceQuestion1.getQuestion());
-		final EditText input1 = (EditText) findViewById(R.id.quant_practice_question_input1);
-		Button check1 = (Button) findViewById(R.id.quant_practice_question_button1);
-		check1.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				String input = input1.getText().toString();
-				String answer = practiceQuestion1.getAnswer();
-				if (answer.equalsIgnoreCase(input)) {
-					input1.setBackgroundColor(Color.GREEN);
-				} else {
-					input1.setBackgroundColor(Color.RED);
-				}
-
-			}
-		});
-
-		final PracticeQuestion practiceQuestion2 = data.get(1);
-		TextView text2 = (TextView) findViewById(R.id.quant_practice_question_text2);
-		text2.setText(practiceQuestion2.getQuestion());
-		final EditText input2 = (EditText) findViewById(R.id.quant_practice_question_input2);
-		Button check2 = (Button) findViewById(R.id.quant_practice_question_button2);
-		check2.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				String input = input2.getText().toString();
-				String answer = practiceQuestion2.getAnswer();
-				if (answer.equalsIgnoreCase(input)) {
-					input2.setBackgroundColor(Color.GREEN);
-				} else {
-					input2.setBackgroundColor(Color.RED);
-				}
-
-			}
-		});
-
-		final PracticeQuestion practiceQuestion3 = data.get(2);
-		TextView text3 = (TextView) findViewById(R.id.quant_practice_question_text3);
-		text3.setText(practiceQuestion3.getQuestion());
-		final EditText input3 = (EditText) findViewById(R.id.quant_practice_question_input3);
-		Button check3 = (Button) findViewById(R.id.quant_practice_question_button3);
-		check3.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				String input = input3.getText().toString();
-				String answer = practiceQuestion3.getAnswer();
-				if (answer.equalsIgnoreCase(input)) {
-					input3.setBackgroundColor(Color.GREEN);
-				} else {
-					input3.setBackgroundColor(Color.RED);
-				}
-
-			}
-		});
-
-		final PracticeQuestion practiceQuestion4 = data.get(3);
-		TextView text4 = (TextView) findViewById(R.id.quant_practice_question_text4);
-		text4.setText(practiceQuestion4.getQuestion());
-		final EditText input4 = (EditText) findViewById(R.id.quant_practice_question_input4);
-		Button check4 = (Button) findViewById(R.id.quant_practice_question_button4);
-		check4.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				String input = input4.getText().toString();
-				String answer = practiceQuestion4.getAnswer();
-				if (answer.equalsIgnoreCase(input)) {
-					input4.setBackgroundColor(Color.GREEN);
-				} else {
-					input4.setBackgroundColor(Color.RED);
-				}
-
-			}
-		});
-
-		final PracticeQuestion practiceQuestion5 = data.get(4);
-		TextView text5 = (TextView) findViewById(R.id.quant_practice_question_text5);
-		text5.setText(practiceQuestion5.getQuestion());
-		final EditText input5 = (EditText) findViewById(R.id.quant_practice_question_input5);
-		Button check5 = (Button) findViewById(R.id.quant_practice_question_button5);
-		check5.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View arg0) {
-				String input = input5.getText().toString();
-				String answer = practiceQuestion5.getAnswer();
-				if (answer.equalsIgnoreCase(input)) {
-					input5.setBackgroundColor(Color.GREEN);
-				} else {
-					input5.setBackgroundColor(Color.RED);
-				}
-
-			}
-		});
-
+		final PracticeQuestion practiceQuestion = data.get(current);
+		TextView num = (TextView) findViewById(R.id.quant_questionNoLevel);
+		num.setText("Q. "+(current+1)+" ");
+		TextView question = (TextView) findViewById(R.id.quant_questionLevel);
+		question.setText(practiceQuestion.getQuestion());
+		
+		RadioButton option1 = (RadioButton) findViewById(R.id.quant_radioButton1);
+		option1.setText(practiceQuestion.getOption1());
+		RadioButton option2 = (RadioButton) findViewById(R.id.quant_radioButton2);
+		option2.setText(practiceQuestion.getOption2());
+		RadioButton option3 = (RadioButton) findViewById(R.id.quant_radioButton3);
+		option3.setText(practiceQuestion.getOption3());
+		RadioButton option4 = (RadioButton) findViewById(R.id.quant_radioButton4);
+		option4.setText(practiceQuestion.getOption4());
+			
 	}
-
-	private void refresh() {
-		selectedPracticeQuestions = getSelectPracticeQuestion(practiceQuestions);
-		setSelectPracticeQuestion(selectedPracticeQuestions);
-	}
+	
 }

@@ -1,0 +1,402 @@
+[
+	{
+		"num":"1",
+		"topic":"Adding 10 consecutive numbers",
+		"contents":
+					[ {"content1":
+					"
+					<b>15+16+17+18+19+20+21+22+23+24</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 15+4 = 19
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 195
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add from 93 to 102</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 93+4 = 97
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 975
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add from 36 to 45</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 36+4 = 40
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
+					"}],
+		"practices":
+					[
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},	
+	{
+		"num":"2",
+		"topic":"Adding n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1+2+3+4+5+6+7+8+9+10+11+12+13 = 91</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 13+1 = 14
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series: 14x13 = 182
+					<br/><br/><b>Step 3:-</b> Divide this number by 2: 182/2 = 91
+					<br/><br/><b>Note:-</b>  Or use this formula for adding n numbers starting from 1: n(n+1)/2.					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add from 1 to 99</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 99+1 = 100
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 100x99 = 9900
+					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 9900/2 = 4950
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add from 1 to 34</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 34+1 = 35
+					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 35x34 = 1190
+					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 1190/2 = 595					
+					"}],
+		"practices":
+					[ 
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"4",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"5",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"6",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"7",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"8",
+		"topic":"Adding square of n numbers starting from 1",
+		"contents":
+					[ {"content1":
+					"
+					<b>1^2+2^2+3^2...+10^2 = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"9",
+		"topic":"Time, Speed & Distance",
+		"contents":
+					[ {"content1":
+					"
+					<b>The speed of a body is defined as the distance covered by it in unit time.</b>
+					<br/><b>Speed = Distance/Time <br/>Time = Distance/Speed <br/> Distance = Speed X Time</b>
+					<br/><br/><b>Important Points:-</b>
+					<br/><b>1:-</b> If a body travels d1, d2,d3…..dn distances at a speed of s1,s2,s3...sn km/hr,  in time t1, t2,t3……tn, then the average speed  = (Total Distance Travelled)/(Total Time Taken) = (d1+d2+d3+⋯..dn)/(t1+t2+t3+⋯..tn).
+					<br/><br/><b>2:-</b> If a certain distance d, from A to B, is covered at ‘a’ km/hr and the same distance is covered again from B to A in ‘b’ km/hr, then the average speed during whole journey= 2ab/((a+b)) km/hr. 
+					<br/>Also, if  t1 and t2 is the time taken to travel from A to B and B to A, respectively, the distance ‘d’ from A to B is given by:
+					<br/> d= (t1+t2) 2ab/((a+b))  
+					<br/> d= (t1-t2) 2ab/((a-b))  
+					<br/> d= (a-b) t1t2/((t1-t2))  
+					<br/><br/><b>3:-</b> While travelling a certain distance , if a man changes his speed in the ratio m:n, then the ratio of time becomes n:m.
+					<br/><br/><b>4:-</b> If two person A and B start at the same time in opposite directions from two points and arrive at the two points in ‘a’ and ‘b’ hrs, respectively after having met, then.
+					<br/>(A's Speed)/(B's Speed)  = √b/√a  
+					<br/><br/><b>5:-</b> To convert km/hr to m/s, multiply by 5/18 and to convert m/s to km/hr, multiply by 18/5..
+					
+					"},
+					{"content2":
+					"
+					<b>Relative Speed:-</b>
+					<br/><b>Relative speed means the speed of an object A with respect to another object B, which may be stationary, moving (in the same direction or opposite direction)</b>
+					<br/><b>Cases:-</b>
+					<br/><br/><b>Case 1 : </b> When one object is stationary and other is moving.
+					<br>Relative speed of stationary object and moving object = Speed of the moving object
+					<br/><br/><b>Case 2 : </b>When two objects are moving in opposite direction
+					<br/>Relative speed  = Sum of their speeds
+					<br/><br/><b>Case 3 : </b> When two objects are moving in same direction
+					<br/>Relative speed  = Difference of their speeds
+					<br/><br/><b>Important Points:-</b>
+					<br/><b>1:-</b> Time taken by a moving object ‘x’meters long in passing a stationary object ‘y’ meters long from the time they meet, is same as the time taken by the moving object to cover ‘x+y’ meters with its own speed.
+					<br/><br/><b>2:-</b> If two objects of length ‘x’ and ‘y’ meters move in the same direction or in opposite direction at ‘a’ and ‘b’ m/s, then the time taken to cross each other  from the time they meet. 
+					<br/> = (Sum of their length)/(Relative Speed)  
+					<br/> = (x+y)/(a-b)  (In case of same direction)  
+					<br/> = (x+y)/(a+b)  (In case of opposite direction)
+					<br/><br/><b>3:-</b> If the speed of a boat in still water is x km/hr and the speed of the stream is y km/hr speed while travelling with the stream i.e., speed downstream = (x+y) km/hr speed while travelling against the stream i.e., speed upstream = (x-y) km/hr.
+					<br/><br/><b>4:-</b> Speed of the boat in still water =1/2(Speed with Stream + Speed against stream) 
+					<br/>    Speed of the river =1/2(Speed with Stream - Speed against stream).
+					"}
+					],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"opt1", "option1":"opt1;opt2;opt3;opt4","explanation1":"opt1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"opt2", "option2":"opt1;opt2;opt3;opt4","explanation2":"opt2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"opt3", "option3":"opt1;opt2;opt3;opt4","explanation3":"opt3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"opt4", "option4":"opt1;opt2;opt3;opt4","explanation4":"opt4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	}
+	
+]

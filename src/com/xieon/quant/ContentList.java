@@ -127,7 +127,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		String json="";
 		if(groupPosition==0){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_multiplication.json");
+					"quant_arithmetic.json");
 		}else if(groupPosition==1){
 			json = AppUtility.loadJSON(getBaseContext(),
 					"quant_square.json");
@@ -140,6 +140,9 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		}else if(groupPosition==4){
 			json = AppUtility.loadJSON(getBaseContext(),
 					"quant_miscellaneous.json");
+		}else if(groupPosition==8){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"quant_speed_time_distance.json");
 		}else{
 			json = AppUtility.loadJSON(getBaseContext(),
 					"quant_multiplication.json");
@@ -181,8 +184,21 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 							+ (j + 1));
 					String answer = practiceObject.getString("answer"
 							+ (j + 1));
+					String optionsStr = practiceObject.getString("option"
+							+ (j + 1));
+					String options[]=optionsStr.split(";");
+					
+					String explanation = practiceObject.getString("explanation"
+							+ (j + 1));
+					
 					practiceQuestion.setQuestion(question);
 					practiceQuestion.setAnswer(answer);
+					practiceQuestion.setOption1(options[0]);
+					practiceQuestion.setOption2(options[1]);
+					practiceQuestion.setOption3(options[2]);
+					practiceQuestion.setOption4(options[3]);
+					practiceQuestion.setExplanation(explanation);
+					
 					practiceQuestions.add(practiceQuestion);
 				}
 				theoryContent.setPracticeQuestions(practiceQuestions);
