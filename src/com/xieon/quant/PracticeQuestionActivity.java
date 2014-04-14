@@ -28,9 +28,14 @@ public class PracticeQuestionActivity extends BaseActivity {
 	int groupPosition;
 	int childPosition;
 	int current;
+	int selectedOptionId;
+	int selectedOptionColor;
+	boolean fromExplain;
+	
 	int max;
 	List<PracticeQuestion> practiceQuestions;
 	List<PracticeQuestion> data;
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,14 +44,26 @@ public class PracticeQuestionActivity extends BaseActivity {
 		
 		Intent intent = getIntent();
 		groupPosition = intent.getIntExtra("groupPosition", 0);
-		childPosition = intent.getIntExtra("currentTopic", 0);
+		childPosition = intent.getIntExtra("childPosition", 0);
+		
+		fromExplain= intent.getBooleanExtra("fromExplain", false);
+		current= intent.getIntExtra("current", 0);
+		selectedOptionId=intent.getIntExtra("selectedOptionId", -1);
+		selectedOptionColor=intent.getIntExtra("selectedOptionColor", 0);
+		
 		String json = intent.getStringExtra("json");
 		Gson gson = new Gson();
 		data = gson.fromJson(json,
 				new TypeToken<List<PracticeQuestion>>() {
 				}.getType());
 		max=data.size();
-		practiceQuestions=createRandom(data);
+		if(fromExplain){
+			practiceQuestions=data;
+		}else{
+			selectedOptionColor=Color.WHITE;
+			practiceQuestions=createRandom(data);
+		}
+		
 		setPracticeQuestion(practiceQuestions, current);
 		
 		Button check=(Button)findViewById(R.id.quant_check);
@@ -73,13 +90,19 @@ public class PracticeQuestionActivity extends BaseActivity {
 				PracticeQuestion practiceQuestion=practiceQuestions.get(current);
 				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
 				int id=radioGroup.getCheckedRadioButtonId();
-				RadioButton option=(RadioButton) findViewById(id);
-				
-				if(practiceQuestion.getAnswer().equalsIgnoreCase(option.getText().toString())){					
-					option.setBackgroundColor(Color.GREEN);
-				}
-				else{
-					option.setBackgroundColor(Color.RED);
+				System.out.println("getCheckedRadioButtonId : "+id);
+				if(id!= -1){
+					
+					RadioButton option=(RadioButton) findViewById(id);
+					
+					if(practiceQuestion.getAnswer().equalsIgnoreCase(option.getText().toString())){					
+						option.setBackgroundColor(Color.GREEN);
+						selectedOptionColor=Color.GREEN;
+					}
+					else{
+						option.setBackgroundColor(Color.RED);
+						selectedOptionColor=Color.RED;
+					}
 				}
 			}
 		});
@@ -90,12 +113,46 @@ public class PracticeQuestionActivity extends BaseActivity {
 				if (current < max-1) {
 					v.startAnimation(animation);
 					current++;
+					fromExplain=false;
+					selectedOptionColor=Color.WHITE;
+					selectedOptionId=-1;
 					setPracticeQuestion(practiceQuestions, current);
 				}
 			}
 		});
 		
+		explain.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+				
+				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+				selectedOptionId=radioGroup.getCheckedRadioButtonId();
+				Intent intent = new Intent();
+				intent.putExtra("groupPosition", groupPosition);
+				intent.putExtra("childPosition", childPosition);
+				intent.putExtra("current", current);
+				intent.putExtra("selectedOptionId", selectedOptionId);
+				intent.putExtra("fromExplain", true);
+				intent.putExtra("selectedOptionColor", selectedOptionColor);
+				Gson gson = new Gson();
+				String jsonPractice = gson.toJson(practiceQuestions);
+				intent.putExtra("json", jsonPractice);
+				intent.setClass(getBaseContext(), ExplainPracticeActivity.class);            		      		
+				startActivity(intent);
+			}
+		});
 		
+		back.setOnClickListener(new View.OnClickListener(){
+			@Override
+			public void onClick(View v) {
+
+				Intent intent = new Intent();
+				intent.putExtra("groupPosition", groupPosition);
+				intent.putExtra("childPosition", childPosition);
+				intent.setClass(getBaseContext(), ContentList.class);            		      		
+				startActivity(intent);
+			}
+		});
 		
 	}
 	private List<PracticeQuestion> createRandom(
@@ -111,6 +168,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 	}
 	
 	private void setPracticeQuestion(List<PracticeQuestion> data, int current) {
+				
 
 		final PracticeQuestion practiceQuestion = data.get(current);
 		TextView num = (TextView) findViewById(R.id.quant_questionNoLevel);
@@ -120,12 +178,32 @@ public class PracticeQuestionActivity extends BaseActivity {
 		
 		RadioButton option1 = (RadioButton) findViewById(R.id.quant_radioButton1);
 		option1.setText(practiceQuestion.getOption1());
+		option1.setChecked(false);
 		RadioButton option2 = (RadioButton) findViewById(R.id.quant_radioButton2);
 		option2.setText(practiceQuestion.getOption2());
+		option2.setChecked(false);
 		RadioButton option3 = (RadioButton) findViewById(R.id.quant_radioButton3);
 		option3.setText(practiceQuestion.getOption3());
+		option3.setChecked(false);
 		RadioButton option4 = (RadioButton) findViewById(R.id.quant_radioButton4);
 		option4.setText(practiceQuestion.getOption4());
+		option4.setChecked(false);
+		
+		option1.setBackgroundColor(Color.WHITE);
+		option2.setBackgroundColor(Color.WHITE);
+		option3.setBackgroundColor(Color.WHITE);
+		option4.setBackgroundColor(Color.WHITE);
+		
+		RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+		radioGroup.clearCheck();
+		
+		if(fromExplain && selectedOptionId!=-1){
+			
+			RadioButton selectedOption = (RadioButton) findViewById(selectedOptionId);
+			selectedOption.setChecked(true);
+			selectedOption.setBackgroundColor(selectedOptionColor);
+			
+		}
 			
 	}
 	

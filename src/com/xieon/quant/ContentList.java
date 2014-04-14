@@ -243,7 +243,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		if(groupPosition==2){
 			Intent intent = new Intent();
 			intent.putExtra("groupPosition", this.groupPosition);
-			intent.putExtra("currentTopic", currentTopic);
+			intent.putExtra("childPosition", currentTopic);
 			Gson gson = new Gson();
 			String jsonPractice = gson.toJson(theoryContents.get(currentTopic).getPracticeQuestions());
 			intent.putExtra("json", jsonPractice);

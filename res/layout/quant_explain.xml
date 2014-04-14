@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quant_explain_questionNoLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:text="Q. 1 "
+            android:width="50dp" />
+
+        <TextView
+            android:id="@+id/quant_explain_questionLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/quant_explain_questionNoLevel"
+            android:layout_toRightOf="@+id/quant_explain_questionNoLevel"
+            android:ems="10"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+       
+        
+        " />
+
+        <TextView
+            android:id="@+id/quant_explain_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/quant_explain_questionLevel"
+            android:layout_toRightOf="@+id/quant_explain_questionNoLevel"
+            android:ems="10"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+       
+        
+        " />
+
+        <Button
+            android:id="@+id/quant_explain_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quant_explain_text"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Back" />
+        
+        <TextView
+            android:id="@+id/quant_explain_questionFooter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/quant_explain_back"
+            android:layout_marginTop="10dp"
+            android:ems="0" />
+
+    </RelativeLayout>
+
+</ScrollView>
