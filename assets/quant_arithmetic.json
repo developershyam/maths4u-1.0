@@ -1,13 +1,44 @@
 [
 	{
 		"num":"1",
-		"topic":"Adding 10 consecutive numbers",
+		"topic":"Interest",
 		"contents":
 					[ {"content1":
 					"
-					<b>15+16+17+18+19+20+21+22+23+24</b>
-					<br/><b>Step 1:-</b> Add 4 to the first number: 15+4 = 19
-					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 195
+					<br/>When a sum of money is lent by A to B, A is called the lender (creditor), B the borrower (debtor). The sum lent is called the principal (P).Interest (I) is the extra money paid by the borrower to lender for the use of money for a specified time.Time for which the money is borrowed is called period (N).
+					The interest paid per 100 in a year is called rate % per annum (R).Sum of Interest (I) and principal is called Amount (A); A = P+I
+
+					<br/><b>Simple Interest (SI):-</b>
+					<br/>When interest is paid as it falls due, it is called simple interest, i.e., throughout the loan period, interest is charged on the original sum (prinicipal) borrowed:
+					<br/>SI = PNR/100
+					<br/><br/><b>Compound Interest (CI):-</b>
+					<br/>When interest is added to the principal over a fix period of time, and new interest is calculated on this increased principal, The differenence between the amount and money borrowed is called compound interest.					
+					<br/>Case 1:- When interest is compounded annually.
+					<br/>A = P[1+(R/100)]^N
+					<br/>Case 2: When interest is compounded half yearly.
+					<br/>A = P[1+(R/200)]^2N
+					<br/>Case 3: When interest is compounded quarterly.
+					<br/>A = P[1+(R/400)]^4N
+					<br/>Case 3: When interest is compounded quarterly.
+					<br/>A = P[1+(R/400)]^4N
+					
+					<br/><b>Important Application</b>
+					<br/><b>1:- </b>
+					<br/>In CI when rates are different for different years, say R1, R2, R3 then
+					<br/>A = P(1+ R1/100)(1+R2/100)(1+R3/100)
+					<br/><b>2:- </b>
+					<br/>Value of machine or any other object decrease with time. This decrease is called depreication.
+					<br/> Thus if U is the value at a certain time and R% per annum is the rate of depreciation, then the value V at the end of N years
+					<br/>V = U[1- (R/100)]^N
+					<br/><b>3:- </b>
+					<br/>The original population of a town is P and the annual increase is R%, then the population of the town in N years
+					<br/>=P[1+(R/100)]^N
+					<br/>If the population decreases by R %, then the population of the town in N years 
+					<br/>= P[1- (R/100)]^N
+					<br/><b>4:- </b>
+					<br/>In hire purchase, the amound paid at the time of purchase is called down payment. The remainder is paid in equal monthly installments
+					<br/>Monthly Installment  = (Amount to be paid  - Down payment)/ Number of installments
+					
 					"					
 					}],
 		"examples":
@@ -37,15 +68,21 @@
 	},	
 	{
 		"num":"2",
-		"topic":"Adding n numbers starting from 1",
+		"topic":"Parternship",
 		"contents":
 					[ {"content1":
 					"
-					<b>1+2+3+4+5+6+7+8+9+10+11+12+13 = 91</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 13+1 = 14
-					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series: 14x13 = 182
-					<br/><br/><b>Step 3:-</b> Divide this number by 2: 182/2 = 91
-					<br/><br/><b>Note:-</b>  Or use this formula for adding n numbers starting from 1: n(n+1)/2.					
+					<br/>Parternship is the relation between two or more person who have agreed to run a business jointly and share the profits.
+					<br/>If the capitals of the partners are invested for the same period, the partnership is called simple, and for different period, is called compound.
+					<br/><br/><b>Simple Partnership:-</b> 
+					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
+					<br/>If A and B are partners in a business, then
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					
+					<br/><br/><b>Compound Partnership:-</b> 
+					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
+					<br/>If A and B are partners in a business, then
+					<br/>(Monthly equivalent installment of A)/((Monthly equivalent installment of B) = (Profit/Loss of A)/(Profit/Loss of B)
 					"}],
 		"examples":
 					[ {"example1":
@@ -76,12 +113,15 @@
 	},
 	{
 		"num":"3",
-		"topic":"Adding square of n numbers starting from 1",
+		"topic":"Percentages",
 		"contents":
 					[ {"content1":
 					"
-					<b>1^2+2^2+3^2...+10^2 = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/>The term percent means for every hundred. A fraction whose denominator is 100 called a percentage and the numerator of the fraction is called the rate percent. It is denoted as symbol %
+					<br/><b>Important Applications:-</b> 
+					<br/><b>1:-</b>
+					
+					
 					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
 					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
 					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
