@@ -1,6 +1,48 @@
 [
-	{
+{
 		"num":"1",
+		"topic":"Averages",
+		"contents":
+					[ {"content1":
+					"
+					<br/>A central value around which a group of values show a tendency to concentrate is called an “Average”. It is measured in many ways. (See example 1)
+					<br/><b>1.	Mode:-</b> Mode is the number that occurs most frequently in a given set of numbers.
+					<br/>Ex.  As in set (2,4,4,5,78,4,6,4,7,4,6,2,6) mode is “4” as is occurs maximum (5) times.
+					<br/><b>2.	Median:-</b> 	Median is the middle value of a group of numbers arranged in ascending or descending order. If the number of values (n) is odd, then median is (n+1)/2th term.
+					<br/><b>3.	Arithmetic Mean</b>	The most commonly used average is arithmetic mean (AM). The arithmetic mean of n numbers is sum of all n term divided by no. of terms (n).  It is denoted by x ⃖.x ⃖ =(x1+x2+⋯…+xn)/n = (∑_(i=1)^n▒xi)/n
+					<br/>If the values x1,x2,……xn are asigned weights w1, w2,………,wn respectively, then Weighted arithmetic mean/ Arithmetic Mean =(w1x1+w2x2+⋯…+wnxn)/(w1+w2+⋯…..+wn) (See Example 2)
+					<br/><b>4.	Geometric Mean</b>	: Geometric mean (GM) of n numbers x1,x2,……xn is nth root of their products i.e. GM = √(n&x1 X x2 X……….Xxn) (See Example 3)
+					<br/><b>5. Harmonic Mean</b>:  Harmonic mean of n numbers x1,x2,……xn is calculated as  n/(1/x1+ 1/x2+ ……1/xn  ). The HM of aand b is 2ab/(a+b)
+					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add from 93 to 102</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 93+4 = 97
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 975
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add from 36 to 45</b>
+					<br/><b>Step 1:-</b> Add 4 to the first number: 36+4 = 40
+					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
+					"}],
+		"practices":
+					[
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
+	},
+	{
+		"num":"2",
 		"topic":"Interest",
 		"contents":
 					[ {"content1":
@@ -23,20 +65,16 @@
 					<br/>A = P[1+(R/400)]^4N
 					
 					<br/><b>Important Application</b>
-					<br/><b>1:- </b>
-					<br/>In CI when rates are different for different years, say R1, R2, R3 then
+					<br/><b>1:-</b> In CI when rates are different for different years, say R1, R2, R3 then
 					<br/>A = P(1+ R1/100)(1+R2/100)(1+R3/100)
-					<br/><b>2:- </b>
-					<br/>Value of machine or any other object decrease with time. This decrease is called depreication.
+					<br/><b>2:-</b> Value of machine or any other object decrease with time. This decrease is called depreication.
 					<br/> Thus if U is the value at a certain time and R% per annum is the rate of depreciation, then the value V at the end of N years
 					<br/>V = U[1- (R/100)]^N
-					<br/><b>3:- </b>
-					<br/>The original population of a town is P and the annual increase is R%, then the population of the town in N years
+					<br/><b>3:-</b> The original population of a town is P and the annual increase is R%, then the population of the town in N years
 					<br/>=P[1+(R/100)]^N
 					<br/>If the population decreases by R %, then the population of the town in N years 
 					<br/>= P[1- (R/100)]^N
-					<br/><b>4:- </b>
-					<br/>In hire purchase, the amound paid at the time of purchase is called down payment. The remainder is paid in equal monthly installments
+					<br/><b>4:-</b> In hire purchase, the amound paid at the time of purchase is called down payment. The remainder is paid in equal monthly installments
 					<br/>Monthly Installment  = (Amount to be paid  - Down payment)/ Number of installments
 					
 					"					
@@ -65,9 +103,66 @@
 					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
 					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
 					]
+	},
+	{
+		"num":"3",
+		"topic":"Mixture & Alligation",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Mixture is based on the concept of weighted average.
+					<br/><b>Type of mixture</b><br/>
+					<br/><b>Simple Mixture:-</b> When two different ingredients are mixed together, it is known as a simple mixture.
+					<br/><b>Compound Mixture:-</b> When two or more simple mixtures are mixed together to form another mixture, it is known as a compound mixture.
+					<br/><b>Important Points:-</b>
+					<br/><b>1:-</b>When two ingredients are mixed together in different ratios to form a mixture, the ratio of the quantities of the two constituents is given by
+					<br/>Qc: Qd = (d-m): (m-c)
+					<br/>Qc = Cheaper Quantity
+					<br/>Qd = Dearer Quantity
+					<br/>c = Cost Price of unit quantity of cheaper
+					<br/>d = Cost Price of unit quantity of dearer
+					<br/>m = Cost Price of unit quantity of mixture
+					<br/><b>2:-</b>In x gram mixture of milk and water, milk is p %. To make the quantity of milk in the mixture to be q %, the quantity of milk added to the mixture will be =x{(q-p)/(100-q)} (See Example 1)
+					<br/><b>3:-</b>Suppose a container contains x of liquid from which y units are taken out and replaced by water.
+					<br/>After n operations, the quantity of pure liquid = x 1 - y n units. x
+					<br/><b>4:-</b>If P1 and P2 are the prices of two quantities Q1 and Q2, then the average price of the mixture, given by Pm
+					<br/><b>5:-</b>Pm = (See Example 2)
+					<br/>This can also represented as: 
+					<br/>P2 P1
+					<br/>Pm Pm-P1 P2-Pm
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Suppose we want to add squares from 1 to 39</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					"},
+					{"example2":
+					"
+					<b>Suppose we want to add squares from 1 to 20</b>
+					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					"}],
+		"practices":
+					[					
+					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
+					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
+					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
+					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
+					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
+					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
+					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
+					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					]
 	},	
 	{
-		"num":"2",
+		"num":"4",
 		"topic":"Parternship",
 		"contents":
 					[ {"content1":
@@ -78,7 +173,6 @@
 					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
 					<br/>If A and B are partners in a business, then
 					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
-					
 					<br/><br/><b>Compound Partnership:-</b> 
 					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
 					<br/>If A and B are partners in a business, then
@@ -112,104 +206,28 @@
 					]
 	},
 	{
-		"num":"3",
+		"num":"5",
 		"topic":"Percentages",
 		"contents":
 					[ {"content1":
 					"
 					<br/>The term percent means for every hundred. A fraction whose denominator is 100 called a percentage and the numerator of the fraction is called the rate percent. It is denoted as symbol %
 					<br/><b>Important Applications:-</b> 
-					<br/><b>1:-</b>
-					
-					
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
-					"}],
-		"examples":
-					[ {"example1":
-					"
-					<b>Suppose we want to add squares from 1 to 39</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
-					"},
-					{"example2":
-					"
-					<b>Suppose we want to add squares from 1 to 20</b>
-					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
-					"}],
-		"practices":
-					[					
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
-					]
-	},
-	{
-		"num":"4",
-		"topic":"Adding square of n numbers starting from 1",
-		"contents":
-					[ {"content1":
-					"
-					<b>1^2+2^2+3^2...+10^2 = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
-					"}],
-		"examples":
-					[ {"example1":
-					"
-					<b>Suppose we want to add squares from 1 to 39</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
-					"},
-					{"example2":
-					"
-					<b>Suppose we want to add squares from 1 to 20</b>
-					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
-					"}],
-		"practices":
-					[					
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
-					]
-	},
-	{
-		"num":"5",
-		"topic":"Adding square of n numbers starting from 1",
-		"contents":
-					[ {"content1":
-					"
-					<b>1^2+2^2+3^2...+10^2 = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					<br/><b>1:-</b> To find % equivalent of a fraction or decimal, multiply that fraction/decimal to 100.
+					<br/>Ex. 2/5 = (2/5)*100 = 40%
+					<br/><b>2:-</b> To increase a number by a given rate (%), multiply the number to (100+ rate)/100.
+					<br/>Ex. Increase 40 by 30% = 40X (100+30)/100 = 40X130/100 = 52					
+					<br/><b>3:-</b> To decrease a number by a given rate (%), multiply the number to (100- rate)/100.
+					<br/>Ex. Decrease 40 by 30% = 40X (100-30)/100 = 40X70/100 = 28					
+					<br/><b>4:-</b> % increase of a number = (Total Increase/ Initial Value) X 100.
+					<br/>Ex. Price of Car has been increased from 400,000 to 500,000, find the % increase. = [(500,000-400,000)/400,000] X 100 = (100,000/400,000)X100 = 25%
+					<br/><b>5:-</b>% decrease of a number = (Total Decrease/ Initial Value) X 100
+					<br/>Ex. Price of Dell Laptop has Fallen from 25,000 to 20,000, find the % decrease. = [(25,000-20,000)/25,000] X 100 = (5,000/25,000)X100 = 20%
+					<br/><b>6:-</b>If the present value of a machine is P and it depreciates by r% anually, the value of machine after n years is = P*[(1-(R/100))^n]
+					<br/><b>7:-</b>If A's income is r% more than of B, then B's income is less than of A by [(r/(100+r))*100]%
+					<br/><b>8:-</b>If A's income is r% less than of B, then B's income is more than of A by [(r/(100-r))*100]%
+					<br/><b>9:-</b> If the price of a commodity increase by r% then reduction in consumption, so as not to increase the expenditure is [(r/(100+r))*100]%
+					<br/><b>10:-</b>If the price of a commodity decrease by r% then increasae in consumption, so as not to decrease the expenditure is [(r/(100-r))*100]%
 					"}],
 		"examples":
 					[ {"example1":
@@ -242,16 +260,33 @@
 	},
 	{
 		"num":"6",
-		"topic":"Adding square of n numbers starting from 1",
+		"topic":"Profit & Loss",
 		"contents":
 					[ {"content1":
 					"
-					<b>1^2+2^2+3^2...+10^2 = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					<br/>The price at which a person buys a product is the cost price of the product, known as CP
+					<br/>The price at which a person sells a product is the Sales price of the product, known as SP.
+					<br/>If SP>CP, the difference, SP-CP is known as profit or gain.
+					<br/>Profit = SP-CP
+					<br/>Profit % = (Profit/CP)*100 (see example 1)
+					<br/>SP = CP*[(100+Profit%)/100]
+					<br/>CP = (100*SP)/(100+Profit%)
+					<br/>If however, SP<CP, then the difference, CP-SP is Loss.
+					<br/>Loss = CP-SP
+					<br/>Loss % = (Loss/CP)*100
+					<br/>SP = CP*[(100-Loss%)/100]
+					<br/>CP = (100*SP)/(100-Loss%)
+					<br/><b>Important Points :- </b>
+					<br/>1. IF an article is sold at a profit of x% SP = (100+x)% of CP
+					<br/>2. IF an article is sold at a loss of y% SP = (100-x)% of CP
+					<br/>3. When a person sells 2 items of same cost as 1 at a profit of x% and other at a loss of x%, He will always incur loss. Loss% = x2/100
+					<br/>4. If a shopkeeper sells his goods at C.P., but uses false weight of x kg, his profit is: Profit% = [True weight - False weight)/False weight]*100
+					<br/>5. While selling goods, adding a certain percentage on the cost price is known as marked price, And  this % addition is known as percentage mark up.
+					<br/>Marked Price = CP + Mark up
+					<br/>Marked Price = CP + % Mark up on CP
+					<br/>If discount is also given on this, Selling Price = Marked Price - % discount.
+					<br/>6. If goods are sold as buy x get y free then Discount % = [y/(x+y)]*100
+					<br/>7. If 2 successive discounts x% and y% is given then, Effective discount = [(x+y) - xy/100]%
 					"}],
 		"examples":
 					[ {"example1":
@@ -284,7 +319,7 @@
 	},
 	{
 		"num":"7",
-		"topic":"Adding square of n numbers starting from 1",
+		"topic":"Ratio & Proportion",
 		"contents":
 					[ {"content1":
 					"
@@ -326,7 +361,7 @@
 	},
 	{
 		"num":"8",
-		"topic":"Adding square of n numbers starting from 1",
+		"topic":"Time & Work",
 		"contents":
 					[ {"content1":
 					"

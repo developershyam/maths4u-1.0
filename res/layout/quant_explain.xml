@@ -26,10 +26,7 @@
             android:layout_alignTop="@+id/quant_explain_questionNoLevel"
             android:layout_toRightOf="@+id/quant_explain_questionNoLevel"
             android:ems="10"
-            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-       
-        
-        " />
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" />
 
         <TextView
             android:id="@+id/quant_explain_text"
