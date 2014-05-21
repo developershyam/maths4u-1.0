@@ -19,26 +19,179 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Suppose we want to add from 93 to 102</b>
-					<br/><b>Step 1:-</b> Add 4 to the first number: 93+4 = 97
-					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 975
+					<b>What is the average of x, 2x, and 6?</b>
+					<br/>By the definition of an average, we get:(x+2x+6)/3= (3x+6)/3= (3 (x+2) )/3=x+2 
+					<br/>Hence the answer is x +2
 					"},
 					{"example2":
 					"
-					<b>Suppose we want to add from 36 to 45</b>
-					<br/><b>Step 1:-</b> Add 4 to the first number: 36+4 = 40
-					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
+					<b>Grades are often computed using a weighted average. Suppose that homework counts 10%, quizzes 20%, and tests 70%.</b>
+					<br/>If Pat has a homework grade of 92, a quiz grade of 68, and a test grade of 81, then
+					<br/>Pat's overall grade = (0.10)(92) + (0.20)(68) + (0.70)(81)= 79.5
+					
+					"},
+					{"example3":
+					"
+					<b>What is the geometric mean of 2, 8 and 4?</b>
+					<br/>Multiply those numbers together. Then take the third root (cube root) because there are 3 numbers.
+					<br/>Pat's overall grade = (0.10)(92) + (0.20)(68) + (0.70)(81)= 79.5
+					(2X8X4)1/3
 					"}],
 		"practices":
 					[
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					{
+						"question1":"The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31kgs, what is the weight of their football coach in kgs?", "answer1":"61 kgs", "option1":"31 kgs;61 kgs;60 kgs;62 kgs",
+						"explanation1":
+						"
+						<br/>The new average weight of the group after including the football coach = 31.
+						<br/>As the new average is 1kg more than the old average, old average without including the football coach = 30 kgs.
+						<br/>The total weight of the 30 friends without including the football coach = 30 * 30 = 900.
+						<br/>After including the football coach, the number people in the group increases to 31 and the average weight of the group increases by 1kg.
+						<br/>Therefore, the total weight of the group after including the weight of the football coach = 31 * 31 = 961 kgs.
+						<br/>Therefore, the weight of the football coach = 961 - 900 = 61 kgs.
+						"
+					},
+					{"question2":"The average wages of a worker during a fortnight comprising 15 consecutive working days was $ 90 per day. During the first 7 days, his average wages was $ 87/day and the average wages during the last 7 days was $ 92 /day. What was his wage on the 8th day?", "answer2":"$ 97", "option2":"$ 83;$ 92;$ 90;$ 97",
+					"explanation2":
+					"
+					<br/>The total wages earned during the 15 days that the worker worked = 15 * 90 = $ 1350.
+					<br/>The total wages earned during the first 7 days = 7 * 87 = $ 609.
+					<br/>The total wages earned during the last 7 days = 7 * 92 = $ 644.
+					<br/>Total wages earned during the 15 days = wages during first 7 days + wage on 8th day + wages during the last 7 days.
+					<br/>=>     1350 = 609 + wage on 8th day + 644
+					<br/>=>     wage on 8th day = 1350 - 609 - 644 = $ 97.					
+					"
+					},
+					{"question3":"The average of 5 quantities is 6. The average of 3 of them is 8. What is the average of the remaining two numbers?", "answer3":"3", "option3":"4;5;3;4.5",
+					"explanation3":
+					"
+					<br/>The average of 5 quantities is 6.
+					<br/>Therefore, the sum of the 5 quantities is 5 * 6 = 30.
+					<br/>The average of three of these 5 quantities is 8. 
+					<br/>Therefore, the sum of these three quantities = 3 * 8 = 24
+					<br/>The sum of the remaining two quantities = 30 - 24 = 6.
+					<br/>Average of these two quantities = 6/2 = 3
+
+					"},
+					{"question4":"The average age of a group of 10 students was 20. The average age increased by 2 years when two new students joined the group. What is the average age of the two new students who joined the group?", "answer4":"32 years", "option4":"22 years;30 years;40 years;32 years",
+					"explanation4":
+					"
+					<br/>The average age of a group of 10 students is 20.
+					<br/>Therefore, the sum of the ages of all 10 of them = 10 * 20 = 200
+					<br/>When two new students join the group, the average age increases by 2. New average = 22
+					<br/>Now, there are 12 students.
+					<br/>Therefore, the sum of the ages of all 12 of them = 12 * 22 = 264
+					<br/>Therefore, the sum of the ages of the two new students who joined = 264 - 200 = 64
+					<br/>And the average age of each of the two new students = 64/2 = 32 years.
+
+					"},
+					{"question5":"A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?", "answer5":"Rs. 4991", "option5":"Rs. 4991;Rs. 5991;Rs. 6001;Rs. 6991",
+					"explanation5":
+					"
+					<br/>Total sale for 5 months = Rs. (6435 + 6927 + 6855 + 7230 + 6562) = Rs. 34009.
+ 					<br/>Required sale = Rs. [ (6500 x 6) - 34009 ]
+   					<br/>= Rs. (39000 - 34009)
+   					<br/>= Rs. 4991.
+
+					"},
+					{"question6":"Distance between two stations A and B is 778 km. A train covers the journey from A to B at 84 km per hour and returns back to A with a uniform speed of 56km per hour. Find the average speed of the train during the whole journey?", "answer6":"67.2 km /hr", "option6":"67.0 km /hr;67.2 km /hr;69.0 km /hr;69.2 km /hr",
+					"explanation6":
+					"
+					<br/>Required average speed	 =(2xy / x+y)km/hr
+					<br/>= 2 x 84 x 56 /(84 + 56)
+					<br/>= (2 x 84 x 85 /140)
+					<br/>= 67.2 km/hr.
+
+					"},
+					{"question7":"The average of a non zero number and its square is 5 times the number. The number is", "answer7":"9", "option7":"9;17;29;295",
+					"explanation7":
+					"
+					<br/>Let the number be x. Then,
+					<br/>x + x2 / 2 = 5x
+					<br/>‹=› x2 – 9x = 0
+					<br/>‹=› x (x - 9) = 0
+					<br/>‹=› x = 0 or x = 9.
+					<br/>So, the number is 9.
+
+					"},
+					{"question8":"The average salary of all the workers in a workshop is Rs. 8000. The average salary of 7 technicians is Rs. 12000 and the average salary of the rest is Rs. 6000. The total number of workers in the workshop is", "answer8":"21", "option8":"20;21;22;23",
+					"explanation8":
+					"
+					<br/><b>Sol.</b>
+					<br/>Let the total number of workers be x. Then,
+					<br/>8000x = (12000 × 7) + 6000 ( x – 7)
+					<br/>‹=› 2000x = 42000
+					<br/>‹=› x = 21.
+
+					"},
+					{"question9":"The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.", "answer9":"48.55 kg", "option9":"47.55 kg;48 kg;48.55 kg;49.25 kg",
+					"explanation9":
+					"
+					<br/>Required average
+
+					"},
+					{"question10":"If the average of 5 positive integers is 40 and the difference between the largest and the smallest of these 5 numbers is 10, what is the maximum value possible for the largest of these 5 integers?", "answer10":"48", "option10":"50;52;49;48",
+					"explanation10":
+					"
+					<br/>The average of 5 positive integers is 40. i.e., the sum of these integers = 5*40 = 200
+					<br/>Let the least of these 5 numbers be x.
+					<br/>Then the largest of these 5 numbers will be x + 10.
+					<br/>If we have to maximize the largest of these numbers, we have to minimize all the other numbers.
+					<br/>That is 4 of these numbers are all at the least value possible = x.
+					<br/>So, x + x + x + x + x + 10 = 200
+					<br/>Or x = 38.
+					<br/>So, the largest of these 5 integers is 48.
+
+
+					"},
+					{"question11":"The age of five numbers is 27. If one number is excluded, the average becomes 25. The excluded number is", "answer11":"35", "option11":"25;27;30;35",
+					"explanation11":
+					"
+					<br/><b>Sol.</b>
+					<br/>Therefore excluded number 
+					<br/>= (27 × 5) - ( 25 × 4) 
+					<br/>= 135 – 100 
+					<br/>= 35.
+
+
+					"},
+					{"question12":"The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?", "answer12":"19", "option12":"0;1;10;19",
+					"explanation12":
+					"
+					<br/><b>Sol.</b>
+					<br/>Average of 20 numbers = 0.
+ 					<br/>Sum of 20 numbers (0 x 20) = 0.
+					<br/>It is quite possible that 19 of these numbers may be positive and if their sum is athen 20th number is (-a).
+					"},
+					{"question13":"The average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person", "answer13":"85 kg", "option13":"76 kg;76.5 kg;85 kg;90 kg",
+					"explanation13":
+					"
+					<br/><b>Sol.</b>
+					<br/>Total weight increased 
+					<br/>= (8 × 2.5) kg
+					<br/>= 20 kg.
+					<br/>Weight of new person 
+					<br/>= (65 + 20) kg
+					<br/>= 85 kg.
+					"},
+					{"question14":"If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is", "answer14":"54.68", "option14":"53.33;54.68;55;None of these",
+					"explanation14":
+					"
+					<br/><b>Sol.</b>
+					<br/>160
+					<br/>= 54.68
+
+					"},
+					{"question15":"The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:", "answer15":"40 years", "option15":"35 years;40 years;50 years;None of these",
+					"explanation15":
+					"
+					<br/><b>Sol.</b>
+					<br/>Sum of the present ages of husband, wife and child = (27 x 3 + 3 x 3) years = 90 years.
+					<br/>Sum of the present ages of wife and child = (20 x 2 + 5 x 2) years = 50 years.
+ 					<br/>Husband's present age = (90 - 50) years = 40 years.
+
+					"}
+					
 					]
 	},
 	{
@@ -82,26 +235,184 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Suppose we want to add from 93 to 102</b>
-					<br/><b>Step 1:-</b> Add 4 to the first number: 93+4 = 97
-					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1 i.e. 975
+					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
+					<br/>At the end of the year we have Interest=1000×5%=1000×5/100=1000×0.05=50
+					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
+					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
+
 					"},
 					{"example2":
 					"
-					<b>Suppose we want to add from 36 to 45</b>
-					<br/><b>Step 1:-</b> Add 4 to the first number: 36+4 = 40
-					<br/><br/><b>Step 2:-</b> Put 5 at the end of the number obtained from step 1: 405
-					"}],
+					<b>Find the compound amount and compound interest on the principal 20,000 borrowed at 6% compounded annually for 3 years.</b>
+					<br/>Let P = 20000
+					<br/>R = 6%
+					<br/>N = 3
+					<br/>using A = P[1+(R/100)]^N
+					<br/> (compound amount)
+					<br/>Compound interest  = 23820.32 – 20000 = 3820.32
+					"}
+		],
 		"practices":
 					[
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
+					"explanation1":
+					"
+					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
+					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
+					<br/>		100				100		
+					<br/>  28x - 22x = 350800 - (13900 x 22)
+					<br/>  6x = 45000
+					<br/>  x = 7500.
+					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
+					"},
+					{"question2":"A lent Rs.5000 to B for 2 years and Rs. 3000 to C for 4 years on simple interest at the same rate of interest and received Rs.2200 in all from both of them as interest. The rate of interest per annum is", "answer2":"10%", "option2":"5%;7%;8%;10%",
+					"explanation2":
+					"
+					<br/>Let the rate be R% p.a.
+					<br/>Then,	(5000xRx2/100) + (3000xRx4/100)
+					<br/>‹=›100R+120R= 2200
+					<br/>‹=›R=(2200/220)
+					<br/>Rate ‹=›10%.
+					"},
+					{"question3":"What will be the ratio of simple interest earned by certain amount at the same rate of interest for 6 years and that for 9 years?", "answer3":"2:3", "option3":"1:3;1:4;2:3;Data inadequate",
+					"explanation3":
+					"
+					<br/>Let the principal be P and rate of interest be R%.
+					<br/>Required ratio =	 	P x R x 6	 
+					<br/>	100	
+					<br/>	=	6PR	=	6	= 2 : 3.
+					<br/>	 	P x R x 9	 
+					<br/>	100	
+					<br/>		9PR		9	
+					"},
+					{"question4":"A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9. p.c.p.a in 5 years. What is the sum?", "answer4":"Rs.8925", "option4":"Rs.4462.50;Rs.8032.50;Rs.8900;Rs.8925",
+					"explanation4":
+					"
+					<br/>Principal	= Rs. (100×4016.25 / 9×5)
+					<br/>‹=› Rs. (401625/45)
+					<br/>‹=› Rs. 8925.
+
+					"},
+					{"question5":"The simple interest on Rs. 1820 from march 9, 2003 to may 21, 2003 at 7x1/2% rate will be", "answer5":"Rs.27.30", "option5":"Rs.22.50;Rs.27.30;Rs.28.80;Rs.29",
+					"explanation5":
+					"
+					<br/>Time	= (22+30+21) days
+					<br/>‹=›73 days.
+					<br/>‹=› 1/5 year.
+					<br/>S.I	= Rs. (1820×15/2×1/5×1/100)
+					<br/>	‹=›Rs. 27.30.
+
+					"},
+					{"question6":"On a sum of money, the simple interest for 2 years is Rs.660, while the compound interest is Rs.696.30, the rate of interest being the same in both the cases. The rate of interest is", "answer6":"11%", "option6":"10%;11%;12%;10.5%",
+					"explanation6":
+					"
+					<br/>Difference in C.I and S.I for 2 years	= Rs(696.30-660)
+					<br/>=Rs. 36.30.
+					<br/>S.I for one years	= Rs330.
+					<br/>S.I on Rs.330 for 1 year	=Rs. 36.30
+					<br/>Rate	= (100x36.30/330x1)%
+					<br/>	=11%.
+
+					"},
+					{"question7":"The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:", "answer7":"4", "option7":"3;4;5;6",
+					"explanation7":
+					"
+					<br/>P	 	1 +	20	 	n	> 2P	         	 	6	 	n	> 2.
+					<br/>100						5			
+
+					<br/>Now,	 	6	x	6	x	6	x	6	 	> 2.
+					<br/>		5		5		5		5		
+					<br/>So, n = 4 years.
+
+					"},
+					{"question8":"What will be the compound interest on a sum of Rs.25,000 after 3 years at the rate of 12 p.c.p.a?", "answer8":"Rs. 10123.20", "option8":"Rs.9000.30;Rs.9270;Rs. 10123.20;Rs. 10483.20",
+					"explanation8":
+					"
+					<br/>Amount	= Rs.(25000x(1+12/100)³
+					<br/>=Rs.(25000x28/25x28/25x28/25)
+					<br/>= Rs. 35123.20.
+					<br/>C.I	=Rs(35123.20-25000)
+					<br/>=Rs.10123.20.
+
+					"},
+					{"question9":"If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?", "answer9":"Rs. 51.25", "option9":"Rs. 51.25;Rs. 52;Rs. 54.25;Rs. 60",
+					"explanation9":
+					"
+					<br/>Sum = Rs.	 	50 x 100	 	= Rs. 500.
+					<br/>2 x 5		
+
+					<br/>Amount	= Rs.	 	500 x	 	1 +	5	 	2	 
+					<br/>100			
+
+					<br/>= Rs.	 	500 x	21	x	21	 
+					<br/>20		20	
+
+					<br/>= Rs. 551.25
+  					<br/>C.I. = Rs. (551.25 - 500) = Rs. 51.25
+
+					"},
+					{"question10":"The compound interest on Rs.30,000 at 7% per annum is Rs.4347. The period (in years) is", "answer10":"2", "option10":"2;2½;3;4",
+					"explanation10":
+					"
+					<br/>Amount	=Rs(30000 + 4347)
+					<br/>= Rs.34347.
+					<br/>Let the time be n years.	
+					<br/>Then, 30000(1+7/100)^n	
+					<br/>= 34347.
+					<br/>=34347/3000
+					<br/>=11449/1000
+					<br/>=(107/100)^n
+					<br/>n= 2years.
+					"},
+					{"question11":"Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?", "answer11":"Rs.  8820", "option11":"Rs.  8600;Rs.  8620;Rs.  8820;None of these",
+					"explanation11":
+					"
+				<br/>Amount	= Rs.	 	8000 x	 	1 +	5	 	2	 
+				<br/>100			
+				<br/>= Rs.	 	8000 x	21	x	21	 
+				<br/>		20		20	
+				<br/>= Rs. 8820.
+					"},
+					{"question12":"At what rate percent per annum will the simple interest on a sum of money be 2/5 of the amount in 10 years?", "answer12":"4%", "option12":"2%;4%;6%;11%",
+					"explanation12":
+					"
+					<br/>Let sum = x
+					<br/>Time	= 10 years.
+					<br/>Then, S.I	= 2x /5,
+					<br/>Rate	=(100 ×2x / x×5×10)%
+					<br/>‹=›4%.
+
+					"},
+					{"question13":"At what percent per annum will a sum of money double in 16 years?", "answer13":"6x1/4%", "option13":"6x1/4%;5X3/2%;7X2/3%;None of these",
+					"explanation13":
+					"
+					<br/>Let Principal	= P.
+					<br/>Then,S.I = P and T = 16 yrs.
+					<br/>Rate	= (100×P/P×16)%
+					<br/>= 6×1/4%.
+
+					"},
+					{"question14":"The difference between simple interest and compound interest on Rs.1200 for one year at 10% per annum reckoned half yearly is", "answer14":"Rs. 3", "option14":"Rs. 2.50;Rs. 3;Rs. 4;Rs. 3.75",
+					"explanation14":
+					"
+					<br/>S.I	= Rs.(1200x10x1/100)
+					<br/>Rs.120.
+					<br/>C.I	=Rs[(1200x1+5/100)² -1200]
+					<br/>Rs.123.
+					<br/>Difference	= Rs.[123-120]
+					<br/>Rs. 3.
+
+					"},
+					{"question15":"Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest", "answer15":"6", "option15":"3.6.6;5;6;18",
+					"explanation15":
+					"
+					<br/>Let rate = R% and time = R years. Then
+					<br/>(1200 x R x R / 100)	‹=› 432	
+					<br/>‹=›12R2 = 432	
+					<br/>‹=›R2 = 36	
+					<br/>‹=› 6.	
+
+					"}
 					]
 	},
 	{
@@ -135,30 +446,217 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Suppose we want to add squares from 1 to 39</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 39+1 = 40
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 39X2 + 1 = 79
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 40X79X39 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540.
+					<b>In a 60 liters mixture of milk and water, the quantity of milk is 5 %. In how much quantity, should milk be added to this mixture so that the quantity of milk in the mixture becomes 15 % ?</b>
+					<br/>Here in this question:
+					<br/>X= 60 liters,         p= 5 %,                 q= 15 %
+					<br/>The quantity of milk to be added  to the mixture to make it 15 % in mixture-
+	                <br/>=60*{(15-5)/(100-15)
+	                <br/>=60*(10/85)
+	                <br/>=120/17 liters 
+
 					"},
 					{"example2":
 					"
-					<b>Suppose we want to add squares from 1 to 20</b>
-					<br/><b>Step 1:-</b>Add 1 to the last number of series: 20+1 = 21
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 20X2 + 1 = 41
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 21X41X20 =8610 = 123240
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 123240/6 = 20540
+					<b>Tea worth $126 per kg are mixed with a third variety in the ratio 1: 1 : 2. If the mixture is worth $153 per kg, the price of the third variety per kg will be</b>
+					<br/>Since first second varieties are mixed in equal proportions, so their average price = $(126+135/2) = $130.50
+					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
+					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
+					 
+					<br/> x-153/22.50 = 1 =› x - 153 = 22.50 =› x=175.50.
+					<br/>Hence, price of the third variety = $175.50 per kg.
+
 					"}],
 		"practices":
 					[					
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
+					"explanation1":
+					"
+					<br/>Amount of milk left after 3 operations
+					"},
+					{"question2":"A merchant has 100 lbs of sugar, part of which he sells at 7% profit and the rest at 17% profit. He gains 10 % on the whole. Find how much is sold at 7% profit? ", "answer2":"70 lbs", "option2":"70 lbs;40 lbs;80 lbs;95 lbs",
+					"explanation2":
+					"
+					<br/>Let's say price per lbs is $10 
+					<br/>7% profit over $10 is 10.7 
+					<br/>A merchant bought x lbs at $10.7 
+					<br/>17% profit over $10 is 11.7 
+					<br/>A merchant bought y lbs at $11.7 
+					<br/>10% profit over $10 is 11 
+					<br/>A merchant bought (x+y) lbs at $11 
+					<br/>10.7(X) + 11.7(y) = 11(x+y) 
+					<br/>10.7(X) + 11.7(y) = 11x + 11y 
+					<br/>0.7(y) = 0.3 x 
+					<br/>Only possible values here would be x = 70 and y = 30 
+
+					"},
+					{"question3":"", "answer3":"7 : 9", "option3":"4 : 3;6 : 9;7 : 9;5 : 6",
+					"explanation3":
+					"
+					<br/>Let the C.P. of spirit be Re. 1 litre.
+					<br/>Spirit in 1 litre mix. of A = 5/7 litre, C.P. of 1 litre mix. in A = Re. 5/7
+					<br/>Spirit in 1 litre mix. of B = 7/13 litre, C.P. of 1 litre mix. in B = Re. 7/13
+					<br/>Spirit in 1 litre mix. of C = 8/13 litre, Mean price = Re. 8/13.
+					<br/>By the rule of alligation, we have:
+					<br/>Cost of 1 litre mixture in A	Cost of 1 litre mixture in B
+					<br/>Required ratio = 1/13 : 9/91 = 7 : 9.
+
+					"},
+					{"question4":"A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?", "answer4":"21", "option4":"21;25;10;15",
+					"explanation4":
+					"
+					<br/>Suppose the can initially contains 7x and 5x litres of mixtures A and B respectively
+					<br/>Quantity of A in mixture left 
+					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
+					<br/>Quantity of B in mixture left 
+					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
+					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = › 28x - 21/20x + 21 = 7/9 =› 252x - 189 = 140x + 147
+					<br/> 	=› 112x = 336 =’ x = 3.
+
+					"},
+					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
+					"explanation5":
+					"
+					<br/>Let the quantity of the wine in the cask originally be x litres
+					<br/>then, quantity of wine left in cask after 4 operations
+					<br/>= [x(1- 8/x)4] litres.
+					<br/>Therefore x(1- 8/x)4 / x = 16/81 =› (1- 8/x)4 = (2/3)2 
+					<br/>=› (x - 8 / x) = 2/3 =› 3x - 24 = 2x =› x = 24.
+
+					"},
+					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
+					"explanation6":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg sugar of 1st kind	C.P. of 1 kg sugar of 2nd kind 
+					<br/>Ratio of quantities of 1st and 2nd kind = 14 : 6 = 7 : 3.
+					<br/>Let x kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.
+					<br/>Then, 7 : 3 = x : 27 or x = (7 x 27 / 3) = 63 kg.
+
+					"},
+					{"question7":"In what ratio must rice at $9.30 per Kg be mixed with rice at $10.80 per Kg so that the mixture be worth $10 per Kg?", "answer7":"8 : 7", "option7":"8 : 7;7 : 8;8 : 9;9 : 8",
+					"explanation7":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg rice of 1st kind (in paise)	C.P. of 1 kg rice of 2nd kind (in paise)
+					<br/>Required ratio = 80 : 70 = 8 : 7.
+
+					"},
+					{"question8":"In what ratio must be a grocer mix two varities of tea worth $60 a kg and $65 a Kg so that by selling the mixture at $68.20 a Kg he may gain 10%?", "answer8":"3 : 2", "option8":"3 : 4;3 : 2;3 : 5;4 : 5",
+					"explanation8":
+					"
+					<br/>S.P. of 1 kg of the mixture = $ 68.20, Gain = 10 %
+					<br/>C.P. of 1 kg of the mixture = $ (100 / 110 x 68.20) = $ 62.
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg tea of 1st kind	C.P. of 1 kg tea of 2nd kind
+					<br/>Required ratio = 3 : 2.
+
+					"},
+					{"question9":"The cost of Type 1 rice is $15 per kg and Type 2 rice is $20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is", "answer9":"$ 18", "option9":"$ 19.50;$ 19;$ 18;$ 18.50",
+					"explanation9":
+					"
+					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
+					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
+					<br/>(20-x)/(x-15) = 2/3 =› 60 - 3x = 2x - 30
+					<br/>=› 5x = 90 =› x = 18.
+					<br/>so, price of the mixture is $ 18 per kg.
+
+					"},
+					{"question10":"In what ratio must water be mixed with milk costing $12 per litre to obtain a mixture worth of $8 per litre?", "answer10":"1 : 2", "option10":"1 : 2;2 : 1;4 : 3;5 : 3",
+					"explanation10":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 litre of water	C.P. of 1 litre of milk
+					<br/>Ratio of water to milk = 4 : 8 = 1 : 2
+
+					"},
+					{"question11":"", "answer11":"2 : 3", "option11":"1 : 3;2 : 3;3 : 4;4 : 5",
+					"explanation11":
+					"
+					<br/>By the rule of alligation:
+					<br/>Cost of 1 kg rice of 1st kind	Cost of 1 kg rice of 2nd kind
+					<br/>Required ratio = 60 : 90 = 2 : 3
+
+					"},
+					{"question12":"One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat?", "answer12":"$ 10.80", "option12":"$ 12.47;$ 10.80;$ 15.17;$ 47.66",
+					"explanation12":
+					"
+					<br/>Let the rate of second quality be Rs x per Kg.
+					<br/>C.P of 1Kg wheat of 1st kind = 930p 
+					<br/>C.P of 1 Kg wheat of 2nd kind = 100x p 
+					<br/>Mean price = 1000p
+					<br/>By rule of alligation we have required ratio 8 : 7
+					<br/>   930                         x
+					<br/> 
+					<br/>         \                  /
+					<br/>        (Mean Price)
+					<br/>                (10)
+					<br/>         /                  \
+					<br/> 
+					<br/>   x-10        :          0.7     ::       8        :          7
+					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
+					<br/>⇒ x = 10.80 per Kg
+
+					"},
+					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
+					"explanation13":
+					"
+					<br/>Distance covered in 1 hour on foot = 8 km 
+					<br/>Distance covered in 1 hour on bicycle = 17 km
+					<br/>Average distance covered in 1 hour = 90/9 km   = 10km (mean distance)
+					<br/>Distance covered in        Distance covered in
+					<br/>1 hour on foot                  1 hour on bicycle
+					<br/>      (8 km)                                  (17 km)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                     Mean Distance
+					<br/>                           (10 km)
+					<br/>                    /                        \
+					<br/> 
+					<br/>     (17 – 10)          :           (10 – 8)
+					<br/>            7                                   2 
+					<br/>Thus out of 9 hours, he took 7 hours on foot
+					<br/>Distance covered on foot  = (8 × 7) Km  = 56 km
+
+					"},
+					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
+					"explanation14":
+					"
+					<br/>C.P of 1 Kg                   C.P of 1 Kg
+					<br/>rice of 1st                   rice of 2nd
+					<br/>kind (930p)                kind (1080p)
+					<br/> 
+					<br/>             \                        /
+					<br/>                Mean Price
+					<br/>                  (1000p)
+					<br/>             /                       \
+					<br/> 
+					<br/>              (1080 – 1000)  :        (1000 -  930)
+					<br/>                      80                             70
+					<br/>Thus, required ratio = 80 : 70 = 8 : 7
+
+					"},
+					{"question15":"In what proportion must rice at $ 3.10 per kg be mixed with rice at $ 3.60 per kg so that the mixture be worth $ 3.25 per kg?", "answer15":"7 : 3", "option15":"3 : 7;5 : 3;3 : 5;7 : 3",
+					"explanation15":
+					"
+					<br/>C.P of a unit quantity of 1st kind  = 310p (in paise)
+					<br/>C.P of a unit quantity of 2nd kind  = 360p
+					<br/>Mean price = 325p
+					<br/>C.P of unit quantity         C.P of unit quantity
+					<br/>of 1st kind                         of 2nd kind
+					<br/>    (310p)                         (360p)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                        Mean Price
+					<br/>                         (325p)
+					<br/>                    /                        \
+					<br/> 
+					<br/> (360 – 325)          :           (325 – 310)
+					<br/>       35                                       15
+					<br/>
+					<br/>Required ratio = 35 : 15 = 7 : 3
+					<br/>They must be mixed in the ratio 7 : 3
+
+					"}
 					]
 	},	
 	{
