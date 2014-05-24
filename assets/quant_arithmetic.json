@@ -679,28 +679,161 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Suppose we want to add from 1 to 99</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 99+1 = 100
-					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 100x99 = 9900
-					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 9900/2 = 4950
+					<b>If Jammie $ 2000 and Robb invested for $ 1000  for a period of 12 months. If they earned a profit of $ 300 at the end of year, what will be their share?</b>
+					<br/>As we know 
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/> So Profit of Jammie/Profit of Robb = 2000/1000 = 2/1
+					<br/>Share of Jammie = (2/3)*300 = $200
+					<br/>Share of Robb = (1/3)*300 = $100
+
 					"},
 					{"example2":
 					"
-					<b>Suppose we want to add from 1 to 34</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series i.e. 34+1 = 35
-					<br/><br/><b>Step 2:-</b> Multiply this number from last number of series i.e. 35x34 = 1190
-					<br/><br/><b>Step 3:-</b> Divide this number by 2 i.e. 1190/2 = 595					
+					<b>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</b>
+					<br/>Solution	Let the total profit be Rs. 100.
+					<br/>After paying to charity, A's share = Rs.	 	95 x	3	 	= Rs. 57.
+					<br/>If A's share is Rs. 57, total profit = Rs. 100.
+					<br/>If A's share Rs. 855, total profit =	 	100	x 855	 	= 1500.
+				
 					"}],
 		"practices":
 					[ 
-					{"question1":"Add  square of numbers from 1 to 19", "answer1":"2470", "option1":"opt1;opt2;opt3;opt4","explanation1":"exp1"},
-					{"question2":"Add  square of numbers from 1 to 5", "answer2":"55", "option2":"opt1;opt2;opt3;opt4","explanation2":"exp2"},
-					{"question3":"Add  square of numbers from 1 to 13", "answer3":"819", "option3":"opt1;opt2;opt3;opt4","explanation3":"exp3"},
-					{"question4":"Add  square of numbers from 1 to 16", "answer4":"1496", "option4":"opt1;opt2;opt3;opt4","explanation4":"exp4"},
-					{"question5":"Add  square of numbers from 1 to 9", "answer5":"285", "option5":"opt1;opt2;opt3;opt4","explanation5":"exp5"},
-					{"question6":"Add  square of numbers from 1 to 48", "answer6":"38024", "option6":"opt1;opt2;opt3;opt4","explanation6":"exp6"},
-					{"question7":"Add  square of numbers from 1 to 26", "answer7":"6201", "option7":"opt1;opt2;opt3;opt4","explanation7":"exp7"},
-					{"question8":"Add  square of numbers from 1 to 99", "answer8":"328350", "option8":"opt1;opt2;opt3;opt4","explanation8":"exp8"}
+					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
+					"explanation1":
+					"
+					<br/>Let the total profit be $ 100.
+					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
+					<br/>If A's share is $ 57, total profit = $ 100.
+					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
+					"},
+					{"question2":"A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest $ 6500 for 6 months, B, $ 8400 for 5 months and C, $ 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was $ 7400. Calculate the share of B in the profit.", "answer2":"$ 2660", "option2":"$ 1900;$ 2000;$ 2660;$ 2840",
+					"explanation2":
+					"
+					<br/>For managing, A received = 5% of $ 7400 = $ 370.
+					<br/>Balance = $ (7400 - 370) = $ 7030.
+					<br/>Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
+					<br/>   = 39000 : 42000 : 30000
+					<br/>   = 13 : 14 : 10
+					 <br/> B's share = $	 	7030 x	14	 	= $ 2660.
+
+					"},
+					{"question3":"A, B, C subscribe $ 50,000 for a business. A subscribes $ 4000 more than B and B $ 5000 more than C. Out of a total profit of $ 35,000, A receives:", "answer3":"$ 14700", "option3":"$ 8400;$ 11900;$ 13000;$ 14700",
+					"explanation3":
+					"
+					<br/>Let C = x.
+					<br/>Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
+					<br/>So, x + x + 5000 + x + 9000 = 50000
+					<br/>  3x = 36000
+					<br/> x = 12000
+					<br/>A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
+					<br/>  A's share = $	 	35000 x	21	 	= $ 14,700.
+
+					"},
+					{"question4":"Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?", "answer4":"20 : 49 : 64", "option4":"5:7:8;20 : 49 : 64;38 : 28 : 21;None of these",
+					"explanation4":
+					"
+					<br/>Let their investments be $ x for 14 months, $ y for 8 months and $ z for 7 months respectively.
+					<br/>Then, 14x : 8y : 7z = 5 : 7 : 8.
+					<br/>Now,	14x	=	5	        98x = 40y         y =	49	x
+					<br/>	8y		7		20	
+					<br/>And,	14x	=	5	        112x = 35z         z =	112	x =	16	x.
+					<br/>	7z		8		35		5	
+					<br/> x : y : z = x :	49	x	:	16	x	= 20 : 49 : 64.
+
+					"},
+					{"question5":"A starts business with $ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?", "answer5":"$ 9000", "option5":"$ 7500;$ 8000;$ 8500;$ 9000",
+					"explanation5":
+					"
+					<br/>Let B's capital be $ x.
+					<br/>Then,	 	3500 x 12	=	2	 
+					<br/>		7x		3	
+					<br/>  14x = 126000
+					<br/>  x = 9000.
+
+					"},
+					{"question6":"A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?", "answer6":"6 : 10 : 5", "option6":"3 : 5 : 2;3 : 5 : 5;6 : 10 : 5;4 :  5 : 2 ",
+					"explanation6":
+					"
+					<br/>Let the initial investments of A and B be 3x and 5x.
+					<br/>A : B : C = (3x x 12) : (5x x 12) : (5x x 6) = 36 : 60 : 30 = 6 : 10 : 5.
+
+					"},
+					{"question7":"A and B started a business in partnership investing $ 20,000 and $ 15,000 respectively. After six months, C joined them with $ 20,000. What will be B's share in total profit of $ 25,000 earned at the end of 2 years from the starting of the business?", "answer7":"$ 7500", "option7":"$ 7500;$ 9000;$ 9500;$ 10000",
+					"explanation7":
+					"
+					<br/>A : B : C = (20,000 x 24) : (15,000 x 24) : (20,000 x 18) = 4 : 3 : 3.
+					<br/> B's share = $	 	25000 x	3	 	= $ 7,500.
+					"},
+					{"question8":"P and Q started a business investing $85,000 and $15,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?", "answer8":"17 : 3", "option8":"3 : 4;3 : 5;15 : 23;17 : 3",
+					"explanation8":
+					"
+					<br/>P : Q = 85000 : 15000
+					<br/>=85 : 15
+					<br/>=17 : 3
+					"},
+					{"question9":"Sam and Jack started a business investing $22,500 and $35,000 respectively. Out of a total profit of $ 13,800. Jack's share is", "answer9":"$ 8400 ", "option9":"$ 5400;$ 7200;$ 8400 ;$ 9600",
+					"explanation9":
+					"
+					<br/>Ratio of their shares	= 22500 : 35000
+					<br/>	=9 : 14.
+					<br/>Jack's share	= $(13800×14/23)
+					<br/>	= $ 8400.
+
+					"},
+					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
+					"explanation10":
+					"
+					<br/>Rebakah : Haley : Juely	=(8000×6):(4000×8):(8000×8)
+					<br/>	= 48 : 32 : 64
+					<br/>	= 3 : 2 : 4.
+					<br/>Haley's share	= $4005×2/9)
+					<br/>	= $890.
+					"},
+					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
+					"explanation11":
+					"
+					<br/>Suppose B joined after x months.
+					<br/>Then,	21000×12=36000×(12 - x)
+					<br/>	‹=›36x=180
+					<br/>	= x= 5.
+					"},
+					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
+					"explanation12":
+					"
+					<br/>Suppose Y invested $y
+					<br/>Then,	40000 /y = 2 / 3
+					<br/>	‹=› y=(40000×3 / 2).
+					<br/>	‹=› y=60000.
+
+					"},
+					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
+					"explanation13":
+					"
+					<br/>A : B : C	=(10×7):(12×5):(15×3)
+					<br/>	= 70 :60 :45
+					<br/>	= 14 :12 :9
+					<br/>c's rent	=$(175×9/35)
+					<br/>	= $45.
+
+					"},
+					{"question14":"Lord Tyrion started a software business by investing $ 50,000. After six months, Lord Tivion joined her with a capital of $ 80,000. After 3 years, they earned a profit of $ 24,500. What was Lord Tyrion's share in the profit?", "answer14":"$ 10500", "option14":"$ 9423;$ 10250;$ 12500;$ 10500",
+					"explanation14":
+					"
+					<br/>Lord Tyrion : Lord Tivion = (50000 x 36) : (80000 x 30) = 3 : 4.
+					<br/>  Lord Tyrion's share = $	 	24500 x	3	 	= $ 10,500.
+
+					"},
+					{"question15":"A began a business with $ 85,000. He was joined afterwards by B with $ 42,500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?", "answer15":"8 months", "option15":"4 months;5 months;6 months;8 months",
+					"explanation15":
+					"
+					<br/>Suppose B joined for x months. Then,
+					<br/>Then,	 	85000 x 12	=	3	 
+					<br/>		42500 x x		1	
+					<br/>  x =	 	85000 x 12	 	= 8.
+					<br/>		42500 x 3		
+					<br/>So, B joined for 8 months.
+
+					"}
 					]
 	},
 	{
