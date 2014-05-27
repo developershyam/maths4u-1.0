@@ -1,0 +1,894 @@
+[
+{
+		"num":"1",
+		"topic":"Permutation & Combination",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Factorial Notation:-</b>
+					<br/>Let n be a positive integer. Then, factorial n, denoted n! is defined as:
+					<br/>n! = n(n - 1)(n - 2) ... 3.2.1.
+					<br/>Examples:
+					<br/>We define 0! = 1.
+					<br/>4! = (4 x 3 x 2 x 1) = 24.
+					
+					<br/><b>Combination:-</b> 
+					<br/>Combination represent nCr, can be defined as the number of ways in which r things at a time can be SELECTED from amongst n things available for selection.
+					<br/>nCr = Number of combinations (selections) of n things taken r things at a time.
+					<br/>nCr = n!/ [r!(n-r)!]; where n ≥ r (n is greater than or equal to r)
+					
+					<br/><b>Some typical situations:-</b>
+					<br/>Selection of people of a team, a party, a job an office etc. (e.g. selection of a football team of 11 from 16 member = 16C11
+					<br/>Selection of a set of objects (like letters, hats, points, pants, shirts etc.) from amongst another set available.
+					
+					<br/><b>Permutation:-</b>
+					<br/>Permutation (represented by nPr) can be defined as the number of ways in which r things at a time can be SELECTED & ARRANGED at a time from amongst r things.
+					<br/>The key word here is ARRANGEMENT. Hence understand here that the order in which the r things are arranged has critical importance in the counting of permutations.
+					<br/>nPr = Number of permutations (arrangements) of n things taken r at a time.
+					<br/>nPr  = n!/(n-r)!; where n ≥ r
+					
+					<br/><b>Some typical situations:-</b>
+					<br/>Putting distinct objects/people in distinct places, e.g. making people sit, putting letters in envelopes, finishing order in horse race etc.
+					<br/>Selection of batting order of a cricket team of 11 from 16 members = 16P11
+					<br/>Number of ways in which n different beads can be arranged in a necklace is ½ X (n-1)!
+					
+					<br/><b>Understanding SELECTION & ARRANGEMENTS</b>
+					<br/>SELECTION:
+					<br/>Suppose we have 3 men A, B, C out of which 2 men have to be selected for 2 posts. This can be done in the following ways: AB, AC or BC. Physically they can be counted as 3 distinct selections. This value can also be got be using 3C2
+					<br/>ARRANGEMENTS: 
+					<br/>Suppose we have 3 men A, B, C  out of which 2 men have to be arranged , this can be done in 6 ways: AB, BA, AC, CA, BC, CB. This value can also be get using 3P2
+					<br/>Relationship between Permutation & Combination:
+					<br/>nPr  = r! X  nCr (Or in other words: The permutation or arrangement of r things out of n is nothing but the selection of r thing out of n followed by the arrangement of r selected things amongst themselves.
+					<br/><b>Important things for questions solving:-</b> 
+					<br/>1. Number of permutation (arrangements) of n different things taken all at a time = n!
+					<br/>2. In case of circular arrangement clockwise and anticlockwise arrangements are distinct arrangements, therefore total arrangement = (n-1)! (If clockwise & anticlockwise observation is same then no. of arrangements = ½ X (n-1)!)
+					<br/>3. If out of n arrangements P1, P2 & P3 are alike then number of arrangements
+					<br/>= n!/(P1!X P2!X P3!)
+					<br/>4. Number of selection from n identical things = 1
+					<br/>5. Total number of selection of zero or more things out of n different things = 
+					<br/>nC0 +nC1+nC2+…………..+nCn = 2^n
+					<br/>If at least 1 has to be selected nC1+nC2+…………..+nCn = 2^n– 1
+					<br/>6. If there are three things to do and there are M ways of doing first thing, N ways of doing 2nd thing & P ways of doing 3rd thing, then there will be M X N X P ways of doing all three things together. The works are mutually inclusive.
+					<br/>7. “Distributing” n things to r people
+					<br/>= n+r-1Cr-1	(When each person may get any number of things)
+					<br/>= n-1Cr-1	(When each person may get any number of things excluding “0”)
+					<br/>8. If “n Different” things has be distributed among “r different person” then number of ways of doing it =  r^n
+					<br/>9. Number of ways of dividing m+n different things in 2 groups containing m and n things respectively = (m+n)!/m!n!
+					<br/>10. Number of ways of dividing 2n different things in 2 groups containing n things = 2n!/n!n!2!
+					<br/>11. Number of selection of r things out of n different things, when k are
+					<br/>Always included  = n-kCr-k
+					<br/>Always Excluded = n-kCr
+					<br/>12. Number of ways of selecting 0 to n things out of n things where p are of 1 type, q are of other type and r of another type = (p+1)(q+1)(2^r-1)
+					<br/>13. Number of terms in series (a0 + a1 + a2 +⋯………..+ an )^m = n+m-1Cn-1
+					<br/>14. Number of ways of shake hands by n people = nC2 (Could also be used where 2 teams, and anywhere where 2 groups/people required to perform any action.)
+					<br/>15. If a square is made by n horizontal and n vertical lines then total number of square
+					<br/>= 1^2+ 2^2+ 3^2+⋯………..n^2
+
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>In how many different ways can the letters of the word ‘JUDGE’ be arranged in such a way that the vowels always come together?</b>
+					<br/>The word 'LEADER' contains 6 letters namely 1L , 2 E, 1A,1D, and 1R.
+					<br/>= 6! / (1!) (2!) (1!) (2!)
+					<br/>= 360.
+					"},
+					{"example2":
+					"
+					<b>In how many ways can the letters of the word 'LEADER' be arranged?</b>
+					<br/>If Pat has a homework grade of 92, a quiz grade of 68, and a test grade of 81, then
+					<br/>Pat's overall grade = (0.10)(92) + (0.20)(68) + (0.70)(81)= 79.5
+					
+					"}
+					],
+		"practices":
+					[
+					{
+						"question1":"In how many different ways can the letters of the word ‘JUDGE’ be arranged in such a way that the vowels always come together?", "answer1":"48", "option1":"48;120;124;160",
+						"explanation1":
+						"
+						<br/>The word JUDGE has 5 different letters.
+						<br/>When, the vowels UE are always together, they can be supposed to form one letter.
+						<br/>Then, we have to arrange the letters JDG(UE).
+						<br/>Now, 4 letters can be arranged in 4! = 24 ways.
+						<br/>The vowels (UE) can be arranged in 2!= 2 ways.
+						<br/>Required number of ways	= (24 x 2)
+						<br/>	= 48.
+					"
+					},
+					{"question2":"In how many ways can the letters of the word 'LEADER' be arranged?", "answer2":"360", "option2":"72;144;360;720",
+					 "explanation2":
+					 "
+					 <br/>The word 'LEADER' contains 6 letters namely 1L , 2 E, 1A,1D, and 1R.
+					<br/>Required number of ways	= 6! / (1!) (2!) (1!) (2!)
+					<br/>	= 360.
+					 
+					 "},
+					 {"question3":"In how many ways can a group of 5 men and 2 women be made out of a total of 7 men and 3 women?", "answer3":"63", "option3":"63;90;126;145",
+					 "explanation3":
+					 "
+					 <br/>Required number of ways	= (7C2 ×3C2)
+					<br/>	= (7C2 ×3C1)
+					<br/>	= ( 7 ×6 / 2 ×1 ×3)		
+					<br/>	‹=›63.		
+					 
+					 "},
+					 {"question4":"How many 3-digit numbers can be formed from the digits 2, 3, 5, 6, 7 and 9 which are divisible by 5 and none of the digits is repeated?", "answer4":"20", "option4":"5;10;15;20",
+					 "explanation4":
+					 "
+					 <br/>Since each desired number is divisible by 5, so we must have 5 at the unit place. So, there is 1 way of doing it.
+					<br/>Tens place can be filled by any of the remaining 5 numbers.
+					<br/>So, there are 5 ways of filling the tens place.
+					<br/>The hundreds place can now be filled by any one of the remaining 4 digits. So there are 4 ways of filling it.
+					<br/>Required number of numbers(1x5x4) = 20
+					 
+					 "},
+					 {"question5":"In how many different ways can the letters of the word 'RUMOUR' be arranged?", "answer5":"180", "option5":"180;90;30;720",
+					 "explanation5":
+					 "
+					 <br/>The word 'RUMOUR' contains 6 letters, namely 2R, 2U, 1M and 1U.
+					<br/>Required number of ways	= 6 ! / (2!) (2!) (1!) (1 !)	
+					<br/>	‹=›180..	
+					 
+					 "},
+					 {"question6":"The value of 75P2 is", "answer6":"5550", "option6":"2775;750;5550;None of these",
+					 "explanation6":
+					 "
+					 <br/>75P2
+					<br/>	= 75 ! / 73 !
+					<br/>	‹=› 75 x 74 x (73!) / 73!
+					<br/>	‹=› (75 x 74).
+					<br/>	‹=› 5550.
+					 
+					 "},
+					 {"question7":"A box contains 2 white balls, 3 black balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?", "answer7":"64", "option7":"48;64;69;71",
+					 "explanation7":
+					 "
+					 <br/>we may have(1 black and 2 non-black) or ( 2 black and 1 non black) or ( 3 black).
+					<br/>Required number of ways	‹=›(3C1 × 6C2) + (3C2 ˜6C1) + (3C3)
+					<br/>	‹=›(3 x 6 x 5 / 2 x 1) + (3 x 2 / 2 x 1 x 6) + 1
+					<br/>	‹=› (45 + 18 + 1)
+					<br/>	= 64.
+					 
+					 "},
+					 {"question8":"How many words can be formed from the letters of the word 'SIGNATURE' so that the vowels always come together?", "answer8":"17280", "option8":"720;1440;2880;17280",
+					 "explanation8":
+					 "
+					 <br/>The word SIGNATURE has 9 different letters.
+					<br/>When, the vowels IAUE are always together, they can be supposed to form one letter.
+					<br/>Then, we have to arrange the letters SGNTR (IAUE).
+					<br/>These 6 letters can be arranged in 6P6= 6 ! = 720 ways.
+					<br/>The vowels (IAUE) can be arranged in 4P4 = 4! = 24 ways.
+					<br/>Required number of ways	= (720 x 24)
+					<br/>	= 17280..
+					 
+					 "},
+					 {"question9":"Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?", "answer9":"25200", "option9":"210;1050;25200;21400",
+					 "explanation9":
+					 "
+					<br/>Number of ways of selecting (3 consonants out of 7) and (2 vowels out of 4)
+					<br/>     	= (7C3 x 4C2)
+					<br/>	=	 	7 x 6 x 5	x	4 x 3	 
+					<br/>		3 x 2 x 1		2 x 1	
+					<br/>	= 210.
+					<br/>Number of groups, each having 3 consonants and 2 vowels = 210.
+					<br/>Each group contains 5 letters.
+					<br/>Number of ways of arranging 
+					<br/>5 letters among themselves	= 5!
+					<br/>	= 5 x 4 x 3 x 2 x 1
+					<br/>	= 120.
+					<br/>  Required number of ways = (210 x 120) = 25200.
+					 
+					 "},
+					 {"question10":"In how many ways a committee, consisting of 5 men and 6 women can be formed from 8 men and 10 women?", "answer10":"11760", "option10":"266;5040;11760;86400",
+					 "explanation10":
+					 "
+					 <br/>Required number of ways	= (8C5 x 10C6)
+					<br/>	= (8C3 x 10C4)
+					<br/>	=  	8 x 7 x 6	x	10 x 9 x 8 x 7	 
+					<br/>	3 x 2 x 1		4 x 3 x 2 x 1	
+					<br/>	= 11760.
+					 
+					 "},
+					 {"question11":"In how many different ways can the letters of the word 'DETAIL' be arranged in such a way that the vowels occupy only the odd positions?", "answer11":"36", "option11":"32;48;36;60",
+					 "explanation11":
+					 "
+					 <br/>There are 6 letters in the given word, out of which there are 3 vowels and 3 consonants.
+					<br/>Let us mark these positions as under:
+					<br/>(1) (2) (3) (4) (5) (6)
+					<br/>Now, 3 vowels can be placed at any of the three places out 4, marked 1, 3, 5.
+					<br/>Number of ways of arranging the vowels = 3P3 = 3! = 6.
+					<br/>Also, the 3 consonants can be arranged at the remaining 3 positions.
+					<br/>Number of ways of these arrangements = 3P3 = 3! = 6.
+					<br/>Total number of ways = (6 x 6) = 36.
+					 
+					 "},
+					 {"question12":"How many different four letter words can be formed (the words need not be meaningful) using the letters of the word 'MEDITERRANEAN' such that the first letter is E and the last letter is R?", "answer12":"59", "option12":"59;11!/2!x2!x2!;56;23",
+					 "explanation12":
+					 "
+					 <br/>The first letter is E and the last one is R.
+					<br/>Therefore, one has to find two more letters from the remaining 11 letters.
+					<br/>Of the 11 letters, there are 2 Ns, 2Es and 2As and one each of the remaining 5 letters.
+					<br/>The second and third positions can either have two different letters or have both the letters to be the same.
+					<br/>Case 1: When the two letters are different. One has to choose two different letters from the 8 available different choices. This can be done in 8 * 7 = 56 ways.
+					<br/>Case 2: When the two letters are same. There are 3 options - the three can be either Ns or Es or As. Therefore, 3 ways.
+					<br/>Total number of posssibilities = 56 + 3 = 59
+					 
+					 "},
+					 {"question13":"In how many ways can 5 letters be posted in 3 post boxes, if any number of letters can be posted in all of the three post boxes?", "answer13":"3^5", "option13":"5C3;5P3;5^3;3^5",
+					 "explanation13":
+					 "
+					 <br/>The first letter can be posted in any of the 3 post boxes. Therefore, it has 3 choices.
+					<br/>Similarly, the second, the third, the fourth and the fifth letter can each be posted in any of the 3 post boxes.
+					<br/>Therefore, the total number of ways the 5 letters can be posted in 3 boxes is 3*3*3*3*3
+					<br/>= 35
+					 
+					 "},
+					 {"question14":"In how many ways can the letters of the word 'PROBLEM' be rearranged to make 7 letter words such that none of the letters repeat?", "answer14":"7!", "option14":"7!;7C7;7^7;49",
+					 "explanation14":
+					 "
+					 <br/>There are seven positions to be filled.
+					<br/>The first position can be filled using any of the 7 letters contained in PROBLEM.
+					<br/>The second position can be filled by the remaining 6 letters as the letters should not repeat.
+					<br/>The third position can be filled by the remaining 5 letters only and so on.
+					<br/>Therefore, the total number of ways of rearranging the 7 letter word = 7*6*5*4*3*2*1 = 7! Ways.
+					 
+					 "},
+					 {"question15":"In how many different ways can the letters of the word 'OPTICAL' be arranged so that the vowels always come together?", "answer15":"720", "option15":"120;720;4320;2160",
+					 "explanation15":
+					 "
+					 <br/>The word 'OPTICAL' contains 7 different letters.
+					<br/>When the vowels OIA are always together, they can be supposed to form one letter.
+					<br/>Then, we have to arrange the letters PTCL (OIA).
+					<br/>Now, 5 letters can be arranged in 5! = 120 ways.
+					<br/>The vowels (OIA) can be arranged among themselves in 3! = 6 ways.
+					<br/>  Required number of ways = (120 x 6) = 720.
+					 
+					 "}					 					
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Interest",
+		"contents":
+					[ {"content1":
+					"
+					<br/>When a sum of money is lent by A to B, A is called the lender (creditor), B the borrower (debtor). The sum lent is called the principal (P).Interest (I) is the extra money paid by the borrower to lender for the use of money for a specified time.Time for which the money is borrowed is called period (N).
+					The interest paid per 100 in a year is called rate % per annum (R).Sum of Interest (I) and principal is called Amount (A); A = P+I
+
+					<br/><b>Simple Interest (SI):-</b>
+					<br/>When interest is paid as it falls due, it is called simple interest, i.e., throughout the loan period, interest is charged on the original sum (prinicipal) borrowed:
+					<br/>SI = PNR/100
+					<br/><br/><b>Compound Interest (CI):-</b>
+					<br/>When interest is added to the principal over a fix period of time, and new interest is calculated on this increased principal, The differenence between the amount and money borrowed is called compound interest.					
+					<br/>Case 1:- When interest is compounded annually.
+					<br/>A = P[1+(R/100)]^N
+					<br/>Case 2: When interest is compounded half yearly.
+					<br/>A = P[1+(R/200)]^2N
+					<br/>Case 3: When interest is compounded quarterly.
+					<br/>A = P[1+(R/400)]^4N
+					<br/>Case 3: When interest is compounded quarterly.
+					<br/>A = P[1+(R/400)]^4N
+					
+					<br/><b>Important Application</b>
+					<br/><b>1:-</b> In CI when rates are different for different years, say R1, R2, R3 then
+					<br/>A = P(1+ R1/100)(1+R2/100)(1+R3/100)
+					<br/><b>2:-</b> Value of machine or any other object decrease with time. This decrease is called depreication.
+					<br/> Thus if U is the value at a certain time and R% per annum is the rate of depreciation, then the value V at the end of N years
+					<br/>V = U[1- (R/100)]^N
+					<br/><b>3:-</b> The original population of a town is P and the annual increase is R%, then the population of the town in N years
+					<br/>=P[1+(R/100)]^N
+					<br/>If the population decreases by R %, then the population of the town in N years 
+					<br/>= P[1- (R/100)]^N
+					<br/><b>4:-</b> In hire purchase, the amound paid at the time of purchase is called down payment. The remainder is paid in equal monthly installments
+					<br/>Monthly Installment  = (Amount to be paid  - Down payment)/ Number of installments
+					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
+					<br/>At the end of the year we have Interest=1000Ãƒâ€”5%=1000Ãƒâ€”5/100=1000Ãƒâ€”0.05=50
+					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
+					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
+
+					"},
+					{"example2":
+					"
+					<b>Find the compound amount and compound interest on the principal 20,000 borrowed at 6% compounded annually for 3 years.</b>
+					<br/>Let P = 20000
+					<br/>R = 6%
+					<br/>N = 3
+					<br/>using A = P[1+(R/100)]^N
+					<br/> (compound amount)
+					<br/>Compound interest  = 23820.32 Ã¢â‚¬â€œ 20000 = 3820.32
+					"}
+		],
+		"practices":
+					[
+					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
+					"explanation1":
+					"
+					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
+					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
+					<br/>		100				100		
+					<br/>  28x - 22x = 350800 - (13900 x 22)
+					<br/>  6x = 45000
+					<br/>  x = 7500.
+					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
+					"},
+					{"question2":"A lent Rs.5000 to B for 2 years and Rs. 3000 to C for 4 years on simple interest at the same rate of interest and received Rs.2200 in all from both of them as interest. The rate of interest per annum is", "answer2":"10%", "option2":"5%;7%;8%;10%",
+					"explanation2":
+					"
+					<br/>Let the rate be R% p.a.
+					<br/>Then,	(5000xRx2/100) + (3000xRx4/100)
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº100R+120R= 2200
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬ÂºR=(2200/220)
+					<br/>Rate Ã¢â‚¬Â¹=Ã¢â‚¬Âº10%.
+					"},
+					{"question3":"What will be the ratio of simple interest earned by certain amount at the same rate of interest for 6 years and that for 9 years?", "answer3":"2:3", "option3":"1:3;1:4;2:3;Data inadequate",
+					"explanation3":
+					"
+					<br/>Let the principal be P and rate of interest be R%.
+					<br/>Required ratio =	 	P x R x 6	 
+					<br/>	100	
+					<br/>	=	6PR	=	6	= 2 : 3.
+					<br/>	 	P x R x 9	 
+					<br/>	100	
+					<br/>		9PR		9	
+					"},
+					{"question4":"A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9. p.c.p.a in 5 years. What is the sum?", "answer4":"Rs.8925", "option4":"Rs.4462.50;Rs.8032.50;Rs.8900;Rs.8925",
+					"explanation4":
+					"
+					<br/>Principal	= Rs. (100Ãƒâ€”4016.25 / 9Ãƒâ€”5)
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº Rs. (401625/45)
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº Rs. 8925.
+
+					"},
+					{"question5":"The simple interest on Rs. 1820 from march 9, 2003 to may 21, 2003 at 7x1/2% rate will be", "answer5":"Rs.27.30", "option5":"Rs.22.50;Rs.27.30;Rs.28.80;Rs.29",
+					"explanation5":
+					"
+					<br/>Time	= (22+30+21) days
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº73 days.
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº 1/5 year.
+					<br/>S.I	= Rs. (1820Ãƒâ€”15/2Ãƒâ€”1/5Ãƒâ€”1/100)
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬ÂºRs. 27.30.
+
+					"},
+					{"question6":"On a sum of money, the simple interest for 2 years is Rs.660, while the compound interest is Rs.696.30, the rate of interest being the same in both the cases. The rate of interest is", "answer6":"11%", "option6":"10%;11%;12%;10.5%",
+					"explanation6":
+					"
+					<br/>Difference in C.I and S.I for 2 years	= Rs(696.30-660)
+					<br/>=Rs. 36.30.
+					<br/>S.I for one years	= Rs330.
+					<br/>S.I on Rs.330 for 1 year	=Rs. 36.30
+					<br/>Rate	= (100x36.30/330x1)%
+					<br/>	=11%.
+
+					"},
+					{"question7":"The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:", "answer7":"4", "option7":"3;4;5;6",
+					"explanation7":
+					"
+					<br/>P	 	1 +	20	 	n	> 2P	         	 	6	 	n	> 2.
+					<br/>100						5			
+
+					<br/>Now,	 	6	x	6	x	6	x	6	 	> 2.
+					<br/>		5		5		5		5		
+					<br/>So, n = 4 years.
+
+					"},
+					{"question8":"What will be the compound interest on a sum of Rs.25,000 after 3 years at the rate of 12 p.c.p.a?", "answer8":"Rs. 10123.20", "option8":"Rs.9000.30;Rs.9270;Rs. 10123.20;Rs. 10483.20",
+					"explanation8":
+					"
+					<br/>Amount	= Rs.(25000x(1+12/100)Ã‚Â³
+					<br/>=Rs.(25000x28/25x28/25x28/25)
+					<br/>= Rs. 35123.20.
+					<br/>C.I	=Rs(35123.20-25000)
+					<br/>=Rs.10123.20.
+
+					"},
+					{"question9":"If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?", "answer9":"Rs. 51.25", "option9":"Rs. 51.25;Rs. 52;Rs. 54.25;Rs. 60",
+					"explanation9":
+					"
+					<br/>Sum = Rs.	 	50 x 100	 	= Rs. 500.
+					<br/>2 x 5		
+
+					<br/>Amount	= Rs.	 	500 x	 	1 +	5	 	2	 
+					<br/>100			
+
+					<br/>= Rs.	 	500 x	21	x	21	 
+					<br/>20		20	
+
+					<br/>= Rs. 551.25
+  					<br/>C.I. = Rs. (551.25 - 500) = Rs. 51.25
+
+					"},
+					{"question10":"The compound interest on Rs.30,000 at 7% per annum is Rs.4347. The period (in years) is", "answer10":"2", "option10":"2;2Ã‚Â½;3;4",
+					"explanation10":
+					"
+					<br/>Amount	=Rs(30000 + 4347)
+					<br/>= Rs.34347.
+					<br/>Let the time be n years.	
+					<br/>Then, 30000(1+7/100)^n	
+					<br/>= 34347.
+					<br/>=34347/3000
+					<br/>=11449/1000
+					<br/>=(107/100)^n
+					<br/>n= 2years.
+					"},
+					{"question11":"Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?", "answer11":"Rs.  8820", "option11":"Rs.  8600;Rs.  8620;Rs.  8820;None of these",
+					"explanation11":
+					"
+				<br/>Amount	= Rs.	 	8000 x	 	1 +	5	 	2	 
+				<br/>100			
+				<br/>= Rs.	 	8000 x	21	x	21	 
+				<br/>		20		20	
+				<br/>= Rs. 8820.
+					"},
+					{"question12":"At what rate percent per annum will the simple interest on a sum of money be 2/5 of the amount in 10 years?", "answer12":"4%", "option12":"2%;4%;6%;11%",
+					"explanation12":
+					"
+					<br/>Let sum = x
+					<br/>Time	= 10 years.
+					<br/>Then, S.I	= 2x /5,
+					<br/>Rate	=(100 Ãƒâ€”2x / xÃƒâ€”5Ãƒâ€”10)%
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº4%.
+
+					"},
+					{"question13":"At what percent per annum will a sum of money double in 16 years?", "answer13":"6x1/4%", "option13":"6x1/4%;5X3/2%;7X2/3%;None of these",
+					"explanation13":
+					"
+					<br/>Let Principal	= P.
+					<br/>Then,S.I = P and T = 16 yrs.
+					<br/>Rate	= (100Ãƒâ€”P/PÃƒâ€”16)%
+					<br/>= 6Ãƒâ€”1/4%.
+
+					"},
+					{"question14":"The difference between simple interest and compound interest on Rs.1200 for one year at 10% per annum reckoned half yearly is", "answer14":"Rs. 3", "option14":"Rs. 2.50;Rs. 3;Rs. 4;Rs. 3.75",
+					"explanation14":
+					"
+					<br/>S.I	= Rs.(1200x10x1/100)
+					<br/>Rs.120.
+					<br/>C.I	=Rs[(1200x1+5/100)Ã‚Â² -1200]
+					<br/>Rs.123.
+					<br/>Difference	= Rs.[123-120]
+					<br/>Rs. 3.
+
+					"},
+					{"question15":"Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest", "answer15":"6", "option15":"3.6.6;5;6;18",
+					"explanation15":
+					"
+					<br/>Let rate = R% and time = R years. Then
+					<br/>(1200 x R x R / 100)	Ã¢â‚¬Â¹=Ã¢â‚¬Âº 432	
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº12R2 = 432	
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬ÂºR2 = 36	
+					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº 6.	
+
+					"}
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Mixture & Alligation",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Mixture is based on the concept of weighted average.
+					<br/><b>Type of mixture</b><br/>
+					<br/><b>Simple Mixture:-</b> When two different ingredients are mixed together, it is known as a simple mixture.
+					<br/><b>Compound Mixture:-</b> When two or more simple mixtures are mixed together to form another mixture, it is known as a compound mixture.
+					<br/><b>Important Points:-</b>
+					<br/><b>1:-</b>When two ingredients are mixed together in different ratios to form a mixture, the ratio of the quantities of the two constituents is given by
+					<br/>Qc: Qd = (d-m): (m-c)
+					<br/>Qc = Cheaper Quantity
+					<br/>Qd = Dearer Quantity
+					<br/>c = Cost Price of unit quantity of cheaper
+					<br/>d = Cost Price of unit quantity of dearer
+					<br/>m = Cost Price of unit quantity of mixture
+					<br/><b>2:-</b>In x gram mixture of milk and water, milk is p %. To make the quantity of milk in the mixture to be q %, the quantity of milk added to the mixture will be =x{(q-p)/(100-q)} (See Example 1)
+					<br/><b>3:-</b>Suppose a container contains x of liquid from which y units are taken out and replaced by water.
+					<br/>After n operations, the quantity of pure liquid = x 1 - y n units. x
+					<br/><b>4:-</b>If P1 and P2 are the prices of two quantities Q1 and Q2, then the average price of the mixture, given by Pm
+					<br/><b>5:-</b>Pm = (See Example 2)
+					<br/>This can also represented as: 
+					<br/>P2 P1
+					<br/>Pm Pm-P1 P2-Pm
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>In a 60 liters mixture of milk and water, the quantity of milk is 5 %. In how much quantity, should milk be added to this mixture so that the quantity of milk in the mixture becomes 15 % ?</b>
+					<br/>Here in this question:
+					<br/>X= 60 liters,         p= 5 %,                 q= 15 %
+					<br/>The quantity of milk to be added  to the mixture to make it 15 % in mixture-
+	                <br/>=60*{(15-5)/(100-15)
+	                <br/>=60*(10/85)
+	                <br/>=120/17 liters 
+
+					"},
+					{"example2":
+					"
+					<b>Tea worth $126 per kg are mixed with a third variety in the ratio 1: 1 : 2. If the mixture is worth $153 per kg, the price of the third variety per kg will be</b>
+					<br/>Since first second varieties are mixed in equal proportions, so their average price = $(126+135/2) = $130.50
+					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
+					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
+					 
+					<br/> x-153/22.50 = 1 =Ã¢â‚¬Âº x - 153 = 22.50 =Ã¢â‚¬Âº x=175.50.
+					<br/>Hence, price of the third variety = $175.50 per kg.
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
+					"explanation1":
+					"
+					<br/>Amount of milk left after 3 operations
+					"},
+					{"question2":"A merchant has 100 lbs of sugar, part of which he sells at 7% profit and the rest at 17% profit. He gains 10 % on the whole. Find how much is sold at 7% profit? ", "answer2":"70 lbs", "option2":"70 lbs;40 lbs;80 lbs;95 lbs",
+					"explanation2":
+					"
+					<br/>Let's say price per lbs is $10 
+					<br/>7% profit over $10 is 10.7 
+					<br/>A merchant bought x lbs at $10.7 
+					<br/>17% profit over $10 is 11.7 
+					<br/>A merchant bought y lbs at $11.7 
+					<br/>10% profit over $10 is 11 
+					<br/>A merchant bought (x+y) lbs at $11 
+					<br/>10.7(X) + 11.7(y) = 11(x+y) 
+					<br/>10.7(X) + 11.7(y) = 11x + 11y 
+					<br/>0.7(y) = 0.3 x 
+					<br/>Only possible values here would be x = 70 and y = 30 
+
+					"},
+					{"question3":"", "answer3":"7 : 9", "option3":"4 : 3;6 : 9;7 : 9;5 : 6",
+					"explanation3":
+					"
+					<br/>Let the C.P. of spirit be Re. 1 litre.
+					<br/>Spirit in 1 litre mix. of A = 5/7 litre, C.P. of 1 litre mix. in A = Re. 5/7
+					<br/>Spirit in 1 litre mix. of B = 7/13 litre, C.P. of 1 litre mix. in B = Re. 7/13
+					<br/>Spirit in 1 litre mix. of C = 8/13 litre, Mean price = Re. 8/13.
+					<br/>By the rule of alligation, we have:
+					<br/>Cost of 1 litre mixture in A	Cost of 1 litre mixture in B
+					<br/>Required ratio = 1/13 : 9/91 = 7 : 9.
+
+					"},
+					{"question4":"A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?", "answer4":"21", "option4":"21;25;10;15",
+					"explanation4":
+					"
+					<br/>Suppose the can initially contains 7x and 5x litres of mixtures A and B respectively
+					<br/>Quantity of A in mixture left 
+					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
+					<br/>Quantity of B in mixture left 
+					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
+					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = Ã¢â‚¬Âº 28x - 21/20x + 21 = 7/9 =Ã¢â‚¬Âº 252x - 189 = 140x + 147
+					<br/> 	=Ã¢â‚¬Âº 112x = 336 =Ã¢â‚¬â„¢ x = 3.
+
+					"},
+					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
+					"explanation5":
+					"
+					<br/>Let the quantity of the wine in the cask originally be x litres
+					<br/>then, quantity of wine left in cask after 4 operations
+					<br/>= [x(1- 8/x)4] litres.
+					<br/>Therefore x(1- 8/x)4 / x = 16/81 =Ã¢â‚¬Âº (1- 8/x)4 = (2/3)2 
+					<br/>=Ã¢â‚¬Âº (x - 8 / x) = 2/3 =Ã¢â‚¬Âº 3x - 24 = 2x =Ã¢â‚¬Âº x = 24.
+
+					"},
+					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
+					"explanation6":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg sugar of 1st kind	C.P. of 1 kg sugar of 2nd kind 
+					<br/>Ratio of quantities of 1st and 2nd kind = 14 : 6 = 7 : 3.
+					<br/>Let x kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.
+					<br/>Then, 7 : 3 = x : 27 or x = (7 x 27 / 3) = 63 kg.
+
+					"},
+					{"question7":"In what ratio must rice at $9.30 per Kg be mixed with rice at $10.80 per Kg so that the mixture be worth $10 per Kg?", "answer7":"8 : 7", "option7":"8 : 7;7 : 8;8 : 9;9 : 8",
+					"explanation7":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg rice of 1st kind (in paise)	C.P. of 1 kg rice of 2nd kind (in paise)
+					<br/>Required ratio = 80 : 70 = 8 : 7.
+
+					"},
+					{"question8":"In what ratio must be a grocer mix two varities of tea worth $60 a kg and $65 a Kg so that by selling the mixture at $68.20 a Kg he may gain 10%?", "answer8":"3 : 2", "option8":"3 : 4;3 : 2;3 : 5;4 : 5",
+					"explanation8":
+					"
+					<br/>S.P. of 1 kg of the mixture = $ 68.20, Gain = 10 %
+					<br/>C.P. of 1 kg of the mixture = $ (100 / 110 x 68.20) = $ 62.
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg tea of 1st kind	C.P. of 1 kg tea of 2nd kind
+					<br/>Required ratio = 3 : 2.
+
+					"},
+					{"question9":"The cost of Type 1 rice is $15 per kg and Type 2 rice is $20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is", "answer9":"$ 18", "option9":"$ 19.50;$ 19;$ 18;$ 18.50",
+					"explanation9":
+					"
+					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
+					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
+					<br/>(20-x)/(x-15) = 2/3 =Ã¢â‚¬Âº 60 - 3x = 2x - 30
+					<br/>=Ã¢â‚¬Âº 5x = 90 =Ã¢â‚¬Âº x = 18.
+					<br/>so, price of the mixture is $ 18 per kg.
+
+					"},
+					{"question10":"In what ratio must water be mixed with milk costing $12 per litre to obtain a mixture worth of $8 per litre?", "answer10":"1 : 2", "option10":"1 : 2;2 : 1;4 : 3;5 : 3",
+					"explanation10":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 litre of water	C.P. of 1 litre of milk
+					<br/>Ratio of water to milk = 4 : 8 = 1 : 2
+
+					"},
+					{"question11":"", "answer11":"2 : 3", "option11":"1 : 3;2 : 3;3 : 4;4 : 5",
+					"explanation11":
+					"
+					<br/>By the rule of alligation:
+					<br/>Cost of 1 kg rice of 1st kind	Cost of 1 kg rice of 2nd kind
+					<br/>Required ratio = 60 : 90 = 2 : 3
+
+					"},
+					{"question12":"One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat?", "answer12":"$ 10.80", "option12":"$ 12.47;$ 10.80;$ 15.17;$ 47.66",
+					"explanation12":
+					"
+					<br/>Let the rate of second quality be Rs x per Kg.
+					<br/>C.P of 1Kg wheat of 1st kind = 930p 
+					<br/>C.P of 1 Kg wheat of 2nd kind = 100x p 
+					<br/>Mean price = 1000p
+					<br/>By rule of alligation we have required ratio 8 : 7
+					<br/>   930                         x
+					<br/> 
+					<br/>         \                  /
+					<br/>        (Mean Price)
+					<br/>                (10)
+					<br/>         /                  \
+					<br/> 
+					<br/>   x-10        :          0.7     ::       8        :          7
+					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
+					<br/>Ã¢â€¡â€™ x = 10.80 per Kg
+
+					"},
+					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
+					"explanation13":
+					"
+					<br/>Distance covered in 1 hour on foot = 8 km 
+					<br/>Distance covered in 1 hour on bicycle = 17 km
+					<br/>Average distance covered in 1 hour = 90/9 km   = 10km (mean distance)
+					<br/>Distance covered in        Distance covered in
+					<br/>1 hour on foot                  1 hour on bicycle
+					<br/>      (8 km)                                  (17 km)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                     Mean Distance
+					<br/>                           (10 km)
+					<br/>                    /                        \
+					<br/> 
+					<br/>     (17 Ã¢â‚¬â€œ 10)          :           (10 Ã¢â‚¬â€œ 8)
+					<br/>            7                                   2 
+					<br/>Thus out of 9 hours, he took 7 hours on foot
+					<br/>Distance covered on foot  = (8 Ãƒâ€” 7) Km  = 56 km
+
+					"},
+					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
+					"explanation14":
+					"
+					<br/>C.P of 1 Kg                   C.P of 1 Kg
+					<br/>rice of 1st                   rice of 2nd
+					<br/>kind (930p)                kind (1080p)
+					<br/> 
+					<br/>             \                        /
+					<br/>                Mean Price
+					<br/>                  (1000p)
+					<br/>             /                       \
+					<br/> 
+					<br/>              (1080 Ã¢â‚¬â€œ 1000)  :        (1000 -  930)
+					<br/>                      80                             70
+					<br/>Thus, required ratio = 80 : 70 = 8 : 7
+
+					"},
+					{"question15":"In what proportion must rice at $ 3.10 per kg be mixed with rice at $ 3.60 per kg so that the mixture be worth $ 3.25 per kg?", "answer15":"7 : 3", "option15":"3 : 7;5 : 3;3 : 5;7 : 3",
+					"explanation15":
+					"
+					<br/>C.P of a unit quantity of 1st kind  = 310p (in paise)
+					<br/>C.P of a unit quantity of 2nd kind  = 360p
+					<br/>Mean price = 325p
+					<br/>C.P of unit quantity         C.P of unit quantity
+					<br/>of 1st kind                         of 2nd kind
+					<br/>    (310p)                         (360p)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                        Mean Price
+					<br/>                         (325p)
+					<br/>                    /                        \
+					<br/> 
+					<br/> (360 Ã¢â‚¬â€œ 325)          :           (325 Ã¢â‚¬â€œ 310)
+					<br/>       35                                       15
+					<br/>
+					<br/>Required ratio = 35 : 15 = 7 : 3
+					<br/>They must be mixed in the ratio 7 : 3
+
+					"}
+					]
+	},	
+	{
+		"num":"4",
+		"topic":"Parternship",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Parternship is the relation between two or more person who have agreed to run a business jointly and share the profits.
+					<br/>If the capitals of the partners are invested for the same period, the partnership is called simple, and for different period, is called compound.
+					<br/><br/><b>Simple Partnership:-</b> 
+					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
+					<br/>If A and B are partners in a business, then
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/><br/><b>Compound Partnership:-</b> 
+					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
+					<br/>If A and B are partners in a business, then
+					<br/>(Monthly equivalent installment of A)/((Monthly equivalent installment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>If Jammie $ 2000 and Robb invested for $ 1000  for a period of 12 months. If they earned a profit of $ 300 at the end of year, what will be their share?</b>
+					<br/>As we know 
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/> So Profit of Jammie/Profit of Robb = 2000/1000 = 2/1
+					<br/>Share of Jammie = (2/3)*300 = $200
+					<br/>Share of Robb = (1/3)*300 = $100
+
+					"},
+					{"example2":
+					"
+					<b>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</b>
+					<br/>Solution	Let the total profit be Rs. 100.
+					<br/>After paying to charity, A's share = Rs.	 	95 x	3	 	= Rs. 57.
+					<br/>If A's share is Rs. 57, total profit = Rs. 100.
+					<br/>If A's share Rs. 855, total profit =	 	100	x 855	 	= 1500.
+				
+					"}],
+		"practices":
+					[ 
+					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
+					"explanation1":
+					"
+					<br/>Let the total profit be $ 100.
+					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
+					<br/>If A's share is $ 57, total profit = $ 100.
+					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
+					"},
+					{"question2":"A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest $ 6500 for 6 months, B, $ 8400 for 5 months and C, $ 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was $ 7400. Calculate the share of B in the profit.", "answer2":"$ 2660", "option2":"$ 1900;$ 2000;$ 2660;$ 2840",
+					"explanation2":
+					"
+					<br/>For managing, A received = 5% of $ 7400 = $ 370.
+					<br/>Balance = $ (7400 - 370) = $ 7030.
+					<br/>Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
+					<br/>   = 39000 : 42000 : 30000
+					<br/>   = 13 : 14 : 10
+					 <br/> B's share = $	 	7030 x	14	 	= $ 2660.
+
+					"},
+					{"question3":"A, B, C subscribe $ 50,000 for a business. A subscribes $ 4000 more than B and B $ 5000 more than C. Out of a total profit of $ 35,000, A receives:", "answer3":"$ 14700", "option3":"$ 8400;$ 11900;$ 13000;$ 14700",
+					"explanation3":
+					"
+					<br/>Let C = x.
+					<br/>Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
+					<br/>So, x + x + 5000 + x + 9000 = 50000
+					<br/>  3x = 36000
+					<br/> x = 12000
+					<br/>A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
+					<br/>  A's share = $	 	35000 x	21	 	= $ 14,700.
+
+					"},
+					{"question4":"Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?", "answer4":"20 : 49 : 64", "option4":"5:7:8;20 : 49 : 64;38 : 28 : 21;None of these",
+					"explanation4":
+					"
+					<br/>Let their investments be $ x for 14 months, $ y for 8 months and $ z for 7 months respectively.
+					<br/>Then, 14x : 8y : 7z = 5 : 7 : 8.
+					<br/>Now,	14x	=	5	        98x = 40y         y =	49	x
+					<br/>	8y		7		20	
+					<br/>And,	14x	=	5	        112x = 35z         z =	112	x =	16	x.
+					<br/>	7z		8		35		5	
+					<br/> x : y : z = x :	49	x	:	16	x	= 20 : 49 : 64.
+
+					"},
+					{"question5":"A starts business with $ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?", "answer5":"$ 9000", "option5":"$ 7500;$ 8000;$ 8500;$ 9000",
+					"explanation5":
+					"
+					<br/>Let B's capital be $ x.
+					<br/>Then,	 	3500 x 12	=	2	 
+					<br/>		7x		3	
+					<br/>  14x = 126000
+					<br/>  x = 9000.
+
+					"},
+					{"question6":"A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?", "answer6":"6 : 10 : 5", "option6":"3 : 5 : 2;3 : 5 : 5;6 : 10 : 5;4 :  5 : 2 ",
+					"explanation6":
+					"
+					<br/>Let the initial investments of A and B be 3x and 5x.
+					<br/>A : B : C = (3x x 12) : (5x x 12) : (5x x 6) = 36 : 60 : 30 = 6 : 10 : 5.
+
+					"},
+					{"question7":"A and B started a business in partnership investing $ 20,000 and $ 15,000 respectively. After six months, C joined them with $ 20,000. What will be B's share in total profit of $ 25,000 earned at the end of 2 years from the starting of the business?", "answer7":"$ 7500", "option7":"$ 7500;$ 9000;$ 9500;$ 10000",
+					"explanation7":
+					"
+					<br/>A : B : C = (20,000 x 24) : (15,000 x 24) : (20,000 x 18) = 4 : 3 : 3.
+					<br/> B's share = $	 	25000 x	3	 	= $ 7,500.
+					"},
+					{"question8":"P and Q started a business investing $85,000 and $15,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?", "answer8":"17 : 3", "option8":"3 : 4;3 : 5;15 : 23;17 : 3",
+					"explanation8":
+					"
+					<br/>P : Q = 85000 : 15000
+					<br/>=85 : 15
+					<br/>=17 : 3
+					"},
+					{"question9":"Sam and Jack started a business investing $22,500 and $35,000 respectively. Out of a total profit of $ 13,800. Jack's share is", "answer9":"$ 8400 ", "option9":"$ 5400;$ 7200;$ 8400 ;$ 9600",
+					"explanation9":
+					"
+					<br/>Ratio of their shares	= 22500 : 35000
+					<br/>	=9 : 14.
+					<br/>Jack's share	= $(13800Ãƒâ€”14/23)
+					<br/>	= $ 8400.
+
+					"},
+					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
+					"explanation10":
+					"
+					<br/>Rebakah : Haley : Juely	=(8000Ãƒâ€”6):(4000Ãƒâ€”8):(8000Ãƒâ€”8)
+					<br/>	= 48 : 32 : 64
+					<br/>	= 3 : 2 : 4.
+					<br/>Haley's share	= $4005Ãƒâ€”2/9)
+					<br/>	= $890.
+					"},
+					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
+					"explanation11":
+					"
+					<br/>Suppose B joined after x months.
+					<br/>Then,	21000Ãƒâ€”12=36000Ãƒâ€”(12 - x)
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº36x=180
+					<br/>	= x= 5.
+					"},
+					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
+					"explanation12":
+					"
+					<br/>Suppose Y invested $y
+					<br/>Then,	40000 /y = 2 / 3
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=(40000Ãƒâ€”3 / 2).
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=60000.
+
+					"},
+					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
+					"explanation13":
+					"
+					<br/>A : B : C	=(10Ãƒâ€”7):(12Ãƒâ€”5):(15Ãƒâ€”3)
+					<br/>	= 70 :60 :45
+					<br/>	= 14 :12 :9
+					<br/>c's rent	=$(175Ãƒâ€”9/35)
+					<br/>	= $45.
+
+					"},
+					{"question14":"Lord Tyrion started a software business by investing $ 50,000. After six months, Lord Tivion joined her with a capital of $ 80,000. After 3 years, they earned a profit of $ 24,500. What was Lord Tyrion's share in the profit?", "answer14":"$ 10500", "option14":"$ 9423;$ 10250;$ 12500;$ 10500",
+					"explanation14":
+					"
+					<br/>Lord Tyrion : Lord Tivion = (50000 x 36) : (80000 x 30) = 3 : 4.
+					<br/>  Lord Tyrion's share = $	 	24500 x	3	 	= $ 10,500.
+
+					"},
+					{"question15":"A began a business with $ 85,000. He was joined afterwards by B with $ 42,500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?", "answer15":"8 months", "option15":"4 months;5 months;6 months;8 months",
+					"explanation15":
+					"
+					<br/>Suppose B joined for x months. Then,
+					<br/>Then,	 	85000 x 12	=	3	 
+					<br/>		42500 x x		1	
+					<br/>  x =	 	85000 x 12	 	= 8.
+					<br/>		42500 x 3		
+					<br/>So, B joined for 8 months.
+
+					"}
+					]
+	}
+	
+]
