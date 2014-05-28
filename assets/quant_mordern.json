@@ -250,468 +250,448 @@
 	},
 	{
 		"num":"2",
-		"topic":"Interest",
+		"topic":"Probability",
 		"contents":
 					[ {"content1":
 					"
-					<br/>When a sum of money is lent by A to B, A is called the lender (creditor), B the borrower (debtor). The sum lent is called the principal (P).Interest (I) is the extra money paid by the borrower to lender for the use of money for a specified time.Time for which the money is borrowed is called period (N).
-					The interest paid per 100 in a year is called rate % per annum (R).Sum of Interest (I) and principal is called Amount (A); A = P+I
+					<br/><b>1.	Experiment:</b>
+					<br/>An operation which can produce some well-defined outcomes is called an experiment.
+					<br/><b>2.	Random Experiment:</b>
+					<br/>An experiment in which all possible outcomes are known and the exact output cannot be predicted in advance, is called a random experiment.
+					<br/><b>Examples:</b>
+					<br/>i.	Rolling an unbiased dice.
+					<br/>ii.	Tossing a fair coin.
+					<br/>iii.	Drawing a card from a pack of well-shuffled cards.
+					<br/>iv.	Picking up a ball of certain color from a bag containing balls of different colors.
+					<br/><b>Details:</b>
+					<br/>v.	When we throw a coin, then either a Head (H) or a Tail (T) appears.
+					<br/>vi.	A dice is a solid cube, having 6 faces, marked 1, 2, 3, 4, 5, 6 respectively. When we throw a die, the outcome is the number that appears on its upper face.
+					<br/>vii.	A pack of cards has 52 cards.
+					<br/>It has 13 cards of each suit, name Spades, Clubs, Hearts and Diamonds.
+					<br/>Cards of spades and clubs are black cards.
+					<br/>Cards of hearts and diamonds are red cards.
+					There are 4 honours of each unit.
+					<br/>There are Kings, Queens and Jacks. These are all called face cards.
+					<br/><b>3.	Sample Space:</b>
+					<br/>When we perform an experiment, then the set S of all possible outcomes is called the sample space.
+					<br/><b>Examples:</b>
+					<br/>1.	In tossing a coin, S = {H, T}
+					<br/>2.	If two coins are tossed, the S = {HH, HT, TH, TT}.
+					<br/>3.	In rolling a dice, we have, S = {1, 2, 3, 4, 5, 6}.
+					<br/><b>Event:</b>
+					<br/>Any subset of a sample space is called an event.
+					<br/>Probability of Occurrence of an Event:
+					<br/>Let S be the sample and let E be an event.
+					<br/>Then, E   S.
+					<br/>  P(E) =	n(E)	.
+					<br/>	n(S)	
+					<br/>	Results on Probability:
+					<br/> .	P(S) = 1
+					<br/>i.	0   P (E)   1
+					<br/>ii.	P( ) = 0
+					<br/>iii.	For any events A and B we have : P(A   B) = P(A) + P(B) - P(A   B)
+					<br/>iv.	If A denotes (not-A), then P(A) = 1 - P(A).
 
-					<br/><b>Simple Interest (SI):-</b>
-					<br/>When interest is paid as it falls due, it is called simple interest, i.e., throughout the loan period, interest is charged on the original sum (prinicipal) borrowed:
-					<br/>SI = PNR/100
-					<br/><br/><b>Compound Interest (CI):-</b>
-					<br/>When interest is added to the principal over a fix period of time, and new interest is calculated on this increased principal, The differenence between the amount and money borrowed is called compound interest.					
-					<br/>Case 1:- When interest is compounded annually.
-					<br/>A = P[1+(R/100)]^N
-					<br/>Case 2: When interest is compounded half yearly.
-					<br/>A = P[1+(R/200)]^2N
-					<br/>Case 3: When interest is compounded quarterly.
-					<br/>A = P[1+(R/400)]^4N
-					<br/>Case 3: When interest is compounded quarterly.
-					<br/>A = P[1+(R/400)]^4N
-					
-					<br/><b>Important Application</b>
-					<br/><b>1:-</b> In CI when rates are different for different years, say R1, R2, R3 then
-					<br/>A = P(1+ R1/100)(1+R2/100)(1+R3/100)
-					<br/><b>2:-</b> Value of machine or any other object decrease with time. This decrease is called depreication.
-					<br/> Thus if U is the value at a certain time and R% per annum is the rate of depreciation, then the value V at the end of N years
-					<br/>V = U[1- (R/100)]^N
-					<br/><b>3:-</b> The original population of a town is P and the annual increase is R%, then the population of the town in N years
-					<br/>=P[1+(R/100)]^N
-					<br/>If the population decreases by R %, then the population of the town in N years 
-					<br/>= P[1- (R/100)]^N
-					<br/><b>4:-</b> In hire purchase, the amound paid at the time of purchase is called down payment. The remainder is paid in equal monthly installments
-					<br/>Monthly Installment  = (Amount to be paid  - Down payment)/ Number of installments
 					
 					"					
 					}],
 		"examples":
 					[ {"example1":
 					"
-					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
-					<br/>At the end of the year we have Interest=1000Ãƒâ€”5%=1000Ãƒâ€”5/100=1000Ãƒâ€”0.05=50
-					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
-					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
-
+					<b>A number X is chosen at random from the numbers -3, -2, -1, 0, 1, 2, 3. What is the probability that |X|<2</b>
+					<br/>X can take 7 values.
+					<br/>To get |X|<2 ( i.e., −2<X<+2) take X={−1,0,1}
+					<br/>⇒ P(|X|<2)=
+					<br/>Favourable Cases
+					<br/>Total Cases
+					<br/>= 3/7
 					"},
 					{"example2":
 					"
-					<b>Find the compound amount and compound interest on the principal 20,000 borrowed at 6% compounded annually for 3 years.</b>
-					<br/>Let P = 20000
-					<br/>R = 6%
-					<br/>N = 3
-					<br/>using A = P[1+(R/100)]^N
-					<br/> (compound amount)
-					<br/>Compound interest  = 23820.32 Ã¢â‚¬â€œ 20000 = 3820.32
+					<b>Two brother X and Y appeared for an exam. The probability of selection of X is 1/7 and that of B is 2/9. Find the probability that both of them are selected.</b>
+					<br/>Let A be the event that X is selected and B is the event that Y is selected.
+					<br/>P(A)= (1/7),
+					<br/>P(B)= (2/9)
+					<br/>Let C be the event that both are selected.
+					<br/>P(C)=P(A)×P(B) as A and B are independent events: 
+					<br/>=(1/7) X (2/9)
+					<br/>= 2/63
+
 					"}
 		],
 		"practices":
 					[
-					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
-					"explanation1":
-					"
-					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
-					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
-					<br/>		100				100		
-					<br/>  28x - 22x = 350800 - (13900 x 22)
-					<br/>  6x = 45000
-					<br/>  x = 7500.
-					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
-					"},
-					{"question2":"A lent Rs.5000 to B for 2 years and Rs. 3000 to C for 4 years on simple interest at the same rate of interest and received Rs.2200 in all from both of them as interest. The rate of interest per annum is", "answer2":"10%", "option2":"5%;7%;8%;10%",
-					"explanation2":
-					"
-					<br/>Let the rate be R% p.a.
-					<br/>Then,	(5000xRx2/100) + (3000xRx4/100)
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº100R+120R= 2200
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬ÂºR=(2200/220)
-					<br/>Rate Ã¢â‚¬Â¹=Ã¢â‚¬Âº10%.
-					"},
-					{"question3":"What will be the ratio of simple interest earned by certain amount at the same rate of interest for 6 years and that for 9 years?", "answer3":"2:3", "option3":"1:3;1:4;2:3;Data inadequate",
-					"explanation3":
-					"
-					<br/>Let the principal be P and rate of interest be R%.
-					<br/>Required ratio =	 	P x R x 6	 
-					<br/>	100	
-					<br/>	=	6PR	=	6	= 2 : 3.
-					<br/>	 	P x R x 9	 
-					<br/>	100	
-					<br/>		9PR		9	
-					"},
-					{"question4":"A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9. p.c.p.a in 5 years. What is the sum?", "answer4":"Rs.8925", "option4":"Rs.4462.50;Rs.8032.50;Rs.8900;Rs.8925",
-					"explanation4":
-					"
-					<br/>Principal	= Rs. (100Ãƒâ€”4016.25 / 9Ãƒâ€”5)
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº Rs. (401625/45)
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº Rs. 8925.
-
-					"},
-					{"question5":"The simple interest on Rs. 1820 from march 9, 2003 to may 21, 2003 at 7x1/2% rate will be", "answer5":"Rs.27.30", "option5":"Rs.22.50;Rs.27.30;Rs.28.80;Rs.29",
-					"explanation5":
-					"
-					<br/>Time	= (22+30+21) days
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº73 days.
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº 1/5 year.
-					<br/>S.I	= Rs. (1820Ãƒâ€”15/2Ãƒâ€”1/5Ãƒâ€”1/100)
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬ÂºRs. 27.30.
-
-					"},
-					{"question6":"On a sum of money, the simple interest for 2 years is Rs.660, while the compound interest is Rs.696.30, the rate of interest being the same in both the cases. The rate of interest is", "answer6":"11%", "option6":"10%;11%;12%;10.5%",
-					"explanation6":
-					"
-					<br/>Difference in C.I and S.I for 2 years	= Rs(696.30-660)
-					<br/>=Rs. 36.30.
-					<br/>S.I for one years	= Rs330.
-					<br/>S.I on Rs.330 for 1 year	=Rs. 36.30
-					<br/>Rate	= (100x36.30/330x1)%
-					<br/>	=11%.
-
-					"},
-					{"question7":"The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:", "answer7":"4", "option7":"3;4;5;6",
-					"explanation7":
-					"
-					<br/>P	 	1 +	20	 	n	> 2P	         	 	6	 	n	> 2.
-					<br/>100						5			
-
-					<br/>Now,	 	6	x	6	x	6	x	6	 	> 2.
-					<br/>		5		5		5		5		
-					<br/>So, n = 4 years.
-
-					"},
-					{"question8":"What will be the compound interest on a sum of Rs.25,000 after 3 years at the rate of 12 p.c.p.a?", "answer8":"Rs. 10123.20", "option8":"Rs.9000.30;Rs.9270;Rs. 10123.20;Rs. 10483.20",
-					"explanation8":
-					"
-					<br/>Amount	= Rs.(25000x(1+12/100)Ã‚Â³
-					<br/>=Rs.(25000x28/25x28/25x28/25)
-					<br/>= Rs. 35123.20.
-					<br/>C.I	=Rs(35123.20-25000)
-					<br/>=Rs.10123.20.
-
-					"},
-					{"question9":"If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?", "answer9":"Rs. 51.25", "option9":"Rs. 51.25;Rs. 52;Rs. 54.25;Rs. 60",
-					"explanation9":
-					"
-					<br/>Sum = Rs.	 	50 x 100	 	= Rs. 500.
-					<br/>2 x 5		
-
-					<br/>Amount	= Rs.	 	500 x	 	1 +	5	 	2	 
-					<br/>100			
-
-					<br/>= Rs.	 	500 x	21	x	21	 
-					<br/>20		20	
-
-					<br/>= Rs. 551.25
-  					<br/>C.I. = Rs. (551.25 - 500) = Rs. 51.25
-
-					"},
-					{"question10":"The compound interest on Rs.30,000 at 7% per annum is Rs.4347. The period (in years) is", "answer10":"2", "option10":"2;2Ã‚Â½;3;4",
-					"explanation10":
-					"
-					<br/>Amount	=Rs(30000 + 4347)
-					<br/>= Rs.34347.
-					<br/>Let the time be n years.	
-					<br/>Then, 30000(1+7/100)^n	
-					<br/>= 34347.
-					<br/>=34347/3000
-					<br/>=11449/1000
-					<br/>=(107/100)^n
-					<br/>n= 2years.
-					"},
-					{"question11":"Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?", "answer11":"Rs.  8820", "option11":"Rs.  8600;Rs.  8620;Rs.  8820;None of these",
-					"explanation11":
-					"
-				<br/>Amount	= Rs.	 	8000 x	 	1 +	5	 	2	 
-				<br/>100			
-				<br/>= Rs.	 	8000 x	21	x	21	 
-				<br/>		20		20	
-				<br/>= Rs. 8820.
-					"},
-					{"question12":"At what rate percent per annum will the simple interest on a sum of money be 2/5 of the amount in 10 years?", "answer12":"4%", "option12":"2%;4%;6%;11%",
-					"explanation12":
-					"
-					<br/>Let sum = x
-					<br/>Time	= 10 years.
-					<br/>Then, S.I	= 2x /5,
-					<br/>Rate	=(100 Ãƒâ€”2x / xÃƒâ€”5Ãƒâ€”10)%
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº4%.
-
-					"},
-					{"question13":"At what percent per annum will a sum of money double in 16 years?", "answer13":"6x1/4%", "option13":"6x1/4%;5X3/2%;7X2/3%;None of these",
-					"explanation13":
-					"
-					<br/>Let Principal	= P.
-					<br/>Then,S.I = P and T = 16 yrs.
-					<br/>Rate	= (100Ãƒâ€”P/PÃƒâ€”16)%
-					<br/>= 6Ãƒâ€”1/4%.
-
-					"},
-					{"question14":"The difference between simple interest and compound interest on Rs.1200 for one year at 10% per annum reckoned half yearly is", "answer14":"Rs. 3", "option14":"Rs. 2.50;Rs. 3;Rs. 4;Rs. 3.75",
-					"explanation14":
-					"
-					<br/>S.I	= Rs.(1200x10x1/100)
-					<br/>Rs.120.
-					<br/>C.I	=Rs[(1200x1+5/100)Ã‚Â² -1200]
-					<br/>Rs.123.
-					<br/>Difference	= Rs.[123-120]
-					<br/>Rs. 3.
-
-					"},
-					{"question15":"Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest", "answer15":"6", "option15":"3.6.6;5;6;18",
-					"explanation15":
-					"
-					<br/>Let rate = R% and time = R years. Then
-					<br/>(1200 x R x R / 100)	Ã¢â‚¬Â¹=Ã¢â‚¬Âº 432	
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº12R2 = 432	
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬ÂºR2 = 36	
-					<br/>Ã¢â‚¬Â¹=Ã¢â‚¬Âº 6.	
-
-					"}
-					]
+					{"question1":"A number X is chosen at random from the numbers -3, -2, -1, 0, 1, 2, 3. What is the probability that |X|<2", "answer1":"3/7", "option1":"5/7;3/7;3/5;1/3",
+					 "explanation1":
+					 "
+					 <br/>X can take 7 values.
+					<br/>To get |X|<2 ( i.e., −2<X<+2) take X={−1,0,1}
+					<br/>⇒ P(|X|<2)=
+					<br/>Favourable Cases
+					<br/>Total Cases
+					<br/>= 3/7
+					 
+					 "},
+					{"question2":"Two brother X and Y appeared for an exam. The probability of selection of X is 1/7 and that of B is 2/9. Find the probability that both of them are selected.", "answer2":"2/63", "option2":"1/63;2/35;2/63;9/14",
+					 "explanation2":
+					 "
+					 <br/>Let A be the event that X is selected and B is the event that Y is selected.
+					<br/>P(A)= (1/7),
+					<br/>P(B)= (2/9)
+					<br/>Let C be the event that both are selected.
+					<br/>P(C)=P(A)×P(B) as A and B are independent events: 
+					<br/>=(1/7) X (2/9)
+					<br/>= 2/63
+					 
+					 "},
+					 {"question3":"An urn contains 6red, 5 blue and 2 green marbles. If 2 marbles are picked at random, what is the probability that both are red?", "answer3":"5/26", "option3":"6/13;5/26;5/13;9/26",
+					 "explanation3":
+					 "
+					 <br/>P(Both are red) = 6C2/13C2 = 5/26
+					 
+					 "},
+					 {"question4":"Four dice are thrown simultaneously. Find the probability that all of them show the same face.", "answer4":"1/216", "option4":"1/216;1/36;4/216;3/216",
+					 "explanation4":
+					 "
+					 <br/>The total number of elementary events associated to the random experiments of throwing four dice simultaneously is:
+					<br/>=6×6×6×6=64
+					<br/>n(S)=64
+					<br/>Let X be the event that all dice show the same face. 
+					<br/>X ={(1,1,1,1,),(2,2,2,2),(3,3,3,3),(4,4,4,4),(5,5,5,5),(6,6,6,6)}
+					<br/>n(X)=6
+					<br/>Hence required probability = n(X)/n(S)
+					<br/>= (6/6^4)
+					<br/>= 1/216
+					 
+					 "},
+					 {"question5":"What is the probability that a number selected from numbers 1,2,3,...,30, is prime number, when each of the given numbers is equally likely to be selected?", "answer5":"10/30", "option5":"9/30;8/30;10/30;11/30",
+					 "explanation5":
+					 "
+					 <br/>X ={2,3,5,7,11,13,17,19,23,29}
+					<br/>n(X)=10,n(S)=30
+					<br/>Hence required probability = n(X)/n(S)
+					<br/>= 10/30
+					 
+					 "},
+					 {"question6":"A bag contains 21 toys numbered 1 to 21. A toy is drawn and then another toy is drawn without replacement. Find the probability that both toys will show even numbers.", "answer6":"9/42", "option6":"5/21;9/42;11/42;4/21",
+					 "explanation6":
+					 "
+					 <br/>The probability that first toy shows the even number = (10/21)
+					<br/>Since, the toy is not replaced there are now 9 even numbered toys and total 20 toys left.
+					<br/>Hence, probability that second toy shows the even number = (9/20)
+					<br/>Required probability =(10/21) X (9/20)
+					<br/>= 9/42
+					 
+					 "},
+					 {"question7":"A bag contains 5 red and 3 green balls. Another bag contains 4 red and 6 green balls. If one ball is drawn from each bag. Find the probability that one ball is red and one is green", "answer7":"21/40", "option7":"19/20;17/20;8/10;21/40",
+					 "explanation7":
+					 "
+					 <br/>Let A be the event that ball selected from the first bag is red and ball selected from second bag is green.
+					<br/>Let B be the event that ball selected from the first bag is green and ball selected from second bag is red.
+					<br/>P(A)=(5/8) X (6/10) = 3/8
+					<br/> and 
+					<br/>P(B)=(3/8) X (4/10) = 3/20
+					<br/>Hence required probability =P(A)+P(B)
+					<br/>= (3/8) + (3/20)
+					<br/>= 21/40
+					 
+					 "},
+					 {"question8":"A special lottery is to be held to select a student who will live in the only deluxe room in a hostel. There are 100 Year-III, 150 Year-II and 200 Year-I students who applied. Each Year-III's name is placed in the lottery 3 times; each Year-II's name, 2 times and Year-I's name, 1 time. What is the probability that a Year-III's name will be chosen?", "answer8":"3/8", "option8":"1/8;2/9;2/7;3/8",
+					 "explanation8":
+					 "
+					 <br/>Total names in the lottery =3×100+2×150+200=800
+					<br/>Number of Year-III's names =3×100=300
+					<br/>Required probability: 
+					<br/>= 300/800 = 3/8
+					 
+					 "},
+					 {"question9":"In a charity show tickets numbered consecutively from 101 through 350 are placed in a box. What is the probability that a ticket selected at random (blindly) will have a number with a hundredth digit of 2?", "answer9":"0.40", "option9":"0.285;0.40;100/249;99/250",
+					 "explanation9":
+					 "
+					 <br/>250 numbers between 101 and 350 i.e. n(S)=250
+					<br/>n(E)=100th digits of 2 =299−199=100
+					<br/>P(E)= n(E)/n(S)
+					<br/>= (100/250)
+					<br/>= 0.40
+					 
+					 "},
+					 {"question10":"Derek throws three dice in a special game. If it knows that he needs 15 or higher in this throw to win, then find the chance of his winning the game.", "answer10":"5/54", "option10":"5/54;17/216;15/216;13/216",
+					 "explanation10":
+					 "
+					 <br/>Total cases:
+					<br/>n(S)=6×6×6=216
+					<br/>Favourable cases:
+					<br/>n(X)=20
+					<br/>Required probability = n(X)/n(S)
+					<br/> = 20/216
+					<br/>= 5/54
+					 
+					 "},
+					 {"question11":"A card is drawn from a pack of 52 cards. The card is drawn at random. What is the probability that it is neither a spade nor a Jack?", "answer11":"9/13", "option11":"4/13;2/13;6/13;9/13",
+					 "explanation11":
+					 "
+					 <br/>There are 13 spade and 3 more jack
+					<br/>Probability of getting spade or a jack: 
+					<br/>= (13+3)/52 = 16/52 = 4/13
+					<br/>So probability of getting neither spade nor a jack: 
+					<br/>=1− 4/13
+					<br/>= 9/13
+					 
+					 "},
+					 {"question12":"There are four hotels in a town. If 3 men check into the hotels in a day then what is the probability that each checks into a different hotel?", "answer12":"3/8", "option12":"6/7;1/8;3/8;5/9",
+					 "explanation12":
+					 "
+					 <br/>Total cases of checking in the hotels =4^3 ways.
+					<br/>Cases when 3 men are checking in different hotels =4×3×2=24 ways.
+					<br/>Required probability: 
+					<br/>= 24/4^3
+					<br/>= 3/8
+					 
+					 "},
+					 {"question13":"If x is chosen at random from the set {1,2,3,4} and y is to be chosen at random from the set {5,6,7}, what is the probability that xy will be even?", "answer13":"2/3", "option13":"5/6;1/6;1/2;2/3",
+					 "explanation13":
+					 "
+					 <br/>S ={(1,5),(1,6),(1,7),(2,5),(2,6),(2,7),(3,5),(3,6),(3,7),(4,5),(4,6),(4,7)}
+					<br/>Total element n(S)=12
+					<br/>xy will be even when even x or y or both will be even.
+					<br/>Events of x, y being even is E.
+					<br/>E ={(1,6),(2,5),(2,6),(2,7),(3,6),(4,5),(4,6),(4,7)}
+					<br/>n(E) = 8
+					<br/>P(E)= n(E)/n(S) = 8/12
+					<br/>= 2/3
+					 
+					 "},
+					 {"question14":"Two dice are thrown simultaneously. Find the probability of getting a multiple of 2 on one dice and multiple of 3 on the other dice.", "answer14":"11/36", "option14":"5/12;11/36;5/36;13/36",
+					 "explanation14":
+					 "
+					 <br/>Let X be required events and S be the sample space,
+					<br/>then X ={(2,3),(2,6),(4,3),(4,6),(6,3),(6,6),(3,2),(6,2),(3,4),(6,4),(3,6)}
+					<br/>n(X)=11,n(S)=36
+					<br/>Hence, required probability = n(X)/n(S)
+					<br/>= 11/36
+					 
+					 "},
+					 {"question15":"In a race where 12 cars are running, the chance that car X will win is 1/6, that Y will win is 1/10 and that Z will win is 1/8. Assuming that a dead heat is impossible. Find the chance that one of them will win.", "answer15":"47/120", "option15":"47/120;1/480;1/160;1/240",
+					 "explanation15":
+					 "
+					 <br/>Required probability =P(X)+P(Y)+P(Z) (all the events are mutually exclusive).
+					<br/>= 1/6 + 1/10 + 1/8 = 47/120
+					 
+					 "}					]
 	},
 	{
 		"num":"3",
-		"topic":"Mixture & Alligation",
+		"topic":"Logarithm",
 		"contents":
 					[ {"content1":
 					"
-					<br/>Mixture is based on the concept of weighted average.
-					<br/><b>Type of mixture</b><br/>
-					<br/><b>Simple Mixture:-</b> When two different ingredients are mixed together, it is known as a simple mixture.
-					<br/><b>Compound Mixture:-</b> When two or more simple mixtures are mixed together to form another mixture, it is known as a compound mixture.
-					<br/><b>Important Points:-</b>
-					<br/><b>1:-</b>When two ingredients are mixed together in different ratios to form a mixture, the ratio of the quantities of the two constituents is given by
-					<br/>Qc: Qd = (d-m): (m-c)
-					<br/>Qc = Cheaper Quantity
-					<br/>Qd = Dearer Quantity
-					<br/>c = Cost Price of unit quantity of cheaper
-					<br/>d = Cost Price of unit quantity of dearer
-					<br/>m = Cost Price of unit quantity of mixture
-					<br/><b>2:-</b>In x gram mixture of milk and water, milk is p %. To make the quantity of milk in the mixture to be q %, the quantity of milk added to the mixture will be =x{(q-p)/(100-q)} (See Example 1)
-					<br/><b>3:-</b>Suppose a container contains x of liquid from which y units are taken out and replaced by water.
-					<br/>After n operations, the quantity of pure liquid = x 1 - y n units. x
-					<br/><b>4:-</b>If P1 and P2 are the prices of two quantities Q1 and Q2, then the average price of the mixture, given by Pm
-					<br/><b>5:-</b>Pm = (See Example 2)
-					<br/>This can also represented as: 
-					<br/>P2 P1
-					<br/>Pm Pm-P1 P2-Pm
+					<br/>If a is a positive real number, other than 1 and am = x, then we write:
+					<br/>m = logax and we say that the value of log x to the base a is m.
+					<br/><b>Examples:</b>
+					<br/>(i). 103 1000       log10 1000 = 3.
+					<br/>(ii). 34 = 81       log3 81 = 4.
+					<br/>(iii). 2-3 =	1	      log2	1	= -3.
+					<br/>	8		8	
+					<br/>(iv). (.1)2 = .01       log(.1) .01 = 2.
+					<br/><b>Properties of Logarithms:</b>
+					<br/>1. loga (xy) = loga x + loga y
+					<br/>2. loga	 	x	 	= loga x - loga y
+					<br/>		Y		
+					<br/>3. logx x = 1
+					<br/>4. loga 1 = 0
+					<br/>5. loga (xn) = n(loga x)
+					<br/>6. loga x =	1
+					<br/>	logx a
+					<br/>7. loga x =	logb x	=	log x	.
+					<br/>	logb a		log a	
+					<br/>	Base Change Rule
+					<br/>	log_a⁡〖b= 〗  log_c⁡〖b/〗  log_c⁡a
+					<br/>	log_b⁡〖a= 〗  log_c⁡〖a/〗  log_b⁡c
+					<br/>	log_a⁡〖b= 〗 1/ log_b⁡a
+					<br/>	log c to the base a^b is equal to 〖(log〗_a⁡〖c)/b 〗
+					<br/>	The Characteristic and Mantissa of a Logarithm
+					<br/>The logarithm of number consists of two parts: the integral part and the decimal part. The integral part is known as the characteristic and the decimal part is called mantissa
+					<br/><b>For example,</b>
+					<br/>In log 3257 = 3.5128, the integral part is 3 and mantissa is .5128
+					<br/><b>Note:-</b>Mantissa is always to be written as positive. So in case the value of logarithm o f a number is negative, subtract 1 from the integral part and add 1 to the decimal part.
+					<br/>Thus, -3.4328 = -3 – 0.4328
+					<br/>= (-3 – 1) + (1 – 0.4328) = -4 + .5672 
+					<br/>So the mantissa is .5672
+					<br/>The characteristic may be positive or negative. When characteristic is negative it is represented by putting a bar on the number. 
+					<br/>Thus instead of -4, we write 4 ̅
+					<br/>Hence we may write -4 + .5672 = 4 ̅.5672
 					
 					"}],
 		"examples":
 					[ {"example1":
 					"
-					<b>In a 60 liters mixture of milk and water, the quantity of milk is 5 %. In how much quantity, should milk be added to this mixture so that the quantity of milk in the mixture becomes 15 % ?</b>
-					<br/>Here in this question:
-					<br/>X= 60 liters,         p= 5 %,                 q= 15 %
-					<br/>The quantity of milk to be added  to the mixture to make it 15 % in mixture-
-	                <br/>=60*{(15-5)/(100-15)
-	                <br/>=60*(10/85)
-	                <br/>=120/17 liters 
+					<b>If log 27 = 1.431, then the value of log 9 is:</b>
+					<br/>log 27 = 1.431
+					<br/>  log (33 ) = 1.431
+					<br/>  3 log 3 = 1.431
+					<br/>  log 3 = 0.477
+					<br/>  log 9 = log(32 ) = 2 log 3 = (2 x 0.477) = 0.954.
 
 					"},
 					{"example2":
 					"
-					<b>Tea worth $126 per kg are mixed with a third variety in the ratio 1: 1 : 2. If the mixture is worth $153 per kg, the price of the third variety per kg will be</b>
-					<br/>Since first second varieties are mixed in equal proportions, so their average price = $(126+135/2) = $130.50
-					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
-					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
-					 
-					<br/> x-153/22.50 = 1 =Ã¢â‚¬Âº x - 153 = 22.50 =Ã¢â‚¬Âº x=175.50.
-					<br/>Hence, price of the third variety = $175.50 per kg.
-
+					<b>If log10 2 = 0.3010, then log2 10 is equal to:</b>
+					<br/>log2 10 =1/ log10 2
+					<br/>= 1/0.3010
+					<br/>= 1000/301
 					"}],
 		"practices":
 					[					
-					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
-					"explanation1":
-					"
-					<br/>Amount of milk left after 3 operations
-					"},
-					{"question2":"A merchant has 100 lbs of sugar, part of which he sells at 7% profit and the rest at 17% profit. He gains 10 % on the whole. Find how much is sold at 7% profit? ", "answer2":"70 lbs", "option2":"70 lbs;40 lbs;80 lbs;95 lbs",
-					"explanation2":
-					"
-					<br/>Let's say price per lbs is $10 
-					<br/>7% profit over $10 is 10.7 
-					<br/>A merchant bought x lbs at $10.7 
-					<br/>17% profit over $10 is 11.7 
-					<br/>A merchant bought y lbs at $11.7 
-					<br/>10% profit over $10 is 11 
-					<br/>A merchant bought (x+y) lbs at $11 
-					<br/>10.7(X) + 11.7(y) = 11(x+y) 
-					<br/>10.7(X) + 11.7(y) = 11x + 11y 
-					<br/>0.7(y) = 0.3 x 
-					<br/>Only possible values here would be x = 70 and y = 30 
-
-					"},
-					{"question3":"", "answer3":"7 : 9", "option3":"4 : 3;6 : 9;7 : 9;5 : 6",
-					"explanation3":
-					"
-					<br/>Let the C.P. of spirit be Re. 1 litre.
-					<br/>Spirit in 1 litre mix. of A = 5/7 litre, C.P. of 1 litre mix. in A = Re. 5/7
-					<br/>Spirit in 1 litre mix. of B = 7/13 litre, C.P. of 1 litre mix. in B = Re. 7/13
-					<br/>Spirit in 1 litre mix. of C = 8/13 litre, Mean price = Re. 8/13.
-					<br/>By the rule of alligation, we have:
-					<br/>Cost of 1 litre mixture in A	Cost of 1 litre mixture in B
-					<br/>Required ratio = 1/13 : 9/91 = 7 : 9.
-
-					"},
-					{"question4":"A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?", "answer4":"21", "option4":"21;25;10;15",
-					"explanation4":
-					"
-					<br/>Suppose the can initially contains 7x and 5x litres of mixtures A and B respectively
-					<br/>Quantity of A in mixture left 
-					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
-					<br/>Quantity of B in mixture left 
-					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
-					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = Ã¢â‚¬Âº 28x - 21/20x + 21 = 7/9 =Ã¢â‚¬Âº 252x - 189 = 140x + 147
-					<br/> 	=Ã¢â‚¬Âº 112x = 336 =Ã¢â‚¬â„¢ x = 3.
-
-					"},
-					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
-					"explanation5":
-					"
-					<br/>Let the quantity of the wine in the cask originally be x litres
-					<br/>then, quantity of wine left in cask after 4 operations
-					<br/>= [x(1- 8/x)4] litres.
-					<br/>Therefore x(1- 8/x)4 / x = 16/81 =Ã¢â‚¬Âº (1- 8/x)4 = (2/3)2 
-					<br/>=Ã¢â‚¬Âº (x - 8 / x) = 2/3 =Ã¢â‚¬Âº 3x - 24 = 2x =Ã¢â‚¬Âº x = 24.
-
-					"},
-					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
-					"explanation6":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg sugar of 1st kind	C.P. of 1 kg sugar of 2nd kind 
-					<br/>Ratio of quantities of 1st and 2nd kind = 14 : 6 = 7 : 3.
-					<br/>Let x kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.
-					<br/>Then, 7 : 3 = x : 27 or x = (7 x 27 / 3) = 63 kg.
-
-					"},
-					{"question7":"In what ratio must rice at $9.30 per Kg be mixed with rice at $10.80 per Kg so that the mixture be worth $10 per Kg?", "answer7":"8 : 7", "option7":"8 : 7;7 : 8;8 : 9;9 : 8",
-					"explanation7":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg rice of 1st kind (in paise)	C.P. of 1 kg rice of 2nd kind (in paise)
-					<br/>Required ratio = 80 : 70 = 8 : 7.
-
-					"},
-					{"question8":"In what ratio must be a grocer mix two varities of tea worth $60 a kg and $65 a Kg so that by selling the mixture at $68.20 a Kg he may gain 10%?", "answer8":"3 : 2", "option8":"3 : 4;3 : 2;3 : 5;4 : 5",
-					"explanation8":
-					"
-					<br/>S.P. of 1 kg of the mixture = $ 68.20, Gain = 10 %
-					<br/>C.P. of 1 kg of the mixture = $ (100 / 110 x 68.20) = $ 62.
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg tea of 1st kind	C.P. of 1 kg tea of 2nd kind
-					<br/>Required ratio = 3 : 2.
-
-					"},
-					{"question9":"The cost of Type 1 rice is $15 per kg and Type 2 rice is $20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is", "answer9":"$ 18", "option9":"$ 19.50;$ 19;$ 18;$ 18.50",
-					"explanation9":
-					"
-					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
-					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
-					<br/>(20-x)/(x-15) = 2/3 =Ã¢â‚¬Âº 60 - 3x = 2x - 30
-					<br/>=Ã¢â‚¬Âº 5x = 90 =Ã¢â‚¬Âº x = 18.
-					<br/>so, price of the mixture is $ 18 per kg.
-
-					"},
-					{"question10":"In what ratio must water be mixed with milk costing $12 per litre to obtain a mixture worth of $8 per litre?", "answer10":"1 : 2", "option10":"1 : 2;2 : 1;4 : 3;5 : 3",
-					"explanation10":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 litre of water	C.P. of 1 litre of milk
-					<br/>Ratio of water to milk = 4 : 8 = 1 : 2
-
-					"},
-					{"question11":"", "answer11":"2 : 3", "option11":"1 : 3;2 : 3;3 : 4;4 : 5",
-					"explanation11":
-					"
-					<br/>By the rule of alligation:
-					<br/>Cost of 1 kg rice of 1st kind	Cost of 1 kg rice of 2nd kind
-					<br/>Required ratio = 60 : 90 = 2 : 3
-
-					"},
-					{"question12":"One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat?", "answer12":"$ 10.80", "option12":"$ 12.47;$ 10.80;$ 15.17;$ 47.66",
-					"explanation12":
-					"
-					<br/>Let the rate of second quality be Rs x per Kg.
-					<br/>C.P of 1Kg wheat of 1st kind = 930p 
-					<br/>C.P of 1 Kg wheat of 2nd kind = 100x p 
-					<br/>Mean price = 1000p
-					<br/>By rule of alligation we have required ratio 8 : 7
-					<br/>   930                         x
-					<br/> 
-					<br/>         \                  /
-					<br/>        (Mean Price)
-					<br/>                (10)
-					<br/>         /                  \
-					<br/> 
-					<br/>   x-10        :          0.7     ::       8        :          7
-					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
-					<br/>Ã¢â€¡â€™ x = 10.80 per Kg
-
-					"},
-					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
-					"explanation13":
-					"
-					<br/>Distance covered in 1 hour on foot = 8 km 
-					<br/>Distance covered in 1 hour on bicycle = 17 km
-					<br/>Average distance covered in 1 hour = 90/9 km   = 10km (mean distance)
-					<br/>Distance covered in        Distance covered in
-					<br/>1 hour on foot                  1 hour on bicycle
-					<br/>      (8 km)                                  (17 km)
-					<br/> 
-					<br/>                     \                       /
-					<br/>                     Mean Distance
-					<br/>                           (10 km)
-					<br/>                    /                        \
-					<br/> 
-					<br/>     (17 Ã¢â‚¬â€œ 10)          :           (10 Ã¢â‚¬â€œ 8)
-					<br/>            7                                   2 
-					<br/>Thus out of 9 hours, he took 7 hours on foot
-					<br/>Distance covered on foot  = (8 Ãƒâ€” 7) Km  = 56 km
-
-					"},
-					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
-					"explanation14":
-					"
-					<br/>C.P of 1 Kg                   C.P of 1 Kg
-					<br/>rice of 1st                   rice of 2nd
-					<br/>kind (930p)                kind (1080p)
-					<br/> 
-					<br/>             \                        /
-					<br/>                Mean Price
-					<br/>                  (1000p)
-					<br/>             /                       \
-					<br/> 
-					<br/>              (1080 Ã¢â‚¬â€œ 1000)  :        (1000 -  930)
-					<br/>                      80                             70
-					<br/>Thus, required ratio = 80 : 70 = 8 : 7
-
-					"},
-					{"question15":"In what proportion must rice at $ 3.10 per kg be mixed with rice at $ 3.60 per kg so that the mixture be worth $ 3.25 per kg?", "answer15":"7 : 3", "option15":"3 : 7;5 : 3;3 : 5;7 : 3",
-					"explanation15":
-					"
-					<br/>C.P of a unit quantity of 1st kind  = 310p (in paise)
-					<br/>C.P of a unit quantity of 2nd kind  = 360p
-					<br/>Mean price = 325p
-					<br/>C.P of unit quantity         C.P of unit quantity
-					<br/>of 1st kind                         of 2nd kind
-					<br/>    (310p)                         (360p)
-					<br/> 
-					<br/>                     \                       /
-					<br/>                        Mean Price
-					<br/>                         (325p)
-					<br/>                    /                        \
-					<br/> 
-					<br/> (360 Ã¢â‚¬â€œ 325)          :           (325 Ã¢â‚¬â€œ 310)
-					<br/>       35                                       15
-					<br/>
-					<br/>Required ratio = 35 : 15 = 7 : 3
-					<br/>They must be mixed in the ratio 7 : 3
-
-					"}
-					]
+					{"question1":"If log 27 = 1.431, then the value of log 9 is:", "answer1":"0.954", "option1":"0.935;0.935;0.954;0.958",
+					 "explanation1":
+					 "
+					<b>If log 27 = 1.431, then the value of log 9 is:</b>
+					<br/>log 27 = 1.431
+					<br/>  log (33 ) = 1.431
+					<br/>  3 log 3 = 1.431
+					<br/>  log 3 = 0.477
+					<br/>  log 9 = log(32 ) = 2 log 3 = (2 x 0.477) = 0.954.
+					 
+					 "},
+					{"question2":"If log10 2 = 0.3010, then log2 10 is equal to:", "answer2":"1000/301", "option2":"699/301;1000/301;0.3010;0.6990",
+					 "explanation2":
+					 "
+					<b>If log10 2 = 0.3010, then log2 10 is equal to:</b>
+					<br/>log2 10 =1/ log10 2
+					<br/>= 1/0.3010
+					<br/>= 1000/301
+					 
+					 "},
+					 {"question3":"If log10 2 = 0.3010, the value of log10 80 is:", "answer3":"1.9030", "option3":"1.6020;1.9030;3.9030;None of these",
+					 "explanation3":
+					 "
+					 <br/>log10 80	= log10 (8 x 10)
+					<br/>	= log10 8 + log10 10
+					<br/>	= log10 (23 ) + 1
+					<br/>	= 3 log10 2 + 1
+					<br/>	= (3 x 0.3010) + 1
+					<br/>	= 1.9030.
+					 
+					 "},
+					 {"question4":"If log10 5 + log10 (5x + 1) = log10 (x + 5) + 1, then x is equal to:", "answer4":"3", "option4":"1;3;5;10",
+					 "explanation4":
+					 "
+					 <br/>log10 5 + log10 (5x + 1) = log10 (x + 5) + 1
+					<br/>  log10 5 + log10 (5x + 1) = log10 (x + 5) + log10 10
+					<br/>  log10 [5 (5x + 1)] = log10 [10(x + 5)]
+					<br/>  5(5x + 1) = 10(x + 5)
+					<br/>  5x + 1 = 2x + 10
+					<br/>  3x = 9
+					<br/>  x = 3.
+					 
+					 "},
+					 {"question5":"If log 2 = 0.30103, the number of digits in 264 is:", "answer5":"20", "option5":"18;19;20;21",
+					 "explanation5":
+					 "
+					 <br/>log (264)	= 64 x log 2
+					<br/>	= (64 x 0.30103)
+					<br/>	= 19.26592
+					<br/>Its characteristic is 19.
+					<br/>Hence, then number of digits in 264 is 20.					 
+					 "},
+					 {"question6":"If ax = by, then:", "answer6":"log⁡a/log⁡b  = y/x", "option6":"loga/b = x/y;log⁡a/log⁡b  = x/y;log⁡a/log⁡b  = y/x;None of these",
+					 "explanation6":
+					 "
+					 <br/>ax = by
+					<br/>  log ax = log by
+					<br/>  x log a = y log b
+					<br/> 	log a	=	y	.
+					<br/>	log b		x	
+					 
+					 "},
+					 {"question7":"If logx y = 100 and log2 x = 10, then the value of y is:", "answer7":"2^1000", "option7":"2^10;2^100;2^1000;2^10000",
+					 "explanation7":
+					 "
+					 <br/>log 2 x = 10           x = 210.
+					<br/>  logx y = 100
+					<br/>  y = x100
+					<br/>  y = (210)100     [put value of x]
+					<br/>  y = 21000.
+					 
+					 "},
+					 {"question8":"The value of log2 16 is:", "answer8":"4", "option8":"1/8;4;8;16",
+					 "explanation8":
+					 "
+					 <br/>Let log2 16 = n.
+					<br/>Then, 2n = 16 = 24           n = 4.
+					<br/>  log2 16 = 4.
+					 
+					 "},
+					 {"question9":"If log 32 x= 0.8, then x is equal to", "answer9":"16", "option9":"25.6;16;10;12",
+					 "explanation9":
+					 "
+					 <br/>log 32 x =0.8.
+					<br/>x=(32)0.8
+					<br/>‹=›(25)4/5
+					<br/>‹=›24
+					<br/>‹=› 16
+					 
+					 "},
+					 {"question10":"If logx 4 = 1/4, then x is equal to", "answer10":"", "option10":"16;64;128;256",
+					 "explanation10":
+					 "
+					 <br/>logx 4 = ¼
+					<br/>‹=› x 1/4
+					<br/>= 4
+					<br/>‹=›x= 44
+					<br/>= 256.
+					 
+					 "},
+					 {"question11":"The value of log2(log5625) is", "answer11":"2", "option11":"2;5;10;15",
+					 "explanation11":
+					 "
+					 <br/>Let log5625	= x.
+					<br/>Then, 5x	= 625
+					<br/>	= 54
+					<br/>	‹=› x=4.
+					<br/>Let log2( log5625)	= y.
+					<br/>Then, log 24= y	
+					<br/>	‹=› 2y= 4
+					<br/>	y;2.
+					 
+					 "},
+					 {"question12":"If ( log 5 5) (log 4 9) (log 3 2) is equal to", "answer12":"1", "option12":"1;3/2;2;5",
+					 "explanation12":
+					 "
+					 <br/>=log 9/log 4 ×log 2/log 3
+					<br/>‹=› log 3²/log 2²×log 2/log3
+					<br/>= 2 log 3/ 2 log 2×log 2/log3
+					<br/>= 1.
+					 
+					 "},
+					 {"question13":"( log b a) (log c b) (log a c) is equal to", "answer13":"1", "option13":"0;1;abc;a+b+c",
+					 "explanation13":
+					 "
+					 <br/> (log a/log b×log b/logc×logc/log a) = 1.
+					 
+					 "},
+					 {"question14":"If log 2 = 0.3010 and log 3 = 0.4771, the values of log5 512 is", "answer14":"3.876", "option14":"2.870;2.967;3.876;3.912",
+					 "explanation14":
+					 "
+					 <br/>= log 512/log 5
+					<br/>‹=›9 log2 /log 10 - log 2
+					<br/>=(9 ×0.3010)/(1 - 0.3010)
+					<br/>‹=› 2.709/0.699
+					<br/>= 3.876.
+					 
+					 "},
+					 {"question15":"The value of log343 7 is", "answer15":"1/3", "option15":"1/3;-3;-1/3;3",
+					 "explanation15":
+					 "
+					 <br/>Let log3437	= n.
+					<br/>Then, 343n	= 7
+					<br/>	= (73)n = 7.
+					<br/>	‹=›3 n = 1
+					<br/>	‹=›n = 1/3.
+					<br/>log343 7	= 1/3.
+					 
+					 "}					
+					 ]
 	},	
 	{
 		"num":"4",
