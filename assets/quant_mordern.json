@@ -695,179 +695,220 @@
 	},	
 	{
 		"num":"4",
-		"topic":"Parternship",
+		"topic":"Set Theory",
 		"contents":
 					[ {"content1":
 					"
-					<br/>Parternship is the relation between two or more person who have agreed to run a business jointly and share the profits.
-					<br/>If the capitals of the partners are invested for the same period, the partnership is called simple, and for different period, is called compound.
-					<br/><br/><b>Simple Partnership:-</b> 
-					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
-					<br/>If A and B are partners in a business, then
-					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
-					<br/><br/><b>Compound Partnership:-</b> 
-					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
-					<br/>If A and B are partners in a business, then
-					<br/>(Monthly equivalent installment of A)/((Monthly equivalent installment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/>A set is well-defined collection of objects. The objects, which belong to the set, are called elements of the set. A set is denoted by a capital letter, and the elements of a set are denoted by small letter. 
+					<br/>Greek letter '∈' is used to donate than an element 'belong to a set'.
+					<br/><b>Type of Set</b>
+					<br/>	Finite Set: A set is finite set if it consist of definite number of elements.
+					<br/><b>Example:</b> V is set of vowels in English language V = {a,e,i,o,u}
+					<br/>	Infinite Set: A set in which elements are impossible to count
+					<br/><b>Example: N</b> ≡ {n│ n is a natural number}
+					<br/>	Empty Set:</b> The set, which contains no elements at all, is called an empty or null set. It is represented as {}
+					<br/>	Subsets: A set 'A’' is a subset of set 'B' if and only if every element of A is an element of B. 
+					<br/>	Universal Set: Consider the sets A, B, C and D. Any set of which A, B, C and D are subsets is called universal set. The Universal set is denoted by U.
+					<br/><b>Example:</b> The universal set is the set of real numbers, while the set of natural numbers, whole numbers, Integers and Rational numbers.
+					<br/>Operations of Sets
+					<br/>	Union of Sets: The union of sets A and B is a set which consists of all the elements of A and B. 
+					<br/>A U B ≡ {x │ x ∈ A or x ∈ B}
+					<br/>Some Important Points
+					<br/>	A U B = B U A
+					<br/>	A U ∅ = A
+					<br/>	Intersections of Sets
+					<br/>The intersections of two sets A and B is a set which consists of all the common elements of A and B. The symbol '∩' denotes intersection.
+					<br/>A ∩ B ≡ {x │ x ∈ A and x ∈ B}
+					<br/>	Complement of a Set: 
+					<br/>Complement of set A with respect to the universal set U is the set of all those elements of U which are not the elements of A. It is denoted by A’ or A^c
+					<br/>A’ = {x │ x ∈ U and x ∉ B}
+					<br/>Some Important Points
+					<br/>	Complement of the universal set is the null set ∅ and vice versa.
+					<br/>	(A’)’ = A
+					<br/>	A U A’ = U (i.e. Universal Set)
+					<br/>	Difference of Sets
+					<br/>If A and B are 2 sets, then the set of all elements which belong to A but do not belong to B is called the difference of sets A and B, and is denoted by A - B 
+					<br/>A – B = {x │ x ∈ A and x ∉ B}
+					<br/>Some Important Points
+					<br/>	A – B ≠ B – A 
+					<br/><b>Important Formulas:</b>
+					<br/>If ∩ = intersection and U = union.
+					<br/>	P(A U B U C) = P(A) + P(B) + P(C) – P(A ∩ B) – P(A ∩ C) – P(B ∩ C) + P(A ∩ B ∩ C)
+					<br/>	To find the number of people of people in exactly 1 set:
+					<br/>P(A) + P(B) + P(C) – 2P(A ∩ B) – 2P(A ∩ C) – 2P(B ∩ C) + 3P(A ∩ B ∩ C)
+					<br/>	To find the number of people in exactly two sets:
+					<br/>P(A ∩ B) + P(A ∩ C) + P(B ∩ C) – 3P(A ∩ B ∩ C)
+					<br/>	To find the number of people in exactly 3 sets: 
+					<br/>P(A∩ B∩ C)
+					<br/>	To find the number of people in 2 or more sets: 
+					<br/>P(A∩ B) + P (A ∩ C) + P(B ∩ C) – 2P (A∩ B∩ C)
+					<br/>	To find the number of people in at least 1 set:
+					<br/>P(A) + P(B) + P(C) – P(A ∩ B) – P(A ∩ C) – P(B ∩ C) + 2P(A ∩ B ∩ C)
+					<br/>To find the number of people in at least one set:
+					<br/>For questions involving set theory, it may be helpful to make a Venn diagram to visualize the solution.
+					<br/>To find the union of all set:                 (A + B + C + X + Y + Z + O)
+					<br/>Number of people in exactly one set:     (A + B + C)
+					<br/>Number of people in exactly two of the sets: (X + Y + Z)
+					<br/>Number of people in exactly three of the sets: O
+					<br/>Number of people in two or more sets: (X + Y + Z  + O
+					<br/>•In mathematics, a function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. An example is the function that relates each real number x to its square x². Wikipedia
+					<br/>••Related topics
+					<br/>Derivative in calculus, a quantity indicating how a function changes when the values of its inputs change. Wikipedia
+					<br/>Explore: Derivative
+					<br/>While polynomial functions are defined for all values of the variables, a rational function is defined only for the values of the variables for which the denominator is not null. Wikipedia
+					<br/>Explore: Polynomial
+					<br/>A function is continuous at a point if for any neighborhood of its image the preimage is again a neighborhood of that point: Wikipedia
+					<br/>Explore: Continuous function
+
 					"}],
 		"examples":
 					[ {"example1":
 					"
-					<b>If Jammie $ 2000 and Robb invested for $ 1000  for a period of 12 months. If they earned a profit of $ 300 at the end of year, what will be their share?</b>
-					<br/>As we know 
-					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
-					<br/> So Profit of Jammie/Profit of Robb = 2000/1000 = 2/1
-					<br/>Share of Jammie = (2/3)*300 = $200
-					<br/>Share of Robb = (1/3)*300 = $100
+					<b>In a class of 120 students numbered 1 to 120, all even numbered students opt for Physics, whose numbers are divisible by 5 opt for Chemistry and those whose numbers are divisible by 7 opt for Math. How many opt for none of the three subjects?</b>
+					<br/>We need to find out the number of students who took at least one of the three subjects and subtract that number from the overall 120 to get the number of students who did not opt for any of the three subjects.
+					<br/>Number of students who took at least one of the three subjects can be found by finding out A U B U C, where A is the set of those who took Physics, B the set of those who took Chemistry and C the set of those who opted for Math.
+					<br/>Now, AUBUC = A + B + C - (A n B + B n C + C n A) + (A n B n C)
+					<br/>A is the set of those who opted for Physics = 120/2 = 60 students
+					<br/>B is the set of those who opted for Chemistry = 120/5 = 24
+					<br/>C is the set of those who opted for Math = 120/7 = 17.
+					<br/>The 10th, 20th, 30th..... numbered students would have opted for both Physics and Chemistry. 
+					<br/>Therefore, A n B = 120/10 = 12
+					<br/>The 14th, 28th, 42nd..... Numbered students would have opted for Physics and Math.
+					<br/>Therefore, C n A = 120/14 = 8
+					<br/>The 35th, 70th.... numbered students would have opted for Chemistry and Math. 
+					<br/>Therefore, B n C = 120/35 = 3
+					<br/>And the 70th numbered student would have opted for all three subjects.
+					<br/>Therefore, AUBUC = 60 + 24 + 17 - (12 + 8 + 3) + 1 = 79.
+					<br/>Number of students who opted for none of the three subjects = 120 - 79 = 41.
 
 					"},
 					{"example2":
 					"
-					<b>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</b>
-					<br/>Solution	Let the total profit be Rs. 100.
-					<br/>After paying to charity, A's share = Rs.	 	95 x	3	 	= Rs. 57.
-					<br/>If A's share is Rs. 57, total profit = Rs. 100.
-					<br/>If A's share Rs. 855, total profit =	 	100	x 855	 	= 1500.
+					<b>Of the 200 candidates who were interviewed for a position at a call center, 100 had a two-wheeler, 70 had a credit card and 140 had a mobile phone. 40 of them had both, a two-wheeler and a credit card, 30 had both, a credit card and a mobile phone and 60 had both, a two wheeler and mobile phone and 10 had all three. How many candidates had none of the three?</b>
+					<br/>Number of candidates who had none of the three = Total number of candidates - number of candidates who had at least one of three devices.
+					<br/>Total number of candidates = 200.
+					<br/>Number of candidates who had at least one of the three = A U B U C, where A is the set of those who have a two wheeler, B the set of those who have a credit card and C the set of those who have a mobile phone.
+					<br/>We know that AUBUC = A + B + C - {A n B + B n C + C n A} + A n B n C
+					<br/>Therefore, AUBUC = 100 + 70 + 140 - {40 + 30 + 60} + 10
+					<br/>Or AUBUC = 190.
+					<br/>As 190 candidates who attended the interview had at least one of the three gadgets, 200 - 190 = 10 candidates had none of three.
 				
 					"}],
 		"practices":
 					[ 
-					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
-					"explanation1":
-					"
-					<br/>Let the total profit be $ 100.
-					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
-					<br/>If A's share is $ 57, total profit = $ 100.
-					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
-					"},
-					{"question2":"A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest $ 6500 for 6 months, B, $ 8400 for 5 months and C, $ 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was $ 7400. Calculate the share of B in the profit.", "answer2":"$ 2660", "option2":"$ 1900;$ 2000;$ 2660;$ 2840",
-					"explanation2":
-					"
-					<br/>For managing, A received = 5% of $ 7400 = $ 370.
-					<br/>Balance = $ (7400 - 370) = $ 7030.
-					<br/>Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
-					<br/>   = 39000 : 42000 : 30000
-					<br/>   = 13 : 14 : 10
-					 <br/> B's share = $	 	7030 x	14	 	= $ 2660.
+					{"question1":"In a class of 120 students numbered 1 to 120, all even numbered students opt for Physics, whose numbers are divisible by 5 opt for Chemistry and those whose numbers are divisible by 7 opt for Math. How many opt for none of the three subjects?", "answer1":"41", "option1":"19;41;21;26",
+					 "explanation1":
+					 "
+					 <br/>We need to find out the number of students who took at least one of the three subjects and subtract that number from the overall 120 to get the number of students who did not opt for any of the three subjects.
+					<br/>Number of students who took at least one of the three subjects can be found by finding out A U B U C, where A is the set of those who took Physics, B the set of those who took Chemistry and C the set of those who opted for Math.
+					<br/>Now, AUBUC = A + B + C - (A n B + B n C + C n A) + (A n B n C)
+					<br/>A is the set of those who opted for Physics = 120/2 = 60 students
+					<br/>B is the set of those who opted for Chemistry = 120/5 = 24
+					<br/>C is the set of those who opted for Math = 120/7 = 17.
+					<br/>The 10th, 20th, 30th..... numbered students would have opted for both Physics and Chemistry. 
+					<br/>Therefore, A n B = 120/10 = 12
+					<br/>The 14th, 28th, 42nd..... Numbered students would have opted for Physics and Math.
+					<br/>Therefore, C n A = 120/14 = 8
+					<br/>The 35th, 70th.... numbered students would have opted for Chemistry and Math. 
+					<br/>Therefore, B n C = 120/35 = 3
+					<br/>And the 70th numbered student would have opted for all three subjects.
+					<br/>Therefore, AUBUC = 60 + 24 + 17 - (12 + 8 + 3) + 1 = 79.
+					<br/>Number of students who opted for none of the three subjects = 120 - 79 = 41.
+					 
+					 "},
+					{"question2":"Of the 200 candidates who were interviewed for a position at a call center, 100 had a two-wheeler, 70 had a credit card and 140 had a mobile phone. 40 of them had both, a two-wheeler and a credit card, 30 had both, a credit card and a mobile phone and 60 had both, a two wheeler and mobile phone and 10 had all three. How many candidates had none of the three?", "answer2":"10", "option2":"20;10;18;25",
+					 "explanation2":
+					 "
+					 <br/>Number of candidates who had none of the three = Total number of candidates - number of candidates who had at least one of three devices.
+					<br/>Total number of candidates = 200.
+					<br/>Number of candidates who had at least one of the three = A U B U C, where A is the set of those who have a two wheeler, B the set of those who have a credit card and C the set of those who have a mobile phone.
+					<br/>We know that AUBUC = A + B + C - {A n B + B n C + C n A} + A n B n C
+					<br/>Therefore, AUBUC = 100 + 70 + 140 - {40 + 30 + 60} + 10
+					<br/>Or AUBUC = 190.
+					<br/>As 190 candidates who attended the interview had at least one of the three gadgets, 200 - 190 = 10 candidates had none of three.
+					 
+					 "},
+					 {"question3":"In a class of 40 students, 12 enrolled for both English and German. 22 enrolled for German. If the students of the class enrolled for at least one of the two subjects, then how many students enrolled for only English and not German?", "answer3":"18", "option3":"30;10;18;28",
+					 "explanation3":
+					 "
+					 <br/>Let A be the set of students who have enrolled for English and B be the set of students who have enrolled for German.
+					<br/>Then, (A U B) is the set of students who have enrolled at least one of the two subjects. As the students of the class have enrolled for at least one of the two subjects, A U B = 40
+					<br/>We know A U B = A + B - (A n B)
+					<br/>i.e, 40 = A + 22 - 12
+					<br/>or A = 30 which is the set of students who have enrolled for English and includes those who have enrolled for both the subjects.
+					<br/>However, we need to find out the number of students who have enrolled for only English = Students enrolled for English - Students enrolled for both German and English
+					<br/>= 30 - 12 = 18.
+					 
+					 "},
+					 {"question4":"In a class 40% of the students enrolled for Math and 70% enrolled for Economics. If 15% of the students enrolled for both Math and Economics, what % of the students of the class did not enroll for either of the two subjects?", "answer4":"5%", "option4":"5%;15%;20%;25%",
+					 "explanation4":
+					 "
+					 <br/>We know that (A U B) = A + B - (A n B), where (A U B) represents the set of people who have enrolled for at least one of the two subjects Math or Economics and (A n B) represents the set of people who have enrolled for both the subjects Math and Economics.
+					<br/>Note
+					<br/>(A U B) = A + B - (A n B) => (A U B) = 40 + 70 - 15 = 95%
+					<br/>That is 95% of the students have enrolled for at least one of the two subjects Math or Economics.
+					<br/>Therefore, the balance (100 - 95)% = 5% of the students have not enrolled for either of the two subjects.
 
-					"},
-					{"question3":"A, B, C subscribe $ 50,000 for a business. A subscribes $ 4000 more than B and B $ 5000 more than C. Out of a total profit of $ 35,000, A receives:", "answer3":"$ 14700", "option3":"$ 8400;$ 11900;$ 13000;$ 14700",
-					"explanation3":
-					"
-					<br/>Let C = x.
-					<br/>Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
-					<br/>So, x + x + 5000 + x + 9000 = 50000
-					<br/>  3x = 36000
-					<br/> x = 12000
-					<br/>A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
-					<br/>  A's share = $	 	35000 x	21	 	= $ 14,700.
-
-					"},
-					{"question4":"Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?", "answer4":"20 : 49 : 64", "option4":"5:7:8;20 : 49 : 64;38 : 28 : 21;None of these",
-					"explanation4":
-					"
-					<br/>Let their investments be $ x for 14 months, $ y for 8 months and $ z for 7 months respectively.
-					<br/>Then, 14x : 8y : 7z = 5 : 7 : 8.
-					<br/>Now,	14x	=	5	        98x = 40y         y =	49	x
-					<br/>	8y		7		20	
-					<br/>And,	14x	=	5	        112x = 35z         z =	112	x =	16	x.
-					<br/>	7z		8		35		5	
-					<br/> x : y : z = x :	49	x	:	16	x	= 20 : 49 : 64.
-
-					"},
-					{"question5":"A starts business with $ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?", "answer5":"$ 9000", "option5":"$ 7500;$ 8000;$ 8500;$ 9000",
-					"explanation5":
-					"
-					<br/>Let B's capital be $ x.
-					<br/>Then,	 	3500 x 12	=	2	 
-					<br/>		7x		3	
-					<br/>  14x = 126000
-					<br/>  x = 9000.
-
-					"},
-					{"question6":"A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?", "answer6":"6 : 10 : 5", "option6":"3 : 5 : 2;3 : 5 : 5;6 : 10 : 5;4 :  5 : 2 ",
-					"explanation6":
-					"
-					<br/>Let the initial investments of A and B be 3x and 5x.
-					<br/>A : B : C = (3x x 12) : (5x x 12) : (5x x 6) = 36 : 60 : 30 = 6 : 10 : 5.
-
-					"},
-					{"question7":"A and B started a business in partnership investing $ 20,000 and $ 15,000 respectively. After six months, C joined them with $ 20,000. What will be B's share in total profit of $ 25,000 earned at the end of 2 years from the starting of the business?", "answer7":"$ 7500", "option7":"$ 7500;$ 9000;$ 9500;$ 10000",
-					"explanation7":
-					"
-					<br/>A : B : C = (20,000 x 24) : (15,000 x 24) : (20,000 x 18) = 4 : 3 : 3.
-					<br/> B's share = $	 	25000 x	3	 	= $ 7,500.
-					"},
-					{"question8":"P and Q started a business investing $85,000 and $15,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?", "answer8":"17 : 3", "option8":"3 : 4;3 : 5;15 : 23;17 : 3",
-					"explanation8":
-					"
-					<br/>P : Q = 85000 : 15000
-					<br/>=85 : 15
-					<br/>=17 : 3
-					"},
-					{"question9":"Sam and Jack started a business investing $22,500 and $35,000 respectively. Out of a total profit of $ 13,800. Jack's share is", "answer9":"$ 8400 ", "option9":"$ 5400;$ 7200;$ 8400 ;$ 9600",
-					"explanation9":
-					"
-					<br/>Ratio of their shares	= 22500 : 35000
-					<br/>	=9 : 14.
-					<br/>Jack's share	= $(13800Ãƒâ€”14/23)
-					<br/>	= $ 8400.
-
-					"},
-					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
-					"explanation10":
-					"
-					<br/>Rebakah : Haley : Juely	=(8000Ãƒâ€”6):(4000Ãƒâ€”8):(8000Ãƒâ€”8)
-					<br/>	= 48 : 32 : 64
-					<br/>	= 3 : 2 : 4.
-					<br/>Haley's share	= $4005Ãƒâ€”2/9)
-					<br/>	= $890.
-					"},
-					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
-					"explanation11":
-					"
-					<br/>Suppose B joined after x months.
-					<br/>Then,	21000Ãƒâ€”12=36000Ãƒâ€”(12 - x)
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº36x=180
-					<br/>	= x= 5.
-					"},
-					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
-					"explanation12":
-					"
-					<br/>Suppose Y invested $y
-					<br/>Then,	40000 /y = 2 / 3
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=(40000Ãƒâ€”3 / 2).
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=60000.
-
-					"},
-					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
-					"explanation13":
-					"
-					<br/>A : B : C	=(10Ãƒâ€”7):(12Ãƒâ€”5):(15Ãƒâ€”3)
-					<br/>	= 70 :60 :45
-					<br/>	= 14 :12 :9
-					<br/>c's rent	=$(175Ãƒâ€”9/35)
-					<br/>	= $45.
-
-					"},
-					{"question14":"Lord Tyrion started a software business by investing $ 50,000. After six months, Lord Tivion joined her with a capital of $ 80,000. After 3 years, they earned a profit of $ 24,500. What was Lord Tyrion's share in the profit?", "answer14":"$ 10500", "option14":"$ 9423;$ 10250;$ 12500;$ 10500",
-					"explanation14":
-					"
-					<br/>Lord Tyrion : Lord Tivion = (50000 x 36) : (80000 x 30) = 3 : 4.
-					<br/>  Lord Tyrion's share = $	 	24500 x	3	 	= $ 10,500.
-
-					"},
-					{"question15":"A began a business with $ 85,000. He was joined afterwards by B with $ 42,500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?", "answer15":"8 months", "option15":"4 months;5 months;6 months;8 months",
-					"explanation15":
-					"
-					<br/>Suppose B joined for x months. Then,
-					<br/>Then,	 	85000 x 12	=	3	 
-					<br/>		42500 x x		1	
-					<br/>  x =	 	85000 x 12	 	= 8.
-					<br/>		42500 x 3		
-					<br/>So, B joined for 8 months.
-
-					"}
+					 "},
+					 {"question5":"A ≡{ x ┤|  3x^2-7x-6=0} B ≡{ x ┤|  6x^2-5x-6=0} Find A ∩ B ", "answer5":"-2/3", "option5":"2/3;-2/3;3/2;3",
+					 "explanation5":
+					 "
+					 <br/>3x^2-7x-6=0 
+					<br/>Or  3x^2-9x-2x-6=0
+					<br/>Or 3x(x-3) + 2(x-3) = 0
+					<br/>So x = -2/3 or x = 3 So A = {-2/3 , 3}
+					<br/>6x^2-5x-6=0
+					<br/>6x^2-9x+4x -6=0
+					<br/>3x(2x – 3) + 2(2x – 3) = 0
+					<br/>So x = -2/3 or x  = 3/2 , So B  ≡ {-2/3 , 3/2}
+					<br/>∴  A ∩ B = {-2/3}
+					 
+					 "},
+					 {"question6":"Set A has 4 elements and set B has 7 elements. What can be the minimum number of elements in AUB?", "answer6":"7", "option6":"14;11;3;7",
+					 "explanation6":
+					 "
+					 <br/>AUB will have minimum number of elements, if set A is subset of B. 
+					<br/>∴ n (A U B) = n (B) = 7
+					 
+					 "},
+					 {"question7":"Two finite sets have x and y number of elements. The total number of subsets of the first set is four times the total number of subsets of the second set. Find the value of x – y.", "answer7":"2", "option7":"2;4;3;½",
+					 "explanation7":
+					 "
+					 <br/>Number of subsets of the 2 sets are 2^x and  2^y respectively.
+					<br/>( 2^x)/( 2^y )=4
+					<br/>Or  2^(x-y) = 4
+					<br/>∴ x – y = 2
+					 
+					 "},
+					 {"question8":"In a group of 20 adults there are 8 females, 9 literate and 6 female literate. Find the number of male illiterates in group.", "answer8":"9", "option8":"6;9;3;12",
+					 "explanation8":
+					 "
+					 <br/>Number of males = 20 – 8 = 12;
+					<br/>Number of male literate = 9 – 6 = 3
+					<br/>Number of male illiterate = 12 – 3 = 9
+					 
+					 "},
+					 {"question9":"In a school, there are 250 students. 140 study physics and 180 study biology. How many students study both the subjects?", "answer9":"Cannot be determined", "option9":"190;220;250;Cannot be determined",
+					 "explanation9":
+					 "
+					 <br/>The answer of given question cannot be determined because we don’t know whether every student studies at least one of these subjects or not.
+					 "},
+					 {"question10":"A firm has 40 workers working in the factory premises, 30 working in its office and 20 working in both the factory and the office. How many are working in factory alone?", "answer10":"20", "option10":"15;20;30;25",
+					 "explanation10":
+					 "
+					 <br/>n(F) = 40 ; n(O) = 30 ; n (F ∩ O) = 20
+					<br/>The number of workers working in the factory only
+					<br/> = n(F) – n(F ∩ O) = 40 – 20 = 20
+					 
+					 "},
+					 {"question11":"A firm has 60 workers working in the factory premises, 40 working in its office and 30 working in both the factory and the office. How many are working in Office alone?", "answer11":"10", "option11":"10;30;20;25",
+					 "explanation11":
+					 "
+					 <br/>n(F) = 60 ; n(O) = 40 ; n (F ∩ O) = 30
+					<br/>The number of workers working in office only
+					<br/>= n(O) – n( F ∩ O) = 40 – 30 = 10
+					 
+					 "}
 					]
 	}
 	
