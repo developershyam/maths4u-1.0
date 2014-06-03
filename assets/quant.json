@@ -30,13 +30,13 @@
 	},
 	{
 		"num":"3",
-		"topic":"Numeric",
+		"topic":"Numbers",
 		"subtopic":
 					[
-						{"subtopic1":"•	Progression"},
-						{"subtopic2":"•	X"},
-						{"subtopic3":"•	Y"},
-						{"subtopic4":"•	Z"}													
+						{"subtopic1":"Introduction to Numbers"},
+						{"subtopic2":"HCF & LCM"},
+						{"subtopic3":"Surds & Indices"},
+						{"subtopic4":"Application of Numbers"}													
 					]
 	},
 	{

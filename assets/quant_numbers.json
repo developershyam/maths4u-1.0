@@ -1,0 +1,854 @@
+[
+{
+		"num":"1",
+		"topic":"Introduction to Numbers",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Types of numbers</b>
+					<br/><b>Natural numbers:-</b> 
+					<br/>The counting numbers {1, 2, 3, ...}, are called natural numbers. They include all the counting numbers i.e. from 1 to infinity.
+					<br/><b>Whole numbers:-</b> 
+					<br/>They are the natural numbers including zero. Not all whole numbers are natural numbers, but all natural numbers are whole numbers.
+					<br/><b>Integers:-</b> 
+					<br/>Positive and negative counting numbers, as well as zero. {...,-2,-1,0,1,2,...}
+					<br/><b>Rational numbers:-</b> 
+					<br/>Numbers that can be expressed as a fraction of an integer and a non-zero integer.[1]
+					<br/><b>Real numbers:-</b> 
+					<br/>All numbers that can be expressed as the limit of a sequence of rational numbers. Every real number corresponds to a point on the number line.
+					<br/><b>Irrational numbers:-</b> 
+					<br/>A real number that is not rational is called irrational.
+					<br/><b>Complex numbers:-</b> 
+					<br/>Includes real numbers and imaginary numbers, such as the square root of negative one.
+					<br/><b>Properties of Integers:-</b> 
+					<br/><b>Even and odd numbers:-</b>  
+					<br/>A number is even if it is a multiple of two, and is odd otherwise.
+					<br/>even * even = even
+					<br/>odd * odd = odd
+					<br/>even * odd = even
+					<br/>even + even = even
+					<br/>odd + odd = even
+					<br/>even + odd = odd
+					<br/><b>Prime number:-</b> 
+					<br/>A number with exactly two positive divisors. (See example 1)
+					<br/><b>Factors and Multiples:-</b> 
+					<br/>An integer ‘n’ is called a factor or a divisor of another integer ‘m’ if ‘n’ divides ‘m’ exactly (i.e. the remainder is ‘zero’ and in such case ‘m’ is called a multiple of ‘n’
+					<br/><b>Composite number:-</b>  
+					<br/>A number that can be factored into a product of smaller integers. Every integer greater than one is either prime or composite.
+					<br/><b>VBODMAS Rule:-</b> 
+					<br/>'VBODMAS' (Vinculum - Bracket - Of - Division - Multiplication - Addition - Subtraction) rule should be applied for solving problems involving one or more mathematical operations like multiplication, division, addition, subtraction etc. Such problems are solved in the order of vinculum, bracket, of, division, multiplication, addition and subtraction. Remember 'Of' in VBODMAS means multiplication.
+					<br/><b>Base System:-</b> 
+					<br/>The Base system in an extension of the system of digits. Every base corresponds to the number of digits in a particular base system. We use the decimal system i.e. base system 10, so it has ten digits or symbols i.e. 0,1,2…9.
+					<br/>Similarly, the binary system (Base 2) has 2 digits i.e. 0 and 1. Octal system (Base 8) has eight digits i.e. 0 to 7.
+					<br/>But there can be bases beyond the decimal system as well where we are required to show numbers 10,11,12…… and so on the digits. So we use symbols i.e. A, B, C …….. and so on to represent the integral value beyond number 9.
+					<br/>Therefore hexadecimal system will have 16 digits i.e. 0,1,2,……….9, A, B, C …..F. Where A is equal to 10, B is equal to 11 and so on, till the last digit 15 which is represented by F.
+					<br/><b>Base System Conversion:-</b> 
+					<br/>1.	Conversion from Decimal to any other base system ‘X’:
+					<br/>Any decimal number can be converted into a number with base ‘X’, by dividing the number by ‘X’, and then successively dividing the quotients by ‘X’. The remainders written in reverse order gives the equivalent number in base ‘X’.
+					<br/>2.	Conversion from any other base ‘X’ to the decimal system:
+					<br/>Any number with a base of ‘X’ can be converted into equivalent decimal number by adding the product of the digits of the number form the right to the left with increasing powers of X.
+					<br/>3.	Conversion from any base ‘X’ to base ‘Y’
+					<br/>A number with base ‘X’ can be converted to an equivalent decimal number (shown in point 2 above) and then from decimal from can be converted into a number with base ‘Y’ (shown in point 1 above) 
+
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Find 467 is prime or not?</b>
+					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,…….19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					"},
+					{"example2":
+					"
+					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
+					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
+					
+					"}
+					],
+		"practices":
+					[
+					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					 "explanation1":
+					 "
+					 91 is divisible by 7. So, it is not a prime number.
+					 "},
+					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
+					 "explanation2":
+					 "
+					 <br/>132 = 4 x 3 x 11
+					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
+					<br/>264   11,3,4 (/)
+					<br/>396   11,3,4 (/)
+					<br/>462   11,3 (X)
+					<br/>792   11,3,4 (/)
+					<br/>968   11,4 (X)
+					<br/>2178   11,3 (X)
+					<br/>5184   3,4 (X)
+					<br/>6336   11,3,4 (/)
+					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
+					<br/>Required number of number = 4.
+					 
+					 "},
+					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					 "explanation3":
+					 "
+					 All other numbers are divisible by other numbers.
+					 "},
+					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					 "explanation4":
+					 "
+					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
+					<br/>Note: 1 is not a prime number.
+					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
+					 
+					 "},
+					 {"question5":"72519 x 9999 = ?", "answer5":"725117481", "option5":"725117481;674217481;685126481;696217481",
+					 "explanation5":
+					 "
+					 <br/>72519 x 9999	= 72519 x (10000 - 1)
+					<br/>	= 72519 x 10000 - 72519 x 1
+					<br/>	= 725190000 - 72519
+					<br/>	= 725117481.
+					 
+					 "},
+					 {"question6":"If the number 517*324 is completely divisible by 3, then the smallest whole number in the place of * will be:", "answer6":"2", "option6":"0;1;2;None of these",
+					 "explanation6":
+					 "
+					 <br/>Sum of digits = (5 + 1 + 7 + x + 3 + 2 + 4) = (22 + x), which must be divisible by 3.
+					<br/>x = 2.
+					 
+					 "},
+					 {"question7":"The smallest 3 digit prime number is:", "answer7":"101", "option7":"101;109;103;113",
+					 "explanation7":
+					 "
+					 <br/>The smallest 3-digit number is 100, which is divisible by 2.
+					<br/>  100 is not a prime number.
+					<br/>101 < 11 and 101 is not divisible by any of the prime numbers 2, 3, 5, 7, 11.
+					<br/> 101 is a prime number.
+					<br/>Hence 101 is the smallest 3-digit prime number.
+					 
+					 "},
+					 {"question8":"If one-third of one-fourth of a number is 15, then three-tenth of that number is:", "answer8":"54", "option8":"35;36;45;54",
+					 "explanation8":
+					 "
+					 <br/>Let the number be x.
+					 <br/>Then,	1/3	of	1/4	of x = 15       x = 15 x 12 = 180.
+					 <br/>So, required number =	 	3/10 x 180	 	= 54.
+					 "},
+					 {"question9":"Subtract 45026 from 51231 in base 7.", "answer9":"3202", "option9":"3202;5409;3222;2352",
+					 "explanation9":
+					 "
+					 <br/>5 1 2 3 1
+					<br/>-4 5 0 2 6
+					<br/>-----------
+					<br/>   3 2 0 2
+					<br/>----------- 
+					<br/>In the units column since 1 is smaller than 6, we carry the value equal to the base from the number on the left. Since the base is 7 we carry 7. Now, 1 + 7 = 8 and 8   6 = 2. Hence we write 2 in the units column. We proceed the same way in the rest of the columns.
+					 "},
+					 {"question10":"The number 35A246772 is in base 9. This number when written in base 10 is divisible by 8. Find the value of digit A.", "answer10":"4", "option10":"5;2;4;8",
+					 "explanation10":
+					 "
+					 <br/>The number written in base 10 will be divisible by 8 when the sum of the digits in base 9 is divisible by 8.
+					 <br/>Sum of digits = 3 + 5 + A + 2 + 4 + 6 + 7 + 7 + 2 = 36 + A. The sum will be divisible by 8 when A = 4.
+					 
+					 "},
+					 {"question11":"Add the numbers (4235) 7 and (2354) 7", "answer11":"6622", "option11":"6589;6622;6522;8989",
+					 "explanation11":
+					 "
+					 <br/>The numbers are written as
+                     <br/> 4 2 3 5
+                     <br/>2 3 5 4
+                     <br/>
+					 <br/>The addition of 5 and 4 (at the units place) is 9, which being more than 7
+					 <br/>would be written as 9 = 7 A— 1 + 2. The Quotient is 1 and written is 2.
+					 <br/>The Remainder is placed at the units place of the answer and the Quotient
+					 <br/>gets carried over to the ten's place. We obtain
+					 <br/>  +1+1
+					 <br/> 4 2 3 5
+                     <br/> 2 3 5 4 
+                    <br/> ---------
+                    <br/>  6 6 2 2
+                    <br/> ---------
+                    <br/>At the tens place: 3 + 5 + 1 (carry) = 9
+					<br/>Similar procedure is to be followed when multiply numbers in the same base
+                     
+					 "},
+					 {"question12":"If the number 481 * 673 is completely divisible by 9, then the smallest whole number in place of * will be:", "answer12":"7", "option12":"2;5;6;7",
+					 "explanation12":
+					 "
+					 <br/>Sum of digits = (4 + 8 + 1 + x + 6 + 7 + 3) = (29 + x), which must be divisible by 9.
+    				<br/>x = 7.
+					 
+					 "},
+					 {"question13":"The difference between the local value and the face value of 7 in the numeral 32675149 is", "answer13":"69993", "option13":"75142;64851;69993;5149",
+					 "explanation13":
+					 "
+					 <br/>(Local value of 7) - (Face value of 7) = (70000 - 7) = 69993
+					 "},
+					 {"question14":"Solve 7 + (6 × 5^2 + 3) ?", "answer14":"160", "option14":"160;175;195;328",
+					 "explanation14":
+					 "
+					 <br/>7 + (6 × 5<sup>2</sup> + 3)	 
+					<br/>7 + (6 × 25 + 3)	Start inside Brackets, and then use 'Orders' First
+					<br/>7 + (150 + 3)	Then Multiply
+					<br/>7 + (153)	Then Add
+					<br/>7 + 153	Brackets completed, last operation is add
+					<br/>160	DONE !
+					 
+					 "},
+					 {"question15":"78 - [5 + 3 of (25 - 2 × 10)]", "answer15":"58", "option15":"158;32;58;46",
+					 "explanation15":
+					 "
+					 <br/>78 - [5 + 3 of (25 - 2 × 10)]
+					<br/>= 78 - [5 + 3 of (25 - 20)], (Simplifying ‘multiplication’ 2 × 10 = 20)
+					<br/>= 78 - [5 + 3 of 5], (Simplifying ‘subtraction’ 25 - 20 = 5)
+					<br/>= 78 - [5 + 3 × 5], (Simplifying ‘of’)
+					<br/>= 78 - [5 + 15], (Simplifying ‘multiplication’ 3 × 5 = 15)
+					<br/>= 78 - 20, (Simplifying ‘addition’ 5 + 15 = 20)
+					<br/>= 58, (Simplifying ‘subtraction’ 78 - 20 = 58)
+					 
+					 "}					 					
+					]
+	},
+	{
+		"num":"2",
+		"topic":"HCF & LCM",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Factors and Multiples:-</b>
+					<br/>If number a divided another number b exactly, we say that a is a factor of b.
+					<br/>In this case, b is called a multiple of a.
+					<br/>Prime numbers that divide the integer exactly are prime factors.
+					<br/>For ex. N = 540 = 4 X 27 X 5 = 2^2 X 3^3 X5 
+					<br/>So1, 2, 3 and 5 are prime factors. 
+					<br/>The number of ways in which a number can be expressed as the product of two factors which are relatively prime to each other = 2^m-1
+					<br/><b>Highest Common Factor (H.C.F.) or Greatest Common Measure (G.C.M.) or Greatest Common Divisor (G.C.D.):-</b>
+					<br/>The H.C.F. of two or more than two numbers is the greatest number that divides each of them exactly.
+					<br/>There are two methods of finding the H.C.F. of a given set of numbers:
+					<br/>Factorization Method: Express the each one of the given numbers as the product of prime factors. The product of least powers of common prime factors gives H.C.F.
+					<br/>Division Method: Suppose we have to find the H.C.F. of two given numbers, divide the larger by the smaller one. Now, divide the divisor by the remainder. Repeat the process of dividing the preceding number by the remainder last obtained till zero is obtained as remainder. The last divisor is required H.C.F.
+					<br/>Finding the H.C.F. of more than two numbers: Suppose we have to find the H.C.F. of three numbers, then, H.C.F. of [(H.C.F. of any two) and (the third number)] gives the H.C.F. of three given number.
+					<br/>Similarly, the H.C.F. of more than three numbers may be obtained.
+					<br/><b>Least Common Multiple (L.C.M.):-</b>
+					<br/>The least number which is exactly divisible by each one of the given numbers is called their L.C.M.
+					<br/>There are two methods of finding the L.C.M. of a given set of numbers:
+					<br/>Factorization Method: Resolve each one of the given numbers into a product of prime factors. Then, L.C.M. is the product of highest powers of all the factors.
+					<br/>Division Method (short-cut): Arrange the given numbers in a rwo in any order. Divide by a number which divided exactly at least two of the given numbers and carry forward the numbers which are not divisible. Repeat the above process till no two of the numbers are divisible by the same number except 1. The product of the divisors and the undivided numbers is the required L.C.M. of the given numbers.
+					<br/><b>Product of two numbers = Product of their H.C.F. and L.C.M. (See example 2)
+					<br/><b>Co-primes: Two numbers are said to be co-primes if their H.C.F. is 1.
+					<br/><b>H.C.F. and L.C.M. of Fractions:
+				    <br/>1. H.C.F. =	H.C.F. of Numerators/L.C.M. of Denominators
+				    <br/>2. L.C.M. =	L.C.M. of Numerators/H.C.F. of Denominators
+					<br/><b>H.C.F. and L.C.M. of Decimal Fractions:
+					<br/>In a given numbers, make the same number of decimal places by annexing zeros in some numbers, if necessary. Considering these numbers without decimal point, find H.C.F. or L.C.M. as the case may be. Now, in the result, mark off as many decimal places as are there in each of the given numbers.
+					<br/><b>Comparison of Fractions:
+					<br/>Find the L.C.M. of the denominators of the given fractions. Convert each of the fractions into an equivalent fraction with L.C.M as the denominator, by multiplying both the numerator and denominator by the same number. The resultant fraction with the greatest numerator is the greatest.
+					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Calculate LCM and HCF of (15,35,65)</b>
+					<br/>Factorize all the numbers 
+					<br/>15 = 3 X 5 ; 
+					<br/>35 = 7 X 5 ;
+					<br/>65 = 13 X 5
+					<br/>LCM = 3 X 7 X 13 X 5 = 1365
+					<br/>HCF  = 5 (common fraction)
+
+					"},
+					{"example2":
+					"
+					<b>The product of two numbers is 4107. If the H.C.F of those numbers is 37, then the greater number is</b>
+					<br/>Solution:- 
+					<br/>Let the numbers be 37a and 37 b.
+					<br/>Then, 37a ×37b = 4107
+					<br/>‹=› ab = 3.
+					<br/>Now, co-primes with product 3 are (1, 3).
+					<br/>So, the required numbers are (37 ×1, 37 ×3) i.e , (1 , 111)
+					<br/>Therefore Greater number = 111.
+
+					"}
+		],
+		"practices":
+					[
+					{"question1":"The LCM of two numbers is 280 and their ratio is 7:8. The two numbers are", "answer1":"35,40", "option1":"70,80;35,40;42,48;28,38",
+					 "explanation1":
+					 "
+					 <br/>Let the number be 7x and 8x 
+					<br/>HCF = x
+					<br/>Hence, HCF × LCM=7x×8x
+					<br/>⇒ 280x=56x×x
+					<br/>⇒  x=5
+					<br/>Thus numbers are 35 and 40.
+					 
+					 "},
+					{"question2":"Find the L.C.M. of 6/7, 12/13, 7/15. ", "answer2":"84", "option2":"84;1/84;13;1/13",
+					 "explanation2":
+					 "
+					 <br/>L.C.M. of 6/7, 12/13, 7/15 = LCM of 6,12 and 7 / HCF of 7,13,15 = 84/1 = 84.
+					 "},
+					 {"question3":"The H.C.F. of two numbers is 11 and their L.C.M. is 7700. If one of the numbers is 275, then the other is:", "answer3":"308", "option3":"279;283;308;339",
+					 "explanation3":
+					 "
+					 <br/>Other number  = (11 X 7700)/275 = 308
+					 "},
+					 {"question4":"The smallest number which when diminished by 7, is divisible 12, 16, 18, 21 and 28 is:", "answer4":"1015", "option4":"1008;1015;1022;1032",
+					 "explanation4":
+					 "
+					 <br/>Required number = (L.C.M. of 12,16, 18, 21, 28) + 7
+					<br/>   = 1008 + 7
+					<br/>   = 1015
+					 
+					 "},
+					 {"question5":"The L.C.M. of two numbers is 48. The numbers are in the ratio 2 : 3. Then sum of the number is:", "answer5":"40", "option5":"28;32;40;34",
+					 "explanation5":
+					 "
+					 <br/>Let the numbers be 2x and 3x.
+					<br/>Then, their L.C.M. = 6x.
+					<br/>So, 6x = 48 or x = 8.
+					<br/>  The numbers are 16 and 24.
+					<br/>Hence, required sum = (16 + 24) = 40.
+					 
+					 "},
+					 {"question6":"The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:", "answer6":"127", "option6":"123;127;235;305",
+					 "explanation6":
+					 "
+					 <br/>Required number = H.C.F. of (1657 - 6) and (2037 - 5)
+					<br/>  = H.C.F. of 1651 and 2032 = 127.
+					 
+					 "},
+					 {"question7":"The product of two numbers is 4107. If the H.C.F. of these numbers is 37, then the greater number is:", "answer7":"111", "option7":"101;107;111;185",
+					 "explanation7":
+					 "
+					 <br/>Let the numbers be 37a and 37b.
+					<br/>Then, 37a x 37b = 4107
+					<br/>  ab = 3.
+					<br/>Now, co-primes with product 3 are (1, 3).
+					<br/>So, the required numbers are (37 x 1, 37 x 3) i.e., (37, 111).
+					<br/>  Greater number = 111.
+					 
+					 "},
+					 {"question8":"The G.C.D. of 1.08, 0.36 and 0.9 is:", "answer8":"0.18", "option8":"0.03;0.09;0.18;0.108",
+					 "explanation8":
+					 "
+					 <br/>Given numbers are 1.08, 0.36 and 0.90.   H.C.F. of 108, 36 and 90 is 18,
+					<br/>  H.C.F. of given numbers = 0.18.
+					 
+					 "},
+					 {"question9":"The product of two numbers is 2028 and their H.C.F. is 13. The number of such pairs is:", "answer9":"2", "option9":"1;2;3;4",
+					 "explanation9":
+					 "
+					<br/>Let the numbers 13a and 13b.
+					<br/>Then, 13a x 13b = 2028
+					<br/>  ab = 12.
+					<br/>Now, the co-primes with product 12 are (1, 12) and (3, 4).
+					<br/>[Note: Two integers a and b are said to be coprime or relatively prime if they have no common positive factor other than 1 or, equivalently, if their greatest common divisor is 1 ]
+					<br/>So, the required numbers are (13 x 1, 13 x 12) and (13 x 3, 13 x 4).
+					<br/>Clearly, there are 2 such pairs.					 
+					 "},
+					 {"question10":"The least multiple of 7, which leaves a remainder of 4, when divided by 6, 9, 15 and 18 is:", "answer10":"364", "option10":"74;94;184;364",
+					 "explanation10":
+					 "
+					 <br/>L.C.M. of 6, 9, 15 and 18 is 90.
+					<br/>Let required number be 90k + 4, which is multiple of 7.
+					<br/>Least value of k for which (90k + 4) is divisible by 7 is k = 4.
+					<br/>  Required number = (90 x 4) + 4   = 364.
+					 
+					 "},
+					 {"question11":"The H.C.F. of two numbers is 23 and the other two factors of their L.C.M. are 13 and 14. The larger of the two numbers is:", "answer11":"322", "option11":"276;299;322;345",
+					 "explanation11":
+					 "
+					 <br/>Clearly, the numbers are (23 x 13) and (23 x 14).
+					<br/>  Larger number = (23 x 14) = 322.
+					 
+					 "},
+					 {"question12":"The greatest number of four digits which is divisible by 15, 25, 40 and 75 is:", "answer12":"9600", "option12":"9000;9400;9600;9800",
+					 "explanation12":
+					 "
+					 <br/>Greatest number of 4-digits is 9999.
+					<br/>L.C.M. of 15, 25, 40 and 75 is 600.
+					<br/>On dividing 9999 by 600, the remainder is 399.
+					<br/>  Required number (9999 - 399) = 9600.
+					 
+					 "},
+					 {"question13":"The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:", "answer13":"127", "option13":"123;127;235;305",
+					 "explanation13":
+					 "
+					<br/> Required number = H.C.F. of (1657 - 6) and (2037 - 5)
+					<br/>  = H.C.F. of 1651 and 2032 = 127.
+					 
+					 "},
+					 {"question14":"The H.C.F. of 9,12,18and21is:", "answer14":"3", "option14":"3;6;9;2",
+					 "explanation14":
+					 "
+					<br/> Factor of 9 = 3X3
+					<br/>Factor of 12 = 3 X 4
+					<br/>Factors of 18 = 3 X 3 X 2
+					<br/>Factors of 21 = 3 X 7
+					<br/>So H.C. F  = 3
+					 
+					 "},
+					 {"question15":"Three numbers which are co-prime to each other are such that the product of the first two is 551 and that of the last two is 1073. The sum of the three numbers is:", "answer15":"85", "option15":"75;81;85;89",
+					 "explanation15":
+					 "
+					 <br/>Since the numbers are co-prime, they contain only 1 as the common factor.
+					<br/>Also, the given two products have the middle number in common.
+					<br/>So, middle number = H.C.F. of 551 and 1073 = 29;
+					<br/>First number =	 	551/29	 	= 19;    Third number =	 	1073/29	 	= 37.
+					<br/>  Required sum = (19 + 29 + 37) = 85.
+					 
+					 "}
+					 ]
+	},
+	{
+		"num":"3",
+		"topic":"Surds & Indices",
+		"contents":
+					[ {"content1":
+					"
+					<b>Indices:-</b>
+					<br/>By the term ‘a<sup>m</sup>’ we mean a X a……….. m times i.e. the product of m factors each equal to ‘a’ is represented by a<sup>m</sup>. a is called the base and m is called the power <sup>n</sup>√(a) or a<sup>(1/n)</sup> denotes the nth root of a.
+					<br/><b>Laws of Indices:-</b>
+					<br/>a<sup>m</sup> x a<sup>n</sup> = a<sup>(m + n)</sup>
+					<br/>a<sup>m</sup> ÷ a<sup>n</sup> = a<sup>(m-n)</sup>
+					<br/>(a<sup>m</sup>)<sup>n</sup> = a<sup>mn</sup>
+					<br/>(ab)<sup>n</sup> = a<sup>n</sup>b<sup>n</sup>
+					<br/><br/>a<sup>(p/q)</sup> = <sup>1/q</sup>√(a<sup>p</sup>)
+					<br/>a<sup>0</sup> = 1
+					<br/>a<sup>(1/n)</sup> = <sup>1/n</sup>√(a)
+					<br/>a<sup>(-n)</sup> = 1/a<sup>n</sup> 
+					<br/>(a X b)<sup>m</sup>=a<sup>m</sup>  X a<sup>m</sup>
+					<br/>(a/b)<sup>m</sup>= a<sup>m</sup>/b<sup>m</sup> 
+					<br/>If a<sup>m</sup>=a<sup>n</sup>  and a ≠ -1,0,1 then m=n					
+					<br/><b>Surds:-</b>
+					<br/>Any root of a rational number, which cannot be exactly found is called a surd.
+					<br/>Example: √2, ∛4,2+ √2
+					<br/>For a surd <sup>1/n</sup>√a, a is called the Radicand and n is called the order of the surd. √ is called the Radical Sign.
+					<br/><b>Type of Surds:-</b>
+					<br/><b>Pure Surd:-</b>
+					<br/>A surd which consist wholly of an irrational number is called a pure surd. A pure surd has 1 as only rational number
+					<br/>Ex. ∛(5,)  √8
+					<br/><b>Mixer Surd:-</b>
+					<br/>If a surd has one factor which is a rational number other than one and the other factor is an irrational number then the surd is called a mixed surd.
+					<br/>Ex. 2√5
+					<br/><b>Laws of Surds:-</b>
+					<br/><sup>n</sup>√a= a<sup>(1/n)</sup>
+					<br/><sup>n</sup>√(ab)= <sup>n</sup>√a  X <sup>n</sup>√b
+					<br/>(<sup>n</sup>√a)<sup>n</sup>= a
+					<br/><sup>n</sup>√(a/b)=<sup>n</sup>√a/<sup>n</sup>√b
+					<br/>(<sup>n</sup>√a/<sup>n</sup>√b)<sup>n</sup>= a/b	 
+					<br/>(<sup>n</sup>√a)<sup>m</sup>= <sup>n</sup>√(a<sup>m</sup>)
+					<br/>If a+√b=x+ √y , then a = x and b = y
+					<br/>If x is a number between 0 and 1
+					<br/>Then ... <sup>3</sup>√x > <sup>2</sup>√x > x > x<sup>2</sup> > x<sup>3</sup> ...
+					<br/>When a number is raised to some power, the unit’s place digit of the result follows a particular pattern is given by the rule of cyclicity.
+					<br/>The rule of cyclicity  for numbers which end with digits 0-9 can be devised by following table:
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Find the value of [(10)<sup>150</sup> ÷(10)<sup>146</sup>] ::</b>
+					<br/>= (10)<sup>150</sup> / 10<sup>146</sup>
+					<br/>= (10)<sup>(150 - 146)</sup>
+					<br/>= 104.
+					<br/>= 10000.
+
+					"},
+					{"example2":
+					"
+					<b>The value of (625)<sup>5/4</sup> is</b>
+					<br/>=(5<sup>4</sup>)<sup>5/4</sup>
+					<br/>=5<sup>(4x5/4)</sup>
+					<br/>= 55
+					<br/>= 3125
+					"}],
+		"practices":
+					[					
+					{"question1":"The value of (256)<sup>5/4</sup> is", "answer1":"1024", "option1":"984;512;1014;1024",
+					 "explanation1":
+					 "
+					<br/> =(4<sup>4</sup>)<sup>5/4</sup>
+					<br/>=4<sup>(4x5/4)</sup>
+					<br/>= 45
+					<br/>= 1024.
+					 
+					 "},
+					{"question2":"If 3<sup>(x-y)</sup>= 27 and 3<sup>(x+y)</sup>=243, then x is equal to", "answer2":"4", "option2":"0;2;4;6",
+					 "explanation2":
+					 "
+					 <br/>3<sup>(x-y)</sup>	= 27	= 3<sup>3</sup>	x - y = 3. ......(1)
+					<br/>3<sup>(x+y)</sup>	= 243	= 3<sup>5</sup> 	x + y = 5. .......(2)
+					<br/>On solving equations 1 and 2, we get	= x=4.
+					 
+					 "},
+					 {"question3":"If a<sup>x</sup> =b, b<sup>y</sup>= c and c<sup>z</sup>= a, then the value of xyz is", "answer3":"1", "option3":"0;1;2;abc",
+					 "explanation3":
+					 "
+					 <br/>a<sup>1</sup> 
+					 <br/>= c<sup>z</sup> 
+					<br/>=(b<sup>y</sup>)<sup>y</sup>
+					<br/>=(b<sup>yz</sup>)
+					<br/>=(a<sup>x</sup>)<sup>yz</sup>
+					<br/>Therefore,	xyz= 1
+									 
+					 "},
+					 {"question4":"(0.04)<sup>-1.5</sup> = ?", "answer4":"125", "option4":"125;25;250;625",
+					 "explanation4":
+					 "
+					<br/>(0.04)<sup></sup>-1.5	= (4/100)<sup></sup>-1.5
+					<br/>= (1/25)<sup>-3/2</sup>
+					<br/>= (25)<sup>3/2</sup>
+					<br/>=(5<sup>2</sup>)<sup>3/2</sup>
+					<br/><=> 5<sup>(2x3/2)</sup>
+					<br/>= 5<sup>3</sup>
+					<br/>= 125.
+					 
+					 "},
+					 {"question5":"If 2<sup>x</sup> = <sup>3</sup>√32, then x is equal to", "answer5":"5/3", "option5":"5;3;5/3;3/5",
+					 "explanation5":
+					 "
+					 <br/>2<sup>x</sup> = <sup>3</sup>√32	= 2<sup>x</sup>
+					<br/>= (32)<sup>1/3</sup>
+					<br/>= (2<sup>5</sup>)<sup>1/3</sup>
+					<br/>= 2<sup>5/3</sup>
+					<br/><=> x=5/3.
+					 
+					 "},
+					 {"question6":"(17)<sup>3.5</sup> x (17)<sup>x</sup>? = 178", "answer6":"4.5", "option6":"2.29;2.75;4.25;4.5",
+					 "explanation6":
+					 "
+					 <br/>Let (17)<sup>3.5</sup> x (17)<sup>x</sup> = 178.
+					<br/>Then, (17)<sup>3.5 + x</sup> = 178.
+					<br/>  3.5 + x = 8
+					<br/>  x = (8 - 3.5)
+					<br/>  x = 4.5
+					 
+					 "},
+					 {"question7":"If 5<sup>a</sup> = 3125, then the value of 5<sup>(a - 3)</sup> is:", "answer7":"", "option7":"25;125;1625;625",
+					 "explanation7":
+					 "
+					 <br/>5<sup>a</sup> = 3125         5<sup>a</sup> = 5<sup>5</sup>
+					  <br/>a = 5.
+					  <br/>5<sup>(a - 3)</sup> = 5<sup>(5 - 3)</sup> = 5<sup>2</sup>2 = 25.
+					 
+					 "},
+					 {"question8":"If 3<sup>(x - y)</sup> = 27 and 3<sup>(x + y)</sup> = 243, then x is equal to:", "answer8":"4", "option8":"0;2;6;4",
+					 "explanation8":
+					 "
+					 <br/>3<sup>(x - y)</sup> = 27 = 3<sup></sup>3         x - y = 3 ....(i)
+					<br/>3<sup>(x + y)</sup> = 243 = 3<sup>5</sup>         x + y = 5 ....(ii)
+					<br/>On solving (i) and (ii), we get x = 4.
+					 
+					 "},
+					 {"question9":"The value of [(10)<sup>150</sup> ÷ (10)<sup>146</sup>]", "answer9":"10000", "option9":"1000;10000;100000;1000000",
+					 "explanation9":
+					 "
+					 <br/>(10)<sup>150</sup> ÷ (10)<sup>146</sup> =	10<sup>150</sup>/10<sup>146</sup>
+				   <br/>= 10<sup>(150 - 146)</sup>
+				   <br/>= 10<sup>4</sup>
+				   <br/>= 10000.
+									 
+					 "},
+					 {"question10":"If m and n are whole numbers such that m<sup>n</sup> = 121, the value of (m - 1)<sup>n + 1</sup> is:", "answer10":"1000", "option10":"1;10;21;1000",
+					 "explanation10":
+					 "
+					 <br/>We know that 11<sup>2</sup> = 121.
+					<br/>Putting m = 11 and n = 2, we get:
+					<br/>(m - 1)<sup>n + 1</sup> = (11 - 1)<sup>(2 + 1)</sup> = 10<sup>3</sup> = 1000.
+					 
+					 "},
+					 {"question11":"If 5<sup>a</sup>= 3125, then the value of 5<sup>(a-3)</sup> is", "answer11":"25", "option11":"25;125;1625;625",
+					 "explanation11":
+					 "
+					 <br/>5<sup>a</sup>	=3125
+					<br/>= 5<sup>a</sup>= 5<sup>5</sup>
+					<br/>a=5.
+					<br/>5<sup>(a-3)</sup>	
+					<br/>= 5<sup>(5-3)</sup>= 5<sup>2</sup>
+					<br/>= 25.
+									 
+					 "},
+					 {"question12":"(2.4*10<sup>3</sup>) / (8*10<sup>-2</sup>)=?", "answer12":"3*10<sup>4</sup>", "option12":"3*10<sup>4</sup>;3*10<sup>5</sup>;3*10<sup>-4</sup>;3*10<sup>-5</sup>",
+					 "explanation12":
+					 "
+					 <br/>(2.4 * 10<sup>3</sup>) / (8*10<sup>-2</sup>) = 2.4*10<sup>3</sup> / 8*10<sup>-2</sup> = 24*10/8*10<sup>-2</sup>
+					<br/>= (3*10<sup>4</sup>).
+					 
+					 "},
+					 {"question13":"49 * 49 * 49 * 49 = 7<sup>?</sup>", "answer13":"8", "option13":"4;5;;78",
+					 "explanation13":
+					 "
+					 <br/>49 * 49 * 49 * 49 = (7<sup>2</sup> * 7<sup>2</sup> * 7<sup>2</sup> * 7<sup>2</sup>) = 7<sup>(2+2+2+2)</sup> = 7<sup>8</sup>.
+					<br/>So, the correct answer is 8.
+					 
+					 "},
+					 {"question14":"The value of (8<sup>-25</sup> - 8<sup>-26</sup>) is", "answer14":"7 * 8<sup>-26</sup>", "option14":"7 * 8<sup>-25</sup>;7 * 8<sup>-26</sup>;8 * 8<sup>-25</sup>;8 * 8<sup>-26</sup>",
+					 "explanation14":
+					 "
+					 <br/>8<sup>-25</sup> - 8<sup>-26</sup> = (1/8)<sup>-25</sup>[1 - 1/8] = 7 * 8<sup>-26</sup>
+					 "},
+					 {"question15":"Given that 10<sup>0.48</sup> = x, 10<sup>0.70</sup> = y and x<sup>z</sup> = y<sup>2</sup>, then the value of z is close to", "answer15":"-2", "option15":"2;-2;1;-1",
+					 "explanation15":
+					 "
+					 <br/>2<sup>n+4</sup> - 2<sup>n+2</sup> = 3 ⇔ 2<sup>n+2</sup> (2<sup>2</sup> - 1) = 3 ⇔ 2<sup>n+2</sup> = 1 = 2<sup>0</sup>
+					 <br/>n+2 = 0 ⇔ n= -2
+					 "}				
+					 ]
+	},	
+	{
+		"num":"4",
+		"topic":"Application of Numbers",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Reminders:-</b>
+					<br/>A natural number ‘m’ when divided by a natural number  ‘n’ will yield the remainder that is a whole number and less than n i.e. 0,1,2,…….n-1
+					<br/><b>Methods to find remainder:-</b>
+					<br/><b>Cyclicity of remainders:</b>
+					<br/>Successive powers of a number when divided by the same number leave remainders that follow a cyclic pattern. Using this pattern, the remainder of the division of any power of that number (by the same number) can be found out.
+					<br/>Ex.  To find reminder of 2^54 when divided by 7
+					<br/>Answer. 2^1,2^2,2^3,2^4,2^5,2^(6 ) and 2^7 when divided by 7 leave remainders of 2, 4, 1, 2, 4, 1 and 2 respectively.
+					<br/>So the pattern repeats after 3 steps.
+					<br/>Thus remainder 2^54 when divided by 7 will be same as remainder of 2^3 when divided by 7. 
+					<br/>Hence remainder of 2^54 is 1.
+					<br/><b>Remainder Theorem:</b>
+					<br/>If a natural number ‘n’ divided by a natural number ‘m’ and can be brought in the form
+					<br/>(x.(a<sup>p</sup>)<sup>q</sup>)/(a<sup>p</sup>- 1), such that
+					<br/>	n = x.(a<sup>p</sup>)<sup>q</sup>
+					<br/>	m = a<sup>p</sup>- 1
+					<br/>	x, a, p & q are all natural numbers
+					<br/>	x < m
+					<br/>Then the remainder of the division of ‘n’ by ‘m’ is ‘x’
+					<br/>Ex. To find remainder of 2^5 divided by 7
+					<br/>2<sup>5</sup>/7= (2<sup>2</sup>.(2<sup>3</sup> )<sup>1</sup>)/(2<sup>3</sup>- 1) or remainder  = 2<sup>2</sup> = 4					
+					<br/><b>Factorials:-</b>
+					<br/>The product of the first ‘n’ natural numbers in n! (Pronounced as n factorial)
+					<br/>n! = 1X2X3X………(n-1)X(n)
+					<br/>For ex. 3! = 3X2X1 = 6
+					<br/>The factorial of every number greater than 1 will have one or more prime numbers.
+					<br/>A factorial of a number (except number 1) is either a prime number or a combination of 1 or more prime numbers.
+					<br/><b>Highest power of a number in factorial</b>
+					<br/>To find powers of a prime number ‘p’ contained in n!, where n is natural number.
+					<br/>Highest power of prime number ‘p’ in n! = [n/p] + [n/p<sup>2</sup>] + [n/p<sup>3</sup>] + [n/p<sup>4</sup>] + ... 
+					<br/>Where the value of term in the [ ] is the greatest integral value less than or equal to term..
+					<br/>Ex.  Highest power of 2 in 20!
+					<br/>= [20/2] + [20/2<sup>2</sup>] + [20/2<sup>3</sup>] + [20/2<sup>4</sup>]
+					<br/>= 10 + 5 + 2 +1 = 18
+					<br/>Note: In case of finding highest power of composite number C, find largest prime factor C. Use above method for finding highest power of prime number. Highest power of that prime number will be highest power of composite number. (See example 2)
+					<br/><b>Properties of number based result:-</b>
+					<br/>To find the smallest number (say x), which when divided by 2 or more divisors, leaves the same reminder in each case.
+					<br/>X = Remainder + LCM of divisor X k (where k is a positive integer)
+					<br/>Ex. To find smallest 3 digit number which when divided by 3, 4, 5 leaves a remainder of 2
+					<br/>So x = 2 + (LCM of 3,4,5)X2 (to get smallest 3 digit k = 2)
+					<br/>Or x = 2 + 60X2 = 122
+					<br/>To find the smallest number (say x), which when divided by 2 or more divisors, leave a different remainder in each case, such that there is a common difference between the divisor and corresponding remainder.
+					<br/>In general, x = LCM of divisor X k (Where k is a positive integer) – Common difference
+					<br/>IF we consider 3 consecutive positive integers, say (n-1), n, (n+1) then the product of them i.e. n. ((n^2-1) is always divisible by 6.
+					<br/>If ‘n’ is an odd prime number greater than 3, than (n<sup>2</sup>-1) will always be divisible by 24.
+					<br/>For any ‘n’ consecutive positive integers, the product is divisible by n and n!.
+					<br/>For every positive integer n, n<sup>3</sup>-n is divisible by 3, n<sup>5</sup>-n is divisible by 5, n<sup>11</sup>-n is divisible by 11. In general, if ‘p’ is a prime number then for any natural number ‘n’  n<sup>p</sup>-n is divisible by ‘p’.
+					<br/>If a number n is divisible by each of 2 relatively prime numbers, then it is also divisible by the product of 2 numbers.
+					<br/>If a product ab is divisible by c, where b and c are relatively prime then a is divisible by c.
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b> Find the greatest number that will divide 43, 91 and 183 so as to leave the same remainder in each case.</b>
+					<br/>Solution: 
+					<br/>Required number
+					<br/>= H.C.F of (91 - 43), (183 - 91) and (183 - 43)		
+					<br/>= H.C.F of 48, 92 and 140		
+					<br/>= 4.
+					"},
+					{"example2":
+					"
+					<b>what is the remainder when 3<sup>67</sup> divided by 8</b>
+					<br/>The pattern of divisibility of 3 raised to any power by 8 is given by:
+					<br/>3/8 gives remainder of 3
+					<br/>3<sup>2</sup>/8 gives remainder of 1
+					<br/>3<sup>3</sup>/8 gives remainder of 3 and so on
+					<br/>Hence the pattern repeats after 2 steps
+					<br/>And all odd powers of 3 give a remainder of 3
+					<br/>So 3<sup>67</sup> will give  a remainder of 3. 
+
+					"}],
+		"practices":
+					[ 
+					{"question1":"If n is a natural number, then (6n<sup>2</sup> + 6n) is always divisible by:", "answer1":"6 and 12 both", "option1":"6 only;6 and 12 both;12 only;by 18 only",
+					 "explanation1":
+					 "
+					 <br/>(6n<sup>2</sup> + 6n) = 6n(n + 1), which is always divisible by 6 and 12 both, since n(n + 1) is always even.
+					 "},
+					{"question2":"What will be remainder when (67<sup>67</sup> + 67) is divided by 68 ?", "answer2":"66", "option2":"1;63;66;67",
+					 "explanation2":
+					 "
+					 <br/>(x<sup>n</sup> + 1) will be divisible by (x + 1) only when n is odd.
+					 <br/>(67<sup>67</sup> + 1) will be divisible by (67 + 1)
+					 <br/>(67<sup>67</sup> + 1) + 66, when divided by 68 will give 66 as remainder.
+					 
+					 "},
+					 {"question3":"On dividing a number by 5, we get 3 as remainder. What will the remainder when the square of the this number is divided by 5 ?", "answer3":"4", "option3":"0;1;2;4",
+					 "explanation3":
+					 "
+					 Let the number be x and on dividing x by 5, we get k as quotient and 3 as remainder.
+				     <br/>x = 5k + 3
+				     <br/>x<sup>2</sup> = (5k + 3)<sup>2</sup>
+				     <br/>(25k<sup>2</sup> + 30k + 9)
+				     <br/>= 5(5k<sup>2</sup> + 6k + 1) + 4
+				     <br/>On dividing x<sup>2</sup> by 5, we get 4 as remainder.
+					 
+					 "},
+					 {"question4":"How many 3-digit numbers are completely divisible 6 ?", "answer4":"150", "option4":"149;150;151;166",
+					 "explanation4":
+					 "
+					 <br/>3-digit number divisible by 6 are: 102, 108, 114,... , 996
+					<br/>This is an A.P. in which a = 102, d = 6 and l = 996
+					<br/>Let the number of terms be n. Then t<sub>n</sub> = 996.
+					<br/>  a + (n - 1)d = 996
+					<br/>  102 + (n - 1) x 6 = 996
+					<br/>  6 x (n - 1) = 894
+					<br/>  (n - 1) = 149
+					<br/>  n = 150
+					<br/>  Number of terms = 150.
+					 
+					 "},
+					 {"question5":"On dividing a number by 357, we get 39 as remainder. On dividing the same number 17, what will be the remainder ?", "answer5":"5", "option5":"3;0;5;11",
+					 "explanation5":
+					 "
+					 <br/>Let x be the number and y be the quotient. Then,
+					<br/>x = 357 x y + 39
+					<br/>  = (17 x 21 x y) + (17 x 2) + 5
+					<br/>  = 17 x (21y + 2) + 5)
+					<br/> Required remainder = 5.					 
+					 "},
+					 {"question6":"In a division sum, the divisor is 10 times the quotient and 5 times the remainder. If the remainder is 46, what is the dividend ?", "answer6":"5336", "option6":"4236;4306;4336;5336",
+					 "explanation6":
+					 "
+					<br/>Divisor = (5 x 46) = 230
+				    <br/>10 x Quotient = 230      =	230/10	= 23
+				    <br/>Dividend = (Divisor x Quotient) + Remainder
+				    <br/> = (230 x 23) + 46
+				    <br/> = 5290 + 46
+				    <br/> = 5336.									 
+					 "},
+					 {"question7":"476 ** 0 is divisible by both 3 and 11. The non-zero digits in the hundred's and ten's places are respectively:", "answer7":"8 and 5", "option7":"7 and 4;7 and 5;8 and 5;None of these",
+					 "explanation7":
+					 "
+					 <br/>Let the given number be 476 xy 0.
+					<br/>Then (4 + 7 + 6 + x + y + 0) = (17 + x + y) must be divisible by 3.
+					<br/>And, (0 + x + 7) - (y + 6 + 4) = (x - y -3) must be either 0 or 11.
+					<br/>x - y - 3 = 0     y = x - 3
+					<br/>(17 + x + y) = (17 + x + x - 3) = (2x + 14)
+					<br/>  x= 2 or x = 8.
+					<br/>  x = 8 and y = 5.
+					 
+					 "},
+					 {"question8":"Find the maximum power of 10 that will be divided 125! Completely.", "answer8":"31", "option8":"25;28;30;31",
+					 "explanation8":
+					 "
+					 <br/>We have to find the number of zeros that 125! Will end in.
+					<br/>The deciding factor to calculate the zeros will be the maximum power of 5 dividing 125!.
+					<br/>In 125! 
+					<br/>The number of multiples of 5 = 125/5 = 25,
+					<br/>Number of multiples of 25 = 125/25 = 5,
+					<br/>Number of multiples of 125 = 125/125 = 1.
+					<br/>So maximum power of 5 = 25 + 5 + 1 = 31
+					<br/>So 125! will end in 31 zeros. 
+					 
+					 "},
+					 {"question9":"The factorial of any number can be decomposed into a product of prime numbers. Let the maximum power of 2 in the decomposition of the factorial of a number (n) be k. Find n, if k = 9.", "answer9":"No such n exists", "option9":"10;12;13;No such n exists",
+					 "explanation9":
+					 "
+					<br/>10!=2<sup></sup>8  X 3<sup></sup>4  X 5<sup></sup>2  X 7 
+					<br/>11!=2<sup>8</sup>  X 3<sup>4</sup>  X 5<sup>2</sup>  X 7 X 11 
+					<br/>12!=2<sup>10</sup>  X 3<sup>5</sup>  X 5<sup>2</sup>  X 7 X 11
+					<br/>Now, 2<sup>10</sup> will divide the factorial of any number greater than 12. So k cannot be 9 for any n, Hence [4]					 
+					 "},
+					 {"question10":"A boy multiplied 987 by a certain number and obtained 559981 as his answer. If in the answer both 9 are wrong and the other digits are correct, then the correct answer would be:", "answer10":"555681", "option10":"553681;555181;555681;556581",
+					 "explanation10":
+					 "
+					 <br/>987 = 3 x 7 x 47
+					<br/>So, the required number must be divisible by each one of 3, 7, 47
+					<br/>553681   (Sum of digits = 28, not divisible by 3)
+					<br/>555181   (Sum of digits = 25, not divisible by 3)
+					<br/>555681 is divisible by 3, 7, 47.
+					 
+					 "},
+					 {"question11":"Which natural number is nearest to 9217, which is completely divisible by 88 ?", "answer11":"", "option11":"9152;9240;9064;9184",
+					 "explanation11":
+					 "
+					 <br/>On dividing we get, 
+					<br/>    --------
+					<br/> 88 ) 9217 ( 104
+					<br/>      88
+					<br/>     ----
+					<br/>      417
+					<br/>      352
+					<br/>      ----
+					<br/>       65
+					<br/>      ----
+					<br/> Therefore, Required number = 9217 + (88 - 65) // Because (88 - 65) < 65.
+					<br/>   = 9217 + 23
+					<br/>   = 9240.      
+      					 
+					 "},
+					 {"question12":"Which of the following numbers will completely divide (3<sup>25</sup> + 3<sup>26</sup> + 3<sup>27</sup> + 3<sup>28</sup>) ?", "answer12":"30", "option12":"11;16;25;30",
+					 "explanation12":
+					 "
+					 <br/>(3<sup>25</sup> + 3<sup>26</sup> + 3<sup>27</sup> + 3<sup>28</sup>) = 3<sup>25</sup> x (1 + 3 + 3<sup>2</sup> + 3<sup>3</sup>) = 3<sup>25</sup> x 40
+				     <br/>= 3<sup>24</sup> x 3 x 4 x 10
+				     <br/>= (3<sup>24</sup> x 4 x 30), which is divisible by30.
+					 
+					 "},
+					 {"question13":"What is the unit digit in(7<sup>95</sup> - 3<sup>58</sup>)?", "answer13":"4", "option13":"0;4;6;7",
+					 "explanation13":
+					 "
+					 <br/>Unit digit in 7<sup>95</sup> = Unit digit in [(7<sup>4</sup>)<sup>23</sup> x 7<sup>3</sup>] 
+					<br/>= Unit digit in [(Unit digit in(2401))<sup>23</sup> x (343)] 
+					<br/>= Unit digit in (1<sup>23</sup> x 343) 
+					<br/>= Unit digit in (343) 
+					<br/>= 3
+					<br/>Unit digit in 358 = Unit digit in [(3<sup>4</sup>)<sup>14</sup> x 3<sup>2</sup>] 
+					<br/>= Unit digit in [Unit digit in (81)<sup>14</sup> x 3<sup>2</sup>] 
+					<br/>= Unit digit in [(1)<sup>14</sup> x 32] 
+					<br/>= Unit digit in (1 x 9) 
+					<br/>= Unit digit in (9) 
+					<br/>= 9
+					<br/>Unit digit in (7<sup>95</sup> - 3<sup>58</sup>) = Unit digit in (343 - 9) = Unit digit in (334) = 4.					 
+					 "},
+					 {"question14":"What is the least number which when lessened by 5 is divisible by 36,48,21 and 28?", "answer14":"1013", "option14":"1008;1003;1013;1018",
+					 "explanation14":
+					 "
+					 <br/>LCM of 36, 48, 21 and 28 = 1008;
+					<br/>Number = 1008 + 5 = 1013
+					 
+					 "},
+					 {"question15":"The largest 5 digit number exactly divisible by 91 is:", "answer15":"99918", "option15":"99921;99918;99981;99971",
+					 "explanation15":
+					 "
+					 <br/>Largest 5-digit number = 99999
+					<br/>    ---------
+					<br/> 91 ) 99999 ( 1098
+					<br/>      91
+					<br/>     ---
+					<br/>      899
+					<br/>      819
+					<br/>      ----
+					<br/>       809
+					<br/>       728
+					<br/>       ---
+					<br/>        81
+					<br/>       ---
+					<br/> Required number = (99999 - 81)
+					<br/>                 = 99918.   
+					 
+					 "}
+					]
+	}
+	
+]

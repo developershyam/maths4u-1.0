@@ -8,6 +8,7 @@ import java.util.List;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
@@ -174,19 +175,19 @@ public class PracticeQuestionActivity extends BaseActivity {
 		TextView num = (TextView) findViewById(R.id.quant_questionNoLevel);
 		num.setText("Q. "+(current+1)+" ");
 		TextView question = (TextView) findViewById(R.id.quant_questionLevel);
-		question.setText(practiceQuestion.getQuestion());
+		question.setText(Html.fromHtml(practiceQuestion.getQuestion()));
 		
 		RadioButton option1 = (RadioButton) findViewById(R.id.quant_radioButton1);
-		option1.setText(practiceQuestion.getOption1());
+		option1.setText(Html.fromHtml(practiceQuestion.getOption1()));
 		option1.setChecked(false);
 		RadioButton option2 = (RadioButton) findViewById(R.id.quant_radioButton2);
-		option2.setText(practiceQuestion.getOption2());
+		option2.setText(Html.fromHtml(practiceQuestion.getOption2()));
 		option2.setChecked(false);
 		RadioButton option3 = (RadioButton) findViewById(R.id.quant_radioButton3);
-		option3.setText(practiceQuestion.getOption3());
+		option3.setText(Html.fromHtml(practiceQuestion.getOption3()));
 		option3.setChecked(false);
 		RadioButton option4 = (RadioButton) findViewById(R.id.quant_radioButton4);
-		option4.setText(practiceQuestion.getOption4());
+		option4.setText(Html.fromHtml(practiceQuestion.getOption4()));
 		option4.setChecked(false);
 		
 		option1.setBackgroundColor(Color.WHITE);
