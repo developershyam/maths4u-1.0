@@ -41,7 +41,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.quant_practice);
+		setContentView(R.layout.logical_practice);
 		
 		Intent intent = getIntent();
 		groupPosition = intent.getIntExtra("groupPosition", 0);
@@ -67,10 +67,10 @@ public class PracticeQuestionActivity extends BaseActivity {
 		
 		setPracticeQuestion(practiceQuestions, current);
 		
-		Button check=(Button)findViewById(R.id.quant_check);
-		Button explain=(Button)findViewById(R.id.quant_explaination);
-		Button next=(Button)findViewById(R.id.quant_next);
-		Button back=(Button)findViewById(R.id.quant_bck);
+		Button check=(Button)findViewById(R.id.logical_check);
+		Button explain=(Button)findViewById(R.id.logical_explaination);
+		Button next=(Button)findViewById(R.id.logical_next);
+		Button back=(Button)findViewById(R.id.logical_bck);
 		
 		final AlphaAnimation animation = new AlphaAnimation(1F, 0.2F);
 		
@@ -79,17 +79,17 @@ public class PracticeQuestionActivity extends BaseActivity {
 			public void onClick(View v) {
 
 				v.startAnimation(animation);
-				RadioButton option1=(RadioButton) findViewById(R.id.quant_radioButton1);
-				RadioButton option2=(RadioButton) findViewById(R.id.quant_radioButton2);
-				RadioButton option3=(RadioButton) findViewById(R.id.quant_radioButton3);
-				RadioButton option4=(RadioButton) findViewById(R.id.quant_radioButton4);
+				RadioButton option1=(RadioButton) findViewById(R.id.logical_radioButton1);
+				RadioButton option2=(RadioButton) findViewById(R.id.logical_radioButton2);
+				RadioButton option3=(RadioButton) findViewById(R.id.logical_radioButton3);
+				RadioButton option4=(RadioButton) findViewById(R.id.logical_radioButton4);
 				option1.setBackgroundColor(Color.WHITE);
 				option2.setBackgroundColor(Color.WHITE);
 				option3.setBackgroundColor(Color.WHITE);
 				option4.setBackgroundColor(Color.WHITE);
 				
 				PracticeQuestion practiceQuestion=practiceQuestions.get(current);
-				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.logical_radioButtons);
 				int id=radioGroup.getCheckedRadioButtonId();
 				System.out.println("getCheckedRadioButtonId : "+id);
 				if(id!= -1){
@@ -126,7 +126,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 			@Override
 			public void onClick(View v) {
 				
-				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+				RadioGroup radioGroup=(RadioGroup) findViewById(R.id.logical_radioButtons);
 				selectedOptionId=radioGroup.getCheckedRadioButtonId();
 				Intent intent = new Intent();
 				intent.putExtra("groupPosition", groupPosition);
@@ -172,21 +172,21 @@ public class PracticeQuestionActivity extends BaseActivity {
 				
 
 		final PracticeQuestion practiceQuestion = data.get(current);
-		TextView num = (TextView) findViewById(R.id.quant_questionNoLevel);
+		TextView num = (TextView) findViewById(R.id.logical_questionNoLevel);
 		num.setText("Q. "+(current+1)+" ");
-		TextView question = (TextView) findViewById(R.id.quant_questionLevel);
+		TextView question = (TextView) findViewById(R.id.logical_questionLevel);
 		question.setText(Html.fromHtml(practiceQuestion.getQuestion()));
 		
-		RadioButton option1 = (RadioButton) findViewById(R.id.quant_radioButton1);
+		RadioButton option1 = (RadioButton) findViewById(R.id.logical_radioButton1);
 		option1.setText(Html.fromHtml(practiceQuestion.getOption1()));
 		option1.setChecked(false);
-		RadioButton option2 = (RadioButton) findViewById(R.id.quant_radioButton2);
+		RadioButton option2 = (RadioButton) findViewById(R.id.logical_radioButton2);
 		option2.setText(Html.fromHtml(practiceQuestion.getOption2()));
 		option2.setChecked(false);
-		RadioButton option3 = (RadioButton) findViewById(R.id.quant_radioButton3);
+		RadioButton option3 = (RadioButton) findViewById(R.id.logical_radioButton3);
 		option3.setText(Html.fromHtml(practiceQuestion.getOption3()));
 		option3.setChecked(false);
-		RadioButton option4 = (RadioButton) findViewById(R.id.quant_radioButton4);
+		RadioButton option4 = (RadioButton) findViewById(R.id.logical_radioButton4);
 		option4.setText(Html.fromHtml(practiceQuestion.getOption4()));
 		option4.setChecked(false);
 		
@@ -195,7 +195,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 		option3.setBackgroundColor(Color.WHITE);
 		option4.setBackgroundColor(Color.WHITE);
 		
-		RadioGroup radioGroup=(RadioGroup) findViewById(R.id.quant_radioButtons);
+		RadioGroup radioGroup=(RadioGroup) findViewById(R.id.logical_radioButtons);
 		radioGroup.clearCheck();
 		
 		if(fromExplain && selectedOptionId!=-1){

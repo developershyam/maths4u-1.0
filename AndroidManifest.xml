@@ -87,6 +87,24 @@
             android:name="com.xieon.quant.ExplainPracticeActivity"
             android:label="@string/app_name" >
         </activity>
+        <!-- logical -->
+        <activity
+            android:name="com.xieon.logical.ExpandableList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.logical.ContentList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.logical.PracticeQuestionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.logical.ExplainPracticeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
     </application>
 
 </manifest>

@@ -45,11 +45,11 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		groupPosition = intent.getIntExtra("groupPosition", 0);
 		childPosition = intent.getIntExtra("childPosition", 0);
 		currentTopic = childPosition;
-		setContentView(R.layout.quant_home);
+		setContentView(R.layout.logical_home);
 		theoryContents = getTheoryContent();
 		maxTopic = theoryContents.size();
 		createGroupList();
-		expListView = (ExpandableListView) findViewById(R.id.quant_home_topic_list);
+		expListView = (ExpandableListView) findViewById(R.id.logical_home_topic_list);
 		final ContentListAdapter expListAdapter = new ContentListAdapter(
 				contentList, groupList, topicCollections);
 		expListView.setAdapter(expListAdapter);
@@ -57,7 +57,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		expListView.setOnGroupClickListener(this);
 		// setGroupIndicatorToRight();
 		final AlphaAnimation animation = new AlphaAnimation(1F, 0.2F);
-		ImageView nextButton = (ImageView) findViewById(R.id.quant_home_next);
+		ImageView nextButton = (ImageView) findViewById(R.id.logical_home_next);
 		nextButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -70,7 +70,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 
 			}
 		});
-		ImageView backButton = (ImageView) findViewById(R.id.quant_home_back);
+		ImageView backButton = (ImageView) findViewById(R.id.logical_home_back);
 		backButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
@@ -127,25 +127,25 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		String json="";
 		if(groupPosition==0){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_arithmetic.json");
+					"logical_arithmetic.json");
 		}else if(groupPosition==1){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_square.json");
+					"logical_square.json");
 		}else if(groupPosition==2){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_addition.json");
+					"logical_addition.json");
 		}else if(groupPosition==3){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_divisibility.json");
+					"logical_divisibility.json");
 		}else if(groupPosition==4){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_miscellaneous.json");
+					"logical_miscellaneous.json");
 		}else if(groupPosition==8){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_speed_time_distance.json");
+					"logical_speed_time_distance.json");
 		}else{
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_multiplication.json");
+					"logical_multiplication.json");
 		}
 		
 		
@@ -229,7 +229,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		topicCollections.put("Practice Questions",
 				new ArrayList<String>());
 
-		expListView = (ExpandableListView) findViewById(R.id.quant_home_topic_list);
+		expListView = (ExpandableListView) findViewById(R.id.logical_home_topic_list);
 		final ContentListAdapter expListAdapter = new ContentListAdapter(
 				contentList, groupList, topicCollections);
 		expListView.setAdapter(expListAdapter);

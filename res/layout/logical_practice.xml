@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/logical_questionNoLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:text="Q. 1 "
+            android:width="50dp" />
+
+        <TextView
+            android:id="@+id/logical_questionLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/logical_questionNoLevel"
+            android:layout_toRightOf="@+id/logical_questionNoLevel"
+            android:ems="10"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+       
+        
+        " />
+
+        <RadioGroup
+            android:id="@+id/logical_radioButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logical_questionLevel" >
+
+            <RadioButton
+                android:id="@+id/logical_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton1" />
+
+            <RadioButton
+                android:id="@+id/logical_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton2" />
+
+            <RadioButton
+                android:id="@+id/logical_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton3" />
+
+            <RadioButton
+                android:id="@+id/logical_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/logical_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logical_radioButtons"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Check" />
+        <Button
+            android:id="@+id/logical_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logical_check"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Next>>" />
+        
+        <Button
+            android:id="@+id/logical_explaination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logical_next"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Solution" />
+        
+        <Button
+            android:id="@+id/logical_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logical_explaination"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Back To Theory" />
+        
+        <TextView
+            android:id="@+id/logical_questionFooter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/logical_bck"
+            android:layout_marginTop="10dp"
+            android:ems="0" />
+
+    </RelativeLayout>
+
+</ScrollView>

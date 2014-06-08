@@ -25,13 +25,13 @@ public class ExpandableList extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.quant_home);
+		setContentView(R.layout.logical_home);
 		Intent intent = getIntent();
 		String json = intent.getStringExtra("json");
 		System.out.println("****************\n*****\n*************"+json);
 		createGroupList(json);
 
-		expListView = (ExpandableListView) findViewById(R.id.quant_home_topic_list);
+		expListView = (ExpandableListView) findViewById(R.id.logical_home_topic_list);
 		final ExpandableListAdapter expListAdapter = new ExpandableListAdapter(
 				this, groupList, topicCollections);
 		expListView.setAdapter(expListAdapter);

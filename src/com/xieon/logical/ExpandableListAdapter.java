@@ -63,7 +63,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 				Context context = v.getContext();
 				intent.putExtra("groupPosition", groupPosition);
 				intent.putExtra("childPosition", childPosition);
-				intent.setClass(context, com.xieon.quant.ContentList.class);
+				intent.setClass(context, com.xieon.logical.ContentList.class);
 				context.startActivity(intent);
 			}
 		});

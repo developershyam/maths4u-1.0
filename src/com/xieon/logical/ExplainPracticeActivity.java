@@ -35,7 +35,7 @@ public class ExplainPracticeActivity extends BaseActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.quant_explain);
+		setContentView(R.layout.logical_explain);
 		
 		Intent intent = getIntent();
 		groupPosition = intent.getIntExtra("groupPosition", 0);
@@ -52,7 +52,7 @@ public class ExplainPracticeActivity extends BaseActivity {
 		
 		setPracticeExplain(practiceQuestions, current);
 		
-		Button back=(Button)findViewById(R.id.quant_explain_back);
+		Button back=(Button)findViewById(R.id.logical_explain_back);
 		
 		final AlphaAnimation animation = new AlphaAnimation(1F, 0.2F);
 		
@@ -85,12 +85,12 @@ public class ExplainPracticeActivity extends BaseActivity {
 				
 
 		final PracticeQuestion practiceQuestion = data.get(current);
-		TextView num = (TextView) findViewById(R.id.quant_explain_questionNoLevel);
+		TextView num = (TextView) findViewById(R.id.logical_explain_questionNoLevel);
 		num.setText("Q. "+(current+1)+" ");
-		TextView question = (TextView) findViewById(R.id.quant_explain_questionLevel);
+		TextView question = (TextView) findViewById(R.id.logical_explain_questionLevel);
 		question.setText(practiceQuestion.getQuestion());
 		
-		TextView explain = (TextView) findViewById(R.id.quant_explain_text);
+		TextView explain = (TextView) findViewById(R.id.logical_explain_text);
 		explain.setText(practiceQuestion.getExplanation());
 			
 	}
