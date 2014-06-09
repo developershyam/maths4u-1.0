@@ -1,0 +1,93 @@
+[
+{
+		"num":"1",
+		"topic":"Calendars",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Suppose you are asked to find the day of the week on 30th June, 1974. It would be tough job for you if you don�t know the method. The method of finding the day of the week lies in the number of 'odd days'.
+					<br/><b>Note:-</b> Every 7th day will be the same day count wise, i.e. if today is Monday, then 7th day will again be Monday. Odd day is the days remaining after completion of an exact number of weeks. Odd days is the reminder obtained on dividing the total number of days with seven.
+					<br/>Ex. 52 days + 7 =  3 odd days.
+					<br/><b>Leap Year:-</b>
+					<br/>(i). Every year divisible by 4 is a leap year, if it is not a century.
+					<br/>(ii). Every 4th century is a leap year and no other century is a leap year.
+					<br/><b>Note:-</b> A leap year has 366 days.
+					<br/><b>Examples:-</b>
+					<br/>i.	Each of the years 1948, 2004, 1676 etc. is a leap year.
+					<br/>ii.	Each of the years 400, 800, 1200, 1600, 2000 etc. is a leap year.
+					<br/>iii.	None of the years 2001, 2002, 2003, 2005, 1800, 2100 is a leap year.
+					<br/><b>Ordinary Year:-</b>
+					The year which is not a leap year is called an ordinary years. An ordinary year has 365 days.
+					<br/><b>1.	Counting of Odd Days:-</b>
+					<br/> 1.	1 ordinary year = 365 days = (52 weeks + 1 day.)
+					<br/>       1 ordinary year has 1 odd day.
+					<br/> 2.	1 leap year = 366 days = (52 weeks + 2 days)
+					<br/>       1 leap year has 2 odd days.
+					<br/> 3.	100 years = 76 ordinary years + 24 leap years
+					<br/>       = (76 x 1 + 24 x 2) odd days = 124 odd days.
+					<br/>       = (17 weeks + days)   5 odd days.
+					<br/>       Number of odd days in 100 years = 5.
+					<br/>       Number of odd days in 200 years = (5 x 2)   3 odd days.
+					<br/>       Number of odd days in 300 years = (5 x 3)   1 odd day.
+					<br/>       Number of odd days in 400 years = (5 x 4 + 1)   0 odd day.
+					<br/>       Similarly, each one of 800 years, 1200 years, 1600 years, 2000 years etc. has 0 odd days.
+					<br/><b>Counting of Odd days, when only 1 date is given:-</b>
+					<br/>Here we take January 1st AD as the earlier date and we assume that this days is Monday. We take its previous day, i.e. Sunday as the reference day. After this the above mentioned method is applied to count the number of odd days and find the day of the week for the given date.
+					<br/><b>Counting number of odd days, when 2 dates are given:-</b> 					
+					<br/>Any month which has 31 days has 3 odd days and any month which has 30 days has 2 odd days. Then, the total number of odd days are calculated by adding the odd days for each month. The value so obtained is again divided by 7 to get the final number of odd days. The day of the week of the second date is obtained by adding the odd days to the day of the week of the earlier date.					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Find 467 is prime or not?</b>
+					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,…….19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					"},
+					{"example2":
+					"
+					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
+					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
+					
+					"}
+					],
+		"practices":
+					[
+					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					 "explanation1":
+					 "
+					 91 is divisible by 7. So, it is not a prime number.
+					 "},
+					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
+					 "explanation2":
+					 "
+					 <br/>132 = 4 x 3 x 11
+					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
+					<br/>264   11,3,4 (/)
+					<br/>396   11,3,4 (/)
+					<br/>462   11,3 (X)
+					<br/>792   11,3,4 (/)
+					<br/>968   11,4 (X)
+					<br/>2178   11,3 (X)
+					<br/>5184   3,4 (X)
+					<br/>6336   11,3,4 (/)
+					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
+					<br/>Required number of number = 4.
+					 
+					 "},
+					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					 "explanation3":
+					 "
+					 All other numbers are divisible by other numbers.
+					 "},
+					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					 "explanation4":
+					 "
+					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
+					<br/>Note: 1 is not a prime number.
+					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
+					 
+					 "}					 					
+					]
+	}
+	
+]

@@ -1,0 +1,76 @@
+[
+{
+		"num":"1",
+		"topic":"Analogies",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Analogy means 'similarity' or 'similar relationship'. In questions on number or letter analogies, a pair, that has a certain relationship between them, is given. This number/letter pair is followed by a third number letter. We have to find out 'fourth' number such that the relationship between the third and the fourth is similar to the relationship that exists between the first and the second.
+					<br/><b>Number Analogies:-</b>
+					<br/>•	One number is a multiple of the other.
+					<br/>•	One number is the square or square root of the other.
+					<br/>•	One number is cube or cube root of other.
+					<br/>•	The 2 numbers are square of 2 other numbers which themselves are related. For example, the two numbers are squares of 2 consecutive integers or squares of 2 consecutive even integers or squares of 2 consecutive odd integers.
+					<br/>•	The 2 numbers are such that they are obtained by subtracting a certain number from the squares or cubes of the 2 related numbers.
+					<br/>•	The 2 numbers can be consecutive, even, odd or prime numbers. 
+					<br/>There can be more combinations but one has to identify at the time of solving.
+					<br/><b>Verbal Analogies:-</b>
+					<br/>Verbal analogies are based on the relationship between 2 words.  The questions could be in the form of Clock is to time as thermometer is to: a. temperature. b. degrees. c. weather. d. centigrade
+					<br/><b>Letter Analogies:-</b>	
+					<br/>The questions in this area are similar to Verbal Analogies. Here, the questions are based on the relationship between 2 groups of letters (instead of 2 words) as in verbal analogies. Typically, 3 sets of letters are given followed by a question mark (where a 4th set of letters is supposed to inserted). We have to find the relation or order in which the letters have been grouped together in the 1st 2 sets of letters on the left hand side of the symbol : : and then find a set of letters to fit in place of the question mark so that the third and the fourth set of letters will also have the same relationship as the first and the second. 				
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Find 467 is prime or not?</b>
+					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,â€¦â€¦.19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					"},
+					{"example2":
+					"
+					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
+					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
+					
+					"}
+					],
+		"practices":
+					[
+					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					 "explanation1":
+					 "
+					 91 is divisible by 7. So, it is not a prime number.
+					 "},
+					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
+					 "explanation2":
+					 "
+					 <br/>132 = 4 x 3 x 11
+					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
+					<br/>264   11,3,4 (/)
+					<br/>396   11,3,4 (/)
+					<br/>462   11,3 (X)
+					<br/>792   11,3,4 (/)
+					<br/>968   11,4 (X)
+					<br/>2178   11,3 (X)
+					<br/>5184   3,4 (X)
+					<br/>6336   11,3,4 (/)
+					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
+					<br/>Required number of number = 4.
+					 
+					 "},
+					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					 "explanation3":
+					 "
+					 All other numbers are divisible by other numbers.
+					 "},
+					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					 "explanation4":
+					 "
+					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
+					<br/>Note: 1 is not a prime number.
+					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
+					 
+					 "}					 					
+					]
+	}
+	
+]

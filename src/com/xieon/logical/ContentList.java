@@ -127,25 +127,37 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 		String json="";
 		if(groupPosition==0){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_arithmetic.json");
+					"logical_calendar.json");
 		}else if(groupPosition==1){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_square.json");
+					"logical_coading.json");
 		}else if(groupPosition==2){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_addition.json");
+					"logical_analogies.json");
 		}else if(groupPosition==3){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_divisibility.json");
+					"logical_symbol.json");
 		}else if(groupPosition==4){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_miscellaneous.json");
+					"logical_clock.json");
+		}else if(groupPosition==5){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"logical_deduction.json");
+		}else if(groupPosition==6){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"logical_direction.json");
+		}else if(groupPosition==7){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"logical_deduction.json");
 		}else if(groupPosition==8){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_speed_time_distance.json");
+					"logical_blood.json");
+		}else if(groupPosition==9){
+			json = AppUtility.loadJSON(getBaseContext(),
+					"logical_seating.json");
 		}else{
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_multiplication.json");
+					"logical_calendar.json");
 		}
 		
 		

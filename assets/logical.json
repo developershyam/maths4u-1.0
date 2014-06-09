@@ -1,0 +1,78 @@
+[
+	{
+		"num":"1",
+		"topic":"Calendars",
+		"subtopic":
+					[
+						{"subtopic1":"•	Calendars"}
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Coding & Decoding",
+		"subtopic":
+					[
+						{"subtopic1":"•	Coding & Decoding"}						
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Analogies",
+		"subtopic":
+					[
+						{"subtopic1":"•	Analogies"}
+					]
+	},
+	{
+		"num":"4",
+		"topic":"Symbols and Notations",
+		"subtopic":
+					[
+						{"subtopic1":"•	Symbols and Notations"}
+					]
+	},
+	{
+		"num":"5",
+		"topic":"Clocks",
+		"subtopic":
+					[
+						{"subtopic1":"•	Clocks"}
+					]
+	}
+	,
+	{
+		"num":"6",
+		"topic":"Logical Deductions",
+		"subtopic":
+					[
+						{"subtopic1":"•	Logical Deductions"}
+					]
+	},
+	{
+		"num":"7",
+		"topic":"Direction Sense",
+		"subtopic":
+					[
+						{"subtopic1":"•	Direction Sense"}
+					]
+	},
+	{
+		"num":"8",
+		"topic":"Blood Relations",
+		"subtopic":
+					[
+						{"subtopic1":"•	Blood Relations"}
+					]
+	},
+	{
+		"num":"9",
+		"topic":"Seating Arrangement",
+		"subtopic":
+					[
+						{"subtopic1":"•	Seating Arrangement"}
+					]
+	}
+	
+	
+]
+
