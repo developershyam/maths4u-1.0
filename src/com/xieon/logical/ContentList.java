@@ -148,11 +148,8 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 					"logical_direction.json");
 		}else if(groupPosition==7){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"logical_deduction.json");
-		}else if(groupPosition==8){
-			json = AppUtility.loadJSON(getBaseContext(),
 					"logical_blood.json");
-		}else if(groupPosition==9){
+		}else if(groupPosition==8){
 			json = AppUtility.loadJSON(getBaseContext(),
 					"logical_seating.json");
 		}else{

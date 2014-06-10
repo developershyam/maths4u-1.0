@@ -96,7 +96,7 @@ public class PracticeQuestionActivity extends BaseActivity {
 					
 					RadioButton option=(RadioButton) findViewById(id);
 					
-					if(practiceQuestion.getAnswer().equalsIgnoreCase(option.getText().toString())){					
+					if(practiceQuestion.getAnswer().replaceAll("\\<[^>]*>","").equalsIgnoreCase(option.getText().toString())){					
 						option.setBackgroundColor(Color.GREEN);
 						selectedOptionColor=Color.GREEN;
 					}

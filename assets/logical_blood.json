@@ -29,51 +29,142 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Find 467 is prime or not?</b>
-					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦.19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					<b>If A + B means A is the brother of B; A x B means A is the son of B; and A % B means B is the daughter of A then which of the following means M is the maternal uncle of N?</b>
+					<br/>Because the sex of O is not known.
 					"},
 					{"example2":
 					"
-					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
-					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
-					
+					<b>If D is the brother of B, how B is related to C? To answer this question which of the statements is/are necessary?</b>
+					<br/>1.	The son of D is the grandson of C.
+					<br/>2.	B is the sister of D.
+					<br/><b>Ans.</b>Given: D is the brother of B.
+					<br/>From statement 1, we can detect that D is son of C (son of D is the grandson of C).
+					<br/>From statement 2, we can detect that B is 'Female' (sister of D).
+					<br/>Therefore, B is daughter of C.					
 					"}
 					],
 		"practices":
 					[
-					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					{"question1":"If A + B means A is the mother of B; A - B means A is the brother B; A % B means A is the father of B and A x B means A is the sister of B, which of the following shows that P is the maternal uncle of Q?", "answer1":"P - M + N x Q", "option1":"Q - N + M x P;P + S x N - Q;P - M + N x Q;Q - S % P",
 					 "explanation1":
 					 "
-					 91 is divisible by 7. So, it is not a prime number.
-					 "},
-					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
-					 "explanation2":
-					 "
-					 <br/>132 = 4 x 3 x 11
-					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
-					<br/>264   11,3,4 (/)
-					<br/>396   11,3,4 (/)
-					<br/>462   11,3 (X)
-					<br/>792   11,3,4 (/)
-					<br/>968   11,4 (X)
-					<br/>2178   11,3 (X)
-					<br/>5184   3,4 (X)
-					<br/>6336   11,3,4 (/)
-					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
-					<br/>Required number of number = 4.
+					 <br/>P - M → P is the brother of M
+					<br/>M + N → M is the mother of N
+					<br/>N x Q → N is the sister of Q
+					<br/>Therefore, P is the maternal uncle of Q.
 					 
 					 "},
-					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					{"question2":"If A is the brother of B; B is the sister of C; and C is the father of D, how D is related to A?", "answer2":"Cannot be determined", "option2":"Brother;Sister;Nephew;Cannot be determined",
+					 "explanation2":
+					 "
+					<br/>If D is Male, the answer is Nephew.
+					<br/>If D is Female, the answer is Niece.
+					<br/>As the sex of D is not known, hence, the relation between D and A cannot be determined.
+					<br/>Note: Niece - A daughter of one's brother or sister, or of one's brother-in-law or sister-in-law. Nephew - A son of one's brother or sister, or of one's brother-in-law or sister-in-law.
+					 
+					 "},
+					 {"question3":"Introducing a boy, a girl said, 'He is the son of the daughter of the father of my uncle.' How is the boy related to the girl?", "answer3":"Brother", "option3":"Brother;Nephew;Uncle;Sister-in law",
 					 "explanation3":
 					 "
-					 All other numbers are divisible by other numbers.
+					 <br/>The father of the boy's uncle → the grandfather of the boy and daughter of the grandfather → sister of father.
 					 "},
-					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					 {"question4":"If A + B means A is the brother of B; A x B means A is the son of B; and A % B means B is the daughter of A then which of the following means M is the maternal uncle of N?", "answer4":"None of these", "option4":"M + O x N;M % O x N + P;M + O % N;None of these",
 					 "explanation4":
 					 "
-					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
-					<br/>Note: 1 is not a prime number.
-					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
+					 <br/>Because the sex of O is not known.
+					 "},
+					 {"question5":"<b>If D is the brother of B, how B is related to C? To answer this question which of the statements is/are necessary?</b>
+					              <br/>1.	The son of D is the grandson of C.
+					              <br/>2.	B is the sister of D.", "answer5":"1 and 2 both are required", "option5":"Only 1;Only 2;Either 1 or 2;1 and 2 both are required",
+					 "explanation5":
+					 "
+					 <br/>Given: D is the brother of B.
+					<br/>From statement 1, we can detect that D is son of C (son of D is the grandson of C).
+					<br/>From statement 2, we can detect that B is 'Female' (sister of D).
+					<br/>Therefore, B is daughter of C.
+					 "},
+					 {"question6":"Pointing a photograph X said to his friend Y,'She is the only daughter of the father of my mother.' How X is related to the person of photograph?", "answer6":"Son", "option6":"Daughter;Son;Nephew;Cannot be determined",
+					 "explanation6":
+					 "
+					 <br/>The only daughter of the father of X's mother' means mother of X.
+					<br/>Hence X is the son of the lady in the photograph.
+					<br/>Note: Still have doubt like 'How X is a male?'					 
+					 "},
+					 {"question7":"Pointing to a woman, Abhijit said, 'Her granddaughter is the only daughter of my brother.' How is the woman related to Abhijit?", "answer7":"Mother", "option7":"Sister;Grandmother;Mother;Mother-In law",
+					 "explanation7":
+					 "
+					 <br/>Daughter of Abhijit's brother → niece of Abhijit. Thus the granddaughter of the woman is Abhijit's niece.
+					<br/>Hence, the woman is the mother of Abhijit.
+					 
+					 "},
+					 {"question8":"Amit said - 'This girl is the wife of the grandson of my mother'. How is Amit related to the girl?", "answer8":"Father- in Law", "option8":"Brother;Grandfather;Father- in Law;Husband",
+					 "explanation8":
+					 "
+					 <br/>The girl is the wife of grandson of Amit's mother i.e., the girl is the wife of son of Amit. Hence, Amit is the father-in-law of the girl.
+					 "},
+					 {"question9":"Pointing towards a man, a woman said, 'His mother is the only daughter of my mother.' How is the woman related to the man?", "answer9":"Mother", "option9":"Mother;Grandmother;Sister;Daughter",
+					 "explanation9":
+					 "
+					 <br/>Only daughter of my mother → myself.
+					<br/>Hence, the woman is the mother of the man.
+					 
+					 "},
+					 {"question10":"If P $ Q means P is the brother of Q; P # Q means P is the mother of Q; P * Q means P is the daughter of Q in A # B $ C * D, who is the father?", "answer10":"D", "option10":"D;B;C;Inadequate Data",
+					 "explanation10":
+					 "
+					 <br/>A is the mother of B, B is the brother of C and C is the daughter of D. Hence, D is the father.
+					<br/>A      (Parents)        D
+					<br/>|                       |
+					<br/>|                       |
+					<br/>B - is - Brother - of - C
+					 
+					 "},
+					 {"question11":"<b>1.	A3P means A is the mother of P
+									<br/>2.	A4P means A is the brother of P
+									<br/>3.	A9P means A is the husband of P
+									<br/>4.	A5P means A is the daughter of P
+									<br/>Which of the following means that K is the mother-in-law of M?</b>
+					 ", "answer11":"M9N5K3J", "option11":"M9N3K4J;M9N5K3J;K5J9M3N;K3J9N4M",
+					 "explanation11":
+					 "
+					 <br/>M9N → M is the husband of N
+					<br/>N5K → N is the daughter of K
+					<br/>Hence, → M is the son-in-law of K
+					<br/>K3J → K is the mother of J
+					<br/>Hence, → K is a lady
+					<br/>Hence, → K is the mother-in-law of M.
+					 
+					 "},
+					 {"question12":"P is the mother of K; K is the sister of D; D is the father of J. How is P related to J?", "answer12":"Grandmother", "option12":"Mother;Aunt;Grandmother;Inadequate Data",
+					 "explanation12":
+					 "
+					 <br/>P is the mother of K
+					<br/>K is the sister of D
+					<br/>D is the father of J.
+					<br/>Therefore, J is the nephew or niece of K and P is the grandmother of J.
+					 
+					 "},
+					 {"question13":"If P $ Q means P is the father of Q; P # Q means P is the mother of Q and P * Q means P is the sister of Q, then N # L $ P * Q shows which of the relation of Q to N?", "answer13":"Inadequate Data", "option13":"Grand Son;Grand Daughter;Nephew;Inadequate Data",
+					 "explanation13":
+					 "
+					 <br/>P is the mother of K
+					<br/>K is the sister of D
+					<br/>D is the father of J.
+					<br/>Therefore, J is the nephew or niece of K and P is the grandmother of J.
+					 
+					 "},
+					 {"question14":"If P $ Q means P is the father of Q; P # Q means P is the mother of Q and P * Q means P is the sister of Q, then N # L $ P * Q shows which of the relation of Q to N?", "answer14":"Inadequate Data", "option14":"Grand Son;Grand Daughter;Nephew;Inadequate Data",
+					 "explanation14":
+					 "
+					 <br/>As the sex of Q is not known, hence, data is inadequate.
+					 "},
+					 {"question15":"A's son B is married with C whose sister D is married to E the brother of B. How D is related to A?", "answer15":"Daughter's-in-law", "option15":"Sister;Daughter's-in-law;Sister-in-law;Cousin",
+					 "explanation15":
+					 "
+					 <br/>Since E is the brother of B
+					<br/>Therefore, A is the father of E
+					<br/>but D is the wife of E.
+					<br/>Hence, D is the daughter-in-law of A.
 					 
 					 "}					 					
 					]
