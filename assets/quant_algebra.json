@@ -1,0 +1,431 @@
+[
+{
+		"num":"1",
+		"topic":"Basic Algebraic Operations",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Basic Concepts of Algebra:</b>
+					<br/>An algebraic expression is obtained by combining numbers and letters together with arithmetic operators.
+					<br/><b>Algebraic Terms:</b>
+					<br/>1.	If an expression contains only one term , then it is called monomial (3a)
+					<br/>2.	If an expression contains 2 terms, then it is called a binomial (l + 2m)
+					<br/>3.	If an expression contains 2 or more terms it is called polynomial. (l + 3m – 2n)
+					<br/><b>Arithmetic Operations on Algebraic Expressions:</b>
+					<br/><b>1.	Addition and subtraction:</b>
+					<br/>To find the sum of a polynomial  add the numerical coefficients of like terms and annex the common letter or letters.
+					<br/><b>2.	Multiplication:</b> To multiply one polynomial with another:
+					<br/><b>(i)</b>	The product of 2 factors with like signs is positive, and of those with unlike signs is negative.
+					<br/><b>(ii)</b>	Multiply each one term of one polynomial by each term of other. Add the like terms thus obtained.					
+					<br/><b>Properties of Polynomials:</b>
+					<br/><b>1.	Remainder theorem of Polynomials:</b>
+					<br/>If a polynomial in one variable x is divided by x – a, where a is any real number, then the remainder is the value of the polynomial at x = a (See example 1)
+					<br/><b>2.	Factorization of polynomials:</b>
+					<br/>An expression is said to be resolved into factors when those expressions of which it is the product are found.
+					<br/>Ex. x<sup>2</sup>- 5x+6 can be expressed as a product of (x – 2) and (x – 3)
+					<br/><b>3.	HCF of polynomials:</b>
+					<br/>When 2 or more polynomial are factorized, the product of all common factors is the HCF of the polynomials.
+					<br/><b>4.	LCM of polynomials:</b>
+					<br/>When 2 or more polynomials are factorized, the product of all the factors with the highest powers is the LCM of the polynomials.
+					<br/>Ex. Find the HCF and LCM of 14xy<sup>3</sup>,  22x<sup>2</sup> y,  26x<sup>3</sup> y<sup>4</sup>
+					<br/>14xy<sup>3</sup> = 2 X 7 X x X y<sup>3</sup>
+					<br/>22x<sup>2</sup> y = 2 X 11 X x<sup>2</sup>  X y
+					<br/>26x<sup>3</sup> y<sup>4</sup> = 2 X 13 X x<sup>3</sup> X y<sup>4</sup>
+					<br/>HCF = 2 X x X y = 2xy
+					<br/>LCM = 2 X 7 X 11 X 13 X x<sup>3</sup> X y<sup>4</sup> = 2002x<sup>3</sup> y<sup>4</sup>					
+					<br/><b>Important algebraic Formulas:</b>
+					<br/> 1.   (a+b)<sup>2</sup>=a<sup>2</sup> + b<sup>2</sup> + 2ab
+					<br/> 2.   (a-b)<sup>2</sup>=a<sup>2</sup> + b<sup>2</sup> - 2ab
+					<br/> 3.   (a+b)<sup>2</sup> + (a-b)<sup>2</sup> =〖2(a<sup>2</sup> + b<sup>2</sup>)
+					<br/> 4.   (a+b)<sup>2</sup> - (a-b)<sup>2</sup> = 4ab
+					<br/> 5.   (a+b+c)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> + 2(ab+bc+ca)
+					<br/> 6.   (a+b+c+d)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> + d<sup>2</sup> + 2a(b+c+d)+ 2b(c+d)+ 2cd
+					<br/> 7.   (a+b)<sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> + 3ab(a+b)
+					<br/> 8.   (a-b)<sup>3</sup> = a<sup>3</sup> - b<sup>3</sup> - 3ab(a-b)
+					<br/> 9.   a<sup>3</sup> + b<sup>3</sup> = (a+b)<sup>3</sup> -  3ab(a+b)=(a+b)(a<sup>2</sup>- ab + b<sup>2</sup>)
+					<br/> 10.  a<sup>3</sup> - b<sup>3</sup> = (a-b)<sup>3</sup> +  3ab(a-b)=(a-b)(a<sup>2</sup> + ab + b<sup>3</sup>) 
+					<br/> 11.  a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc=(a+b+c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab-ac-bc)
+					<br/> 12.  If  a+b+c = 0 then a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> = 3abc
+					<br/> 13.  (x+a)<sup>n</sup> = x<sup>n</sup> + nC1x<sup>(n-1)</sup>y + nC2x<sup>(n-2)</sup>y<sup>2</sup> + ..... + nCny<sup>n</sup>
+					<br/> 14.  (x-a)<sup>n</sup> = x<sup>n</sup> - nC1x<sup>(n-1)</sup>y + nC2x<sup>(n-2)</sup>y<sup>2</sup> + ..... + (-1)<sup>n</sup> nCny<sup>n</sup>
+					<br/>This is also known as Binomial theorem, In general Binomial theorem:
+					<br/>(x+a)<sup>n</sup> = ∑(k=0)<sup>n</sup>(<sup>n</sup><sub>k</sub>) x<sup>k</sup> a<sup>(n-k)</sup>					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Find remainder when (6x<sup>3</sup> + 5x<sup>2</sup> + 5x + 2 ) ÷ (x + 4) </b>
+					<br/>By the definition of an average, we get:(x+2x+6)/3= (3x+6)/3= (3 (x+2) )/3=x+2 
+					<br/>Explain: (6x<sup>3</sup> + 5x<sup>2</sup> + 5x + 2 ) ÷ (x + 4)
+					<br/>By above equation x = -4
+					<br/>Putting this value and we will get remainder 
+					<br/>Remainder : 6(-4)<sup>3</sup> + 5(-4)<sup>2</sup> + 5(-4)+2 = -322
+					"},
+					{"example2":
+					"
+					<b>Find the value of 511<sup>2</sup></b>
+					<br/>Explain: 511<sup>2</sup> = (500+11)<sup>2</sup> = 250000 + 11000 + 121 = 261121
+					"}
+					],
+		"practices":
+					[
+					{
+						"question1":"The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31kgs, what is the weight of their football coach in kgs?", "answer1":"61 kgs", "option1":"31 kgs;61 kgs;60 kgs;62 kgs",
+						"explanation1":
+						"
+						<br/>The new average weight of the group after including the football coach = 31.
+						<br/>As the new average is 1kg more than the old average, old average without including the football coach = 30 kgs.
+						<br/>The total weight of the 30 friends without including the football coach = 30 * 30 = 900.
+						<br/>After including the football coach, the number people in the group increases to 31 and the average weight of the group increases by 1kg.
+						<br/>Therefore, the total weight of the group after including the weight of the football coach = 31 * 31 = 961 kgs.
+						<br/>Therefore, the weight of the football coach = 961 - 900 = 61 kgs.
+						"
+					}
+					
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Linear Equations",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Linear Equation:</b>
+					<br/>An equation is a statement in which two algebraic expressions are equal. If the equation is of first order (i.e. highest power of the variable is 1) than it is called a linear equation or a simple equation.
+					<br/>It can be represented by ax + b = 0, where x is the variable and a and b are real numbers (a≠0)
+					<br/><b>Practical use of 'Linear Equation while solving Questions':</b>
+					<br/>1.	If a person has a certain amount of money only in 10 cents, 25 cents  and 50 cents coins. He has ‘x’ coins of 10 cents. The number of 25 cents coins is 2 less than the number of 10 cents coins. The number of 50 cents coins is 3 more than the number of 10 cents coins.
+					<br/>   Total amount with the person (In Cents) = 10x + 25(x-2) + 50(x+3)
+					<br/>2.	If David’s present age is ‘x’ years, then:
+					<br/>   David’s age 5 years hence will be ‘x+5’ years	 	
+					<br/>   David’s age 6 years ago was ‘x-6’ years
+					<br/>   David’s father’s present age, which is twice that of David’s age is ‘2x’ years.
+					<br/>3.	If 3 digit number ‘xyz’ where x is hundred’s digit, y is the ten’s digit and z is the unit’s digit, 
+					<br/>   So the number can be expressed as ‘100x + 10y +z’
+					<br/>   The number formed by reversing the digit is 100z + 10y + x
+					<br/>4.	Consider 3 consecutive natural numbers. If ‘x’ is taken as the lowest number, then 3 consecutive natural numbers (including x) are ‘x’, ‘x+1’ and ‘x+2’. 
+					<br/>5.	Consecutive 3 consecutive odd numbers. If ‘x’ is taken as the lowest odd number, then 3 consecutive odd numbers (including x) are ‘x’, ‘x+2’ and ‘x+4’. Similarly, 3 consecutive even numbers can also be expressed as ‘x’, ‘x+2’ and ‘x+4’, If ‘x’ is taken as lowest even number. 
+					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>1.	Allwyn, Beena and Chandrika’s ages are three consecutive integers, Allwyn being the youngest and Chandrika, the oldest of the three. If the sum of their ages is 240, what is Allwyn’s age?</b>
+					<br/>At the end of the year we have Interest=1000Ãƒâ€”5%=1000Ãƒâ€”5/100=1000Ãƒâ€”0.05=50
+					<br/>Let Allwyn’s age be x years
+					<br/>Beena’s age = x + 1 years and
+					<br/>Chandrika’s age = x + 2 years
+					<br/>So x + x + 1 + x + 2 = 240
+					<br/>Or 3x + 3 = 240
+					<br/>Or 3x = 237
+					<br/>Or x = 79
+					"},
+					{"example2":
+					"
+					<b>	If 16(1 – x) = 16x, then (4x)<sup>2</sup> is equal to</b>
+					<br/>16(1 – x) = 16x
+					<br/>So 1 – x = x
+					<br/>Or x = 1/2
+					<br/>So (4x)<sup>2</sup> = 2<sup>2</sup> = 4
+					"}
+		],
+		"practices":
+					[
+					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
+					"explanation1":
+					"
+					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
+					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
+					<br/>		100				100		
+					<br/>  28x - 22x = 350800 - (13900 x 22)
+					<br/>  6x = 45000
+					<br/>  x = 7500.
+					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
+					"}
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Simultaneous Equation",
+		"contents":
+					[ {"content1":
+					"
+					<b><br/>Simultaneous Equation:</b>
+					<br/>A set of 2 or more linear equations in 2 or more variables, which are satisfied simultaneously by the unique solution, are called simultaneous equation.
+					<br/>For ex. x + y = 7 and x – y = 3 are only satisfied by the pair, x = 5 and y = 2 only.
+					<b><br/>Methods of solving simultaneous equations:</b>
+					<b><br/>1.	By Elimination Method:</b>
+					<br/>To solve simultaneous equations, it is necessary to eliminate one of the two variables and obtain an equation, which has only one variable. For this, the coefficient of the variable to be eliminated is first made equal in both the equations and then the two equations are either added or subtracted.
+					<br/>Ex. Solve 
+					<br/>x + y = 12 ..….  (i)
+					<br/>x – y = 4   ……  (ii)
+					<br/>The variable y has different signs, but same coefficient so by adding both equations 
+					<br/>2x = 16 or x = 8;
+					<br/>Now, substitute this value of ‘x’ in any of the equation.
+					<br/>(Substituting the value of ‘x’ in equation (i)), 8 + y = 12 or y = 4
+					<br/>So solution set is (8,4)
+					<b><br/>NOTE:</b> 
+					<br/>When coefficient of both the variable is different in the 2 equations, multiply or divide these equations with real numbers other than 0 to obtain new equations equivalent to the original ones in such a way that one of variable can be easily eliminated.
+					<b><br/>2.	By Substitution Method:</b> 
+					<br/>Ex. Solve
+					<br/>5x + 2y = 24 ……… (i)
+					<br/>4x –3 y = 10     ……... (II)
+					<br/>If we multiply first equation by 3 and second equation by 2, coefficient of y in equation (i) will become 6 and in equation (ii) -6. Thus  y can easily be eliminated by adding both equations.
+					<br/>These equations can also be solved by expressing one of the variables in an equation in terms of the other and then substituting this value of the variable in second equation.
+					<br/>Ex.  Solve 
+					<br/>5x + 2y = 24 ……… (i)
+					<br/>4x –3 y = 10     ……... (II)
+					<br/>From (ii), y = 3x – 10
+					<br/>Substituting this value of ‘y’ in equation (i),
+					<br/>5x + 2(3x – 10) = 24
+					<br/>5x – 20 + 6x = 24
+					<br/>11x = 44 or x = 4;
+					<br/>Now substituting the value of ‘x’ in equation (i),
+					<br/>5 X 4 + 2y = 24
+					<br/>2y = 4 or y = 2, Solution set is (4,2).
+					<b><br/>3.	Simultaneous equations with 3 variables:</b>
+					<br/>For solving equation with 3 variables we need 3 equations.
+					<br/>From equation (i) and (II) remove any variable and obtain new equation as (iv).
+					<br/>From equations (i) and (iii) or from (ii) and (iii) remove the same variable, and obtain new equation (v).
+					<br/>Now equation (iv) and (v) are 2 simultaneous equations, which can be solved by any of above 2 methods.
+					<b><br/>Properties of simultaneous equations:</b>
+					<br/>Consider 2 linear equations
+					<br/>ax + by = c  ……. (i)
+					<br/>px + qy = r  ……. (ii)
+					<br/>Based on the following properties, simultaneous equations can be classified as below:
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>1.	Solve 5x + 2y = 24 and 3x – y = 10.</b>
+					<br/>5x + 2y = 24 ………(1)
+					<br/>3x – y = 10 ………..(2)
+					<br/>From (2) y = 3x – 10 
+					<br/>Substituting this value of ‘y’ in equation (1),
+					<br/>5x + 2(3x – 10) = 24
+					<br/>5x – 20 + 6x = 24
+					<br/>11x = 44 So x = 4
+					<br/>Substituting the value of ‘x’ in equation (1)
+					<br/>5 X 4 + 2y = 24
+					<br/>Or 2y = 4 So y = 2
+
+					"},
+					{"example2":
+					"
+					<b>2.	A few tickets of a show are sold at Rs. 10 per ticket and the other tickets at Rs. 8 per ticket. In all 105 tickets were sold. If the amount collected on a day was Rs. 922, find the number of ticket sold at Rs. 10.</b>
+					<br/>Let ‘x’ tickets be sold at Rs. 10 and ‘y’ tickets be sold at Rs. 8
+					<br/>x + y = 105    ……. (1)
+					<br/>10x + 8y = 922 ……(2)
+					<br/>Multiplying equation (1) by 10,
+					<br/>10x + 10y = 1050 …..(3)
+					<br/>Subtracting equation (2) from (3),
+					<br/>2y = 128 So y = 64
+					<br/>Subtracting the value of ‘y’ in equation (1)
+					<br/>64 + x = 105 So x = 41
+					<br/>Hence, 41 tickets were sold at Rs. 10. 
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
+					"explanation1":
+					"
+					<br/>Amount of milk left after 3 operations
+					"}
+					]
+	},	
+	{
+		"num":"4",
+		"topic":"Quadratic  Equation",
+		"contents":
+					[ {"content1":
+					"
+					<b><br/>Quadratic  Equation:</b>
+					<br/>A polynomial of degree 2 is called quadratic polynomial. An equation p(x) = 0, where p(x) is a quadratic polynomial, is called a quadratic equation. The general form of a quadratic polynomial is ax<sup>2</sup>+ bx+c; where a,b and c are real numbers, a ≠ 0 and x is a variable.
+					<b><br/>Roots of quadratic equation:</b>
+					<b><br/>1.	By method of factorization by splitting the middle term:</b>
+					<br/>Consider the equation ax^2+ bx+c = 0 and factorize the term ‘ac’ such that the sum of two factors is equal to b.
+					<br/>Example:
+					<br/>x<sup>2</sup> + 2x - 63 = 0 
+					<br/>Here a = 1, b = 2 and c= -63; ac = -63
+					<br/>The factors of -63  whose sum is equal to 2 is 9 and -7;
+					<br/>Thus 2x can be replaced by 9x – 7x
+					<br/> x<sup>2</sup> + 9x - 7x - 63=0 
+					<br/>x(x +9) – 7 (x + 9) = 0
+					<br/>(x+9)(x-7) = 0
+					<br/>So the roots of this equation are x = -9 ; x = 7
+					<b><br/>2.	By using formula:</b>
+					<br/>For equation (ax)<sup>2</sup> + bx + c = 0 ;
+					<br/>Roots of two equation is given by x = (-b±√(b<sup>2</sup> - 4ac))/2a
+					<br/>Example
+					<br/>x<sup>2</sup>-5x+6=0 
+					<br/>a = 1, b =-5, c =6;
+					<br/>x = (-b±√(b<sup>2</sup> - 4ac))/2a  = (-(-5)±√((-5)<sup>2</sup> - 4X1X6))/2X1
+					<br/> =  (5±√(25-24))/2X1 = (5±1)/2 
+					<br/>So x = (6/2) = 3 or (4/2) = 2	
+					<b><br/>Relation between roots and coefficient:</b>
+					<br/>1.  In equation ax<sup>2</sup> + bx+c = 0, if we divide both sides of the equation by ‘a’, (a≠0) then we get the equation as: 
+					<br/>x<sup>2</sup> + b/a x+ c/a   = 0 ...............(i)
+					<br/>Now if we consider two roots of the equation as α and β, then:
+					<br/>ax<sup>2</sup> + bx + c = (x – α) (x – β) = 0
+					<br/>= x<sup>2</sup> - (α + β)x + (αβ) = 0  ............(ii)
+					<br/>By comparing equation (i) and (ii)
+					<br/>(α + β) = - b/a = -  (coefficient of x)/(Coefficient of x<sup>2</sup> )
+					<br/>αβ =  c/a = -  (constant term)/(Coefficient of x<sup>2</sup> ) (see example 2)
+					<br/>2. Signs of the roots a quadratic equation depending upon the sign of a, b and c
+					<br/>    <b>Signs of roots		||		Signs of a, b and c</b>
+					<br/>I	 Both roots are negative ||	a,b,c all have same sign
+					<br/>II	 One root positive and other negative  ||  a and c have different signs
+					<br/>III Both roots are positive  ||  a and c have the same sign and differ in sign from b
+					<br/>3. If c = a, the roots are reciprocals of each other.
+					<br/>4. If b = 0, the roots are equal in magnitude, but opposite in sign.
+					<br/>5. If one root of equation with real coefficient is a complex number the other root must be its conjugate complex number. If α = m + in, then β = m – in
+					<br/>6. If one root of equation with rational coefficient be irrational,  other root must be its irrational conjugate. If α = m + √n, then β = m – √n,
+					<br/>7. If we know roots (α and β) of any equation then, equation can be formed as:
+					<br/>    x<sup>2</sup> - (α + β) + αβ = 0
+					<br/>8. Nature of roots depends upon the expression  b<sup>2</sup>- 4ac, and denoted as ∆
+					<br/><b>Nature of Roots	 ||  Condition</b>
+					<br/>Complex conjugate numbers	|| ∆ <  0
+					<br/>Real Numbers	|| ∆≥0  
+					<br/>Real and Equal	|| ∆ = 0
+					<br/>Real and Unequal 	|| ∆ > 0
+					<br/>Rational and Unequal	|| ∆ > 0 ∆ is a perfect square
+					<br/>Irrational and Unequal	|| ∆ > 0 ∆ is not a perfect square
+					<br/><b>Graphical represent of Quadratic Equation</b>
+					<br/>If we draw the graph of y = ax<sup>2</sup>+ bx+c in the xy plane, it is the form of a parabola.
+					<br/>By solving y = x<sup>2</sup> – 8x + 15 
+					<br/>By putting different values of x, we will get different values of x
+					<br/>x	1	2	3	4	5	6
+					<br/>y	8	3	0	-1	0	3
+					<br/>Which could be represented as : Here draw graph
+					<br/>The shape of the parabola in a quadratic equation depends on the value of the numerical coefficient of the variables in equation.
+					<br/>	1. If a > 0, then parabola opens upwards and if a< 0, then parabola opens downwards.
+					<br/>	2. If b<sup>2</sup> - 4ac < 0, then the parabola does not intercept the x – axis.
+					<br/>	3. If b<sup>2</sup> - 4ac > 0, then the parabola intercepts the x axis at exactly two different points.
+					<br/>	4. If b<sup>2</sup> - 4ac = 0, then the parabola intercepts the x axis at exactly one point
+					
+
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>	Solve 1/4 (2x-1)<sup>2</sup> = 4</b>
+					<br/> (2x-1)<sup>2</sup> = 16
+					<br/>2x – 1 = ±4
+					<br/>i.e., 2x – 1 = 4 or 2x – 1 = -4
+					<br/>i.e. x = 5/2 or x = -3/2 
+					"},
+					{"example2":
+					"
+					<b>	If α and  β are the roots of the equation 5x<sup>2</sup> - 3x-2=0, find the value of α<sup>3</sup> + β<sup>3</sup>   </b>
+					<br/>5x<sup>2</sup>- 3x-2=0 
+					<br/>α + β = 3/5 , αβ = -2/5
+					<br/>α<sup>3</sup> + β<sup>3</sup> = (α + β )<sup>3</sup> - 3αβ(α + β) 
+					<br/>(3/5 )<sup>3</sup> - 3(-2/5)(3/5) = 27/125 + 18/25 = 117/125
+				
+					"}],
+		"practices":
+					[ 
+					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
+					"explanation1":
+					"
+					<br/>Let the total profit be $ 100.
+					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
+					<br/>If A's share is $ 57, total profit = $ 100.
+					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
+					"}
+					]
+	},
+	{
+		"num":"5",
+		"topic":"Inequalities",
+		"contents":
+					[ {"content1":
+					"
+					<b><br/>Inequalities:</b>
+					<br/>A mathematical statement, which states that two expression are not equal is called an inequation and denoted by x  ≠ y.
+					<b><br/>Rules of Inequalities:</b>
+					<br/>•	An inequality will still hold after each side has been increased, diminished, multiplied or divided by the same number i.e. a > b and c is any number
+					<br/>   ac > bc
+					<br/>   a – c > b – c 
+					<br/>•	If the sides of an inequality are multiplied or divided by the same negative quantity, the sign of in inequality reversed.  i.e., if a > b and c < 0, then ac < bc
+					<br/>•	In an inequality, any term may be transposed from one side to the other if its sign is changed. i.e. if a –c  > b, then a > b + c or  -c > b - a
+					<b><br/>Absolute Value and Inequalities:</b>
+					<br/>•	|x| is always positive
+					<br/>•	|x| ≥ x
+					<br/>•	|x-y| = |y-x|
+					<br/>•	|x+y| ≤ |x| + |y|
+					<br/>•	|x+y| ≥ |x| - |y|
+					<br/>•	|x-y|  ≥  |x| - |y|
+					<br/>•	|x|≤ a  → -a ≤ x ≤ a
+					<br/>•	|x| ≥ a → x ≥ a or x ≤ -a
+					<b><br/>Solving Inequalities:</b>
+					<br/>1. Linear inequalities: 
+					<br/>To solve an inequality in one variable, transpose all the terms containing variable to left hand side of inequality and the remaining to the right hand side.
+					<br/>Ex. 2x + 3 < 5x +6
+					<br/>2x – 5x < 6 – 3
+					<br/>i.e. – 3x < 3
+					<br/>or x > 1
+					<br/>In case of solving inequality with Modules (||), use absolute value rules as mentioned above.
+					<br/>|5x +3| < 4 as |x|≤ a  → -a ≤ x ≤ a
+					<br/>-4 < 5x +3 < 4
+					<br/>Or -4 < 5x +3 and 5x +3 > 4 or x > (-7/5) and x < (1/5);
+					<br/>So  -(7/5) < x < (1/5)
+					<br/>2. Quadratic Inequalities
+					<br/>	Case 1: when ax^2+ bx+c  > 0
+					<br/>Or (x-α) (x-β) > 0 ; where α < β
+					<br/>So x < α or x > β
+					<br/>	Case 2:  when ax^2+ bx+c  < 0
+					<br/>Or (x-α) (x-β) < 0 
+					<br/> So α < x < β; i.e. x lies between α and β
+					<b><br/>Application of Rules of Inequalities:</b>
+					<br/>If a ,b,c…….k are n unequal quantities, then, (a+b+c…….+k)<sup>n</sup>/n > a X b X c  …..X k
+					<br/>i.e. [a+b+c……+k]/n  >  [(a X b X c  …..X k)<sup>(1/n)</sup>]/n
+					<br/>Arithmetic Mean of any positive number is greater than their geometric mean.
+					<br/>(n!)<sup>2</sup> > n<sup>n</sup>, for n>2
+					<br/>a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> ≥ bc + ca + ab
+					<br/>a<sup>2</sup>b + b<sup>2</sup>c + c<sup>2</sup>b ≥ 3abc
+					<br/>a/b + b/c +c/d +d/a ≥ 4
+					<br/>a<sup>4</sup> + b<sup>4</sup> + c<sup>4</sup> + d<sup>4</sup> ≥ 4abcd
+					<br/>If a, b, c are positive and not all equal, then (a + b + c)(ab +bc + ca) >9abc
+					<br/>If a, b, c are positive and not all equal, then, (b+c)(c+a)(a+b) > 8abc
+
+
+
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>	Solve (-2x+3)≤6</b>
+					<br/> (-2x+3)≤6
+					<br/>So -2x ≤ 3
+					<br/>And 2x ≥ -3
+					<br/>Or x ≥ -3/2
+					"},
+					{"example2":
+					"
+					<b>2.	Find the solution set of x if |2x - 5| <  4x + 9</b>
+					<br/>|2x - 5| < 4x + 9
+					<br/>-4x – 9 < 2x – 5 < 4x + 9
+					<br/>-4x – 9 < 2x – 5 Or x > -2/3
+					<br/>2x – 5 < 4x + 9 or x > -7
+					<br/>So x > -2/3
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?", "answer1":"45+5/11%", "option1":"45%;45+5/11%;55%;54%",
+					 "explanation1":
+					 "
+					 <br/>Number of runs made by running = 110 - (3 x 4 + 8 x 6)
+					<br/>= 110 - (60)
+					<br/>= 50.
+					<br/>So required % is (50/110 X 100)% = 45+5/11%
+					 
+					 "}
+					 ]
+	}
+]

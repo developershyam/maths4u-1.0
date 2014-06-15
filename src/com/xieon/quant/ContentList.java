@@ -130,7 +130,7 @@ public class ContentList extends BaseActivity implements OnGroupClickListener{
 					"quant_arithmetic.json");
 		}else if(groupPosition==1){
 			json = AppUtility.loadJSON(getBaseContext(),
-					"quant_square.json");
+					"quant_algebra.json");
 		}else if(groupPosition==2){
 			json = AppUtility.loadJSON(getBaseContext(),
 					"quant_numbers.json");
