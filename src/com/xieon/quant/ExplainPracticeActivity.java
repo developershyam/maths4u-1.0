@@ -1,20 +1,13 @@
 package com.xieon.quant;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -22,7 +15,6 @@ import com.google.gson.reflect.TypeToken;
 import com.xieon.main.BaseActivity;
 import com.xieon.main.R;
 import com.xieon.model.PracticeQuestion;
-import com.xieon.utility.AppUtility;
 
 public class ExplainPracticeActivity extends BaseActivity {
 
@@ -89,7 +81,7 @@ public class ExplainPracticeActivity extends BaseActivity {
 		TextView num = (TextView) findViewById(R.id.quant_explain_questionNoLevel);
 		num.setText("Q. "+(current+1)+" ");
 		TextView question = (TextView) findViewById(R.id.quant_explain_questionLevel);
-		question.setText(practiceQuestion.getQuestion());
+		question.setText(Html.fromHtml(practiceQuestion.getQuestion()));
 		
 		TextView explain = (TextView) findViewById(R.id.quant_explain_text);
 		explain.setText(Html.fromHtml(practiceQuestion.getExplanation()));

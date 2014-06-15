@@ -8,6 +8,7 @@ import java.util.List;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.Button;
@@ -88,10 +89,10 @@ public class ExplainPracticeActivity extends BaseActivity {
 		TextView num = (TextView) findViewById(R.id.logical_explain_questionNoLevel);
 		num.setText("Q. "+(current+1)+" ");
 		TextView question = (TextView) findViewById(R.id.logical_explain_questionLevel);
-		question.setText(practiceQuestion.getQuestion());
+		question.setText(Html.fromHtml(practiceQuestion.getQuestion()));
 		
 		TextView explain = (TextView) findViewById(R.id.logical_explain_text);
-		explain.setText(practiceQuestion.getExplanation());
+		explain.setText(Html.fromHtml(practiceQuestion.getExplanation()));
 			
 	}
 	

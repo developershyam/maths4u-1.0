@@ -28,54 +28,164 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Find 467 is prime or not?</b>
-					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦.19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					<b>A man walks 5 km toward south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?</b>
+					<br/>                    
+					<br/>				   A
+					<br/>				   |
+					<br/>				   |
+					<br/>			  3KM  |
+					<br/>		    C------B
+					<br/>			|
+					<br/>			|5KM
+					<br/>			|
+					<br/>			D
+					<br/>Hence required direction is South-West.
 					"},
 					{"example2":
 					"
-					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
-					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
-					
+					<b>A man is facing west. He turns 45 degree in the clockwise direction and then another 180 degree in the same direction and then 270 degree in the anticlockwise direction. Find which direction he is facing now ?</b>
+					<br/>Explain. The man firstly faces the direction OA. On moving 45 degree clockwise[Please check carefully always if clockwise or anticlockwise], he faces the direction OB.
+					<br/>Now again he moved 180 degree clockwise, now he will be facing OC. From here he moved 270 degree anticlockwise, Finally he is facing OD, which is South west					
 					"}
 					],
 		"practices":
 					[
-					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					{"question1":"One morning Udai and Vishal were talking to each other face to face at a crossing. If Vishal's shadow was exactly to the left of Udai, which direction was Udai facing?", "answer1":"North", "option1":"East;West;North;South",
 					 "explanation1":
 					 "
-					 91 is divisible by 7. So, it is not a prime number.
+					 <br/>      Udai|								N
+					 <br/>			|								|
+					 <br/>			|								|
+					 <br/>			- ---->Visal's shadow    W------|-------S
+					 <br/>			^								|
+					 <br/>			|								|
+					 <br/>			|								|
+					 <br/>			|								S
+					 <br/>	   Visal|
+					 <br/>
 					 "},
-					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
+					{"question2":"Y is in the East of X which is in the North of Z. If P is in the South of Z, then in which direction of Y, is P?", "answer2":"None of these", "option2":"North;South;South-East;None of these",
 					 "explanation2":
 					 "
-					 <br/>132 = 4 x 3 x 11
-					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
-					<br/>264   11,3,4 (/)
-					<br/>396   11,3,4 (/)
-					<br/>462   11,3 (X)
-					<br/>792   11,3,4 (/)
-					<br/>968   11,4 (X)
-					<br/>2178   11,3 (X)
-					<br/>5184   3,4 (X)
-					<br/>6336   11,3,4 (/)
-					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
-					<br/>Required number of number = 4.
-					 
+					 <br/> X--------Y
+					 <br/> |      .
+					 <br/> |    .
+					 <br/> Z  .
+					 <br/> | .
+					 <br/> |.
+					 <br/> P
+					 <br/>P is in South-West of Y.
 					 "},
-					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					 {"question3":"A man walks 5 km toward south and then turns to the right. After walking 3 km he turns to the left and walks 5 km. Now in which direction is he from the starting place?", "answer3":"South-West", "option3":"West;South;North-East;South-West",
 					 "explanation3":
 					 "
-					 All other numbers are divisible by other numbers.
-					 "},
-					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					<br/>                    
+					<br/>				   A
+					<br/>				   |
+					<br/>				   |
+					<br/>			  3KM  |
+					<br/>		    C------B
+					<br/>			|
+					<br/>			|5KM
+					<br/>			|
+					<br/>			D
+					<br/>Hence required direction is South-West.
+					"},
+					 {"question4":"A man is facing west. He turns 45 degree in the clockwise direction and then another 180 degree in the same direction and then 270 degree in the anti-clockwise direction. Find which direction he is facing now ?", "answer4":"South-West", "option4":"South-West;South;South-East;West",
 					 "explanation4":
 					 "
-					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
-					<br/>Note: 1 is not a prime number.
-					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
+					 <br/>Explanation: The man firstly faces the direction OA. On moving 45 degree clockwise[Please check carefully always if clockwise or anticlockwise], he faces the direction OB.
+					 <br/>Now again he moved 180 degree clockwise, now he will be facing OC. From here he moved 270 degree anticlockwise, Finally he is facing OD, which is South west
 					 
-					 "}					 					
-					]
+					 "},
+					 {"question5":"A man is facing north. He turns 45 degree in the clockwise direction and then another 180 degree in the same direction and then 45 degree in the anti-clockwise direction. Find which direction he is facing now?", "answer5":"East", "option5":"North;West;South;East",
+					 "explanation5":
+					 "
+					<br/>       N
+					<br/>		|        .
+					<br/>		|      . 
+					<br/>		|    .
+					<br/>		|  .
+					<br/>		|.
+					<br/>W-------------------E
+					<br/>	  . |
+					<br/>	 .  | 
+					<br/>	.   |
+					<br/> .     |
+					<br/>       S 
+					 <br/>The man firstly faces the direction OA. On moving 45 degree clockwise, he faces the direction OB.
+					<br/>Now again he moved 180 degree clockwise, now he will be facing OC. From here he moved 45 degree anticlockwise, Finally he is facing OD, which is South direction.
+					 
+					 "},
+					 {"question6":"A dog runs 20 meter towards East and turns Right, runs 10 metre and turns to right, runs 9 metre and again turns to left, runs 5 metre and then turns to left, runs 12 metre and finally turns to left and runs 6 meter. Now which direction dog is facing ?", "answer6":"North", "option6":"East;North;South;West",
+					 "explanation6":
+					 "
+					 <br/>     A-------------B
+					 <br/>			   	     |
+					 <br/>				     |
+					 <br/>				     |
+					 <br/>	       D---------C
+					 <br/>	       |             G
+					 <br/>	       |             |
+					 <br/>	       |             |
+					 <br/>	       E-------------F		
+					 <br/>Now dog is facing North.	
+					 "},
+					 {"question7":"I am facing South. I turn right and walk 20 meter. Then I turn right again and walk 10 meter. Then I turn left and walk 10 meter and then turning right walk 20 meter. Then I turn right again and walk 60 meter. In which direction am I from the starting point ?", "answer7":"North-East", "option7":"North-East;North-West;North;West",
+					 "explanation7":
+					 "
+					 <br/>Final direction will be north-east with reference to the starting position.
+					 "},
+					 {"question8":"From his house, Lokesh went 15 kms to the North. Then he turned West and covered 10 kms. Then he turned South and covered 5 kms. Finally, turning to East, he covered 10 kms. In which direction is he from his house ?", "answer8":"North", "option8":"East;North;West;South",
+					 "explanation8":
+					 "
+					 <br/>
+					 "},
+					 {"question9":"K is 40 m South-West of L. If M is 40 m South-East of L, then M is in which direction of K?", "answer9":"", "option9":"East;West;North-East;South",
+					 "explanation9":
+					 "
+					 <br/>Hence M is in the East of K.
+					 "},
+					 {"question10":"A man walks 2 km towards North. Then he turns to East and walks 10 km. After this he turns to North and walks 3 km. Again he turns towards East and walks 2 km. How far is he from the starting point?", "answer10":"13 km", "option10":"10 km;12 km;13 km;15 km",
+					 "explanation10":
+					 "
+					 <br/>Pending
+					 "},
+					 {"question11":"The length and breadth of a room are 8 m and 6 m respectively. A cat runs along all the four walls and finally along a diagonal order to catch a rat. How much total distance is covered by the cat?", "answer11":"38", "option11":"10;14;38;48",
+					 "explanation11":
+					 "
+					 <br/>Pending
+					 "},
+					 {"question12":"After walking 6 km, I turned to the right and then walked 2 km. After then I turned to the left and walked 10 km. In the end, I was moving towards the North. From which direction did I start my journey?", "answer12":"South", "option12":"North;South;East;West",
+					 "explanation12":
+					 "
+					 <br/>The journey was started from the South.
+					 "},
+					 {"question13":"
+					 
+					 <br/>Dev, Kumar, Nilesh, Ankur and Pintu are standing facing to the North in a playground such as given below:
+					<br/>1.	Kumar is at 40 m to the right of Ankur.
+					<br/>2.	Dev is are 60 m in the south of Kumar.
+					<br/>3.	Nilesh is at a distance of 25 m in the west of Ankur.
+					<br/>4.	Pintu is at a distance of 90 m in the North of Dev.
+					<br/>Which one is in the North-East of the person who is to the left of Kumar?
+					 
+					 ", "answer13":"Pintu", "option13":"Dev;Nilesh;Ankur;Pintu",
+					 "explanation13":
+					 "
+					 <br/>Ankur is in the left of Kumar. Hence Pintu is in North-East of Ankur.
+					 "},
+					 {"question14":"Village Q is to the North of the village P. The village R is in the East of Village Q. The village S is to the left of the village P. In which direction is the village S with respect to village R?", "answer14":"South-West", "option14":"West;South-West;South;North-West",
+					 "explanation14":
+					 "
+					 <br/>S is to the South-West of R.
+					 "},
+					 {"question15":"X started to walk straight towards south. After walking 5 m he turned to the left and walked 3 m. After this he turned to the right and walked 5 m Now to which direction X is facing?", "answer15":"South", "option15":"North-East;South;North;South-West",
+					 "explanation15":
+					 "
+					 <br/>Hence X will face in the end towards South.
+					 "}					
+					 ]
 	}
 	
 ]

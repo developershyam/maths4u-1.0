@@ -22,54 +22,210 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>Find 467 is prime or not?</b>
-					<br/>Ans. We find by trial that 467 is not divisible by any of primes 2,5,7,ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦.19,23. But on dividing by 23 we get a quotient less then 23, and we need not go further. For, if 467 contained a prime factor beyond 23, the quotient obtained on dividing 467 by that prime factor would be less than 23, and must have been revealed as a factor by the former trials. Hence, 467 has no prime factor greater or less than 23; that is, it is prime number. In general, to find whether a number is prime or not, we need to check whether it is divisible by any of the primes up to the square root of that number.
+					<b>A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?</b>
+					<br/>The seating arrangement is as follows: 
+					<br/>*		*		*		*		*		*
+					<br/>P		X		S		Z		R		A  
+					<br/>Therefore, right of P is X.
+
 					"},
 					{"example2":
 					"
-					<b>If f(a,b)  = (a+b)And g(a,b) = (a+b)/2Then find g(f(1,3), g(1,3))</b>
-					<br/>Ans. g( 1 + 3, (1+3)/2)= g(4, 2) = (4 + 2)/2 = 3
+					<b>A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting ?</b>
+					<br/>*		*		*		*		*
+					<br/>E		B		A		C		D
+					<br/>Therefore, A is sitting in between B and C.
 					
 					"}
 					],
 		"practices":
 					[
-					{"question1":"Which one of the following is not a prime number?", "answer1":"91", "option1":"31;61;71;91",
+					{"question1":"A, P, R, X, S and Z are sitting in a row. S and Z are in the centre. A and P are at the ends. R is sitting to the left of A. Who is to the right of P ?", "answer1":"X", "option1":"A;X;S;Z",
 					 "explanation1":
 					 "
-					 91 is divisible by 7. So, it is not a prime number.
+					<br/>The seating arrangement is as follows: 
+					<br/>*		*		*		*		*		*
+					<br/>P		X		S		Z		R		A  
+					<br/>Therefore, right of P is X.
 					 "},
-					{"question2":"How many of the following numbers are divisible by 132 ?264, 396, 462, 792, 968, 2178, 5184, 6336	", "answer2":"4", "option2":"4;5;6;7",
+					{"question2":"A, B, C, D and E are sitting on a bench. A is sitting next to B, C is sitting next to D, D is not sitting with E who is on the left end of the bench. C is on the second position from the right. A is to the right of B and E. A and C are sitting together. In which position A is sitting ?", "answer2":"Between B and C", "option2":"Between B and D;Between B and C;Between E and D;Between C and E",
 					 "explanation2":
 					 "
-					 <br/>132 = 4 x 3 x 11
-					<br/>So, if the number divisible by all the three number 4, 3 and 11, then the number is divisible by 132 also.
-					<br/>264   11,3,4 (/)
-					<br/>396   11,3,4 (/)
-					<br/>462   11,3 (X)
-					<br/>792   11,3,4 (/)
-					<br/>968   11,4 (X)
-					<br/>2178   11,3 (X)
-					<br/>5184   3,4 (X)
-					<br/>6336   11,3,4 (/)
-					<br/>Therefore the following numbers are divisible by 132 : 264, 396, 792 and 6336.
-					<br/>Required number of number = 4.
-					 
+					<br/>*		*		*		*		*
+					<br/>E		B		A		C		D
+					<br/>Therefore, A is sitting in between B and C.
 					 "},
-					 {"question3":"Which of the following is a prime number ?", "answer3":"97", "option3":"33;81;93;97",
+					 {"question3":"
+					 P, Q, R, S, T, U, V and W are sitting round the circle and are facing the centre:
+					<br/>1.	P is second to the right of T who is the neighbour of R and V.
+					<br/>2.	S is not the neighbour of P.
+					<br/>3.	V is the neighbour of U.
+					<br/>4.	Q is not between S and W. W is not between U and S.
+					<br/>Which two of the following are not neighbors ?
+					 ", "answer3":"RV", "option3":"RV;UV;PV;QW",
 					 "explanation3":
 					 "
-					 All other numbers are divisible by other numbers.
+					<br/>
+					<br/> 	      Q
+					<br/>         - 
+					<br/>   W-        -P
+					<br/>             
+					<br/>  S-           _R
+					<br/>  
+					<br/>    U-       _T
+					<br/>        _
+					<br/>        V
+  
 					 "},
-					 {"question4":"The sum of first five prime numbers is:", "answer4":"28", "option4":"11;18;28;32",
+					 {"question4":"
+					 P, Q, R, S, T, U, V and W are sitting round the circle and are facing the centre:
+					<br/>1.	P is second to the right of T who is the neighbour of R and V.
+					<br/>2.	S is not the neighbour of P.
+					<br/>3.	V is the neighbour of U.
+					<br/>4.	Q is not between S and W. W is not between U and S.
+					<br/>Which one is immediate right to the V ?
+					 ", "answer4":"T", "option4":"P;U;R;T",
 					 "explanation4":
 					 "
-					 <br/>Required sum = (2 + 3 + 5 + 7 + 11) = 28.
-					<br/>Note: 1 is not a prime number.
-					<br/>Definition: A prime number (or a prime) is a natural number that has exactly two distinct natural number divisors: 1 and itself.
-					 
-					 "}					 					
-					]
+					<br/>
+					<br/> 	      Q
+					<br/>         - 
+					<br/>   W-        -P
+					<br/>             
+					<br/>  S-           _R
+					<br/>  
+					<br/>    U-       _T
+					<br/>        _
+					<br/>        V
+					 "},
+					 {"question5":"Five girls are sitting on a bench to be photographed. Seema is to the left of Rani and to the right of Bindu. Mary is to the right of Rani. Reeta is between Rani and Mary. Who is sitting immediate right to Reeta ?", "answer5":"Marry", "option5":"Bindu;Rani;Marry;Seema",
+					 "explanation5":
+					 "
+					<br/>  *		*		*		*		*
+					<br/>Bindu	  Seema	   Rani    Reeta   Marry					 
+					<br/>Mary is sitting immediate right to Reeta.
+					 "},
+					 {"question6":"Five girls are sitting on a bench to be photographed. Seema is to the left of Rani and to the right of Bindu. Mary is to the right of Rani. Reeta is between Rani and Mary. Who is second from the left in photograph ? ", "answer6":"Seema", "option6":"Seema;Marry;Reeta;Bindu",
+					 "explanation6":
+					 "
+					<br/>  *		*		*		*		*
+					<br/>Bindu	  Seema	   Rani    Reeta   Marry
+					<br/>Seema is sitting second from the left in photograph.
+					 "},
+					 {"question7":"Six friends are sitting in a circle and are facing the centre of the circle. Deepa is between Prakash and Pankaj. Priti is between Mukesh and Lalit. Prakash and Mukesh are opposite to each other. Who is sitting opposite to Prakash ?", "answer7":"Mukesh", "option7":"Mukesh;Deepa;Pankaj;Lalit",
+					 "explanation7":
+					 "
+					<br/>
+					<br/> 	        Prakash
+					<br/>             - 
+					<br/>   Lalit-           -Deepa
+					<br/>             
+					<br/>	Priti			_Pankaj
+					<br/>  
+					<br/>         _Mukesh
+					 <br/>Hence, Mukesh is sitting opposite to Prakash.
+					 "},
+					 {"question8":"Six friends are sitting in a circle and are facing the centre of the circle. Deepa is between Prakash and Pankaj. Priti is between Mukesh and Lalit. Prakash and Mukesh are opposite to each other. Who is sitting opposite to Priti ?", "answer8":"Deepa", "option8":"Prakash;Deepa;Pankaj;Lalit",
+					 "explanation8":
+					 "
+					<br/>
+					<br/> 	        Prakash
+					<br/>             - 
+					<br/>   Lalit-           -Deepa
+					<br/>             
+					<br/>	Priti			_Pankaj
+					<br/>  
+					<br/>         _Mukesh					 
+					 <br/>Hence, Deepa is sitting opposite to Priti.
+					 "},
+					 {"question9":"Six friends P, Q, R, S, T and U are sitting around the hexagonal table each at one corner and are facing the centre of the hexagonal. P is second to the left of U. Q is neighbour of R and S. T is second to the left of S. Who is the fourth person to the left of Q ?", "answer9":"P", "option9":"P;R;S;U",
+					 "explanation9":
+					 "
+					<br/>             P
+					<br/>            / \
+					<br/>           T   R
+					<br/>           |   |
+					<br/>           U   Q
+					<br/>            \ /
+					<br/>             S
+					<br/>P is the fourth person to the left of Q.					
+					"},
+					 {"question10":"Six friends P, Q, R, S, T and U are sitting around the hexagonal table each at one corner and are facing the centre of the hexagonal. P is second to the left of U. Q is neighbour of R and S. T is second to the left of S. Which of the following are the neighbors of P ?", "answer10":"T and R", "option10":"U and P;T and R;U and R;Data inadequate",
+					 "explanation10":
+					 "
+					<br/>             P
+					<br/>            / \
+					<br/>           T   R
+					<br/>           |   |
+					<br/>           U   Q
+					<br/>            \ /
+					<br/>             S					 
+					<br/>T and R are the neighbours of P.
+					 "},
+					 {"question11":"In a class there are seven students (including boys and girls) A, B, C, D, E, F and G. They sit on three benches I, II and III. Such that at least two students on each bench and at least one girl on each bench. C who is a girl student, does not sit with A, E and D. F the boy student sits with only B. A sits on the bench I with his best friends. G sits on the bench III. E is the brother of C. How many girls are there out of these 7 students ? ", "answer11":"3 or 4", "option11":"3;4;3 or 4;Data Inadequate",
+					 "explanation11":
+					 "					 
+					 <br/>&#x22FF; Boy  and &#x25CE; Girl
+					 <br/>
+					 <br/>Batch I     &#x22FF;A   &#x22FF;E  &#x25CE;D
+					 <br/>					 
+					 <br/>Batch II    &#x22FF;F   &#x25CE;B
+					 <br/>					 
+					 <br/>Batch III   &#x22FF;G   &#x25CE;C
+					 <br/>
+					 <br/>The number of girls is either 3 or 4.
+					 "},
+					 {"question12":"In a class there are seven students (including boys and girls) A, B, C, D, E, F and G. They sit on three benches I, II and III. Such that at least two students on each bench and at least one girl on each bench. C who is a girl student, does not sit with A, E and D. F the boy student sits with only B. A sits on the bench I with his best friends. G sits on the bench III. E is the brother of C. Which of the following is the group of girls ? ", "answer12":"BCD", "option12":"BAC;BFC;BCD;CDF",
+					 "explanation12":
+					 "
+					 <br/>&#x22FF; Boy  and &#x25CE; Girl
+					 <br/>
+					 <br/>Batch I     &#x22FF;A   &#x22FF;E  &#x25CE;D
+					 <br/>					 
+					 <br/>Batch II    &#x22FF;F   &#x25CE;B
+					 <br/>					 
+					 <br/>Batch III   &#x22FF;G   &#x25CE;C
+					 <br/>
+					 <br/>BCD are the group of girls.
+					 "},
+					 {"question13":"In a class there are seven students (including boys and girls) A, B, C, D, E, F and G. They sit on three benches I, II and III. Such that at least two students on each bench and at least one girl on each bench. C who is a girl student, does not sit with A, E and D. F the boy student sits with only B. A sits on the bench I with his best friends. G sits on the bench III. E is the brother of C. Who sits with C ?", "answer13":"G", "option13":"B;D;G;E",
+					 "explanation13":
+					 "
+					 <br/>&#x22FF; Boy  and &#x25CE; Girl
+					 <br/>
+					 <br/>Batch I     &#x22FF;A   &#x22FF;E  &#x25CE;D
+					 <br/>					 
+					 <br/>Batch II    &#x22FF;F   &#x25CE;B
+					 <br/>					 
+					 <br/>Batch III   &#x22FF;G   &#x25CE;C
+					 <br/>
+					 <br/>G sits with C.
+					 "},
+					 {"question14":"Six girls are sitting in a circle facing to the center of the circle. They are P, Q, R, S, T and V. T is not between Q and S but some other one. P is next to the left of V. R is 4th to the right of P. Which of the following statement is not true ?", "answer14":"R is second to the left of T", "option14":"R is second to the left of T;T is just next to the right of V;S is just next to the right to R;P is second to the right of R",
+					 "explanation14":
+					 "
+					<br/>
+					<br/>     V -     -P
+					<br/>   
+					<br/>   T-            -Q/S
+					<br/>
+					<br/>      -      -R
+					<br/>     S/Q
+
+					 "},
+					 {"question15":"Six girls are sitting in a circle facing to the center of the circle. They are P, Q, R, S, T and V. T is not between Q and S but some other one. P is next to the left of V. R is 4th to the right of P.What is the position of T ? ", "answer15":"To the immediate right of V", "option15":"Just next to the right of Q;Second to the left of P;Between Q and R;To the immediate right of V",
+					 "explanation15":
+					 "
+					<br/>
+					<br/>     V -     -P
+					<br/>   
+					<br/>   T-            -Q/S
+					<br/>
+					<br/>      -      -R
+					<br/>     S/Q
+
+					 "}
+					 ]
 	}
 	
 ]
