@@ -230,12 +230,179 @@
 					"}],
 		"practices":
 					[					
-					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
-					"explanation1":
-					"
-					<br/>Amount of milk left after 3 operations
-					"}
-					]
+					{"question1":"Which of the following is the solution for   in the simultaneous equations
+					<br/>x + 7y = 5
+					<br/>x - 7y = -9
+					", "answer1":"x=-2", "option1":"x=-4;x=-2;x=2;x=3",
+					 "explanation1":
+					 "
+					 <br/>Solving by elimination we add the two equations and get  and hence    
+					 <br/>This then gives since y = (5-x)/7 = [5-(-2)]/7 = 1 and we check in
+					 <br/>and see that So we have that and y = 1.
+					 "},
+					{"question2":"Which of the following is NOT a solution to the equation 2x + 3y = 2y - 5x + 10?", "answer2":"x=7, y=-38", "option2":"x=1, y=3;x=0, y=10;x=2, y=-4;x=7, y=-38",
+					 "explanation2":
+					 "
+					 <br/>1.	Simplify the equation by moving every x and y term to one side. To do so, add 5x and subtract 2y from both sides. The result is: 7x + y = 10.
+					<br/>2.	Evaluate the answer choices.
+					<br/>3.	For x=1, y=3, 7(1) + 3 = 10.
+					<br/>4.	For x=7, y=-38, 7(7) + (-38) = 11, not 10. Thus, x=7 y=-38 is NOT a solution.
+					<br/>5.	For x=0, y=10, 7(0)+ 10 = 10.
+					<br/>6.	For x=5, y=-25, 7(5) + (-25) = 10.
+					<br/>7.	For x=2, y=-4, 7(2) + (-4) = 10
+					 "},
+					 {"question3":"A train 120m in length passes a pole in 12sec and another train of length 100m travelling in opposite direction in 10sec. Find the speed of the second train in km per hour.", "answer3":"43.2 km/hr", "option3":"43.2 km/hr;43 km/hr;44 km/hr;43.5 km",
+					 "explanation3":
+					 "
+					 <br/>Let the speed of the train be x km/hr
+					<br/>Then, 120=x×(5/18) X 12
+					<br/>⇒ x=36 km/hr
+					<br/>Let speed of the other train be y km/hr
+					<br/>Then, relative speed in opposite direction: 
+					<br/>=(y+36)×(5/18)
+					<br/>So total distance:
+					<br/>(120+100)=(y+36)×(5/18) X 10
+					<br/>y= 43.2 km/hr					 
+					 "},
+					 {"question4":"Five years ago, Bina's age was three times that of the Arti. Ten years ago, Bina's age was half that of Chitra. If c represents Chitra's current age, which of the following represent Arti's current age?", "answer4":"(c/6) + 5", "option4":"3c – 5;(c/6) + 5;0;None of these",
+					 "explanation4":
+					 "
+					 <br/>Let the Bina's current age =x
+					<br/>Arti's present age =y
+					<br/>Then, (x−5)=3(y−5)
+					<br/>⇒ x−5=3y−15 -------- (i)
+					<br/>Again, x−10=(1/2) ×(c−10)
+					<br/>x= (c – 10)/2 + 10-------- (ii)
+					<br/>On putting value of x in equation (i),we get:
+					<br/>y=(c/6) + 5					 
+					 "},
+					 {"question5":"If Dennis is 1/3 rd the age of his father Keith now, and was 1/4 th the age of his father 5 year ago, then how old will his father Keith be 5 year from now?", "answer5":"50 year", "option5":"45 year;40 year;55 year;50 year",
+					 "explanation5":
+					 "
+					 <br/>Let the present age of Dennis and his father be x and y respectively.
+					<br/>Then, $x = y/3 -------- (i)
+					<br/>and (x−5)= (y – 5)/4  ------- (ii)
+					<br/>On solving both equation we get y= 45 year.
+					<br/>Hence, required age =(y+5)= 50 year
+					 
+					 "},
+					 {"question6":"21 pencils and 29 pens cost Rs 79. But if the number of pencils and pens were interchanged, the cost would have reduced by Rs 8. Find the cost of each pen.", "answer6":"Rs 2", "option6":"Rs 1;Rs 2;Rs 3;Rs 4",
+					 "explanation6":
+					 "
+					 <br/>Let the cost of each pencil be Rs x and that of each pen be y.
+					<br/>21x+29y=79 -------- (i)
+					<br/>29x+21y=71 -------- (ii)
+					<br/>On solving both equation we get:
+					<br/>y= 2					 
+					 "},
+					 {"question7":"Two integers add up to -10. Also 10 times the larger number minus the smaller number equals 32. Find the absolute value of the smaller number.", "answer7":"12", "option7":"12;10;6;-12",
+					 "explanation7":
+					 "
+					 <br/>Let the larger number be x and the smaller number be y.
+					<br/>x + y = -10
+					<br/>Also 10x – y = 32
+					<br/>Adding, we get x = 2 and y = -12
+					<br/>As this cannot be negative so y = 12					 
+					 "},
+					 {"question8":"In a test match, Sachin’s score plus two thirds of Sehwag’s score is 50. But Sehwag’s score plus two-thirds of Sachin’s score is 70. What is the difference in their scores?", "answer8":"60", "option8":"66;20;28;60",
+					 "explanation8":
+					 "
+					 <br/>Let sachin’s score be x and sehwag’s score be y
+					<br/>x + (2/3)y = 50;
+					<br/>3x + 2y = 150 …………… (i)
+					<br/>Also y + (2/3)x = 70 ;
+					<br/>So 2x + 3y = 210 ………… (ii)
+					<br/>Subtracting equation (ii) from (i) gives
+					<br/>x – y = -60
+					<br/>So Difference is 60
+					 
+					 "},
+					 {"question9":"The sum of ages of Eena, Meena and Teena is 200 years, while sum of Meena’s and Teena’s age is 150 years. Fifty years ago, sum of Meena’s age and two thirds of Teena’s age was equal to Eena’s current age. Find Teena’s age in years?", "answer9":"50", "option9":"100;50;75;80",
+					 "explanation9":
+					 "
+					 <br/>Let Eena’s age be ‘e’ years. Meena’s age be ‘m’ years and Teena’s age be ‘t’ years.
+					<br/>So e + m + t = 200
+					<br/>And m + t = 150 ……… (1)
+					<br/>So e = 50;
+					<br/>Also m – 50 + (2/3)(t – 50) = e = 50
+					<br/>So 3m + 2t = 400 ……….(2)
+					<br/>By solving equation (1) and (2)
+					<br/>m = 100
+					<br/>So t = 50.
+					 
+					 "},
+					 {"question10":"Find x + y + z if  5x + 9y + 13z = 50 and  24x  +20y  +16z = 66.", "answer10":"4", "option10":"116;22;4;Data insufficient",
+					 "explanation10":
+					 "
+					 <br/>5x + 9y + 13z = 50
+					<br/>And  24x  +20y  +16z = 66;
+					<br/>Adding both 29x + 29y + 29z = 116
+					<br/>So x + y + z = 4					 
+					 "},
+					 {"question11":"Three oranges, five bananas and 2 apples cost Rs. 40. However four oranges, ten bananas and 4 apples cost Rs. 70. Find the cost of 10 oranges.", "answer11":"Rs. 50", "option11":"Rs. 25;Rs. 50;Rs. 30;Rs. 45",
+					 "explanation11":
+					 "
+					 <br/>Let the cost of each orange be ‘a’, each banana be ‘b’ and each apple be ‘c’.
+					<br/>So 3a + 5b + 2c = 40 ………(1)
+					<br/>And 4a + 10b + 4c = 70
+					<br/>i.e. 2a + 5b + 2c = 35 ……..(2)
+					<br/>(1) – (2) gives
+					<br/>a = 5 i.e. 10a = 50
+					 
+					 "},
+					 {"question12":"The age of a banyan tree is thrice the age of a coconut tree. Last year, the age of the banyan tree was 52 years more than twice the age of the coconut tree. Find the sum of their current ages (in years).", "answer12":"204", "option12":"101;202;104;204",
+					 "explanation12":
+					 "
+					 <br/>Let the age of banyan tree be b years and that of the coconut tree be c years.
+					<br/>So b = 3c or b – 3c = 0 ....(1)
+					<br/>Also, (b-1) = 2(c-1) + 52
+					<br/>So, b – 1 = 2c – 2 + 52
+					<br/>b – 2c = 51
+					<br/>(2) – (1) gives
+					<br/>C = 51
+					<br/>b = 3 X 51 = 153
+					<br/>Hence sum of their ages = 153 + 51 = 204					 
+					 "},
+					 {"question13":"The sum of Anita’s and Sunita’s age is 43 years.  11 years hence, Anita’s age will be 7/6 times Sunita’s age then, find sunita’s present age.", "answer13":"19 years", "option13":"22 years;20 years;24 years;19 years",
+					 "explanation13":
+					 "
+					 <br/>Let Anita’s present age be ‘x’ years and that of Sunita be ‘y’ years.
+					<br/>So x + y = 43 ..... (i)
+					<br/>(x+11) = (7/6)(y+11)
+					<br/>6x + 66 = 7y + 77
+					<br/>Or 6x – 7y = 11 ..... (ii)
+					<br/>Multiplying (i) by 6,
+					<br/>6x + 6y = 258 ..... (iii)
+					<br/>Subtracting (iii) from (ii), -13y = -247
+					<br/>So y = 19 years
+					 
+					 "},
+					 {"question14":"At a movie theatre, stall tickets are available at Rs. 100 and balcony tickets are available at Rs. 150. Total capacity of the theatre is 3000 seats, including both stall and balcony. The total revenue generated at the theatre when it was houseful is Rs. 400000. Find the capacity of stall. ", "answer14":"1000", "option14":"2000;1000;1500;1800",
+					 "explanation14":
+					 "
+					 <br/>Let the capacity of the stall be x and the capacity of the balcony be y.
+					<br/>Now x + y = 3000 ..... (i)
+					<br/>Also 100x + 150y = 400000
+					<br/>If x + 1.5y = 4000 ..... (ii)
+					<br/>(ii) – (i) gives
+					<br/>0.5y = 1000
+					<br/>i.e. y = 2000
+					<br/>So x = 1000					 
+					 "},
+					 {"question15":"A has with him a total of $29 in $5 and $2 denominations. The number of $5 notes is one half of one less than the number of $2 notes. How many $5 notes and $2 notes does A have respectively.", "answer15":"3,7", "option15":"7,3;3,7;2,5;5,2",
+					 "explanation15":
+					 "
+					 <br/>Let ‘x’ be the number of $5 notes and ‘y’ be the number of $2 notes.
+					<br/>5x + 2y = 29 .....(i)
+					<br/>Also x = 1/2(y – 1) 
+					<br/>2x – y = -1  .....(ii)
+					<br/>Multiplying (ii) by 2,
+					<br/>4x – 2y = -2 .....(iii)
+					<br/>By (iii) and (i), 9x = 27, So x = 3;
+					<br/>Putting this value of ‘x’ in equation (ii), y = 7.
+					 
+					 "}					
+					 ]
 	},	
 	{
 		"num":"4",
@@ -417,15 +584,175 @@
 					"}],
 		"practices":
 					[					
-					{"question1":"A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?", "answer1":"45+5/11%", "option1":"45%;45+5/11%;55%;54%",
+					{"question1":"Which of the following inequalities have a finite range of values of 'x' satisfying them?", "answer1":"x<sup>2</sup> - 4x + 3 < 0", "option1":"x<sup>2</sup> + 5x + 6 > 0;|x + 2| > 4;9x - 7 < 3x + 14;x<sup>2</sup> - 4x + 3 < 0",
 					 "explanation1":
 					 "
-					 <br/>Number of runs made by running = 110 - (3 x 4 + 8 x 6)
-					<br/>= 110 - (60)
-					<br/>= 50.
-					<br/>So required % is (50/110 X 100)% = 45+5/11%
+					 <br/>We have to find out the values of 'x' that will satisfy the four inequalities given in the answer choices and check out the choice in which the range of values satisfying is finite.
+					<br/>Choice A
+					<br/>Factorizing the given equation, we get (x + 2)(x + 3) > 0.
+					<br/>This inequality will hold good when both x + 2 and x + 3 are simultaneously positive or simultaneously negative.
+					<br/>Evaluating both the options, we get the range of values of 'x' that satisfy this inequality to be x < -2 or x > -3. i.e., 'x' does not lie between -2 and -3 or an infinite range of values.
+					<br/>Choice B
+					<br/>|x + 2| > 4 is a modulus function and therefore, has two options
+					<br/>Option 1: x + 2 > 4 or
+					<br/>Option 2: (x + 2) < -4.
+					<br/>Evaluating the two options we get the values of 'x' satisfying the inequality as x > 2 and x < -6. i.e., 'x' does not lie between -6 and 2 or an infinite range of values.
+					<br/>Choice C
+					<br/>9x - 7 < 3x + 14
+					<br/>Simplifying, we get 6x < 21 or x < 3.5. Again an infinite range of values.
+					<br/>Choice D
+					<br/>x<sup>2</sup> - 4x + 3 < 0 
+					<br/>Factorizing we get, (x - 3)(x - 1) < 0.
+					<br/>This inequality will hold good when one of the terms (x - 3) and (x - 1) is positive and the other is negative.
+					<br/>Evaluating both the options, we get 1 < x < 3. i.e., a finite range of values for 'x'.	
+					 "},
+					{"question2":"Solve 3(x – 2) + 4 > 2(2x – 3).", "answer2":"x ≤ 4", "option2":"x < 4 ;x > 4;x ≤ 4;x ≤ -4",
+					 "explanation2":
+					 "
+					 <br/>3(x – 2) + 4 > 2(2x – 3) 
+					<br/>3x – 6 + 4 > 4x – 6 
+					<br/>3x – 2 > 4x – 6 
+					<br/>–2 > x – 6            (*) 
+					<br/>4 > x 
+					<br/>x < 4					 
+					 "},
+					 {"question3":"Solve 5x + 7 < 3(x + 1)", "answer3":"x < -2", "option3":"x < -2;x > 2;x ≤ 2;x ≤ -2",
+					 "explanation3":
+					 "
+					 <br/>5x + 7 < 3(x + 1) 
+					<br/>5x + 7 < 3x + 3 
+					<br/>2x + 7 < 3 
+					<br/>2x < –4 
+					<br/>x < –2					 
+					 "},
+					 {"question4":"The velocity of an object fired directly upward is given by V = 80 – 32t, where t is in seconds.  When will the velocity be between 32and 64 feet per second? ", "answer4":"0.5 seconds after launch and 1.5 seconds before launch", "option4":"0.5 seconds after launch and 1.5 seconds before launch;1.0 seconds after launch and 2.0 seconds before launch;0.5 seconds after launch;1.5 seconds before launch",
+					 "explanation4":
+					 "
+					 <br/>32 < 80 – 32t < 64 
+					<br/>32 – 80 < 80 – 80 – 32t < 64 – 80 
+					<br/>–48 < –32t < –16 
+					<br/>–48 / –32   >  –32t / –32  >  –16 / –32 
+					<br/>1.5 > t > 0.5
+					<br/>The velocity will be between 32 and 64 feet per second between 0.5 seconds after launch and 1.5 seconds before launch.
 					 
-					 "}
+					 "},
+					 {"question5":"x/4 > 1/2 , could be represented as:", "answer5":"x > 2", "option5":"x > 4;x > 2;x < -2;x < 8",
+					 "explanation5":
+					 "
+					 <br/>x/4 > 1/2
+					<br/>multiplying 4 on both the sides
+					<br/>4 X (x/4) >4 X (1/2)
+					<br/> x > 2
+					<br/>Then the solution is: x > 2
+					 
+					 "},
+					 {"question6":"For what values of 'x' is the function √(x<sup>2</sup>- 6x-40) defined in the real domain?", "answer6":"x does not lie between the open interval –4 and 10", "option6":"-10 < x < 4;- 4 < x < 10;x does not lie between the closed interval –10 and 4;x does not lie between the open interval –4 and 10",
+					 "explanation6":
+					 "
+					 <br/>The function √(x<sup>2</sup>- 6x-40)  is defined in the real domain only when x<sup>2</sup> – 6x – 40 > 0.
+					<br/>When x<sup>2</sup> – 6x – 40 is < 0, the function will be imaginary.
+					<br/>Now let us find out the range of values for which x<sup>2</sup> – 6x – 40 > 0.
+					<br/>Factorizing the quadratic expression, we get (x – 10)(x + 4) > 0
+					<br/>This expression (x – 10)(x + 4) will be greater than or equal to 0 when both (x – 10) and (x + 4) are greater than or equal to 0 or when both (x - 10) and (x + 4) are less than or equal 0.
+					<br/>Case 1:
+					<br/>When both (x – 10) and (x + 4) are greater than or equal to 0.
+					<br/>x > 10 and x > - 4 => when x > 10 it will be greater than –4.
+					<br/>Therefore, it will suffice to say that x > 10
+					<br/>Case 2:
+					<br/>When both (x - 10) and (x + 4) are less than or equal to 0.
+					<br/>i.e. x < 10 and x < -4 => when x < -4, it will less than 10.
+					<br/>Therefore, it will suffice to say that x < -4 
+					<br/>Hence, the range in which the given function will be defined in the real domain will be when x does not lie between –4 and 10.
+
+					 "},
+					 {"question7":"Solve the inequality 3<sup>(3x-2)</sup> > 1", "answer7":"x > 2/3", "option7":"x > 1;x > 3;x > 2/3;x > 1/3",
+					 "explanation7":
+					 "
+					 <br/>3<sup>(3x-2)</sup> > 1 
+					<br/>3<sup>(3x-2)</sup> > 30
+					<br/>=> 3x - 2 > 0
+					<br/>3x > 2 => x > 2/3
+					 
+					 "},
+					 {"question8":"Solve for real 'x' if √(9x-x<sup>2</sup>) > 0", "answer8":"0 < x < 9", "option8":"x > 9;0 < x < 9;x < 0;None of these",
+					 "explanation8":
+					 "
+					 <br/>Squaring on both sides we get, 9x-x<sup>2</sup> > 0
+					<br/>=> x<sup>2</sup> - 9x < 0
+					<br/>=> x(x - 9) < 0
+					<br/>=> 0 < x < 9					 
+					 "},
+					 {"question9":"Find the range of real values of x satisfying the inequalities 3x - 2 > 7 and 4x - 13 > 15.", "answer9":"x > 7", "option9":"x > 3;x > 7;x < 7;x < 3",
+					 "explanation9":
+					 "
+					 <br/>3x - 2 > 7 => 3x > 9 => x > 3 
+					<br/>and 4x - 13 > 15 => 4x > 28 => x > 7, 7 is greater than 3.
+					<br/>Therefore, x > 7.
+					 
+					 "},
+					 {"question10":"Illustrate the solution to the inequality 12 – 3x ≥ 6.", "answer10":"x ≥ 2", "option10":"x ≥ 2;x ≤ 2;x ≥ 4;x ≤ 6",
+					 "explanation10":
+					 "
+					 <br/>Because this inequality contains the term ' –3x ', first add 3x to both sides to remove the – sign.
+					<br/>12 – 3x ≥ 6.
+					<br/>-3x ≥ 6 – 12
+					<br/>-3x ≥ -6
+					<br/>x ≥ 2					 
+					 "},
+					 {"question11":"Solve 3y < 15", "answer11":"y < 5", "option11":"y < 5;y > 5;y < 15;y > 3",
+					 "explanation11":
+					 "
+					 <br/>If we divide both sides by 3 we get:
+					<br/>3y/3 < 15/3
+					<br/>y < 5
+					<br/>And that is our solution: y < 5
+					 "},
+					 {"question12":"Solve  -2y < -8", "answer12":"y > 4", "option12":"y < 4;y > -4;y < -4;y > 4",
+					 "explanation12":
+					 "
+					 <br/>Let us divide both sides by -2 ... and reverse the inequality!
+					<br/>-2y < -8
+					<br/>-2y/-2 > -8/-2
+					<br/>y > 4
+					<br/>And that is the correct solution: y > 4
+					 "},
+					 {"question13":"Solve (x-3)/2 < -5", "answer13":"x < -7", "option13":"x < -15;x > 7;x < -7;x > 3",
+					 "explanation13":
+					 "
+					 <br/>First, let us clear out the '/2' by multiplying both sides by 2.
+					<br/>Because you are multiplying by a positive number, the inequalities will not change.
+					<br/>(x-3)/2 ×2 < -5 ×2  
+					<br/>(x-3) < -10
+					<br/>Now add 3 to both sides:
+					<br/>x-3 + 3 < -10 + 3    
+					<br/>x < -7
+					<br/>And that is our solution: x < -7
+					 
+					 "},
+					 {"question14":"Solve -2 < (6-2x)/3 < 4 ", "answer14":"6 > x > -3", "option14":"6 > x > -3;3 < x < 6;3 > x > -4;4 < x < -3",
+					 "explanation14":
+					 "
+					 <br/>First, let us clear out the '/3' by multiplying each part by 3:
+					<br/>Because you are multiplying by a positive number, the inequalities will not change.
+					<br/>-6 < 6-2x < 12
+					<br/>Now subtract 6 from each part:
+					<br/>-12 < -2x < 6
+					<br/>Now multiply each part by -(1/2).
+					<br/>Because you are multiplying by a negative number, the inequalities change direction.
+					<br/>6 > x > -3
+					<br/>And that is the solution!
+					<br/>But to be neat it is better to have the smaller number on the left, larger on the right. So let us swap them over (and make sure the inequalities point correctly):
+					<br/>-3 < x < 6
+					 
+					 "},
+					 {"question15":" –7 < 5x + 3 ≤ 23", "answer15":"-2 <x ≤ 4", "option15":"-7 <x ≤ 4;4 <x ≤ -7;-2 <x ≤ 4;2 <x < -4",
+					 "explanation15":
+					 "
+					 <br/>–7 < 5x + 3 ≤ 23
+					<br/>-10 < 5x ≤ 20 (Subtracting 3 from both sides)
+					<br/>-2 <x ≤ 4 (Dividing both sides by 5)
+					 
+					 "}			 
 					 ]
 	}
 ]
