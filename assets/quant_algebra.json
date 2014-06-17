@@ -70,20 +70,83 @@
 					],
 		"practices":
 					[
-					{
-						"question1":"The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31kgs, what is the weight of their football coach in kgs?", "answer1":"61 kgs", "option1":"31 kgs;61 kgs;60 kgs;62 kgs",
-						"explanation1":
-						"
-						<br/>The new average weight of the group after including the football coach = 31.
-						<br/>As the new average is 1kg more than the old average, old average without including the football coach = 30 kgs.
-						<br/>The total weight of the 30 friends without including the football coach = 30 * 30 = 900.
-						<br/>After including the football coach, the number people in the group increases to 31 and the average weight of the group increases by 1kg.
-						<br/>Therefore, the total weight of the group after including the weight of the football coach = 31 * 31 = 961 kgs.
-						<br/>Therefore, the weight of the football coach = 961 - 900 = 61 kgs.
-						"
-					}
-					
-					]
+					{"question1":"Subtract the sum of 11p – 8q  +3r and 12p – 9q  + 4r from 15p – 2q + 12r", "answer1":"-8p + 15q + 5r", "option1":"-8p + 5q - 5r;-8p + 15q + 5r;8p + 15q - 5r;18p + 15q +1 5r",
+					 "explanation1":
+					 "
+					 <br/>15p – 2q + 12r – [(11p – 8q  +3r) + (12p – 9q + 4r)]
+					<br/>= 15p – 2q + 12r – 23p + 17q  -7r
+					<br/>= -8p + 15q + 5r
+					 
+					 "},
+					{"question2":"Find the value of (511)<sup>2</sup>", "answer2":"261121", "option2":"261121;26121;260000;250121",
+					 "explanation2":
+					 "
+					 <br/>=((500+11)<sup>2</sup> = 250000  +11000 + 121 = 261121
+					 "},
+					 {"question3":"If c = √[(a<sup>2</sup> + b<sup>2</sup> - 2ap)]  , find c when a = 21, b = 13, p = 5.", "answer3":"20", "option3":"20;21;15;30",
+					 "explanation3":
+					 "
+					 <br/>√[21<sup>2</sup> + 13<sup>2</sup> - 2X21X5] = √[441 + 169 - 210] = √400 = 20
+					 "},
+					 {"question4":"Find the remainder when x<sup>3</sup> - 7x + 8 is divided by x – 3.", "answer4":"14", "option4":"-8;8;-2;14",
+					 "explanation4":
+					 "
+					 <br/>Remainder = (3)<sup>3</sup> - 7(3) + 8 = 27 – 21 + 8
+					<br/> = 6 + 8 = 14
+					 
+					 "},
+					 {"question5":"Find the value of (6x – 4y – 3x + 7y)(3x – 2y)", "answer5":"9x<sup>2</sup> + 3xy - 6y<sup>2</sup>", "option5":"x<sup>2</sup> - 3xy + 6y<sup>2</sup>;9x<sup>2</sup> + 3xy - 6y<sup>2</sup>;9x<sup>2</sup> - 15xy - 6y<sup>2</sup>;9x<sup>2</sup> - 3xy + 6y<sup>2</sup>",
+					 "explanation5":
+					 "
+					 <br/>(3x + 3y)(3x – 2y)
+					<br/> = 3(x + y)(3x – 2y)
+					<br/> = 3(3x<sup>2</sup> - 2xy + 3xy - 2y<sup>2</sup>)
+					<br/>= 3(3x<sup>2</sup> + xy - 2y<sup>2</sup>)
+					<br/> = 9x<sup>2</sup> + 3xy - 6y<sup>2</sup>
+					 
+					 "},
+					 {"question6":"If x = b + c, y = c – a, z = a – b, then find out  x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - 2xy - 2xz + 2yz", "answer6":"4b<sup>2</sup>", "option6":"a + b + c;4b<sup>2</sup>;abc;0",
+					 "explanation6":
+					 "
+					 <br/>x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - 2xy - 2xz + 2yz 
+					<br/>=(x-y-z)<sup>2</sup> = (b + c - c + a - a + b)<sup>2</sup> = 4b<sup>2</sup>
+					 
+					 "},
+					 {"question7":"If x – y = 1, evaluate x<sup>3</sup> - y<sup>3</sup> - 3xy ", "answer7":"1", "option7":"0;1;2;x<sup>2</sup> - y<sup>2</sup>",
+					 "explanation7":
+					 "
+					 <br/>x<sup>3</sup> - y<sup>3</sup> - 3xy 
+					<br/>= x<sup>3</sup> - y<sup>3</sup> - 3xy(x-y).... As (x-y) = 1
+					<br/>= (x-y)<sup>3</sup> = 1 
+					 
+					 "},
+					 {"question8":"Find x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz, when (x+y+z) = 9 and xy+yz+zx = 11", "answer8":"432", "option8":"384;192;432;48",
+					 "explanation8":
+					 "
+					 <br/>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz 
+					<br/> = (x+y+z)(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy-yz-zx)
+					<br/> = 9[(x+y+z)<sup>2</sup> - 3(xy+yz+zx)]
+					<br/> = 9(81 – 33) = 432
+					 
+					 "},
+					 {"question9":"What should be subtracted from p<sup>4</sup> + 3p<sup>2</sup> + 1 to get p<sup>2</sup> + p -1 ?", "answer9":"p<sup>4</sup> + 2p<sup>2</sup> - p + 2", "option9":"p<sup>4</sup> + 2p<sup>2</sup> - p + 2;2p<sup>2</sup> + 2;p<sup>2</sup> + p + 2;None of these",
+					 "explanation9":
+					 "
+					 <br/>(p<sup>4</sup> + 3p<sup>2</sup> + 1) - (p<sup>2</sup> + p - 1)
+					<br/>= p<sup>4</sup> + 2p<sup>2</sup> - p + 2
+					 
+					 "},
+					 {"question10":"47<sup>3</sup> ?", "answer10":"103823", "option10":"1038770;1461770;103823;125027",
+					 "explanation10":
+					 "
+					 <br/>47<sup>3</sup> 
+					<br/>= (50-3)<sup>3</sup>  
+					<br/>= 50<sup>3</sup>- 3 X 50<sup>2</sup> X 3 + 3 X 50 X 3<sup>2</sup> - 3<sup>3</sup>
+					<br/>= 125000 – 21150 – 27
+					<br/>= 103823
+					 
+					 "}
+					 ]
 	},
 	{
 		"num":"2",
@@ -133,17 +196,124 @@
 		],
 		"practices":
 					[
-					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
-					"explanation1":
-					"
-					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
-					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
-					<br/>		100				100		
-					<br/>  28x - 22x = 350800 - (13900 x 22)
-					<br/>  6x = 45000
-					<br/>  x = 7500.
-					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
-					"}
+					{"question1":"Find the value of x that satisfies the following equation: 9x – 3 = (2x - 4)/3", "answer1":"x = 1/5", "option1":"x = 1;x = 5;x = 1/4;x = 1/5",
+					 "explanation1":
+					 "
+					 <br/>1.	Multiply both sides by 3.
+					<br/>	27x - 9 = 2x-4.
+					<br/>2.	Add 9 to both sides.
+					<br/>	27x = 2x + 5.
+					<br/>3.	Subtract 2x from both sides.
+					<br/>	25x = 5.
+					<br/>4.	Divide both sides by 25.
+					<br/>	x= (5/25) = (1/5)
+					 "},
+					{"question2":"A proper fraction is such that 593 subtracted from ten times the numerator gives the denominator. Find the numerator, if the numerator and the denominator are consecutive integers.", "answer2":"66", "option2":"96;99;66;69",
+					 "explanation2":
+					 "
+					 <br/>Let the numerator be x
+					<br/>So the denominator = x+1
+					<br/>Now 10x – 593 = x + 1
+					<br/>So 9x = 594
+					<br/>Or x = 66
+					 
+					 "},
+					 {"question3":"In a class test, A scored 51 marks. The test had 4 sections. In the second section, A scored 7 marks more than in the first section, and in the third section, A scored 7 marks more than in the second section. If A did not score at all in the fourth section, how much  did A score in the second section?", "answer3":"", "option3":"15;10;24;17",
+					 "explanation3":
+					 "
+					 <br/>If A scored x marks in section 2, he scored (x-7) marks in section 1 and (x+7) marks in section 3
+					<br/>So (x-7) + x + (x+7) + 0 = 51
+					<br/>Or 3x = 51
+					<br/>Or x = 17
+					 
+					 "},
+					 {"question4":"Six litres of milk is required to make one packet of cheese. How much milk (in litre) is required to make 14 batches of cheese? {One batch of cheese = 5 packet of cheese}", "answer4":"420", "option4":"840;420;210;105",
+					 "explanation4":
+					 "
+					 <br/>6 litre of milk = 1 packet of cheese
+					 <br/>X litre of milk = 14 batches
+                     <br/> = 14 X 5
+                     <br/> = 70 packets of cheese
+					 <br/>Or x = 70 X 6
+                     <br/>     = 420  
+					 
+					 "},
+					 {"question5":"Three distinct numbers are given. The difference between the largest and the smallest is added to the third number. One third of this new number is less than the average of the original three numbers by 14. Find the smallest number.", "answer5":"21", "option5":"42;12;21;Cannot be determined",
+					 "explanation5":
+					 "
+					 <br/>Let the three numbers be a, b, c such that a is the largest and c is the smallest.
+					<br/>Now (a – c + b)/3  = (a + b + c)/3 – 14 
+					<br/>So a – c + b  = a + b + c – 42
+					<br/>Or c = 21
+					 
+					 "},
+					 {"question6":"A man is 6 times as old as his son. 2 years hence, he will be 5 times as old as his son. Find the present age of the son.", "answer6":"8 years", "option6":"6 years;8 years;10 years;12 years",
+					 "explanation6":
+					 "
+					 <br/>Let the son’s present age be ‘x’ years.
+					<br/>So Father’s age  = 6x years
+					<br/>5(x+2) = 6x + 2
+					<br/>5x + 10 = 6x + 2 
+					<br/>Or x = 8
+					 
+					 "},
+					 {"question7":"John snow purchased 60 kg of cereals (rice and wheat) for Rs. 700. The cost per kg of rice was Rs. 15 and that of wheat was Rs. 10. Find the quantity of rice and wheat purchased.", "answer7":"20 kg, 40 kg", "option7":"25 kg, 35 kg;15 kg, 45 kg;10 kg, 50 kg;20 kg, 40 kg",
+					 "explanation7":
+					 "
+					 <br/>Let the quantity of rice bought be ‘x’ kg and that of wheat be (60-x) kg.
+					<br/>So 15x + (60 – x)10 = 700
+					<br/>15x + 600 – 10x = 700
+					<br/>5x + 600 = 700
+					<br/>5x = 100
+					<br/>So x = 20
+					 
+					 "},
+					 {"question8":"The sum of 2 numbers is 45. The difference of their squares is 675. Find the numbers", "answer8":"15, 30", "option8":"20, 25;15, 30;10, 35;12, 33",
+					 "explanation8":
+					 "
+					 <br/>Let one of the numbers be x, so other number is 45 – x
+					<br/>x^2-(45-x)<sup>2</sup> = 675
+					<br/>x<sup>2</sup> - 2025 + 90x - x<sup>2</sup> = 675
+					<br/>90x = 2700
+					<br/>x = 30
+					<br/>So numbers are 30 and 15
+					 
+					 "},
+					 {"question9":"A poultry farm has only chickens and pigs. When the manager of the poultry counted the heads of the stock in the farm, the number totaled up to 200. However, when the number of legs was counted, the number totaled up to 540. How many chickens were there in the farm?", "answer9":"130", "option9":"70;120;300;130",
+					 "explanation9":
+					 "
+					 <br/>Let there by 'x' chickens and 'y' pigs.
+					<br/>Therefore, x + y = 200 --- (1)
+					<br/>Each chicken has 2 legs and each pig has 4 legs
+					<br/>Therefore, 2x + 4y = 540 --- (2)
+					<br/>Solving equations (1) and (2), we get x = 130 and y = 70.
+					<br/>There were 130 chickens and 70 pigs in the farm.
+					 
+					 "},
+					 {"question10":"Three years back, a father was 24 years older than his son. At present the father is 5 times as old as the son. How old will the son be three years from now? ", "answer10":"9 years", "option10":"9 years;6 years;12 years;3 years",
+					 "explanation10":
+					 "
+					 <br/>Let the age of the son 3 years back be x years
+					<br/>Therefore, the age of the father 3 years back was x + 24
+					<br/>At present the age of the son is x + 3 and the father is 5 times as old as the son. 
+					<br/>i.e., x + 24 + 3 = 5(x + 3) 
+					<br/>i.e., x + 27 = 5x + 15
+					<br/>or 4x = 12 or x = 3. 
+					<br/>Therefore, the son was 3 years old 3 years back and he will be 9 years old three years from now
+					 
+					 "},
+					 {"question11":"The basic one-way air fare for a child aged between 3 and 10 years costs half the regular fare for an adult plus a reservation charge that is the same on the child's ticket as on the adult's ticket. One reserved ticket for an adult costs $216 and the cost of a reserved ticket for an adult and a child (aged between 3 and 10) costs $327. What is the basic fare for the journey for an adult?", "answer11":"$210", "option11":"$111;$52.5;$210;$58.5",
+					 "explanation11":
+					 "
+					 <br/>Let the basic fare for the child be $X.
+					<br/>Therefore, the basic fare for an adult = $2X.
+					<br/>Let the reservation charge per ticket be $Y
+					<br/>Hence, an adult ticket will cost 2X + Y = $216
+					<br/>And ticket for an adult and a childe will cost 2X + Y + X + Y = 3X + 2Y = 327
+					<br/>Solving for X, we get X = 105.
+					<br/>The basic fare of an adult ticket = 2X = 2*105 = $210
+					 
+					 "}
 					]
 	},
 	{
