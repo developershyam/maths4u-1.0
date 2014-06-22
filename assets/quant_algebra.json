@@ -666,15 +666,156 @@
 					"}],
 		"practices":
 					[ 
-					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
-					"explanation1":
-					"
-					<br/>Let the total profit be $ 100.
-					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
-					<br/>If A's share is $ 57, total profit = $ 100.
-					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
-					"}
-					]
+					{"question1":"Solve x<sup>2</sup> + 6 x + 9 = 0", "answer1":"x = -3", "option1":"x = 3,0;x = 3,-3;x = 3;x = -3",
+					 "explanation1":
+					 "
+					 <br/>( x + 3)( x + 3)= 0
+					<br/>x + 3 = 0
+					<br/>– 3 – 3
+					<br/>x = – 3				 
+					 "},
+					{"question2":"Solve 5x² + 6x + 1 = 0", "answer2":"x = -0.2 or -1;", "option2":"x = -0.2 or -1;x = -0.4 or 1;x = 2 or 1;x =  0.2 or 1",
+					 "explanation2":
+					 "
+					 <br/>Coefficients are:	 	a = 5, b = 6, c = 1 	 	 
+					<br/>Quadratic Formula:	 	x = [ -b ± √(b2-4ac) ] / 2a
+					<br/>Put in a, b and c:	 	x = [ -6 ± √(62-4×5×1) ] / (2×5)
+					<br/>Solve:	 	x = [ -6 ± √(36-20) ]/10
+					<br/> 	 	x = [ -6 ± √(16) ]/10
+					<br/> 	 	x = ( -6 ± 4 )/10
+					<br/> 	 	x = -0.2 or -1					 
+					 "},
+					 {"question3":"If the product of two integers, (x – 4) and (x - 5), is negative which of the following values can x have?", "answer3":"No such x exists", "option3":"-4;-3;2;No such x exists",
+					 "explanation3":
+					 "
+					<br/>(x – 4)(x – 5) < 0
+					<br/>Or 4 < x <5
+					<br/>So x is an integer, it can’t take any value
+					<br/>Hence [4]					 
+					 "},
+					 {"question4":"The sum of the roots of 2 equations is 10. If one equation is x<sup>2</sup> - 7x = 6 what could be the other equation?", "answer4":"All of these", "option4":"x<sup>2</sup> - 3x = 100;2x<sup>2</sup> + 55 - 6x = 0;3x<sup>2</sup> - 9x = 2√2;All of these",
+					 "explanation4":
+					 "
+					 <br/>Sum of the roots of x<sup>2</sup> - 7x = 6 is 7.
+					<br/>Hence sum of the roots of other equation should be equal to 3.
+					<br/>This condition is observed in all the three equation.
+					<br/>Hence [4].
+					 
+					 "},
+					 {"question5":"2 students, A and B, were asked to solve a quadratic equation. A made a mistake only in writing the correct coefficient of x, B made a mistake only in writing the constant terms. A gave the solution set as {-3,-3} and B gave the solution set as {3,7} Find the actual quadratic equation if the coefficient of x<sup>2</sup> was 1", "answer5":"x<sup>2</sup> - 10x + 9 = 0", "option5":"x<sup>2</sup> + 10x + 9 = 0;x<sup>2</sup> + 10x - 9=0;x<sup>2</sup> - 10x + 9 = 0;x<sup>2</sup> - 10x - 9 = 0",
+					 "explanation5":
+					 "
+					<br/>A did not mistake the constant term.
+					<br/>So product of roots = -3 X -3 = 9
+					<br/>B did not mistake the coefficient of x
+					<br/>So sum of the roots = 3 + 7 = 10.
+					<br/>The actual equation is 
+					<br/>x<sup>2</sup> - (sum of the roots)x + (product of roots) = 0
+					<br/>x<sup>2</sup> - 10x + 9=0					 
+					 "},
+					 {"question6":"The addition of the positive square root of a number and the positive fourth root of the same number is 6. Find the number.", "answer6":"16", "option6":"81;16;9;-16",
+					 "explanation6":
+					 "
+					 <br/>Let the number be x<sup>4</sup>
+					<br/>So x<sup>2</sup> + x = 6
+					<br/>i.e. x<sup>2</sup> + x - 6 = 0
+					<br/>So x = -3 or x = 2
+					<br/>But x ≠ -3 (as the fourth root is positive)
+					<br/>So x = 2 Or x<sup>4</sup> = 16.					 
+					 "},
+					 {"question7":"One root of a quadratic equation is 3+√2. The quadratic equation is ", "answer7":"", "option7":"x<sup>2</sup> - 6x - 7 = 0;x<sup>2</sup> + 6x - 7 = 0;x<sup>2</sup> + 6x + 7 = 0;x<sup>2</sup> - 6x + 7 = 0",
+					 "explanation7":
+					 "
+					 <br/>If one root = 3+√2, other root will be  3-√2
+					<br/>Sum of the roots  =  3+√2 + 3-√2 = 6
+					<br/>Product of roots = (3+√2) (3-√2)  =  9 – 2 = 7
+					<br/>Quardratic equation is 
+					<br/>x<sup>2</sup> - (sum of the roots)x + (product of roots) = 0
+					<br/>x<sup>2</sup> - 6x + 7 = 0
+					 "},
+					 {"question8":"If the roots of the quadratic equation lx<sup>2</sup> + mx + n = 0 are equal in magnitude and opposite in sign, tehn", "answer8":"m = 0", "option8":"l = 0;m = 0;n = 0;None of these",
+					 "explanation8":
+					 "
+					 <br/>Sum of the roots = 0
+					<br/>In a quadratic equation, the middle term is equal to the sum of the roots.
+					<br/>So m = 0
+					 "},
+					 {"question9":"If the equation x<sup>2</sup>  - x(2k + 2) + k<sup>2</sup> = 0 has equal roots, the value of k must be", "answer9":"-(1/2)", "option9":"zero;Either zero or –(1/2);-(1/2);Either (1/2) or –(1/2)",
+					 "explanation9":
+					 "
+					 <br/>x<sup>2</sup>  - x(2k + 2) + k<sup>2</sup> = 0 
+					<br/>∆ = 0 (Since roots are equal)
+					<br/>(2k + 2)<sup>2</sup> - 4 X 1 X k<sup>2</sup> = 0
+					<br/>4k<sup>2</sup> + 8k + 4 - 4k<sup>2</sup> = 0
+					<br/>8k + 4 = 0
+					<br/>Or k = -(1/2)					 
+					 "},
+					 {"question10":"Find k, if one root of the equation (x - k)<sup>2</sup> - 4k = 12 is zero.", "answer10":"6, -2", "option10":"6, -2;-6, 2;-10, 2;10, -2",
+					 "explanation10":
+					 "
+					 <br/>(x-k)^2-4k=12 
+					<br/>x<sup>2</sup> - 2kx + k<sup>2</sup> - 4k = 12
+					<br/>Since one root is zero.
+					<br/>0<sup>2</sup> - 2k0 + k<sup>2</sup> - 4k = 12
+					<br/>k<sup>2</sup> - 4k - 12 = 0
+					<br/>(k – 6)(k + 2) = 0
+					<br/>So k = 6 or k = -2
+					 
+					 "},
+					 {"question11":"The value of discriminant (∆) of 9x<sup>2</sup> - 10x + 2 is:", "answer11":"28", "option11":"6√2;7;28;172",
+					 "explanation11":
+					 "
+					 <br/>∆ = b<sup>2</sup> - 4ac = (-10)<sup>2</sup> - 4X9X2
+					<br/>= 100 – 72 = 28
+					 
+					 "},
+					 {"question12":"For what value of k will the equation: x<sup>2</sup> - (3k-1)x + 2k<sup>2</sup> + 2k = 11 have equal roots.", "answer12":"9, 5", "option12":"9, -5;-9, 5;9, 5;-9, -5",
+					 "explanation12":
+					 "
+					 <br/>∆ = 0 (Since roots are equal)
+					<br/>[-(3k+1) ]<sup>2</sup> - 4(2k<sup>2</sup> + 2k - 11) = 0
+					<br/>9k<sup>2</sup> - 6k + 1 - 8k<sup>2</sup> - 8k + 44 = 0
+					<br/>k<sup>2</sup> - 14k + 45 = 0
+					<br/>(k-9)(k-5) = 0
+					<br/>So k = 9 or k = 5
+					 
+					 "},
+					 {"question13":"A real number and its square root add up to 132. Find the number.", "answer13":"Both A & B", "option13":"144;121;Both A & B;225",
+					 "explanation13":
+					 "
+					 <br/>Let the number be x^2
+					<br/>Its square root is x
+					<br/>Now,  x<sup>2</sup> + x = 132
+					<br/>Or x<sup>2</sup> + x – 132 = 0
+					<br/>(x – 11)(x + 12) = 0
+					<br/>x = 11 or x = -12
+					<br/>So x<sup>2</sup> = 121 or x<sup>2</sup> = 144
+					 
+					 "},
+					 {"question14":"If xy = p, xz =p<sup>2</sup> and yz = p<sup>3</sup>, also x + y + z = 13 and x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 91, then z/y is equal to:", "answer14":"3", "option14":"3;7/3;13;13/3",
+					 "explanation14":
+					 "
+					 <br/>(x+y+z)<sup>2</sup> = (x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> + 2(xy + yz + zx) 
+					<br/>169 = 91 + 2(p + p<sup>2</sup> + p<sup>3</sup>)
+					<br/>Or  p + p<sup>2</sup> + p<sup>3</sup> = 39
+					<br/>P = 3 satisfies above equation
+					<br/>Hence [1]					 
+					 "},
+					 {"question15":"A and B attempt to solve a quadratic equation of the form ax<sup>2</sup>  + bx + c = 0. A starts with a wrong value of b and gets the roots as 3 and -5. B starts with a wrong value of c and gets the roots as 6 and 2. Find the correct roots.", "answer15":"3, -5", "option15":"3,  4;3, -5;4, 6;2, 3",
+					 "explanation15":
+					 "
+					 <br/>The equation formed by A with the roots -3 and -5 is x^2-(-8x)+ 15=0
+					<br/>x<sup>2</sup> + 8x + 15 = 0 .....(1)
+					<br/>But the value of b is wrong.
+					<br/>So the coefficient of x is wrong.
+					<br/>The equation formed by B with the roots 6 and 2 is 
+					<br/>x<sup>2</sup> - 8x + 12 = 0 ....(2)
+					<br/>But the value of c is wrong.
+					<br/>So the correct equation is x<sup>2</sup> - 8x + 15 = 0
+					<br/>Hence, the real roots are 3 and 5. 
+					 
+					 "}	
+					 ]
 	},
 	{
 		"num":"5",
