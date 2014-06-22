@@ -1,0 +1,116 @@
+[
+{
+		"num":"1",
+		"topic":"Addition",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Analogy means 'similarity' or 'similar relationship'. In questions on number or letter analogies, a pair, that has a certain relationship between them, is given. This number/letter pair is followed by a third number letter. We have to find out 'fourth' number such that the relationship between the third and the fourth is similar to the relationship that exists between the first and the second.
+					<br/><b>Number Analogies:-</b>
+					<br/>•	One number is a multiple of the other.
+					<br/>•	One number is the square or square root of the other.
+					<br/>•	One number is cube or cube root of other.
+					<br/>•	The 2 numbers are square of 2 other numbers which themselves are related. For example, the two numbers are squares of 2 consecutive integers or squares of 2 consecutive even integers or squares of 2 consecutive odd integers.
+					<br/>•	The 2 numbers are such that they are obtained by subtracting a certain number from the squares or cubes of the 2 related numbers.
+					<br/>•	The 2 numbers can be consecutive, even, odd or prime numbers. 
+					<br/>There can be more combinations but one has to identify at the time of solving.
+					<br/><b>Verbal Analogies:-</b>
+					<br/>Verbal analogies are based on the relationship between 2 words.  The questions could be in the form of Clock is to time as thermometer is to: a. temperature. b. degrees. c. weather. d. centigrade
+					<br/><b>Letter Analogies:-</b>	
+					<br/>The questions in this area are similar to Verbal Analogies. Here, the questions are based on the relationship between 2 groups of letters (instead of 2 words) as in verbal analogies. Typically, 3 sets of letters are given followed by a question mark (where a 4th set of letters is supposed to inserted). We have to find the relation or order in which the letters have been grouped together in the 1st 2 sets of letters on the left hand side of the symbol : : and then find a set of letters to fit in place of the question mark so that the third and the fourth set of letters will also have the same relationship as the first and the second. 				
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Moon : Satellite : : Earth : ?</b>
+					<br/>Moon is a satellite and earth is a planet.
+					"},
+					{"example2":
+					"
+					<b>Melt : Liquid : : Freeze : ?</b>
+					<br/>First is the process of formation of the second.
+					
+					"}
+					],
+		"practices":
+					[
+					{"question1":"Moon : Satellite : : Earth : ?", "answer1":"Planet", "option1":"Sun;Planet;Solar System;Asteroid",
+					 "explanation1":
+					 "
+					 <br/>Moon is a satellite and earth is a planet.
+					 "},
+					{"question2":"Melt : Liquid : : Freeze : ?", "answer2":"Solid", "option2":"Ice;Condensed;Solid;Crystal",
+					 "explanation2":
+					 "
+					 <br/>First is the process of formation of the second.
+					 "},
+					 {"question3":"Odometer is to mileage as compass is to", "answer3":"Direction", "option3":"Speed;Hiking;Needle;Direction",
+					 "explanation3":
+					 "
+					 <br/>An odometer is an instrument used to measure mileage. A compass is an instrument used to determine direction. Choices a, b, and c are incorrect because none is an instrument.
+					 "},
+					 {"question4":"21 : 3 : : 574 : ?", "answer4":"82", "option4":"23;82;91;113",
+					 "explanation4":
+					 "
+					 <br/>The relationship is 7x : x.
+					 "},
+					 {"question5":"121 : 12 : : 25 : ?", "answer5":"6", "option5":"1;2;6;7",
+					 "explanation5":
+					 "
+					 <br/>The relationship is x2 : (x + 1).
+					 "},
+					 {"question6":"25 : 37 : : 49 : ?", "answer6":"65", "option6":"41;56;60;65",
+					 "explanation6":
+					 "
+					 <br/>The relationship is x2 : (x + 1)2 + 1.
+					 "},
+					 {"question7":"BINDING : BOOK", "answer7":"frame : picture", "option7":"Criminal : Gang;display : museum;artist : carpenter;frame : picture",
+					 "explanation7":
+					 "
+					 <br/>A binding surrounds a book; a frame surrounds a picture.
+					 "},
+					 {"question8":"FINCH : BIRD", "answer8":"Dalmatian : dog", "option8":"Dalmatian : dog;frog :toad;elephant : reptile;ant : ladybug",
+					 "explanation8":
+					 "
+					 <br/>A finch is a type of bird; a Dalmatian is a type of dog.
+					 "},
+					 {"question9":"Man : Biography: : Nation:?.", "answer9":"History", "option9":"Leader;People;History;Geography",
+					 "explanation9":
+					 "
+					 <br/>Second contains the story of the first.
+					 "},
+					 {"question10":"Command : Order : : Confusion : ?", "answer10":"Chaos", "option10":"Discipline;Chaos;Clarity;Problem",
+					 "explanation10":
+					 "
+					 <br/>The words in each pair are synonyms.
+					 "},
+					 {"question11":"8, 10, 14, 18, .... , 34, 50, 66", "answer11":"26", "option11":"24;26;28;30",
+					 "explanation11":
+					 "
+					 <br/>The pattern is +2,+4,+4,...+16 +16 Missing number = 18 + 8 = 26.
+					 "},
+					 {"question12":"3, 6, 18, 72, ...,.", "answer12":"360", "option12":"144;288;360;216",
+					 "explanation12":
+					 "
+					 <br/>pattern is * 2, * 3,*4, number is = 72 x 5 = 360.
+					 "},
+					 {"question13":"97, 86, 73, 58, 45, (? )", "answer13":"34", "option13":"34;54;55;56",
+					 "explanation13":
+					 "
+					 <br/>The pattern is - 11, - 13, - 15, - 13, Missing number = 45 - 11 = 34.
+					 "},
+					 {"question14":"Malaria : Disease : : Spear:?.", "answer14":"Weapon", "option14":"Wound;Weapon;Sword;Death",
+					 "explanation14":
+					 "
+					<br/>Second denotes the class to which the first belongs. 
+					 "},
+					 {"question15":"Reading : Knowledge : : Work:? ", "answer15":"Experience", "option15":"Experience;Employment;Engagement;Experiment",
+					 "explanation15":
+					 "
+					 <br/>Second is acquired from the first.
+					 "}
+					 ]
+	}
+	
+]

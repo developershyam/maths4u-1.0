@@ -72,6 +72,12 @@ public class MainActivity extends BaseActivity {
 					intent.setClass(getBaseContext(), com.xieon.logical.ExpandableList.class);
 					intent.putExtra(
 							"json",json);
+				}else if(position==3){
+					System.out.println("position="+position);
+					String json=AppUtility.loadJSON(getContext(),"kids.json");
+					intent.setClass(getBaseContext(), com.xieon.kids.ExpandableList.class);
+					intent.putExtra(
+							"json",json);
 				}else{
 				intent.setClass(MainActivity.this, Level_1_HeadActivity.class);
 

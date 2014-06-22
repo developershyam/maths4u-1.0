@@ -104,6 +104,23 @@
             android:name="com.xieon.logical.ExplainPracticeActivity"
             android:label="@string/app_name" >
         </activity>
+        <!-- kids -->
+        <activity
+            android:name="com.xieon.kids.ExpandableList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.kids.ContentList"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.kids.PracticeQuestionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.xieon.kids.ExplainPracticeActivity"
+            android:label="@string/app_name" >
+        </activity>
         
     </application>
 

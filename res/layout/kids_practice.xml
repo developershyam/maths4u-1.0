@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/kids_questionNoLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:text="Q. 1 "
+            android:width="50dp" />
+
+        <TextView
+            android:id="@+id/kids_questionLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/kids_questionNoLevel"
+            android:layout_toRightOf="@+id/kids_questionNoLevel"
+            android:ems="10"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+       
+        
+        " />
+
+        <RadioGroup
+            android:id="@+id/kids_radioButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kids_questionLevel" >
+
+            <RadioButton
+                android:id="@+id/kids_radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton1" />
+
+            <RadioButton
+                android:id="@+id/kids_radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton2" />
+
+            <RadioButton
+                android:id="@+id/kids_radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton3" />
+
+            <RadioButton
+                android:id="@+id/kids_radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="RadioButton4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/kids_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kids_radioButtons"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Check" />
+        <Button
+            android:id="@+id/kids_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kids_check"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Next>>" />
+        
+        <Button
+            android:id="@+id/kids_explaination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kids_next"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Solution" />
+        
+        <Button
+            android:id="@+id/kids_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kids_explaination"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/org_bt"
+            android:gravity="center"
+            android:text="Back To Theory" />
+        
+        <TextView
+            android:id="@+id/kids_questionFooter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/kids_bck"
+            android:layout_marginTop="10dp"
+            android:ems="0" />
+
+    </RelativeLayout>
+
+</ScrollView>
