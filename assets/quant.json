@@ -55,13 +55,13 @@
 		"topic":"Geometry",
 		"subtopic":
 					[
-						{"subtopic1":"•	Point & Lines"},
-						{"subtopic2":"•	Triangles"},
-						{"subtopic3":"•	Circles"},
-						{"subtopic4":"•	Quadrilateral & Polygons"},
-						{"subtopic5":"•	Area"},
-						{"subtopic6":"•	Menstruation"},
-						{"subtopic7":"•	Coordinate Geometry"}						
+						{"subtopic1":"•	Area"},
+						{"subtopic2":"•	Volume & Surface Area"},
+						{"subtopic3":"•	Polygon & Quadrilaterals"},
+						{"subtopic4":"•	Co-Ordinate Geometry"},
+						{"subtopic5":"•	Triangles"},
+						{"subtopic6":"•	Circles"}
+												
 					]
 	}
 	,

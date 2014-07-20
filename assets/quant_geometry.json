@@ -1,0 +1,1558 @@
+[
+{
+		"num":"1",
+		"topic":"Area",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>1.  Area of a rectangle</b> = (Length x Breadth).
+					<br/>  •  Length = (Area/Breadth)	 and Breadth =	(Area/Length).	 	.
+					<br/>  •  Perimeter of a rectangle = 2(Length + Breadth).
+					<br/><b>2.   Area of a square</b> = (side)2 = 1/2 (diagonal)2.
+					<br/><b>3.   Area of 4 walls of a room</b> = 2 (Length + Breadth) x Height.
+					<br/><b>4.  Area of a triangle</b>
+					<br/>  •  Area of a triangle =  1/2  x Base x Height.
+					<br/>  •  Area of a triangle = s(s-a)(s-b)(s-c)
+					<br/>  •  Area of an equilateral triangle =	√3/4 x (side)<sup>2</sup>.
+					<br/>  •  Radius of incircle (Inradius) of an equilateral triangle of side a = a/(2√3).
+					<br/>  •  Radius of circumcircle (Circumradius) of an equilateral triangle of side a = a/√3
+					<br/>  •  Area of Triangle = r X s, where r = inradius and s = semiperimeter
+					<br/>  •  Area of Triangle = abc/4R , where R = Circumradius.
+					<br/>  •  In case of triangles, given the perimeter and equilateral triangle has maximum area.
+					<br/>  •  Area of right-angled triangle = 1/2 X Product of perpendicular sides.
+					<br/>  •  The ratio of the areas of 2 triangles is equal to the ratio of the product of base and its corresponding height. (A (∆ABC))/(A (∆PQR)) = (AD X BC)/(PS X QR)   
+					<br/>  •  Areas of 2 triangles having the same base and lying between the same parallel lines will be equal. A (∆ ABC)=A(∆ BCD)		
+					<br/><b>5.  Area of Polygon</b> = 1/2 X perimeter X perpendicular from center to any side
+  	                <br/>  •  Area of regular hexagon = 6 X Area of each triangle = 6 X √3/4 X a<sup></sup> = (3√3)/2  X (side)<sup></sup>
+					<br/>  •  Area of Quadrilateral = 1/2 X One of the diagonals X sum of the perpendicular drawn to that diagonal from the opposite vertices.
+					<br/>  •  Area of parallelogram = (Base x Height).
+					<br/>  •  Area of a rhombus = 1/2 x (Product of diagonals)
+					<br/>  •  Area of a trapezium = 1/2 x (sum of parallel sides) x distance between them
+					<br/>  •  Area of Kite = 1/2 X product of diagonals
+					<br/>  •  Area of a circle = πR2, where R is the radius.
+					<br/>     Circumference of a circle = 2πR.
+					<br/>  •  Length of an arc = 2πRθ/360, where θ is the central angle.
+					<br/>  •  Area of a sector = 1/2 (arc X R)= (πR<sup>2</sup> θ)/360
+					<br/>  •  Circumference of a semi-circle = πR
+					<br/>  •  Area of semi-circle = (πR<sup>2</sup>)/2
+					
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>What is the average of x, 2x, and 6?</b>
+					<br/>By the definition of an average, we get:(x+2x+6)/3= (3x+6)/3= (3 (x+2) )/3=x+2 
+					<br/>Hence the answer is x +2
+					"}],
+		"practices":
+					[
+					{
+						"question1":"The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31kgs, what is the weight of their football coach in kgs?", "answer1":"61 kgs", "option1":"31 kgs;61 kgs;60 kgs;62 kgs",
+						"explanation1":
+						"
+						<br/>The new average weight of the group after including the football coach = 31.
+						<br/>As the new average is 1kg more than the old average, old average without including the football coach = 30 kgs.
+						<br/>The total weight of the 30 friends without including the football coach = 30 * 30 = 900.
+						<br/>After including the football coach, the number people in the group increases to 31 and the average weight of the group increases by 1kg.
+						<br/>Therefore, the total weight of the group after including the weight of the football coach = 31 * 31 = 961 kgs.
+						<br/>Therefore, the weight of the football coach = 961 - 900 = 61 kgs.
+						"
+					}					
+					]
+	},
+	{
+		"num":"2",
+		"topic":"Volume & Surface Area",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>1.	CUBOID</b>
+					<br/>Let length = l, breadth = b and height = h units. Then
+					<br/>Volume = (l x b x h) cubic units.
+					<br/>Surface area = 2(lb + bh + lh) sq. units.
+					<br/>Diagonal = √(l2 + b2 + h2) units.
+					<br/><b>2.	CUBE</b>
+					<br/>Let each edge of a cube be of length a. Then,
+					<br/>Volume = a3 cubic units.
+					<br/>Surface area = 6a<sup>2</sup> sq. units.
+					<br/>Diagonal = √3a units.					
+					<br/><b>3.	CYLINDER</b>
+					<br/>Let radius of base = r and Height (or length) = h. Then,
+					<br/>Volume = (πr<sup>2</sup>h) cubic units.
+					<br/>Curved surface area = (2πrh) sq. units.
+					<br/>Total surface area = 2πr(h + r) sq. units.
+					<br/><b>4.	CONE</b>
+					<br/>Let radius of base = r and Height = h. Then,
+					<br/>Slant height, l = √(h2 + r2 ) units.
+					<br/>Volume =1/3 πr<sup>2</sup> h cubic units.
+					<br/>Curved surface area = (πrl) sq. units.
+					<br/>Total surface area = (πrl + πr2) sq. units.
+					<br/><b>5.	SPHERE</b>
+					<br/>Let the radius of the sphere be r. Then,
+					<br/>Volume =  4/3 πr<sup>3</sup>cubic units.
+					<br/>Surface area = (4πr2) sq. units.					
+					<br/><b>6.	HEMISPHERE</b>
+					<br/>Let the radius of a hemisphere be r. Then,
+					<br/>Volume = 2/3 πr<sup>3</sup>cubic units.
+					<br/>Curved surface area = (2 πr<sup>2</sup>) sq. units.
+					<br/>Total surface area = (3 πr<sup>2</sup>) sq. units.
+					<br/>Note: 1 litre = 1000 cm3.
+					"					
+					}],
+		"examples":
+					[ {"example1":
+					"
+					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
+					<br/>At the end of the year we have Interest=1000Ãƒâ€”5%=1000Ãƒâ€”5/100=1000Ãƒâ€”0.05=50
+					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
+					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
+
+					"}
+		],
+		"practices":
+					[
+					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
+					"explanation1":
+					"
+					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
+					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
+					<br/>		100				100		
+					<br/>  28x - 22x = 350800 - (13900 x 22)
+					<br/>  6x = 45000
+					<br/>  x = 7500.
+					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
+					"}
+					]
+	},
+	{
+		"num":"3",
+		"topic":"Polygon & Quadrilaterals",
+		"contents":
+					[ {"content1":
+					"
+					<br/><b>Polygons:</b>
+					<br/>Polygons are many-sided figures, with sides that are line segments. Polygons are named according to the number of sides and angles they have.
+					<br/><b>Properties of Polygon:</b>
+					<br/>A polygon with equal sides is called 'Regular Polygon'.
+					<br/>The segment joining any two non-consecutive vertices is called a diagonal.
+					<br/>Number of diagonals of a polygon with n sides = (n (n-3))/2
+					<br/>For ex. In a Octagon number of diagonals will be (8 (8-3))/2 = 20
+					<br/>Sum of all interior angles of a n-gon (polygon of n sides n) is given by (n-2)180°
+					<br/>Hence, each interior angle of a regular n-gon = ( (n-2)180°)/n
+					<br/>Sum of an interior angle and its adjacent exterior angle is 180°.
+					<br/>Sum of all exterior angles of polygon is 360°
+					<br/>For a regular polygon, each exterior angle =(360°)/n
+					<br/>In a regular Pentagon each interior angle is 108° and each exterior angle is 72°.
+					<br/>In a regular Pentagon each interior angle is 120° and each exterior angle is 60°.
+					<br/><b>Quadrilaterals:</b>
+					<br/>A polygon of four sides is called quadrilateral. The sum of measures of all angles of a quadrilateral is 360°.
+					<br/><b>Types of Quadrilaterals:</b>
+				   <br/><b>1.	Parallelogram:</b> A quadrilateral is called parallelogram, if its opposite sides are parallel.
+				   <br/>  •  Opposite sides are parallel and congruent.				  
+				   <br/>  •  Opposite angles are congruent.
+				   <br/>  •  Diagonals bisect each other.
+				   <br/>  •  Sum of any two adjacent angles is 180°.
+				   <br/>  •  Each diagonal divides the parallelogram into 2 triangles of equal area.
+				   <br/>  •  Straight lines joining the midpoints of the adjacent sides of any quadrilateral from a parallelogram.
+				   <br/>  •  Sum of the squares of the diagonals is equal to the sum of squares of the 4 sides of a parallelogram.
+				   <br/>     AC<sup>2</sup>+ BD<sup>2</sup>  = AB<sup>2</sup>+ BC<sup>2</sup>+ CD<sup>2</sup>+ AD<sup>2</sup>=2(AB<sup>2</sup>+ AC<sup>2</sup>)	
+				   <br/>  •  Parallelograms that lie on the same base and between the same parallel lines are equal in area.
+				   <br/>  •  If  a triangle and parallelogram lie on the same base and between the same parallel lines,  Area (triangle) = 1/2 Area (Parallelogram)
+				   <br/>  •  If midpoints of the adjacent sides of a parallelogram are joined, a parallelogram is formed.
+				   <br/><b>2.	Rectangle:</b> A parallelogram, in which each angle is a right angle is called rectangle. 
+				   <br/>  •  Opposite sides are parallel and congruent.
+				   <br/>  •  Each angle is equal to 90°
+				   <br/>  •  Diagonal are congruent and bisect each other.
+				   <br/>  •  If midpoints of the adjacent sides of a rectangle are joined, a rhombus is formed.
+				   <br/><b>3.	Rhombus:</b> A parallelogram in which all sides are congruent is called Rhombus.
+				   <br/>  •	 Opposite sides are parallel.
+				   <br/>  •	 All sides are congruent.
+				   <br/>  •	 Opposite angles are congruent.
+				   <br/>  •	 Diagonals bisect at right angles side<sup>2</sup>=(1/2  one diagonal)<sup>2</sup>+ (1/2  other diagonal)<sup>2</sup>  
+				   <br/>  •	 A parallelogram is a rhombus if its diagonals are perpendicular to each other.
+				   <br/>  •	 If midpoints of the adjacent sides of a rhombus are joined, a rectangle is formed.
+				   <br/><b>4.	Square:</b> A rectangle in which all sides are congruent is called a squire.
+				   <br/>  •	 All sides are congruent and opposite sides are parallel.
+				   <br/>  •	 All angles are 90°.
+				   <br/>  •	 The diagonals are congruent and bisect each other at right angles.
+				   <br/>  •	 Diagonal = √2 X side
+				   <br/>  •	 A parallelogram is a square if its diagonals are congruent and bisect each other at right angles.
+				   <br/>  •	 If midpoints of the adjacent sides of a square are joined, a square is formed.
+				   <br/><b>5.	Trapezium:</b> A quadrilateral is called a trapezium, if two of the opposite sides are parallel but the other sides are not.
+				   <br/>  •	 The segment joining the midpoints of the oblique (non parallel) sides is called median of the trapezium.
+                   <br/>  •	 Median = 1/2 X sum of parallel sides
+				   <br/><b>6.	Kite:</b> A quadrilateral is called a kite, if it has two pairs of equal and adjacent sides.
+                   <br/>  •	 Two pairs of adjacent sides are congruent.
+                   <br/>  •	 The diagonals intersect at right angles.
+                   <br/>  •	 The longer diagonal bisects the shorter one.
+					
+					
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>In a 60 liters mixture of milk and water, the quantity of milk is 5 %. In how much quantity, should milk be added to this mixture so that the quantity of milk in the mixture becomes 15 % ?</b>
+					<br/>Here in this question:
+					<br/>X= 60 liters,         p= 5 %,                 q= 15 %
+					<br/>The quantity of milk to be added  to the mixture to make it 15 % in mixture-
+	                <br/>=60*{(15-5)/(100-15)
+	                <br/>=60*(10/85)
+	                <br/>=120/17 liters 
+
+					"},
+					{"example2":
+					"
+					<b>Tea worth $126 per kg are mixed with a third variety in the ratio 1: 1 : 2. If the mixture is worth $153 per kg, the price of the third variety per kg will be</b>
+					<br/>Since first second varieties are mixed in equal proportions, so their average price = $(126+135/2) = $130.50
+					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
+					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
+					 
+					<br/> x-153/22.50 = 1 =Ã¢â‚¬Âº x - 153 = 22.50 =Ã¢â‚¬Âº x=175.50.
+					<br/>Hence, price of the third variety = $175.50 per kg.
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
+					"explanation1":
+					"
+					<br/>Amount of milk left after 3 operations
+					"},
+					{"question2":"A merchant has 100 lbs of sugar, part of which he sells at 7% profit and the rest at 17% profit. He gains 10 % on the whole. Find how much is sold at 7% profit? ", "answer2":"70 lbs", "option2":"70 lbs;40 lbs;80 lbs;95 lbs",
+					"explanation2":
+					"
+					<br/>Let's say price per lbs is $10 
+					<br/>7% profit over $10 is 10.7 
+					<br/>A merchant bought x lbs at $10.7 
+					<br/>17% profit over $10 is 11.7 
+					<br/>A merchant bought y lbs at $11.7 
+					<br/>10% profit over $10 is 11 
+					<br/>A merchant bought (x+y) lbs at $11 
+					<br/>10.7(X) + 11.7(y) = 11(x+y) 
+					<br/>10.7(X) + 11.7(y) = 11x + 11y 
+					<br/>0.7(y) = 0.3 x 
+					<br/>Only possible values here would be x = 70 and y = 30 
+
+					"},
+					{"question3":"", "answer3":"7 : 9", "option3":"4 : 3;6 : 9;7 : 9;5 : 6",
+					"explanation3":
+					"
+					<br/>Let the C.P. of spirit be Re. 1 litre.
+					<br/>Spirit in 1 litre mix. of A = 5/7 litre, C.P. of 1 litre mix. in A = Re. 5/7
+					<br/>Spirit in 1 litre mix. of B = 7/13 litre, C.P. of 1 litre mix. in B = Re. 7/13
+					<br/>Spirit in 1 litre mix. of C = 8/13 litre, Mean price = Re. 8/13.
+					<br/>By the rule of alligation, we have:
+					<br/>Cost of 1 litre mixture in A	Cost of 1 litre mixture in B
+					<br/>Required ratio = 1/13 : 9/91 = 7 : 9.
+
+					"},
+					{"question4":"A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?", "answer4":"21", "option4":"21;25;10;15",
+					"explanation4":
+					"
+					<br/>Suppose the can initially contains 7x and 5x litres of mixtures A and B respectively
+					<br/>Quantity of A in mixture left 
+					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
+					<br/>Quantity of B in mixture left 
+					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
+					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = Ã¢â‚¬Âº 28x - 21/20x + 21 = 7/9 =Ã¢â‚¬Âº 252x - 189 = 140x + 147
+					<br/> 	=Ã¢â‚¬Âº 112x = 336 =Ã¢â‚¬â„¢ x = 3.
+
+					"},
+					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
+					"explanation5":
+					"
+					<br/>Let the quantity of the wine in the cask originally be x litres
+					<br/>then, quantity of wine left in cask after 4 operations
+					<br/>= [x(1- 8/x)4] litres.
+					<br/>Therefore x(1- 8/x)4 / x = 16/81 =Ã¢â‚¬Âº (1- 8/x)4 = (2/3)2 
+					<br/>=Ã¢â‚¬Âº (x - 8 / x) = 2/3 =Ã¢â‚¬Âº 3x - 24 = 2x =Ã¢â‚¬Âº x = 24.
+
+					"},
+					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
+					"explanation6":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg sugar of 1st kind	C.P. of 1 kg sugar of 2nd kind 
+					<br/>Ratio of quantities of 1st and 2nd kind = 14 : 6 = 7 : 3.
+					<br/>Let x kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.
+					<br/>Then, 7 : 3 = x : 27 or x = (7 x 27 / 3) = 63 kg.
+
+					"},
+					{"question7":"In what ratio must rice at $9.30 per Kg be mixed with rice at $10.80 per Kg so that the mixture be worth $10 per Kg?", "answer7":"8 : 7", "option7":"8 : 7;7 : 8;8 : 9;9 : 8",
+					"explanation7":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg rice of 1st kind (in paise)	C.P. of 1 kg rice of 2nd kind (in paise)
+					<br/>Required ratio = 80 : 70 = 8 : 7.
+
+					"},
+					{"question8":"In what ratio must be a grocer mix two varities of tea worth $60 a kg and $65 a Kg so that by selling the mixture at $68.20 a Kg he may gain 10%?", "answer8":"3 : 2", "option8":"3 : 4;3 : 2;3 : 5;4 : 5",
+					"explanation8":
+					"
+					<br/>S.P. of 1 kg of the mixture = $ 68.20, Gain = 10 %
+					<br/>C.P. of 1 kg of the mixture = $ (100 / 110 x 68.20) = $ 62.
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 kg tea of 1st kind	C.P. of 1 kg tea of 2nd kind
+					<br/>Required ratio = 3 : 2.
+
+					"},
+					{"question9":"The cost of Type 1 rice is $15 per kg and Type 2 rice is $20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is", "answer9":"$ 18", "option9":"$ 19.50;$ 19;$ 18;$ 18.50",
+					"explanation9":
+					"
+					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
+					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
+					<br/>(20-x)/(x-15) = 2/3 =Ã¢â‚¬Âº 60 - 3x = 2x - 30
+					<br/>=Ã¢â‚¬Âº 5x = 90 =Ã¢â‚¬Âº x = 18.
+					<br/>so, price of the mixture is $ 18 per kg.
+
+					"},
+					{"question10":"In what ratio must water be mixed with milk costing $12 per litre to obtain a mixture worth of $8 per litre?", "answer10":"1 : 2", "option10":"1 : 2;2 : 1;4 : 3;5 : 3",
+					"explanation10":
+					"
+					<br/>By the rule of alligation:
+					<br/>C.P. of 1 litre of water	C.P. of 1 litre of milk
+					<br/>Ratio of water to milk = 4 : 8 = 1 : 2
+
+					"},
+					{"question11":"", "answer11":"2 : 3", "option11":"1 : 3;2 : 3;3 : 4;4 : 5",
+					"explanation11":
+					"
+					<br/>By the rule of alligation:
+					<br/>Cost of 1 kg rice of 1st kind	Cost of 1 kg rice of 2nd kind
+					<br/>Required ratio = 60 : 90 = 2 : 3
+
+					"},
+					{"question12":"One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat?", "answer12":"$ 10.80", "option12":"$ 12.47;$ 10.80;$ 15.17;$ 47.66",
+					"explanation12":
+					"
+					<br/>Let the rate of second quality be Rs x per Kg.
+					<br/>C.P of 1Kg wheat of 1st kind = 930p 
+					<br/>C.P of 1 Kg wheat of 2nd kind = 100x p 
+					<br/>Mean price = 1000p
+					<br/>By rule of alligation we have required ratio 8 : 7
+					<br/>   930                         x
+					<br/> 
+					<br/>         \                  /
+					<br/>        (Mean Price)
+					<br/>                (10)
+					<br/>         /                  \
+					<br/> 
+					<br/>   x-10        :          0.7     ::       8        :          7
+					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
+					<br/>Ã¢â€¡â€™ x = 10.80 per Kg
+
+					"},
+					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
+					"explanation13":
+					"
+					<br/>Distance covered in 1 hour on foot = 8 km 
+					<br/>Distance covered in 1 hour on bicycle = 17 km
+					<br/>Average distance covered in 1 hour = 90/9 km   = 10km (mean distance)
+					<br/>Distance covered in        Distance covered in
+					<br/>1 hour on foot                  1 hour on bicycle
+					<br/>      (8 km)                                  (17 km)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                     Mean Distance
+					<br/>                           (10 km)
+					<br/>                    /                        \
+					<br/> 
+					<br/>     (17 Ã¢â‚¬â€œ 10)          :           (10 Ã¢â‚¬â€œ 8)
+					<br/>            7                                   2 
+					<br/>Thus out of 9 hours, he took 7 hours on foot
+					<br/>Distance covered on foot  = (8 Ãƒâ€” 7) Km  = 56 km
+
+					"},
+					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
+					"explanation14":
+					"
+					<br/>C.P of 1 Kg                   C.P of 1 Kg
+					<br/>rice of 1st                   rice of 2nd
+					<br/>kind (930p)                kind (1080p)
+					<br/> 
+					<br/>             \                        /
+					<br/>                Mean Price
+					<br/>                  (1000p)
+					<br/>             /                       \
+					<br/> 
+					<br/>              (1080 Ã¢â‚¬â€œ 1000)  :        (1000 -  930)
+					<br/>                      80                             70
+					<br/>Thus, required ratio = 80 : 70 = 8 : 7
+
+					"},
+					{"question15":"In what proportion must rice at $ 3.10 per kg be mixed with rice at $ 3.60 per kg so that the mixture be worth $ 3.25 per kg?", "answer15":"7 : 3", "option15":"3 : 7;5 : 3;3 : 5;7 : 3",
+					"explanation15":
+					"
+					<br/>C.P of a unit quantity of 1st kind  = 310p (in paise)
+					<br/>C.P of a unit quantity of 2nd kind  = 360p
+					<br/>Mean price = 325p
+					<br/>C.P of unit quantity         C.P of unit quantity
+					<br/>of 1st kind                         of 2nd kind
+					<br/>    (310p)                         (360p)
+					<br/> 
+					<br/>                     \                       /
+					<br/>                        Mean Price
+					<br/>                         (325p)
+					<br/>                    /                        \
+					<br/> 
+					<br/> (360 Ã¢â‚¬â€œ 325)          :           (325 Ã¢â‚¬â€œ 310)
+					<br/>       35                                       15
+					<br/>
+					<br/>Required ratio = 35 : 15 = 7 : 3
+					<br/>They must be mixed in the ratio 7 : 3
+
+					"}
+					]
+	},	
+	{
+		"num":"4",
+		"topic":"Parternship",
+		"contents":
+					[ {"content1":
+					"
+					<br/>Parternship is the relation between two or more person who have agreed to run a business jointly and share the profits.
+					<br/>If the capitals of the partners are invested for the same period, the partnership is called simple, and for different period, is called compound.
+					<br/><br/><b>Simple Partnership:-</b> 
+					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
+					<br/>If A and B are partners in a business, then
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/><br/><b>Compound Partnership:-</b> 
+					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
+					<br/>If A and B are partners in a business, then
+					<br/>(Monthly equivalent installment of A)/((Monthly equivalent installment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>If Jammie $ 2000 and Robb invested for $ 1000  for a period of 12 months. If they earned a profit of $ 300 at the end of year, what will be their share?</b>
+					<br/>As we know 
+					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/> So Profit of Jammie/Profit of Robb = 2000/1000 = 2/1
+					<br/>Share of Jammie = (2/3)*300 = $200
+					<br/>Share of Robb = (1/3)*300 = $100
+
+					"},
+					{"example2":
+					"
+					<b>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</b>
+					<br/>Solution	Let the total profit be Rs. 100.
+					<br/>After paying to charity, A's share = Rs.	 	95 x	3	 	= Rs. 57.
+					<br/>If A's share is Rs. 57, total profit = Rs. 100.
+					<br/>If A's share Rs. 855, total profit =	 	100	x 855	 	= 1500.
+				
+					"}],
+		"practices":
+					[ 
+					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
+					"explanation1":
+					"
+					<br/>Let the total profit be $ 100.
+					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
+					<br/>If A's share is $ 57, total profit = $ 100.
+					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
+					"},
+					{"question2":"A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest $ 6500 for 6 months, B, $ 8400 for 5 months and C, $ 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was $ 7400. Calculate the share of B in the profit.", "answer2":"$ 2660", "option2":"$ 1900;$ 2000;$ 2660;$ 2840",
+					"explanation2":
+					"
+					<br/>For managing, A received = 5% of $ 7400 = $ 370.
+					<br/>Balance = $ (7400 - 370) = $ 7030.
+					<br/>Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
+					<br/>   = 39000 : 42000 : 30000
+					<br/>   = 13 : 14 : 10
+					 <br/> B's share = $	 	7030 x	14	 	= $ 2660.
+
+					"},
+					{"question3":"A, B, C subscribe $ 50,000 for a business. A subscribes $ 4000 more than B and B $ 5000 more than C. Out of a total profit of $ 35,000, A receives:", "answer3":"$ 14700", "option3":"$ 8400;$ 11900;$ 13000;$ 14700",
+					"explanation3":
+					"
+					<br/>Let C = x.
+					<br/>Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
+					<br/>So, x + x + 5000 + x + 9000 = 50000
+					<br/>  3x = 36000
+					<br/> x = 12000
+					<br/>A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
+					<br/>  A's share = $	 	35000 x	21	 	= $ 14,700.
+
+					"},
+					{"question4":"Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?", "answer4":"20 : 49 : 64", "option4":"5:7:8;20 : 49 : 64;38 : 28 : 21;None of these",
+					"explanation4":
+					"
+					<br/>Let their investments be $ x for 14 months, $ y for 8 months and $ z for 7 months respectively.
+					<br/>Then, 14x : 8y : 7z = 5 : 7 : 8.
+					<br/>Now,	14x	=	5	        98x = 40y         y =	49	x
+					<br/>	8y		7		20	
+					<br/>And,	14x	=	5	        112x = 35z         z =	112	x =	16	x.
+					<br/>	7z		8		35		5	
+					<br/> x : y : z = x :	49	x	:	16	x	= 20 : 49 : 64.
+
+					"},
+					{"question5":"A starts business with $ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?", "answer5":"$ 9000", "option5":"$ 7500;$ 8000;$ 8500;$ 9000",
+					"explanation5":
+					"
+					<br/>Let B's capital be $ x.
+					<br/>Then,	 	3500 x 12	=	2	 
+					<br/>		7x		3	
+					<br/>  14x = 126000
+					<br/>  x = 9000.
+
+					"},
+					{"question6":"A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?", "answer6":"6 : 10 : 5", "option6":"3 : 5 : 2;3 : 5 : 5;6 : 10 : 5;4 :  5 : 2 ",
+					"explanation6":
+					"
+					<br/>Let the initial investments of A and B be 3x and 5x.
+					<br/>A : B : C = (3x x 12) : (5x x 12) : (5x x 6) = 36 : 60 : 30 = 6 : 10 : 5.
+
+					"},
+					{"question7":"A and B started a business in partnership investing $ 20,000 and $ 15,000 respectively. After six months, C joined them with $ 20,000. What will be B's share in total profit of $ 25,000 earned at the end of 2 years from the starting of the business?", "answer7":"$ 7500", "option7":"$ 7500;$ 9000;$ 9500;$ 10000",
+					"explanation7":
+					"
+					<br/>A : B : C = (20,000 x 24) : (15,000 x 24) : (20,000 x 18) = 4 : 3 : 3.
+					<br/> B's share = $	 	25000 x	3	 	= $ 7,500.
+					"},
+					{"question8":"P and Q started a business investing $85,000 and $15,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?", "answer8":"17 : 3", "option8":"3 : 4;3 : 5;15 : 23;17 : 3",
+					"explanation8":
+					"
+					<br/>P : Q = 85000 : 15000
+					<br/>=85 : 15
+					<br/>=17 : 3
+					"},
+					{"question9":"Sam and Jack started a business investing $22,500 and $35,000 respectively. Out of a total profit of $ 13,800. Jack's share is", "answer9":"$ 8400 ", "option9":"$ 5400;$ 7200;$ 8400 ;$ 9600",
+					"explanation9":
+					"
+					<br/>Ratio of their shares	= 22500 : 35000
+					<br/>	=9 : 14.
+					<br/>Jack's share	= $(13800Ãƒâ€”14/23)
+					<br/>	= $ 8400.
+
+					"},
+					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
+					"explanation10":
+					"
+					<br/>Rebakah : Haley : Juely	=(8000Ãƒâ€”6):(4000Ãƒâ€”8):(8000Ãƒâ€”8)
+					<br/>	= 48 : 32 : 64
+					<br/>	= 3 : 2 : 4.
+					<br/>Haley's share	= $4005Ãƒâ€”2/9)
+					<br/>	= $890.
+					"},
+					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
+					"explanation11":
+					"
+					<br/>Suppose B joined after x months.
+					<br/>Then,	21000Ãƒâ€”12=36000Ãƒâ€”(12 - x)
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº36x=180
+					<br/>	= x= 5.
+					"},
+					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
+					"explanation12":
+					"
+					<br/>Suppose Y invested $y
+					<br/>Then,	40000 /y = 2 / 3
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=(40000Ãƒâ€”3 / 2).
+					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=60000.
+
+					"},
+					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
+					"explanation13":
+					"
+					<br/>A : B : C	=(10Ãƒâ€”7):(12Ãƒâ€”5):(15Ãƒâ€”3)
+					<br/>	= 70 :60 :45
+					<br/>	= 14 :12 :9
+					<br/>c's rent	=$(175Ãƒâ€”9/35)
+					<br/>	= $45.
+
+					"},
+					{"question14":"Lord Tyrion started a software business by investing $ 50,000. After six months, Lord Tivion joined her with a capital of $ 80,000. After 3 years, they earned a profit of $ 24,500. What was Lord Tyrion's share in the profit?", "answer14":"$ 10500", "option14":"$ 9423;$ 10250;$ 12500;$ 10500",
+					"explanation14":
+					"
+					<br/>Lord Tyrion : Lord Tivion = (50000 x 36) : (80000 x 30) = 3 : 4.
+					<br/>  Lord Tyrion's share = $	 	24500 x	3	 	= $ 10,500.
+
+					"},
+					{"question15":"A began a business with $ 85,000. He was joined afterwards by B with $ 42,500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?", "answer15":"8 months", "option15":"4 months;5 months;6 months;8 months",
+					"explanation15":
+					"
+					<br/>Suppose B joined for x months. Then,
+					<br/>Then,	 	85000 x 12	=	3	 
+					<br/>		42500 x x		1	
+					<br/>  x =	 	85000 x 12	 	= 8.
+					<br/>		42500 x 3		
+					<br/>So, B joined for 8 months.
+
+					"}
+					]
+	},
+	{
+		"num":"5",
+		"topic":"Percentages",
+		"contents":
+					[ {"content1":
+					"
+					<br/>The term percent means for every hundred. A fraction whose denominator is 100 called a percentage and the numerator of the fraction is called the rate percent. It is denoted as symbol %
+					<br/><b>Important Applications:-</b> 
+					<br/><b>1:-</b> To find % equivalent of a fraction or decimal, multiply that fraction/decimal to 100.
+					<br/>Ex. 2/5 = (2/5)*100 = 40%
+					<br/><b>2:-</b> To increase a number by a given rate (%), multiply the number to (100+ rate)/100.
+					<br/>Ex. Increase 40 by 30% = 40X (100+30)/100 = 40X130/100 = 52					
+					<br/><b>3:-</b> To decrease a number by a given rate (%), multiply the number to (100- rate)/100.
+					<br/>Ex. Decrease 40 by 30% = 40X (100-30)/100 = 40X70/100 = 28					
+					<br/><b>4:-</b> % increase of a number = (Total Increase/ Initial Value) X 100.
+					<br/>Ex. Price of Car has been increased from 400,000 to 500,000, find the % increase. = [(500,000-400,000)/400,000] X 100 = (100,000/400,000)X100 = 25%
+					<br/><b>5:-</b>% decrease of a number = (Total Decrease/ Initial Value) X 100
+					<br/>Ex. Price of Dell Laptop has Fallen from 25,000 to 20,000, find the % decrease. = [(25,000-20,000)/25,000] X 100 = (5,000/25,000)X100 = 20%
+					<br/><b>6:-</b>If the present value of a machine is P and it depreciates by r% anually, the value of machine after n years is = P*[(1-(R/100))^n]
+					<br/><b>7:-</b>If A's income is r% more than of B, then B's income is less than of A by [(r/(100+r))*100]%
+					<br/><b>8:-</b>If A's income is r% less than of B, then B's income is more than of A by [(r/(100-r))*100]%
+					<br/><b>9:-</b> If the price of a commodity increase by r% then reduction in consumption, so as not to increase the expenditure is [(r/(100+r))*100]%
+					<br/><b>10:-</b>If the price of a commodity decrease by r% then increasae in consumption, so as not to decrease the expenditure is [(r/(100-r))*100]%
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>A test has 20 questions. If peter gets 80% correct, how many questions did peter missed?</b>
+					<br/>The number of correct answers is 80% of 20 or 80/100 Ã— 20
+					<br/>80/100 Ã— 20 = 0.80 Ã— 20 = 16
+					<br/>Recall that 16 is called the percentage. It is the answer you get when you take the percent of a number
+					<br/>Since the test has 20 questions and he got 16 correct answers, the number of questions he missed is 20 âˆ’ 16 = 4
+					<br/>Peter missed 4 questions
+
+					"},
+					{"example2":
+					"
+					<b>24 students in a class took an algebra test. If 18 students passed the test, what percent do not pass?</b>
+					<br/>First, find out how many student did not pass.
+					<br/>Number of students who did not pass is 24 âˆ’ 18 = 6
+					<br/>Then, write down the following equation:
+					<br/>x% of 24 = 6 or x% times 24 = 6
+					<br/>To get x%, just divide 6 by 24
+					<br/>6/24 = 0.25 = 25/100 = 25%
+					<br/>Therefore, 25% of students did not pass
+					<br/>If you really understand the percentage word problems above, you can solve any other similar percentage word problems.
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?", "answer1":"45+5/11%", "option1":"45%;45+5/11%;55%;54%",
+					 "explanation1":
+					 "
+					 <br/>Number of runs made by running = 110 - (3 x 4 + 8 x 6)
+					<br/>= 110 - (60)
+					<br/>= 50.
+					<br/>So required % is (50/110 X 100)% = 45+5/11%
+					 
+					 "},
+					{"question2":"Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:", "answer2":"42, 33", "option2":"39, 30;41, 32;42, 33;43, 34",
+					 "explanation2":
+					 "
+					 <br/>Let their marks be (x + 9) and x.
+					<br/>Then, x + 9 =	56	(x + 9 + x)
+					<br/>	100	
+					<br/>  25(x + 9) = 14(2x + 9)
+					<br/>  3x = 99
+					<br/>  x = 33
+					<br/>So, their marks are 42 and 33.
+					 
+					 "},
+					{"question3":"What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?", "answer3":"20", "option3":"1;14;20;21",
+					 "explanation3":
+					 "
+					 <br/>Clearly, the numbers which have 1 or 9 in the unit's digit, have squares that end in the digit 1. Such numbers from 1 to 70 are 1, 9, 11, 19, 21, 29, 31, 39, 41, 49, 51, 59, 61, 69.
+					<br/>Number of such number =14
+					<br/>  Required percentage =	(14/70 X 100)% = 20%			
+					 
+					 "},
+					 {"question4":"In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is   of the number of students of 8 years of age which is 48. What is the total number of students in the school?", "answer4":"100", "option4":"72;80;120;100",
+					 "explanation4":
+					 "
+					 <br/>Let the number of students be x. Then,
+					<br/>Number of students above 8 years of age = (100 - 20)% of x = 80% of x.
+					 <br/> 80% of x = 48 +	2	of 48
+					<br/>	3	
+					<br/>
+					<br/> 	80	x = 80
+					<br/>	100	
+					<br/>  x = 100
+					 
+					 "},
+					 {"question5":"A student multiplied a number by	3/5	instead of	5/3. What is the percentage error in the calculation?", "answer5":"64%", "option5":"34%;44%;54%;64%",
+					 "explanation5":
+					 "
+					 <br/>Let the number be x.
+					<br/>Then, error =	5	x -	3	x =	16	x.
+					<br/>	3		5		15	
+					<br/>Error% =	 	16x	x	3	x 100	 % = 64%.
+					 
+					 "},
+					 {"question6":"In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:", "answer6":"2700", "option6":"2700;2900;3000;3100",
+					 "explanation6":
+					 "
+					 <br/>Number of valid votes = 80% of 7500 = 6000.
+					<br/>  Valid votes polled by other candidate = 45% of 6000
+					<br/>=	 	45	x 6000	 	= 2700.
+					 
+					 "},
+					 {"question7":"Three candidates contested an election and received 1136, 7636 and 11628 votes respectively. What percentage of the total votes did the winning candidate get?", "answer7":"57%", "option7":"57%;60%;65%;90%",
+					 "explanation7":
+					 "
+					 <br/>Total number of votes polled = (1136 + 7636 + 11628) = 20400.
+					<br/>  Required percentage =	 	11628	x 100	 % = 57%.
+					<br/>		20400		
+
+					 
+					 "},
+					 {"question8":"Two tailors X and Y are paid a total of Rs. 550 per week by their employer. If X is paid 120 percent of the sum paid to Y, how much is Y paid per week?", "answer8":"250", "option8":"200;250;300;400",
+					 "explanation8":
+					 "
+					 <br/>Let the sum paid to Y per week be Rs. z.
+					<br/>Then, z + 120% of z = 550.
+					<br/>  z +	120	z = 550
+					<br/>	100	
+					<br/>
+					<br/> 	11	z = 550
+					<br/>	5	
+					<br/>  z =	 	550 x 5	   = 250.
+					<br/>		11	
+					 
+					 "},
+					 {"question9":"Gauri went to the stationers and bought things worth Rs. 25, out of which 30 paise went on sales tax on taxable purchases. If the tax rate was 6%, then what was the cost of the tax free items?", "answer9":"19.70", "option9":"15;15.70;19.70;20",
+					 "explanation9":
+					 "
+					 <br/>Let the amount taxable purchases be Rs. x.
+					<br/>Then, 6% of x =	30
+					<br/>	100
+					<br/>  x =	 	30	x	100	  = 5.
+					<br/>		100		6	
+					<br/>  Cost of tax free items = Rs. [25 - (5 + 0.30)] = Rs. 19.70
+					 
+					 "},
+					 {"question10":"8 is 4% of a, and 4 is 8% of b. c equals b/a. What is the value of c?", "answer10":"1/4", "option10":"1/32;1/4;1;4",
+					 "explanation10":
+					 "
+					 <br/>4% of a is  = 4a/100
+					<br/>Since this equals 8, we have 4a/100 = 8
+					<br/>Solving for a yields a=8Ã—(100/4) = 200
+					<br/>Also, 8% of b equals = 8b/100, and this equals 4
+					<br/>Hence, we have (8/100) X b = 4
+					<br/>Solving for b yields  b = 50.
+					<br/>Now, c= b/a = 50/200 = 1/4
+					 
+					 "},
+					 {"question11":"If A = x% of y and B = y% of x, then which of the following is true?", "answer11":"A and B are equal", "option11":"A is smaller than B;A is greater than B;Relationship between A and B cannot be determined;A and B are equal",
+					 "explanation11":
+					 "
+					 <br/>x% of y =(x/100) X y = (y/100) X x =y% of x
+					<br/>? A = B
+					<br/>So, (D) is correct.
+					 
+					 "},
+					 {"question12":"If 50% of x equals the sum of y and 20, then what is the value of x â€“ 2y?", "answer12":"40", "option12":"20;40;60;80",
+					 "explanation12":
+					 "
+					 <br/>50% of x equals the sum of y and 20. Expressing this as an equation yields:
+					<br/>(50/100) X x=y+20
+					<br/>x/2 = y+20
+					<br/>x=2y+40
+					<br/>xâ€“2y=40
+					 
+					 "},
+					 {"question13":"A vendor sells 60 percent of apples he had and throws away 15 percent of the remainder. Next day he sells 50 percent of the remainder and throws away the rest. What percent of his apples does the vendor throw?", "answer13":"23", "option13":"17;23;77;None of these",
+					 "explanation13":
+					 "
+					 <br/>Let the number of apples be 100.
+					<br/>On the first day he sells 60% apples i.e.,60 apples. Remaining apples =40.
+					<br/>He throws 15% of the remaining i.e., 15% of 40 = 6.Now he has 40-6=34apples
+					<br/>The next day he throws 50% of the remaining 34 apples i.e., 17.
+					<br/>Therefore in total he throws6+17= 23 apples.
+					 
+					 "},
+					 {"question14":"When processing flower-nectar into honeybees' extract, a considerable amount of water gets reduced. How much flower-nectar must be processed to yield 1kg of honey, if nectar contains 50% water, and the honey obtained from this nectar contains 15% water?", "answer14":"1.7 kgs", "option14":"1.5 kgs;1.7 kgs;3.33 kgs;1.8 kgs",
+					 "explanation14":
+					 "
+					 <br/>Flower-nectar contains 50% of non-water part. 
+					<br/>In honey this non-water part constitutes 85% (100-15).
+					<br/>Therefore 0.5 X Amount of flower-nectar = 0.85 X Amount of honey = 0.85 X 1 kg 
+					<br/>Therefore amount of flower-nectar needed =[(0.85/0.5) X 1]kg 
+					<br/>=1.7 kgs
+					 "},
+					 {"question15":"30% of the men are more than 25 years old and 80% of the men are less than or equal to 50 years old. 20% of all men play football. If 20% of the men above the age of 50 play football, what percentage of the football players are less than or equal to 50 years?", "answer15":"30%", "option15":"25%;20%;30%;70%",
+					 "explanation15":
+					 "
+					 <br/>20% of the men are above the age of 50 years. 20% of these men play football. Therefore, 20% of 20% or 4% of the total men are football players above the age of 50 years. 
+					<br/>20% of the men are football players. Therefore, 16% of the men are football players below the age of 50 years.
+					<br/>Therefore, the % of men who are football players and below the age of50=(16/20) X 100= 80%
+					 
+					 "}					
+					 ]
+	},
+	{
+		"num":"6",
+		"topic":"Profit & Loss",
+		"contents":
+					[ {"content1":
+					"
+					<br/>The price at which a person buys a product is the cost price of the product, known as CP
+					<br/>The price at which a person sells a product is the Sales price of the product, known as SP.
+					<br/>If SP>CP, the difference, SP-CP is known as profit or gain.
+					<br/>Profit = SP-CP
+					<br/>Profit % = (Profit/CP)*100 (see example 1)
+					<br/>SP = CP*[(100+Profit%)/100]
+					<br/>CP = (100*SP)/(100+Profit%)
+					<br/>If however, SP<CP, then the difference, CP-SP is Loss.
+					<br/>Loss = CP-SP
+					<br/>Loss % = (Loss/CP)*100
+					<br/>SP = CP*[(100-Loss%)/100]
+					<br/>CP = (100*SP)/(100-Loss%)
+					<br/><b>Important Points :- </b>
+					<br/>1. IF an article is sold at a profit of x% SP = (100+x)% of CP
+					<br/>2. IF an article is sold at a loss of y% SP = (100-x)% of CP
+					<br/>3. When a person sells 2 items of same cost as 1 at a profit of x% and other at a loss of x%, He will always incur loss. Loss% = x2/100
+					<br/>4. If a shopkeeper sells his goods at C.P., but uses false weight of x kg, his profit is: Profit% = [True weight - False weight)/False weight]*100
+					<br/>5. While selling goods, adding a certain percentage on the cost price is known as marked price, And  this % addition is known as percentage mark up.
+					<br/>Marked Price = CP + Mark up
+					<br/>Marked Price = CP + % Mark up on CP
+					<br/>If discount is also given on this, Selling Price = Marked Price - % discount.
+					<br/>6. If goods are sold as buy x get y free then Discount % = [y/(x+y)]*100
+					<br/>7. If 2 successive discounts x% and y% is given then, Effective discount = [(x+y) - xy/100]%
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>A car dealer buys a 1996 model small car and sells it the next day for sixty thousand rupees, after doing a minor painting job costing one thousand rupees. If he earned 20% profit on the deal,what was the purchase price?</b>
+					<br/>Let the purchase price of the car for the dealer be Rs x.
+					<br/>His total cost is x + 1000
+					<br/>From the formula for profit we have, 20 = (100(60000-(x+1000)))/(x+1000)
+					<br/>Solving this, we get the purchase price x to be Rs 49,000. 
+
+					"},
+					{"example2":
+					"
+					<b>A shopkeeper cheats to the extent of 10% while buying as well as selling, by using his false weights. His total gain is?</b>
+					<br/>Let cost price of 1 kg of material be 1Re.
+					<br/>While buying, he has bought 1.1 kg of material for 1Re.
+					<br/>While selling, he sells 0.9kg of material at 1Re.
+					<br/>Hence, he would sell 1.1kg of material at 1.1/0.9 Rs = 11/9 Rs.
+					<br/>Total gain = (11/9 - 1)/1 = 2/9 Rs = 200/9 % = 22.22%
+
+					"}],
+		"practices":
+					[					
+					{"question1":"An uneducated retailer marks all his goods at 50% above the cost price and thinking that he will still make 25% profit, offers a discount of 25% on the marked price. What is his actual profit on the sales?", "answer1":"12.5 %", "option1":"12.5 %;13.5 %;13 %;14 %",
+					 "explanation1":
+					 "
+					 <br/>Let C.P. = Rs. 100. Then, marked price = Rs. 150.
+					<br/>S.P. = 75% of Rs. 150 = Rs. 112.50.
+					<br/>âˆ´ Gain% = 12.50%
+					 
+					 "},
+					{"question2":"A retailer buys 40 pens at the marked price of 35 pens from a wholesaler. If he sells these pens giving a discount of 1%, what is the profit percent?", "answer2":"10 %", "option2":"12 %;10 %;15 %;16 %",
+					 "explanation2":
+					 "
+					 <br/>Let the marked price of each pen be Re. 1.
+					<br/>Then, C.P. of 40 pens = Rs. 36. S.P. of 40 pens = 99% of Rs. 40 = Rs. 39.60.
+					<br/>âˆ´ Profit% = [3.60/36 * 100]% = 10%.
+					 
+					 "},
+					 {"question3":"John bought 15 apples for Rs.10 and sold them at the rate of 12 apples for Rs.12. What is the percentage of profit made by him?", "answer3":"50 %", "option3":"50 %;60 %;65 %;100 %",
+					 "explanation3":
+					 "
+					 <br/>He got profit â‡’ profit % = 15/10 * 12/12 = 1.5 â‡’ 50%.
+					 "},
+					 {"question4":"30% loss on cost price in what percent loss on selling price?", "answer4":"42.85 %", "option4":"28 %;38 %;40.35 %;42.85 %",
+					 "explanation4":
+					 "
+					 <br/>Loss = 30% on CP i.e., 0.3CP â‡’ SP = 0.7CP Loss % on 
+					 <br/>SP = loss/SP * 100 = 0.3CP/0.7CP * 100 = 42.85%.
+					 
+					 "},
+					 {"question5":"David purchased a house for Rs.75000 and a site for Rs.15000 respectively, if he sold the house for Rs.83000 and the site for Rs.10000, then find the resultant percentage of gain?", "answer5":"3.33 %", "option5":"30 %;300/3 %;31/3 %;3.33 %",
+					 "explanation5":
+					 "
+					 <br/>Total CP = 90000 & total SP = 93000 â‡’ gain = SP/CP = 93000/90000 = 1.0333 = 3.33%.
+					 "},
+					 {"question6":"If the cost price of 20 articles is equal to the selling price of 25 articles, what is the % profit or loss made by the merchant?", "answer6":"20 % loss", "option6":"25 % loss;25 % profit;20 % loss;20 % profit",
+					 "explanation6":
+					 "
+					 <br/>Let the cost price of 1 article be $1.
+					<br/>Therefore, cost price of 20 articles = 20 * 1 = $20
+					<br/>The selling price of 25 articles = cost price of 20 articles = $20.
+					<br/>Now, we know the selling price of 25 articles. Let us find the cost price of 25 articles.
+					<br/>Cost price of 25 articles = 25 * 1 = $25.
+					<br/>Therefore, profit made on sale of 25 articles = Selling price of 25 articles - cost price of 25 articles
+					<br/>= 20 - 25 = -$5.
+					<br/>As the profit is in the negative, the merchant has made a loss of $5. 
+					<br/>Therefore, % loss = (loss/ cost price) X 100
+					<br/>% loss = (-5 /25) X 100 = 20 % loss
+					 
+					 "},
+					 {"question7":"Sam buys 10 apples for $1. At what price should he sell a dozen apples if he wishes to make a profit of 25%?", "answer7":"$ 1.5", "option7":"$0.125;$ 1.25;$ 0.25;$ 1.5",
+					 "explanation7":
+					 "
+					 <br/>The cost price of 1 apple = (1/10)th of a dollar or $0.10.
+					<br/>As Sam wishes to make a profit of 25%, his selling price per apple will be 0.10 + 25% of 0.10 = $0.125.
+					<br/>If the selling price of 1 apple is $0.125, then the selling price of a dozen apples = 12 * 0.125
+					<br/>= $1.5
+					 
+					 "},
+					 {"question8":"By selling an article at 80% of its marked price, a merchant makes a loss of 12%. What will be the percent profit made by the merchant if he sells the article at 95% of its marked price?", "answer8":"4.5 % profit", "option8":"5 % profit;1 % loss;10 % profit;4.5 % profit",
+					 "explanation8":
+					 "
+					 <br/>Let the marked price be S and the cost price of the article be C
+					<br/>When the merchant sells at 80% of marked price he sells at 0.8S
+					<br/>This results in a loss of 12%.
+					<br/>Loss is always computed as a percentage of cost price.
+					<br/>Therefore, the loss incurred by the merchant = 0.12C
+					<br/>Hence, he will be selling the article at C - 0.12C = 0.88C when he sells at 80% of his marked price.
+					<br/>Equating the two sides of the relation, we get 0.8S = 0.88C
+					<br/>Or S = (0.88/0.8)C
+					<br/>Or S = 1.1C
+					<br/>Now, if the merchant sells at 95% of the marked price, he will be selling at 95% of 1.1C = 1.045C
+					<br/>Hence, the merchant will make a profit of 4.5%.
+					 
+					 "},
+					 {"question9":"What is the maximum percentage discount that a merchant can offer on her Marked Price so that she ends up selling at no profit or loss, if she had initially marked her goods up by 50%?", "answer9":"33.33%", "option9":"50 %;33.33%;20 %;25 %",
+					 "explanation9":
+					 "
+					 <br/>The merchant had initially marked her goods up by 50%.
+					<br/>Let us assume that her cost price of the goods to be $ 100.
+					<br/>Therefore, a 50% mark up would have resulted in her marked price being $100 + 50% of $100 = $100 + $50 = $150.
+					<br/>The question states that she finally sells the product at no profit or loss. This essentially, means that she sells the product at cost price, which in this case would be $100.
+					<br/>Therefore, she had offered a discount of $50 on her marked price of $150.
+					<br/>Hence, the % discount offered by her = (50/150)*100 = 33.33%.
+					 
+					 "},
+					 {"question10":"A merchant who marked his goods up by 50% subsequently offered a discount of 20%. What is the percentage profit that the merchant make after offering the discount?", "answer10":"16.66 %", "option10":"20%;120%;25%;16.66 %",
+					 "explanation10":
+					 "
+					 <br/>The easiest way to solve these kinds of problems is to assume a cost price for the merchant.
+					<br/>To make calculations easy, let us assume that the cost price = $100
+					<br/>The merchant marks his goods up by 50%.
+					<br/>Therefore, his quoted price = cost price + mark up
+					<br/>= $100 + 50% of $100 = 100 + 50 = $150
+					<br/>Now, the merchant offers a discount of 20% on his quoted price
+					<br/>Therefore, amount of discount = 20% of $150 = 20% of 150 = $30
+					<br/>Therefore, he finally sells it for $150 - $30 = $ 120.
+					<br/>We assumed his cost to be $ 100 and he sold it finally for $ 120.
+					<br/>Therefore, his net profit = $ 20 on his cost of $ 100
+					<br/>Hence, his % profit = (20/100)*100 = 20%.
+					 
+					 "},
+					 {"question11":"One-fifth of the cost price, one-seventh of the marked price and one-sixth of the selling price are all equal. What is the gain or loss to the trader?", "answer11":"20 %", "option11":"120 %;140 %;162/3 %;20 %",
+					 "explanation11":
+					 "
+					 <br/>CP/5 = SP/6 â‡’ SP/CP = 1.2 â‡’ 20% gain.
+					 "},
+					 {"question12":"If an article is sold at 5% gain instead of 5% loss,the seller gets Rs 6.72 more. The C.P of the article is?", "answer12":"148.81", "option12":"132.82;138.55;148.81;150.45",
+					 "explanation12":
+					 "
+					 <br/>100 * 10/6.72 = 148.81 answer
+					 "},
+					 {"question13":"Peter bought an item at 20% discount on its original price. He sold it with 40% increase on the price he bought it. The sale price is by what percent more than the original price?", "answer13":"12", "option13":"7.2;7.5;10;12",
+					 "explanation13":
+					 "
+					 <br/>Let the original price be Rs. 100. Then, C.P. = Rs. 80.
+					 <br/>S.P. = 140% of Rs. 80 = Rs. [112-100%] = 12%.
+					 
+					 "},
+					 {"question14":"A shopkeeper sold an article offering a discount of 5% and earned a profit of 23.5%. What would have been percentage of profit earned of no discount was offered?", "answer14":"30", "option14":"20;30;35;15",
+					 "explanation14":
+					 "
+					 <br/>Let C.P. be Rs. 100. Then, S.P. = Rs. 123.50.
+					<br/>Let marked price be Rs. x. Then, 
+					<br/>95/100x = 123.50 â‡’ x = Rs. [12350/95] = Rs. 130.
+					<br/>Now, S.P. = Rs. 130, C.P. = Rs. 100.
+					<br/>âˆ´ Profit% = 30%.
+					 
+					 "},
+					 {"question15":"Even after reducing the marked price of a transistor by Rs. 32, a shopkeeper makes a profit of 15%. If the cost price be Rs.320, what percentage of profit would he have made if he had sold the transistor at the marked price?", "answer15":"", "option15":"18 %;20 %;25 %;32 %",
+					 "explanation15":
+					 "
+					 <br/>C.P. = Rs. 320, Profit = 15%
+					<br/>S.P. Rs. [115/100 * 320] = Rs. 368. Marked price = Rs. (368 + 32) = Rs. 400.
+					<br/>âˆ´ Required profit% = [80/320 * 100] % = 25%
+					 
+					 "}
+					]
+	},
+	{
+		"num":"7",
+		"topic":"Ratio & Proportion",
+		"contents":
+					[ {"content1":
+					"
+					<b>1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>...+10<sup>2</sup> = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>If x/y = 4/5, find the value of (3x+4y)/(4x+3y)</b>
+					<br/>(3x+4y)/(4x+3y) = (3x/y+ 4)/(4x/y+3)=  (3 X 4/5+ 4)/(4 X 4/5+ 3) = 32/31
+					"},
+					{"example2":
+					"
+					<b>Find the greatest of 3 natural numbers which are in the ratio 3 : 2 : 5, if the sum of their squares is 1862</b>
+					<br/>If the numbers are 3x, 2x and 5x, then 9x<sup>2</sup>+ 4x<sup>2</sup>+ 25x<sup>2</sup>=1862
+					<br/>So x<sup>2</sup> = 49 or x = 7
+					<br/>So the greatest number = 5x = 35
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A sum of money is to be distributed among A, B, C, D in the proportion of5:2:4:3. If C gets $ 1000 more than D, what is B's share?", "answer1":"2000", "option1":"500;1500;2000;None of these",
+					 "explanation1":
+					 "
+					 <br/>Let the shares of A, B, C and D be $ 5x, $ 2x, $ 4x and $ 3x respectively.
+					<br/>Then, 4xâˆ’3x=1000
+					<br/>â‡’ x=1000.
+					<br/>B's share =$2x=$(2Ã—1000)= $ 2000.
+					 
+					 "},
+					{"question2":"A sum of $312 was divided among 100 boys and girls in such a way that the boy gets $3.60 and each girl $2.40 the number of girls is", "answer2":"40", "option2":"35;40;45;50",
+					 "explanation2":
+					 "
+					 <br/>Step (i) Let x be the number of boys and y be the number of girls. 
+					<br/>Given total number of boys and girls = 100
+					<br/>x+y=100           -------------- (i)
+					<br/>Step (ii) A boy gets $ 3.60 and a girl gets $ 2.40
+					<br/>The amount given to 100 boys and girls = $ 312
+					<br/>3.60x+2.40y=312 -------------- (ii)
+					<br/>Step (iii) 
+					<br/>Solving (i) and (ii)
+					<br/>3.60x+3.60y=360       ------- Multiply (i) by 3.60
+					<br/>â‡’ 3.60x+2.40y=312 --------- (ii)
+					<br/>1.20y=48
+					<br/>y= (48/1.20) = 40
+					<br/>â‡’ Number of girls = 40
+					 
+					 "},
+					 {"question3":"In a mixture 60 litres, the ratio of milk and water 2:1. If the this ratio is to be1:2, then the quantity of water to be further added is:", "answer3":"60 liters", "option3":"20 liters;30 liters;40 liters;60 liters",
+					 "explanation3":
+					 "
+					 <br/>Quantity of milk =(60Ã—2/3)litres =40 litres.
+					<br/>Quantity of water in it =(60âˆ’40) litres =20 litres.
+					<br/>New ratio =1:2
+					<br/>Let quantity of water to be added further be x litres.
+					<br/>Then, milk : water
+					<br/>Now, [40/(20 + x)] = 1/2
+					<br/>â‡’ 20+x=80
+					<br/>â‡’ x= 60				 
+					 "},
+					 {"question4":"Seats for Mathematics, Physics and Biology in a school are in the ratio 5:7:8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?", "answer4":"2:3:4", "option4":"2:3:4;2:3:5;6:7:8;6:8:9",
+					 "explanation4":
+					 "
+					 <br/>Originally, let the number of seats for Mathematics, Physics and Biology be 5x, 7x and 8x respectively.
+					<br/>Number of increased seats are (140% of 5x), (150% of 7x) and (175% of 8x).
+					<br/>â‡’ (140/100Ã—5x),(150/100Ã—7x)and( 175/100Ã—8x)
+					<br/>â‡’ 7x, 21x/2 and14x.
+					<br/>â‡’ The required ratio =7x:21x/2:14x
+					<br/>â‡’ 14x:21x:28x
+					<br/>â‡’ 2 : 3 : 4
+					 
+					 "},
+					 {"question5":"If 40% of a number is equal to two-third of another number, what is the ratio of first number to the second number?", "answer5":"5:3", "option5":"2:5;3:7;5:3;7:3",
+					 "explanation5":
+					 "
+					 <br/>Let 40% of A= 2/3
+					<br/>Then, 
+					<br/>40A/100 = 2B/3
+					<br/>â‡’ 2A/5 = 2B/3
+					<br/>â‡’ A:B= 5 : 3.					 
+					 "},
+					 {"question6":"The third proportional to 0.36 and 0.48 is :", "answer6":"0.64", "option6":"0.64;0.1728;0.42;0.94",
+					 "explanation6":
+					 "
+					 <br/>Let the third proportional to 0.36 and 0.48 be x
+					<br/>Then, 0.36 : 0.48 :: 0.48 : x	 
+					<br/>	 	x =	 	0.48 x 0.48
+					<br/>0.36
+					<br/>	 	 = 0.64.
+										 
+					 "},
+					 {"question7":"The salaries of A, B, C are in the ratio 2 : 3 : 5. if the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?", "answer7":"", "option7":"3 : 3 : 10;10 : 11 : 20;23 : 33 : 60;Cannot be determined",
+					 "explanation7":
+					 "
+					 <br/>Let A = 2k, B = 3k and C = 5k.
+					<br/>	A's new salary =	115
+					<br/>100
+					<br/>	 of 2k =	 	115
+					<br/>100
+					<br/>	 x 2k	 	=	23
+					<br/>10
+					<br/>	 k	 	 	 
+					<br/>
+					<br/> 
+					<br/> 	B's new salary =	110
+					<br/>100
+					<br/>	 of 3k =	 	110
+					<br/>100
+					<br/>	 x 3k	 	=	33
+					<br/>10
+					<br/>	 k	 	 	 
+					<br/>
+					<br/> 
+					<br/> 	C's new salary =	120
+					<br/>100
+					<br/>	 of 5k =	 	120
+					<br/>100
+					<br/>	 x 5k	 	 = 6k	 	 	 	 
+					<br/> 	New ratio =	23k
+					<br/>10
+					<br/>	:	33k
+					<br/>10
+					<br/>	 : 6k = 23 : 33 : 60.
+
+					 
+					 "},
+					 {"question8":"Zinc and copper are melted together in the ratio 9 : 11. What is the weight of melted mixture, if 28.8 kg of zinc has been consumed in it?", "answer8":"64 kg", "option8":"58 kg;64 kg;68 kg;70 kg",
+					 "explanation8":
+					 "
+					 <br/>For 9 kg zinc, mixture melted = (9 + 11) kg.
+					<br/>For 28.8 kg zinc, mixture melted =	 	20
+					<br/>9
+					<br/>	 x 28.8	 	 kg = 64 kg.
+					 
+					 "},
+					 {"question9":"If 40% of a number is equal to two-third of another number, What is the ratio of first number to the second number?", "answer9":"5 : 3", "option9":"5 : 3;3 : 7;7 : 3;11 : 3",
+					 "explanation9":
+					 "
+					 <br/>Let 40% of A =2/3B. Then,40A/100=2/3B
+					 <br/>2A/5=2B/3
+					 <br/>A/B=2/3 x 5/2=5/3
+					 <br/>A : B = 5 : 3.
+					 "},
+					 {"question10":"The ratio of 43.5 : 25 is same as :", "answer10":"4 : 1", "option10":"2 : 1;4 : 1;7 : 5;7 : 10",
+					 "explanation10":
+					 "
+					 
+					 "},
+					 {"question11":"A and B are two alloys of gold and copper prepared  by mixing metals in the ratio 7 : 2 and 7 : 11 respectively. If equal quantities of the alloys are melted to form a third alloy C, the ratio of gold and copper in C will be:", "answer11":"7 : 5", "option11":"5 : 7;5 : 9;7 : 5;9 : 5",
+					 "explanation11":
+					 "
+					 <br/>Gold in C =	 	7/9	+	7/18 units =	7/6 units. Copper in C =	 	2/9	+	11/18 units =	5/6 units.
+					 <br/>Gold : Copper =	7/6 :	5/6	 = 7 : 5.
+
+					 "},
+					 {"question12":"In a bag, there are coins of 25 p. 10 p and 5 p in the ratio of 1 : 2 : 3. If there are $ 30 in all, how many 5 p coins are there?", "answer12":"150", "option12":"150;100;50;200",
+					 "explanation12":
+					 "
+					 <br/>Let the number of 25 p, 10 p  and 5 p coins x, 2x and 3x respectively.
+					<br/>Then, sum of their values = $	 	25X/100	+	10 x 2X/100	+	5 x 3X/100 	 = $	60x/100
+					<br/>60x/100	 = 30,	 x =	30 x 100/60	 = 50.	 	 	 
+					<br/>Hence, the number of 5 p coins = (3 x 50) = 150.
+					 
+					 "},
+					 {"question13":"If a carton containing a dozen mirrors is dropped, which of the following cannot be the ratio of broken mirrors to unbroken mirrors?", "answer13":"3 : 2", "option13":"2 : 1;3 : 1;3 : 2;7 : 5",
+					 "explanation13":
+					 "
+					 <br/>For dividing 12 into two whole numbers, the sum of the tatio terms must be a factor of 12. 
+					<br/>So, they cannot be in the ratio 3 : 2.
+					 
+					 "},
+					 {"question14":"The ratio of the incomes of A and B is 5 : 4 and the ratio of their expenditures is 3 : 2. If at the end of the year, each saves $ 1600, then the income of A is :", "answer14":"$ 4000", "option14":"$ 3400;$ 3600;$ 4400;$ 4000",
+					 "explanation14":
+					 "
+					 <br/>Let the incomes of A and B be $ 5x and $ 4x respectively
+					<br/>and let their expenditures be $ 3y and $ 2y respectively.
+					<br/>Then, 5x - 3y = 1600        ....(i)        and       4x - 2y = 1600        ....(ii)
+					<br/>On multiplying (i) by 2, (ii) by 3 and subtracting, we get : 2x = 1600	 	  x = 800.	 
+					<br/> A's income = $ 5x = $ (5 x 800) = $ 4000.
+
+					 "},
+					 {"question15":"If A : B = 2 : 3, B : C = 4 : 5 and C : D = 6 : 7, then A : B : C : D is:", "answer15":"16 : 24 : 30 : 35", "option15":"16 : 22 : 30 : 35;16 : 24 : 15 : 35;16 : 24 : 30 : 35;18 : 24 : 30 : 35",
+					 "explanation15":
+					 "
+					 <br/>A : B = 2 : 3, B : C = 4 : 5 =	 	4 x	3/4 	:	 	5 x	3/4	 	 = 3 :	15/4
+	 	 			 <br/>and C : D = 6 : 7 =	 	6 x	15/24 	:	 	7 x	15/24	 	=	15/4	:	35/8
+ 	 				<br/> A : B : C : D = 2 : 3 :	15/4	:	35/8	 = 16 : 24 : 30 : 35.
+
+					 "}					
+					 ]
+	},
+	{
+		"num":"8",
+		"topic":"Time & Work",
+		"contents":
+					[ {"content1":
+					"
+					<b>1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>...+10<sup>2</sup> = 385</b>
+					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
+					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
+					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
+					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
+					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
+					"}],
+		"examples":
+					[ {"example1":
+					"
+					<b>A group of laborers do a piece of work in 10 days, but five of them are absent and so rest do the work in 12 days, Find the original number of laborers.</b>
+					<br/>Men                            Days
+					<br/>X                                    10
+					<br/>x-5                                 12
+					<br/>So x/(x-5)=  12/10
+					<br/>Or 12x â€“ 60 = 10 x
+					<br/>Or x = 30
+					<br/>So original number of workers are 30
+
+					"},
+					{"example2":
+					"
+					<b>2 women, A and B can mow a field in 8 and 12 hours respectively. They work for an hour alternatively, A beginning at 9 a.m. When will the work will be completed?</b>
+					<br/>In the first 2 hours, A and B will mow (1/8+1/12)=  5/24 th of the field
+					<br/>In 8 hrs, 20/24 th of the work,  now left work is 4/24 th 
+					<br/>Now A works for 1 hour and does 1/8 th of the work; Work left = 1/24 th, which B can do in 1/2 hr. 
+					<br/>So total time taken = 8 + 1 + Â½ = 9 Â½ hrs.
+					<br/>So work will be over at 6:30 p.m.
+
+					"}],
+		"practices":
+					[					
+					{"question1":"A is thrice as good a workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:", "answer1":"22.5 days", "option1":"20 days;22.5 days;25 days;30 days",
+					 "explanation1":
+					 "
+					 <br/>Ratio of times taken by A and B = 1 : 3.
+					<br/>If difference of time is 2 days, B takes 3 days.
+					<br/>If difference of time is 60 days, B takes	 	3/2	 x 60	 	 = 90 days.	 
+					<br/>So, A takes 30 days to do the work.
+					<br/>A's 1 day's work =	1/30	 ; B's 1 day's work =	1/90	 
+					<br/>(A + B)'s 1 day's work =	 	1/30	+	1/90 	=	4/90	=	2/45
+					<br/>	A and B together can do the work in	45/2	 = 22+1/2	 days.
+					 "},
+					{"question2":"A and B together can complete a work in 12 days. A alone can complete it in 20 days. If B does the work only for half a day daily, then in how many days A and B together will complete the work?", "answer2":"15 days", "option2":"10 days;11 days;15 days;20 days",
+					 "explanation2":
+					 "
+					 <br/>B's 1 day's work =	 	1/12	-	1/20	 	=	2/60	=	1/30
+					<br/>Now, (A + B)'s 1 day's work =	 	1/20	+	1/60	 	=	4/60	=	1/15.	[	 	  B works for half day only	]	 	 
+					<br/>So, A and B together will complete the work in 15 days.
+					 
+					 "},
+					 {"question3":"A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?", "answer3":"", "option3":"12 days;15 days;16 days;8 days",
+					 "explanation3":
+					 "
+					 <br/>A's 2 day's work =	 	1/20	x 2	 	=	1/10
+					<br/>(A + B + C)'s 1 day's work =	 	1/20	+	1/30	+	1/60	 	=	6/60	=	1/10.
+					<br/>Work done in 3 days =	 	1/10	+	1/10	 	=	1/5	.
+					<br/>Now,	1/5	work is done in 3 days.
+					<br/>Whole work will be done in (3 x 5) = 15 days.
+					 
+					 "},
+					 {"question4":"If A can do	1/4	  of a work in 3 days and B can do	1/6	  of the same work in 4 days, how much will A get if both work together and are paid $ 180 in all?", "answer4":"$ 120", "option4":"$ 36;$ 60;$ 108;$ 120",
+					 "explanation4":
+					 "
+					 <br/>Whole wok is done by A in (3 x 4) = 12 days.
+					<br/>Whole work is done by B in (4 x 6) = 24 days.
+					<br/>Aâ€™s wages : Bâ€™s wages = Aâ€™s 1 dayâ€™s work : Bâ€™s 1 dayâ€™s work =	1/12	 :	1/24	 = 2 : 1	 
+					<br/>A's share = $	 	2/3	 x 180	 	 = $ 120.
+					 "},
+					 {"question5":"A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days. A lone can finish the remaining work?", "answer5":"6", "option5":"5;5.5;6;8",
+					 "explanation5":
+					 "
+					 <br/>B's 10 day's work =	 	1/15	 x 10	 	=	2/3 . Remaining work =	 	1 -	2/3	 	=	1/3
+					<br/>Now,	1/18 work is done by A in 1 day.	 
+					<br/>1/3  work is done by A in	 	18 x	1/3	 = 6 days.
+					 "},
+					 {"question6":"A can finish a work in 18 days and B can do the same work in half the time taken by A. Then, working together, what part of the same work they can finish in a day?", "answer6":"1/6", "option6":"1/6;1/9;2/5;1/13",
+					 "explanation6":
+					 "
+					 <br/>A's 1 day's work =	1/18	 and B's 1 day's work =	1/9
+	 				 <br/>(A + B)'s 1 day's work =	 	1/18	+	1/9	 	=	1/6
+					 "},
+					 {"question7":"A and B can do a piece of work in 30 days, while B and C can do the same work in 24 days and C and A in 20 days. They all work together for 10 days when B and C leave. How many days more will A take to finish the work?", "answer7":"18 days", "option7":"18 days;24 days;30 days;36 days",
+					 "explanation7":
+					 "
+					 <br/>2(A + B + C)â€™s 1 dayâ€™s work =	 	1/30	+	1/24	+	1/20	=	15/120	=	1/8
+					 <br/>(A + B + C)'s 1 day's work =	1/16
+	 				 <br/>Work done by A, B and C in 10 days =	10/16	=	5/8	. Remaining work =	 	1 -	5/8	 	=	3/8
+	 				 <br/>A's 1 day's work =	 	1/16	-	1/24	 	=	1/48
+	 				 <br/>Now,	1/48	 work is done by A in 1 day.
+	 				 <br/>So,	3/8	  Work will be done by A in	 	48 x	3/8	 	 = 18 days.
+
+					 "},
+					 {"question8":"A sum of money is sufficient to pay Aâ€™s wages for 21 days and Bâ€™s wages for 28 days. The same money is sufficient to pay the wages of both for:", "answer8":"12 days", "option8":"12 days;12.5 days;14 days;24 days",
+					 "explanation8":
+					 "
+					 <br/>Let total money be $ x.
+					 <br/>A's 1 day's wages = $	x/21 , B's 1 day's wages = $	x/28
+					 <br/>(A + B)'s 1 day's wages = $	 	x/21	+	x/28	= $	x/12
+					 <br/>Money is sufficient to pay the wages of both for 12 days.
+					 "},
+					 {"question9":"A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hou$ How long will B alone take to do it?", "answer9":"12 hours", "option9":"8 hours;10 hours;12 hours;24 hours",
+					 "explanation9":
+					 "
+					 <br/>A's 1 hour's work =	1/4	 ; (B + C)'s 1 hour's work =	1/3	 ; (A + C)'s 1 hour's work =	1/2
+					 <br/>(A + B + C)'s 1 hour's work =	 	1/4	+	1/3	 	=	7/12
+	 	 			 <br/>(A + B + C)'s 1 hour's work =	 	1/4	+	1/3	 	=	7/12
+	 	 			 <br/>B's 1 hour's work =	 	7/12 -	1/2	 	=	1/12
+					 <br/>B alone will take 12 hours to do the work.
+					 "},
+					 {"question10":"A man can do a piece of work in 5 days, but with the help of his son, he can do it in 3 days. In what time can the son do it alone?", "answer10":"7.5 days", "option10":"0.5 days;7 days;7.5 days;8 days",
+					 "explanation10":
+					 "
+					 <br/>Son's 1 day's work =	 	1/3	-	1/5	 	=	2/15
+					 <br/>The son alone can do the work in	15/2	  =  7+1/2	 = days.	 	 
+					 "},
+					 {"question11":"A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for $ 3200. With the help of C, they completed the work in 3 dyas. How much is to be paid to C?", "answer11":"$ 400", "option11":"$ 375;$ 400;$ 600;$ 800",
+					 "explanation11":
+					 "
+					 <br/>Câ€™s 1 dayâ€™s work =	1/3	-	 	1/6	+	1/8	 	=	1/3	-	7/24 =	1/24
+					 <br/>Aâ€™s wages : Bâ€™s wages : Câ€™s wages =	1/6	:	1/8	:	1/24	 = 4 : 3 : 1.
+					 <br/>C's share = $	 	1/8	 x 3200	 	 = $ 400	 
+					 "},
+					 {"question12":"A works twice as fast as B. If B can complete a work in 12 days independently, the number of days in which A and B can together finish the work is:", "answer12":"4 days", "option12":"4 days;6 days;8 days;18 days",
+					 "explanation12":
+					 "
+					 <br/>Ratio of rates of working of A and B = 2 : 1. So, ratio of times taken = 1 : 2.
+ 	 				 <br/>A's 1 day's work =	1/6	 ; B's 1 day's work =	1/12
+ 	 				 <br/>(A + B)'s 1 day's work =	 	1/6	+	1/12	 	=	3/12	=	1/4
+ 	 				 <br/>So, A and B together can finish the work in 4 days.
+					 
+					 "},
+					 {"question13":"A can finish a work in 24 days, B in 9 days and C in 12 days. B and C start the work but are forced to leave after 3 days. The remaining work was done by A in:", "answer13":"10 days", "option13":"5 days;10 days;6 days;16 days",
+					 "explanation13":
+					 "
+					 <br/>(B + C)â€™s 1 dayâ€™s work =	 	1/9	+	1/12 	=	7/36
+	 	 			 <br/>Work done by B and C in 3 days =	 	7/36	 x 3	 	=	7/12 
+					 <br/>Remaining work =	 	1 -	7/12 	=	5/12
+					 <br/>Now,	1/24  Work is done by A in 1 day.	 	 
+					 <br/>So,	5/12 work is done by A in	 	24 x	5/12	 = 10 days.
+					 
+					 "},
+					 {"question14":"A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the job?", "answer14":"60", "option14":"40;50;54;60",
+					 "explanation14":
+					 "
+					 <br/>(A + B)'s 20 days' work =	 	1/30	 x 20	 	=	2/3	. Remaining work =	 	1 -	2/3 	=	1/3
+					 <br/>Now,	1/3	  work is done by A in 20 days.	 	 	 
+					 <br/>Whole work will be done by A in (20 x 3) = 60 days.					 
+					 "},
+					 {"question15":"A and B can do a piece of work in 45 days and 40 days respectively. They began to do the work together but A leaves after some days and then B completed the remaining work in 23 days. The number of days after which A left the work was:", "answer15":"9", "option15":"6;8;9;12",
+					 "explanation15":
+					 "
+					 <br/>(A + B)â€™s 1 dayâ€™s work =	 	1/45	+	1/40	 	=	17/360
+	 	 			 <br/>Work done by B in 23 days =	 	1/40	 x 23	 	=	23/40	. Remaining work =	 	1 -	23/40	 	=	17/40
+					 <br/>Now,	17/360  Work was done by (A + B) in 1 day.
+					 <br/>17/40	 work was done by (A + B) in	 	1 x	360/17	x	17/40	 	 = 9 days.	
+					 <br/>A left after 9 days. 
+					 "}
+					]
+	},
+	{
+		"num":"9",
+		"topic":"Time, Speed & Distance",
+		"contents":
+					[ {"content1":
+					"
+					<b>The speed of a body is defined as the distance covered by it in unit time.</b>
+					<br/><b>Speed = Distance/Time <br/>Time = Distance/Speed <br/> Distance = Speed X Time</b>
+					<br/><br/><b>Important Points:-</b>
+					<br/><b>1:-</b> If a body travels d1, d2,d3Ã¢â‚¬Â¦..dn distances at a speed of s1,s2,s3...sn km/hr,  in time t1, t2,t3Ã¢â‚¬Â¦Ã¢â‚¬Â¦tn, then the average speed  = (Total Distance Travelled)/(Total Time Taken) = (d1+d2+d3+Ã¢â€¹Â¯..dn)/(t1+t2+t3+Ã¢â€¹Â¯..tn).
+					<br/><br/><b>2:-</b> If a certain distance d, from A to B, is covered at Ã¢â‚¬ËœaÃ¢â‚¬â„¢ km/hr and the same distance is covered again from B to A in Ã¢â‚¬ËœbÃ¢â‚¬â„¢ km/hr, then the average speed during whole journey= 2ab/((a+b)) km/hr. 
+					<br/>Also, if  t1 and t2 is the time taken to travel from A to B and B to A, respectively, the distance Ã¢â‚¬ËœdÃ¢â‚¬â„¢ from A to B is given by:
+					<br/> d= (t1+t2) 2ab/((a+b))  
+					<br/> d= (t1-t2) 2ab/((a-b))  
+					<br/> d= (a-b) t1t2/((t1-t2))  
+					<br/><br/><b>3:-</b> While travelling a certain distance , if a man changes his speed in the ratio m:n, then the ratio of time becomes n:m.
+					<br/><br/><b>4:-</b> If two person A and B start at the same time in opposite directions from two points and arrive at the two points in Ã¢â‚¬ËœaÃ¢â‚¬â„¢ and Ã¢â‚¬ËœbÃ¢â‚¬â„¢ hrs, respectively after having met, then.
+					<br/>(A's Speed)/(B's Speed)  = Ã¢Ë†Å¡b/Ã¢Ë†Å¡a  
+					<br/><br/><b>5:-</b> To convert km/hr to m/s, multiply by 5/18 and to convert m/s to km/hr, multiply by 18/5..
+					
+					"},
+					{"content2":
+					"
+					<b>Relative Speed:-</b>
+					<br/><b>Relative speed means the speed of an object A with respect to another object B, which may be stationary, moving (in the same direction or opposite direction)</b>
+					<br/><b>Cases:-</b>
+					<br/><br/><b>Case 1 : </b> When one object is stationary and other is moving.
+					<br>Relative speed of stationary object and moving object = Speed of the moving object
+					<br/><br/><b>Case 2 : </b>When two objects are moving in opposite direction
+					<br/>Relative speed  = Sum of their speeds
+					<br/><br/><b>Case 3 : </b> When two objects are moving in same direction
+					<br/>Relative speed  = Difference of their speeds
+					<br/><br/><b>Important Points:-</b>
+					<br/><b>1:-</b> Time taken by a moving object Ã¢â‚¬ËœxÃ¢â‚¬â„¢meters long in passing a stationary object Ã¢â‚¬ËœyÃ¢â‚¬â„¢ meters long from the time they meet, is same as the time taken by the moving object to cover Ã¢â‚¬Ëœx+yÃ¢â‚¬â„¢ meters with its own speed.
+					<br/><br/><b>2:-</b> If two objects of length Ã¢â‚¬ËœxÃ¢â‚¬â„¢ and Ã¢â‚¬ËœyÃ¢â‚¬â„¢ meters move in the same direction or in opposite direction at Ã¢â‚¬ËœaÃ¢â‚¬â„¢ and Ã¢â‚¬ËœbÃ¢â‚¬â„¢ m/s, then the time taken to cross each other  from the time they meet. 
+					<br/> = (Sum of their length)/(Relative Speed)  
+					<br/> = (x+y)/(a-b)  (In case of same direction)  
+					<br/> = (x+y)/(a+b)  (In case of opposite direction)
+					<br/><br/><b>3:-</b> If the speed of a boat in still water is x km/hr and the speed of the stream is y km/hr speed while travelling with the stream i.e., speed downstream = (x+y) km/hr speed while travelling against the stream i.e., speed upstream = (x-y) km/hr.
+					<br/><br/><b>4:-</b> Speed of the boat in still water =1/2(Speed with Stream + Speed against stream) 
+					<br/>    Speed of the river =1/2(Speed with Stream - Speed against stream).
+					"}
+					],
+		"examples":
+					[ {"example1":
+					"
+					<b>In travelling from city A to city B, John drove for 1 hour at 50 mph and for 3 hours at 60 mph.  What was his average speed for the whole trip?</b>
+					<br/>The total distance is 1*50+3*60=230. And the total time is 4 hours.  Hence,
+					<br/>Average Speed = (Total Distance)/(Total Time)=  230/4=57.5
+					<br/>The answer is 57.5  
+					<br/>Note, the answer is not the mere average of 50 and 60. Rather the average is closer to 60 because he travelled longer at 60 mph (3 hrs) than at 50 mph (1 hr).
+					"},
+					{"example2":
+					"
+					<b>A person can raw 7 Â½ km/hr in still water. It takes him twice as long to row up a distance as to row down the same distance. Find the speed of stream</b>
+					<br/>Speed up-stream + Speed down-stream = 2 X 7 Â½  = 15 km/hr
+					<br/>Since the time taken are in the ratio 2 : 1, the speeds will be in the ratio 1 : 2
+					<br/>So Speed up-stream = (1/3) X 15 = 5 km/hr
+					<br/>Speed down â€“ stream = (2/3) X 15 = 10 km/hr
+					<br/>Speed of stream = Â½ (10 â€“ 5) = 2.5 km/hr
+					"}],
+		"practices":
+					[					
+					{"question1":"If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is?", "answer1":"50 km", "option1":"50 km;56 km;70 km;80 km",
+					 "explanation1":
+					 "
+					 <br/>Let the actual distance travelled be x km.
+					 <br/>Then,	x/10	=	x + 20/14
+					 <br/>14x = 10x + 200
+					 <br/> 4x = 200
+					 <br/> x = 50 km.
+					 
+					 "},
+					{"question2":"In covering a distance of 30 km, Abhay takes 2 hours more than Sameer. If Abhay doubles his speed, then he would take 1 hour less than Sameer. Abhay's speed is:", "answer2":"5 kmph", "option2":"5 kmph;6 kmph;6.25 kmph;7.5 kmph",
+					 "explanation2":
+					 "
+					<br/> Let Abhay's speed be x km/hr.
+					<br/>Then,	30/x	-	30/2x	= 3
+					<br/>  6x = 30
+					<br/>  x = 5 km/hr.
+					 
+					 "},
+					 {"question3":"Walking at the rate of 4kmph a man cover certain distance in 2hr 45 min. Running at a speed of 16.5 kmph the man will cover the same distance in.", "answer3":"40 min", "option3":"12 min;25 min;40 min;60 min",
+					 "explanation3":
+					 "
+					 <br/>Distance = Speed X Time
+					<br/>Here time  = 2 hr 45 min = 11/4 hr
+					<br/>Distance  = 4 X 11/4 = 11 km
+					<br/>New Speed = 16.5 kmph
+					<br/>Therefore time = 11/16.5 = 2/3 hr = 40 min.
+					 
+					 "},
+					 {"question4":"A man sitting in train travelling at the rate of 50 km/hr observes that it takes 9 sec for a goods train travelling in the opposite direction to pass him. If the goods train is 187.5m long. Find its speed", "answer4":"25  kmph", "option4":"40  kmph;30  kmph;24  kmph;25  kmph",
+					 "explanation4":
+					 "
+					 <br/>Solution:
+					<br/>Let the speed of goods train be x km/hr.
+					<br/>Then, (50+x)Ã—(5/18) = 187.5/9
+					<br/>â‡’ x= 25 km/hr										 
+					 "},
+					 {"question5":"Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?", "answer5":"10", "option5":"4;6;8;10",
+					 "explanation5":
+					 "
+					 <br/>Due to stoppages, it covers 9 km less.
+					<br/>Time taken to cover 9 km =(9/54) X 60 min = 10 min 
+					 
+					 "},
+					 {"question6":"A car driver driving in fog, passes a pedestrian who was walking at the rate of 2km/h in the same direction. The pedestrian could see the car for 6 min and it was visible to him up to a distance of 0.6 km. The speed of the car would be :", "answer6":"8  kmph", "option6":"8  kmph;800  mph;6.25 kmph;15 kmph",
+					 "explanation6":
+					 "
+					 <br/>Traveller distance in 6 min = (2/60) X 6 = 2/10 km.
+					<br/>Total distance in 6 min = (2/10) + (6/10) = 8/10 km
+					<br/>Speed = (8/10) X 10 
+					<br/>= 8 km/hr
+					 "},
+					 {"question7":"In a race, the speeds of A and B are in the ratio 3:4. A takes 30 minutes more than B to reach the destination. The time taken by A to reach the destination is:", "answer7":"2 hr", "option7":"1 hr;1.5 hr;2 hr;2.5 hr",
+					 "explanation7":
+					 "
+					 <br/>Ratio of speeds = 3:4
+					 <br/>Distance remaining constant, the ratio of time taken = 4:3
+					 <br/>A takes 0.5 hours more than B
+					 <br/>Hence time taken by A=4Ã—0.5= 2 hour
+					 
+					 "},
+					 {"question8":"A train traveling at 72 kmph crosses a platform in 30 seconds and a man standing on the platform in 18 seconds. What is the length of the platform in meters?", "answer8":"240 meter", "option8":"240 meter;360 meter;420 meter;600 meter",
+					 "explanation8":
+					 "
+					 <br/>The extra time that the train takes when crossing the platform is on account of the extra distance that it has to cover = length of the platform.
+					<br/>Therefore, length of the platform = speed of train * extra time taken to cross the platform
+					<br/>Length of platform = 72 kmph * 12 seconds
+					<br/>Converting 72 kmph into m/sec, we get 72 kmph = (5/18) X 72 = 20 m/sec
+					<br/>Therefore, length of the platform = 20 * 12 = 240 meters. 
+										 
+					 "},
+					 {"question9":"Jane covered a distance of 340 miles between city A and city taking a total of 5 hours. If part of the distance was covered at 60 miles per hour speed and the balance at 80 miles per hour speed, how many hours did she travel at 60 miles per hour?", "answer9":"3 hours", "option9":"2 hours 30 minutes;3 hours;2 hours;1 hour 45 minutes",
+					 "explanation9":
+					 "
+					 <br/>Let 'x' hours be the time for which Jane traveled at 60 miles per hour.
+					<br/>As the total time taken to cover 340 miles is 5 hours, Jane would have traveled (5 - x) hours at 80 miles per hour.
+					<br/>Distance covered at 60 miles per hour = Speed * time = 60 * x = 60x miles
+					<br/>Distance covered at 80 miles per hour = Speed * time = 80 (5 - x) = 400 - 80x miles
+					<br/>Total distance covered = Distance covered at 60 miles per hour + Distance covered at 80 miles per hour.
+					<br/>Therefore, total distance = 60x + 400 - 80x.
+					<br/>But, we know that the total distance = 340 miles.
+					<br/>Therefore, 340 = 60x + 400 - 80x 
+					<br/>=> 20x = 60 or x = 3 hours. 
+					 
+					 "},
+					 {"question10":"Steve traveled the first 2 hours of his journey at 40 mph and the remaining 3 hours of his journey at 80 mph. What is his average speed for the entire journey?", "answer10":"64 mph", "option10":"60 mph;56.67 mph;53.33 mph;64 mph",
+					 "explanation10":
+					 "
+					 <br/>Total distance traveled by Steve = Distance covered in the first 2 hours + distance covered in the next 3 hours.
+					<br/>Distance covered in the first 2 hours = speed * time = 40 * 2 = 80 miles
+					<br/>Distance covered in the next 3 hours = speed * time = 80 * 3 = 240 miles
+					<br/>Therefore, total distance covered = 80 + 240 = 320 miles
+					<br/>Total time taken = 2 + 3 = 5 hours.
+					<br/>Hence, average speed = 320/5 = 64 miles per hour. 
+					 
+					 "},
+					 {"question11":"A farmer travelled a distance of 61 km in 9 hours. He travelled partly on foot @ 4 km/hr and partly on bicycle @ 9 km/hr. The distance travelled on foot is:", "answer11":"16  kmph", "option11":"14 km;15 km;16  kmph;17 km",
+					 "explanation11":
+					 "
+					 <br/>Let the distance travelled on foot be x km.
+					<br/>Then, distance travelled on bicycle = (61 -x) km.
+					<br/>So (x/4) + (61 â€“ x)  = 9
+					<br/>  9x + 4(61 -x) = 9 x 36
+					<br/>  5x = 80
+					<br/>  x = 16 km.
+					 
+					 "},
+					 {"question12":"A thief steals a car and drives it at 15 km/hr. The theft has been discovered after one hour and the owner of the car sets off in another car at 25 km/hr. When will the owner overtake the thief from the starting point? ", "answer12":"1.5 hr", "option12":"1 hr;1.5 hr;2 hr;2.5 hr",
+					 "explanation12":
+					 "
+					 <br/>Distance covered by the thief in one hour = 15 km
+					<br/>Now this distance is to be covered by the relative speed of (25âˆ’15)=10km/hr
+					<br/>Hence, time required to cover this distance at a speed of 10km/hr: 15/10 
+					<br/>= 1.5 hr
+					 
+					 "},
+					 {"question13":"Walking at 3/4 of his usual place, a man reaches his office 20 minute late. Find his usual time?", "answer13":"1 hr ", "option13":"2 hr ;1 hr ;3 hr ;3.5 hr ",
+					 "explanation13":
+					 "
+					 <br/>Let the original speed be S and time be T
+					<br/>If new speed=S X (3/4), then new time would be T X (4/3) (D = ST = Constant)
+					<br/>Given, (3T/4) â€“ T = 20T/3
+					<br/>â‡’ T=60 minutes
+					<br/>= 1 hour 
+					 
+					 "},
+					 {"question14":"A train traveling at 100 kmph overtakes a motorbike traveling at 64 kmph in 40 seconds. What is the length of the train in meters?", "answer14":"400 meter", "option14":"1777 meter;1822 meter;400 meter;1100 meter",
+					 "explanation14":
+					 "
+					 <br/>When a train overtakes another object such as a motorbike, whose length is negligible compared to the length of the train, then the distance traveled by the train while overtaking the motorbike is the same as the length of the train.
+					<br/>The length of the train = distance traveled by the train while overtaking the motorbike 
+					<br/>= relative speed between the train and the motorbike * time taken
+					<br/>In this case, as both the objects i.e., the train and the motorbike are moving in the same direction, the relative speed between them = difference between their respective speeds = 100 - 64 = 36 kmph.
+					<br/>Distance traveled by the train while overtaking the motorbike = 36 kmph * 40 seconds.
+					<br/>The final answer is given in meters and the speed is given in kmph and the time in seconds. 
+					<br/>So let us convert the given speed from kmph to m/sec.
+					<br/>1 kmph = (5/18) m/sec
+					<br/>Therefore, 36 kmph = 36 * (5 /18) = 10 m/sec.
+					<br/>Relative speed = 10 m/sec. Time taken = 40 seconds.
+					<br/>Therefore, distance traveled = 10 * 40 = 400 meters. 
+					 
+					 "},
+					 {"question15":"The ratio between the speeds of two trains is 7 : 8. If the second train runs 400 km in 4 hours, then the speed of the first train is:", "answer15":"87.5 kmph", "option15":"70 kmph;75 kmph;84 kmph;87.5 kmph",
+					 "explanation15":
+					 "
+					 <br/>Let the speed of two trains be 7x and 8x km/hr.
+					<br/>Then, 8x =				(400/4) = 100
+					<br/>  x =			(100/8) =12.5		
+					<br/> Speed of first train = (7 x 12.5) km/hr = 87.5 km/hr.
+					 
+					 "}
+					]
+	}
+	
+]
