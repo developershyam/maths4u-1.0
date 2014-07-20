@@ -4,15 +4,15 @@
 		"topic":"Arithmetic",
 		"subtopic":
 					[
-						{"subtopic1":"â€¢	Averages"},
-						{"subtopic2":"â€¢	Interest"},
-						{"subtopic3":"â€¢	Mixture & Allegations"},
-						{"subtopic4":"â€¢	Partnership"},
-						{"subtopic5":"â€¢	Percentages"},
-						{"subtopic6":"â€¢	Profit & Loss"},
-						{"subtopic7":"â€¢	Ratio & Proportion"},
-						{"subtopic8":"â€¢	Time & Work"},
-						{"subtopic9":"â€¢	Time, Speed & Distance"}
+						{"subtopic1":"•	Averages"},
+						{"subtopic2":"•	Interest"},
+						{"subtopic3":"•	Mixture & Allegations"},
+						{"subtopic4":"•	Partnership"},
+						{"subtopic5":"•	Percentages"},
+						{"subtopic6":"•	Profit & Loss"},
+						{"subtopic7":"•	Ratio & Proportion"},
+						{"subtopic8":"•	Time & Work"},
+						{"subtopic9":"•	Time, Speed & Distance"}
 					]
 	},
 	{
@@ -20,11 +20,11 @@
 		"topic":"Algebra",
 		"subtopic":
 					[
-						{"subtopic1":"â€¢	Basic  Algebraic Operation"},
-						{"subtopic2":"â€¢	Linear Equations"},
-						{"subtopic3":"â€¢	Simultaneous Equation"},
-						{"subtopic4":"â€¢	Quadratic Equation"},
-						{"subtopic5":"â€¢	Inequalities"}
+						{"subtopic1":"•	Basic  Algebraic Operation"},
+						{"subtopic2":"•	Linear Equations"},
+						{"subtopic3":"•	Simultaneous Equation"},
+						{"subtopic4":"•	Quadratic Equation"},
+						{"subtopic5":"•	Inequalities"}
 						
 					]
 	},
@@ -44,10 +44,10 @@
 		"topic":"Mordern Maths",
 		"subtopic":
 					[
-						{"subtopic1":"â€¢	Permutation & Combinations"},
-						{"subtopic2":"â€¢	Probability"},
-						{"subtopic3":"â€¢	Logarithm"},
-						{"subtopic4":"â€¢	Set Theory"}					
+						{"subtopic1":"•	Permutation & Combinations"},
+						{"subtopic2":"•	Probability"},
+						{"subtopic3":"•	Logarithm"},
+						{"subtopic4":"•	Set Theory"}					
 					]
 	},
 	{
@@ -55,27 +55,23 @@
 		"topic":"Geometry",
 		"subtopic":
 					[
-						{"subtopic1":"â€¢	Area"},
-						{"subtopic2":"â€¢	Volume & Surface Area"},
-						{"subtopic3":"â€¢	Polygon & Quadrilaterals"},
-						{"subtopic4":"â€¢	Co-Ordinate Geometry"},
-						{"subtopic5":"â€¢	Triangles"},
-						{"subtopic6":"â€¢	Circles"}
+						{"subtopic1":"•	Area"},
+						{"subtopic2":"•	Volume & Surface Area"},
+						{"subtopic3":"•	Polygon & Quadrilaterals"},
+						{"subtopic4":"•	Co-Ordinate Geometry"},
+						{"subtopic5":"•	Triangles"},
+						{"subtopic6":"•	Circles"}
 												
 					]
 	}
 	,
 	{
 		"num":"6",
-		"topic":"Trignometry",
+		"topic":"Trigonometry",
 		"subtopic":
 					[
-						{"subtopic1":"â€¢	A"},
-						{"subtopic2":"â€¢	B"},
-						{"subtopic3":"â€¢	C"}						
+						{"subtopic1":"•	Trigonometry"}					
 					]
 	}
-	
-	
 ]
 

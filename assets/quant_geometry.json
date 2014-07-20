@@ -13,28 +13,28 @@
 					<br/><b>4.  Area of a triangle</b>
 					<br/>  •  Area of a triangle =  1/2  x Base x Height.
 					<br/>  •  Area of a triangle = s(s-a)(s-b)(s-c)
-					<br/>  •  Area of an equilateral triangle =	√3/4 x (side)<sup>2</sup>.
-					<br/>  •  Radius of incircle (Inradius) of an equilateral triangle of side a = a/(2√3).
-					<br/>  •  Radius of circumcircle (Circumradius) of an equilateral triangle of side a = a/√3
+					<br/>  •  Area of an equilateral triangle =	âˆš3/4 x (side)<sup>2</sup>.
+					<br/>  •  Radius of incircle (Inradius) of an equilateral triangle of side a = a/(2âˆš3).
+					<br/>  •  Radius of circumcircle (Circumradius) of an equilateral triangle of side a = a/âˆš3
 					<br/>  •  Area of Triangle = r X s, where r = inradius and s = semiperimeter
 					<br/>  •  Area of Triangle = abc/4R , where R = Circumradius.
 					<br/>  •  In case of triangles, given the perimeter and equilateral triangle has maximum area.
 					<br/>  •  Area of right-angled triangle = 1/2 X Product of perpendicular sides.
-					<br/>  •  The ratio of the areas of 2 triangles is equal to the ratio of the product of base and its corresponding height. (A (∆ABC))/(A (∆PQR)) = (AD X BC)/(PS X QR)   
-					<br/>  •  Areas of 2 triangles having the same base and lying between the same parallel lines will be equal. A (∆ ABC)=A(∆ BCD)		
+					<br/>  •  The ratio of the areas of 2 triangles is equal to the ratio of the product of base and its corresponding height. (A (âˆ†ABC))/(A (âˆ†PQR)) = (AD X BC)/(PS X QR)   
+					<br/>  •  Areas of 2 triangles having the same base and lying between the same parallel lines will be equal. A (âˆ† ABC)=A(âˆ† BCD)		
 					<br/><b>5.  Area of Polygon</b> = 1/2 X perimeter X perpendicular from center to any side
-  	                <br/>  •  Area of regular hexagon = 6 X Area of each triangle = 6 X √3/4 X a<sup></sup> = (3√3)/2  X (side)<sup></sup>
+  	                <br/>  •  Area of regular hexagon = 6 X Area of each triangle = 6 X âˆš3/4 X a<sup></sup> = (3âˆš3)/2  X (side)<sup></sup>
 					<br/>  •  Area of Quadrilateral = 1/2 X One of the diagonals X sum of the perpendicular drawn to that diagonal from the opposite vertices.
 					<br/>  •  Area of parallelogram = (Base x Height).
 					<br/>  •  Area of a rhombus = 1/2 x (Product of diagonals)
 					<br/>  •  Area of a trapezium = 1/2 x (sum of parallel sides) x distance between them
 					<br/>  •  Area of Kite = 1/2 X product of diagonals
-					<br/>  •  Area of a circle = πR2, where R is the radius.
-					<br/>     Circumference of a circle = 2πR.
-					<br/>  •  Length of an arc = 2πRθ/360, where θ is the central angle.
-					<br/>  •  Area of a sector = 1/2 (arc X R)= (πR<sup>2</sup> θ)/360
-					<br/>  •  Circumference of a semi-circle = πR
-					<br/>  •  Area of semi-circle = (πR<sup>2</sup>)/2
+					<br/>  •  Area of a circle = Ï€R2, where R is the radius.
+					<br/>     Circumference of a circle = 2Ï€R.
+					<br/>  •  Length of an arc = 2Ï€RÎ¸/360, where Î¸ is the central angle.
+					<br/>  •  Area of a sector = 1/2 (arc X R)= (Ï€R<sup>2</sup> Î¸)/360
+					<br/>  •  Circumference of a semi-circle = Ï€R
+					<br/>  •  Area of semi-circle = (Ï€R<sup>2</sup>)/2
 					
 					"					
 					}],
@@ -71,32 +71,32 @@
 					<br/>Let length = l, breadth = b and height = h units. Then
 					<br/>Volume = (l x b x h) cubic units.
 					<br/>Surface area = 2(lb + bh + lh) sq. units.
-					<br/>Diagonal = √(l2 + b2 + h2) units.
+					<br/>Diagonal = âˆš(l2 + b2 + h2) units.
 					<br/><b>2.	CUBE</b>
 					<br/>Let each edge of a cube be of length a. Then,
 					<br/>Volume = a3 cubic units.
 					<br/>Surface area = 6a<sup>2</sup> sq. units.
-					<br/>Diagonal = √3a units.					
+					<br/>Diagonal = âˆš3a units.					
 					<br/><b>3.	CYLINDER</b>
 					<br/>Let radius of base = r and Height (or length) = h. Then,
-					<br/>Volume = (πr<sup>2</sup>h) cubic units.
-					<br/>Curved surface area = (2πrh) sq. units.
-					<br/>Total surface area = 2πr(h + r) sq. units.
+					<br/>Volume = (Ï€r<sup>2</sup>h) cubic units.
+					<br/>Curved surface area = (2Ï€rh) sq. units.
+					<br/>Total surface area = 2Ï€r(h + r) sq. units.
 					<br/><b>4.	CONE</b>
 					<br/>Let radius of base = r and Height = h. Then,
-					<br/>Slant height, l = √(h2 + r2 ) units.
-					<br/>Volume =1/3 πr<sup>2</sup> h cubic units.
-					<br/>Curved surface area = (πrl) sq. units.
-					<br/>Total surface area = (πrl + πr2) sq. units.
+					<br/>Slant height, l = âˆš(h2 + r2 ) units.
+					<br/>Volume =1/3 Ï€r<sup>2</sup> h cubic units.
+					<br/>Curved surface area = (Ï€rl) sq. units.
+					<br/>Total surface area = (Ï€rl + Ï€r2) sq. units.
 					<br/><b>5.	SPHERE</b>
 					<br/>Let the radius of the sphere be r. Then,
-					<br/>Volume =  4/3 πr<sup>3</sup>cubic units.
-					<br/>Surface area = (4πr2) sq. units.					
+					<br/>Volume =  4/3 Ï€r<sup>3</sup>cubic units.
+					<br/>Surface area = (4Ï€r2) sq. units.					
 					<br/><b>6.	HEMISPHERE</b>
 					<br/>Let the radius of a hemisphere be r. Then,
-					<br/>Volume = 2/3 πr<sup>3</sup>cubic units.
-					<br/>Curved surface area = (2 πr<sup>2</sup>) sq. units.
-					<br/>Total surface area = (3 πr<sup>2</sup>) sq. units.
+					<br/>Volume = 2/3 Ï€r<sup>3</sup>cubic units.
+					<br/>Curved surface area = (2 Ï€r<sup>2</sup>) sq. units.
+					<br/>Total surface area = (3 Ï€r<sup>2</sup>) sq. units.
 					<br/>Note: 1 litre = 1000 cm3.
 					"					
 					}],
@@ -104,7 +104,7 @@
 					[ {"example1":
 					"
 					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
-					<br/>At the end of the year we have Interest=1000Ãƒâ€”5%=1000Ãƒâ€”5/100=1000Ãƒâ€”0.05=50
+					<br/>At the end of the year we have Interest=1000ÃƒÆ’Ã¢â‚¬â€�5%=1000ÃƒÆ’Ã¢â‚¬â€�5/100=1000ÃƒÆ’Ã¢â‚¬â€�0.05=50
 					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
 					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
 
@@ -138,21 +138,21 @@
 					<br/>The segment joining any two non-consecutive vertices is called a diagonal.
 					<br/>Number of diagonals of a polygon with n sides = (n (n-3))/2
 					<br/>For ex. In a Octagon number of diagonals will be (8 (8-3))/2 = 20
-					<br/>Sum of all interior angles of a n-gon (polygon of n sides n) is given by (n-2)180°
-					<br/>Hence, each interior angle of a regular n-gon = ( (n-2)180°)/n
-					<br/>Sum of an interior angle and its adjacent exterior angle is 180°.
-					<br/>Sum of all exterior angles of polygon is 360°
-					<br/>For a regular polygon, each exterior angle =(360°)/n
-					<br/>In a regular Pentagon each interior angle is 108° and each exterior angle is 72°.
-					<br/>In a regular Pentagon each interior angle is 120° and each exterior angle is 60°.
+					<br/>Sum of all interior angles of a n-gon (polygon of n sides n) is given by (n-2)180Â°
+					<br/>Hence, each interior angle of a regular n-gon = ( (n-2)180Â°)/n
+					<br/>Sum of an interior angle and its adjacent exterior angle is 180Â°.
+					<br/>Sum of all exterior angles of polygon is 360Â°
+					<br/>For a regular polygon, each exterior angle =(360Â°)/n
+					<br/>In a regular Pentagon each interior angle is 108Â° and each exterior angle is 72Â°.
+					<br/>In a regular Pentagon each interior angle is 120Â° and each exterior angle is 60Â°.
 					<br/><b>Quadrilaterals:</b>
-					<br/>A polygon of four sides is called quadrilateral. The sum of measures of all angles of a quadrilateral is 360°.
+					<br/>A polygon of four sides is called quadrilateral. The sum of measures of all angles of a quadrilateral is 360Â°.
 					<br/><b>Types of Quadrilaterals:</b>
 				   <br/><b>1.	Parallelogram:</b> A quadrilateral is called parallelogram, if its opposite sides are parallel.
 				   <br/>  •  Opposite sides are parallel and congruent.				  
 				   <br/>  •  Opposite angles are congruent.
 				   <br/>  •  Diagonals bisect each other.
-				   <br/>  •  Sum of any two adjacent angles is 180°.
+				   <br/>  •  Sum of any two adjacent angles is 180Â°.
 				   <br/>  •  Each diagonal divides the parallelogram into 2 triangles of equal area.
 				   <br/>  •  Straight lines joining the midpoints of the adjacent sides of any quadrilateral from a parallelogram.
 				   <br/>  •  Sum of the squares of the diagonals is equal to the sum of squares of the 4 sides of a parallelogram.
@@ -162,7 +162,7 @@
 				   <br/>  •  If midpoints of the adjacent sides of a parallelogram are joined, a parallelogram is formed.
 				   <br/><b>2.	Rectangle:</b> A parallelogram, in which each angle is a right angle is called rectangle. 
 				   <br/>  •  Opposite sides are parallel and congruent.
-				   <br/>  •  Each angle is equal to 90°
+				   <br/>  •  Each angle is equal to 90Â°
 				   <br/>  •  Diagonal are congruent and bisect each other.
 				   <br/>  •  If midpoints of the adjacent sides of a rectangle are joined, a rhombus is formed.
 				   <br/><b>3.	Rhombus:</b> A parallelogram in which all sides are congruent is called Rhombus.
@@ -174,9 +174,9 @@
 				   <br/>  •	 If midpoints of the adjacent sides of a rhombus are joined, a rectangle is formed.
 				   <br/><b>4.	Square:</b> A rectangle in which all sides are congruent is called a squire.
 				   <br/>  •	 All sides are congruent and opposite sides are parallel.
-				   <br/>  •	 All angles are 90°.
+				   <br/>  •	 All angles are 90Â°.
 				   <br/>  •	 The diagonals are congruent and bisect each other at right angles.
-				   <br/>  •	 Diagonal = √2 X side
+				   <br/>  •	 Diagonal = âˆš2 X side
 				   <br/>  •	 A parallelogram is a square if its diagonals are congruent and bisect each other at right angles.
 				   <br/>  •	 If midpoints of the adjacent sides of a square are joined, a square is formed.
 				   <br/><b>5.	Trapezium:</b> A quadrilateral is called a trapezium, if two of the opposite sides are parallel but the other sides are not.
@@ -208,7 +208,7 @@
 					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
 					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
 					 
-					<br/> x-153/22.50 = 1 =Ã¢â‚¬Âº x - 153 = 22.50 =Ã¢â‚¬Âº x=175.50.
+					<br/> x-153/22.50 = 1 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x - 153 = 22.50 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x=175.50.
 					<br/>Hence, price of the third variety = $175.50 per kg.
 
 					"}],
@@ -255,8 +255,8 @@
 					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
 					<br/>Quantity of B in mixture left 
 					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
-					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = Ã¢â‚¬Âº 28x - 21/20x + 21 = 7/9 =Ã¢â‚¬Âº 252x - 189 = 140x + 147
-					<br/> 	=Ã¢â‚¬Âº 112x = 336 =Ã¢â‚¬â„¢ x = 3.
+					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 28x - 21/20x + 21 = 7/9 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 252x - 189 = 140x + 147
+					<br/> 	=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 112x = 336 =ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ x = 3.
 
 					"},
 					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
@@ -265,8 +265,8 @@
 					<br/>Let the quantity of the wine in the cask originally be x litres
 					<br/>then, quantity of wine left in cask after 4 operations
 					<br/>= [x(1- 8/x)4] litres.
-					<br/>Therefore x(1- 8/x)4 / x = 16/81 =Ã¢â‚¬Âº (1- 8/x)4 = (2/3)2 
-					<br/>=Ã¢â‚¬Âº (x - 8 / x) = 2/3 =Ã¢â‚¬Âº 3x - 24 = 2x =Ã¢â‚¬Âº x = 24.
+					<br/>Therefore x(1- 8/x)4 / x = 16/81 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº (1- 8/x)4 = (2/3)2 
+					<br/>=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº (x - 8 / x) = 2/3 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 3x - 24 = 2x =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x = 24.
 
 					"},
 					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
@@ -302,8 +302,8 @@
 					"
 					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
 					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
-					<br/>(20-x)/(x-15) = 2/3 =Ã¢â‚¬Âº 60 - 3x = 2x - 30
-					<br/>=Ã¢â‚¬Âº 5x = 90 =Ã¢â‚¬Âº x = 18.
+					<br/>(20-x)/(x-15) = 2/3 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 60 - 3x = 2x - 30
+					<br/>=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 5x = 90 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x = 18.
 					<br/>so, price of the mixture is $ 18 per kg.
 
 					"},
@@ -340,7 +340,7 @@
 					<br/> 
 					<br/>   x-10        :          0.7     ::       8        :          7
 					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
-					<br/>Ã¢â€¡â€™ x = 10.80 per Kg
+					<br/>ÃƒÂ¢Ã¢â‚¬Â¡Ã¢â‚¬â„¢ x = 10.80 per Kg
 
 					"},
 					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
@@ -358,10 +358,10 @@
 					<br/>                           (10 km)
 					<br/>                    /                        \
 					<br/> 
-					<br/>     (17 Ã¢â‚¬â€œ 10)          :           (10 Ã¢â‚¬â€œ 8)
+					<br/>     (17 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 10)          :           (10 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 8)
 					<br/>            7                                   2 
 					<br/>Thus out of 9 hours, he took 7 hours on foot
-					<br/>Distance covered on foot  = (8 Ãƒâ€” 7) Km  = 56 km
+					<br/>Distance covered on foot  = (8 ÃƒÆ’Ã¢â‚¬â€� 7) Km  = 56 km
 
 					"},
 					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
@@ -376,7 +376,7 @@
 					<br/>                  (1000p)
 					<br/>             /                       \
 					<br/> 
-					<br/>              (1080 Ã¢â‚¬â€œ 1000)  :        (1000 -  930)
+					<br/>              (1080 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 1000)  :        (1000 -  930)
 					<br/>                      80                             70
 					<br/>Thus, required ratio = 80 : 70 = 8 : 7
 
@@ -396,7 +396,7 @@
 					<br/>                         (325p)
 					<br/>                    /                        \
 					<br/> 
-					<br/> (360 Ã¢â‚¬â€œ 325)          :           (325 Ã¢â‚¬â€œ 310)
+					<br/> (360 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 325)          :           (325 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 310)
 					<br/>       35                                       15
 					<br/>
 					<br/>Required ratio = 35 : 15 = 7 : 3
@@ -407,20 +407,80 @@
 	},	
 	{
 		"num":"4",
-		"topic":"Parternship",
+		"topic":"Co- Ordinate Geometry",
 		"contents":
 					[ {"content1":
 					"
-					<br/>Parternship is the relation between two or more person who have agreed to run a business jointly and share the profits.
-					<br/>If the capitals of the partners are invested for the same period, the partnership is called simple, and for different period, is called compound.
-					<br/><br/><b>Simple Partnership:-</b> 
-					<br/>If the period of investment is same for each partner, then the profit or loss is divided in the ratio of investment
-					<br/>If A and B are partners in a business, then
-					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
-					<br/><br/><b>Compound Partnership:-</b> 
-					<br/>Monthly equivalent investment is the product of capital invested and the period for which it is invested
-					<br/>If A and B are partners in a business, then
-					<br/>(Monthly equivalent installment of A)/((Monthly equivalent installment of B) = (Profit/Loss of A)/(Profit/Loss of B)
+					<br/>Co-ordinate Geometry is that branch of geometry in which 2 numbers i.e. the co-ordinates are used to indicate the position of a point in the plane.
+					<br/>The horizontal line is called the 'X axis' and the vertical line is called 'Y axis'. Their point of interaction is called the 'Origin'. The x and y axis divide the plane into 4 quadrants referred as first, second, third and fourth quadrant.
+					<br/>If P be a point in fourth quadrant, its distance from X and Y axis is called rectangular Cartesian or 'Co-ordinates of P'. The x and y co-ordinates of a point in the quadrant are:
+					<br/>--------diagram-------
+					<br/><b>Important Points:-</b>
+					<br/><b>1.	Distance formula:</b>
+					<br/>The distance between two points (x1, y1) and (x2, y2) = √[(x1-x2)<sup>2</sup> + (y1-y2)<sup>2</sup> ]
+					<br/><b>2.	Section Formula:</b>
+					<br/><b>    Internal Division:</b>
+					<br/>If P is a point dividing the joint of two points A(x1, y1) and B(x2, y2) internally in the ratio m: n then co-ordinates (x, y) of P is given by:
+					<br/>P(x,y) = [(mx<sub>2</sub> + nx<sub>1</sub>)/(m+n), (my<sub>2</sub> + ny<sub>1</sub>)/(m+n)]
+					<br/><b>    External Division:</b>
+					<br/>If P is a point dividing the joint of two points A(x1, y1) and B(x2, y2) externally in the ratio m: n then co-ordinates (x, y) of P is given by:
+					<br/><br/>P(x,y) = [(mx<sub>2</sub> - nx<sub>1</sub>)/(m-n), (my<sub>2</sub> - ny<sub>1</sub>)/(m-n)]
+					<br/><b>    Midpoint:</b>
+					<br/>: If P is the midpoint of segment then: 
+					<br/><br/>P(x,y) = [(x<sub>2</sub> + x<sub>1</sub>)/2, (y<sub>2</sub> + y<sub>1</sub>)/2]
+					<br/><b>3.	Centroid of a Triangle:</b>
+					<br/>	Centroid is the point of intersection of 3 medians of triangle
+					<br/>If A(x1, y1), B(x2, y2) and C(x3, y3) are the vertices of a triangle, then The co-ordinates of the centroid G(x,y) of the the ∆ ABC are:
+					<br/><br/>P(x,y) = [(x<sub>1</sub> + x<sub>2</sub> + x<sub>3</sub>)/3, (y<sub>1</sub> + y<sub>2</sub> + y<sub>3</sub>)/3]				    
+				    <br/><b>4.	Incentre of a Triangle</b>
+				    <br/>Incentre is the point of intersection of three angle bisector of triangle.
+				    <br/>-----diagram-------
+				    <br/>The co-ordinates of the incentre (x, y) of the ∆ ABC with vertices A(x1, y1), B(x2, y2) and C(x3, y3) are 
+				    <br/>I(x, y)  = [(ax1+bx2+cx3)/(a+b+c), (ay1+by2+cy3)/(a+b+c)]
+				    <br/><b>5.	Area of Triangle:</b>
+				    <br/>If A(x1, y1), B(x2, y2) and C(x3, y3) are 3 vertices of triangle then:
+				    <br/>Area of triangle = 1/2[x1(y2 – y3) – x2(y1 – y3) – x3(y1 – y3)]
+					<br/>If the area = 0, then 3 points are collinear.
+				    <br/><b>Equation of a line</b>
+				    <br/>A geometrical condition satisfied by all points P(x,y) on a straight line when expressed in x or y is called equation of a straight line.
+				    <br/><b>Inclination of a line</b>
+				    <br/>If a straight line intersects the x-axis, the inclination of the line is defined as the measure of the angle. The slope of a line is the ratio of rate of change of y to rate of change of x. It is defined by ‘m’. Slope of a line joining 2 points A(x1, y1), B(x2, y2)
+					<br/>m = (y2-y1)/(x2-x1) = tan⁡θ
+				    <br/>Two lines whose slopes m1 and m2 are parallel to each other than m1 = m2;
+					<br/>Two lines whose slopes are m1 and m2 are parallel to each other, if and only if m1 X m2 = -1
+					<br/>Thus, if the slope of a line is m, the slope of a line perpendicular to it is - 1/m
+				    
+				    <br/><b>Important Points</b>
+				    <br/>•	The equation of a line parallel to x axis and at a distance of k units is y = k.
+					<br/>•	Equation of x axis is y = 0
+					<br/>•	The equation of a line parallel to y axis at a distance of k units below it is  y = -k
+					<br/>•	Equation of y axis is x = 0 
+					<br/>•	The equation of a straight line passing through the point (x1, y1) and having slope m is  y – y1 = m(x – x1)
+					<br/>•	The equation of a straight line passing through the points (x1, y1) and (x2, y2) is (y-y1)/(x-x1)=  (y1-y2)/(x1-x2)  , where x1 ≠ x2
+					<br/>•	The equation of a line having slope m and making an intercept c on y – axis is  y = mx + c
+					<br/>•	The equation of a line making intercepts a and b, when a ≠ 0 and b ≠ 0  x/a+  y/b=1
+				    <br/>•	If the perpendicular drawn from the origin to a line has inclination α and length p, then the equation of the line is xcos⁡α+  ysin⁡α=p
+					<br/>•	The equation of a line passing through a point (x	1, y1) and making an angle of θ with x axis is (x-x1)/cos⁡θ =  (y-y1)/sin⁡θ 
+				    <br/>•	The most general form of an equation is of the form Ax + By + C = 0, always represent a line Slope m  = -A/B=  (- Cofficient of x)/(Coefficient of y)
+				    <br/>		x intercept  = -C/A= -  ( Constant term)/(Coefficient of x), y intercept  = -C/B= -  ( Constant term)/(Coefficient of y)
+				    <br/>•	If m1 and m2 are the slopes of 2 lines such that m1 X m2 ≠ 1, then tanθ=  (m1-m2)/(1 +m1m2) 
+				    <br/><b>Perpendicular Distance</b>
+				    <br/>•	The perpendicular distance of origin from a line Ax + By + C = 0, is given by C/√(A<sup>2</sup> + B<sup>2</sup> )
+					<br/>•	If P(x1 , y1) is any point and Ax + By + C = 0 is a line, then the perpendicular distance of p from line is (Ax1+By1+ C) / √(A<sup>2</sup> + B<sup>2</sup>)
+				    <br/>•	Distance between 2 parallel lines Ax + By + C1 = 0 and Ax + By + C2 = 0 is ( C1-C2) / √(A<sup>2</sup> + B<sup>2</sup>)
+				    <br/><b>Equation of Circle and Ellipse</b>
+				    <br/><b>•	Equation of a circle</b>
+				    <br/>If P(x, y) be any point on the circle whose center is C(h, k) and  radius is r. The equation of circle is given by √((x-h)<sup>2</sup> + (y-k)<sup>2</sup> ) = r.
+				    <br/>When center is origin then equation is √(x<sup>2</sup> + y<sup>2</sup> )=r
+					<br/>The general form a circle with center as origin is x<sup>2</sup> + y<sup>2</sup> + 2gx + 2fy + c = 0.
+				    <br/><b>•	Equation of a Ellipse</b>
+				    <br/>An ellipse is the locus of a point, which moves such that the ratio ‘e’ of its distance from a fixed point and a fixed straight line is a constant and e≤1
+					<br/>The equation of an ellipse in the standard form is x<sup>2</sup> / a<sup>2</sup> +  y<sup>2</sup>  /b<sup>2</sup>  = 1, where a and b are the lengths of the major and minor axis of ellipse.
+				    <br/>-----diagram----
+				    <br/>Area of ellipse = π (ab)
+					<br/>Perimeter = π (a + b)
+					<br/>If a = b ellipse is circle.	    
+				    
 					"}],
 		"examples":
 					[ {"example1":
@@ -522,25 +582,25 @@
 					"
 					<br/>Ratio of their shares	= 22500 : 35000
 					<br/>	=9 : 14.
-					<br/>Jack's share	= $(13800Ãƒâ€”14/23)
+					<br/>Jack's share	= $(13800ÃƒÆ’Ã¢â‚¬â€�14/23)
 					<br/>	= $ 8400.
 
 					"},
 					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
 					"explanation10":
 					"
-					<br/>Rebakah : Haley : Juely	=(8000Ãƒâ€”6):(4000Ãƒâ€”8):(8000Ãƒâ€”8)
+					<br/>Rebakah : Haley : Juely	=(8000ÃƒÆ’Ã¢â‚¬â€�6):(4000ÃƒÆ’Ã¢â‚¬â€�8):(8000ÃƒÆ’Ã¢â‚¬â€�8)
 					<br/>	= 48 : 32 : 64
 					<br/>	= 3 : 2 : 4.
-					<br/>Haley's share	= $4005Ãƒâ€”2/9)
+					<br/>Haley's share	= $4005ÃƒÆ’Ã¢â‚¬â€�2/9)
 					<br/>	= $890.
 					"},
 					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
 					"explanation11":
 					"
 					<br/>Suppose B joined after x months.
-					<br/>Then,	21000Ãƒâ€”12=36000Ãƒâ€”(12 - x)
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº36x=180
+					<br/>Then,	21000ÃƒÆ’Ã¢â‚¬â€�12=36000ÃƒÆ’Ã¢â‚¬â€�(12 - x)
+					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº36x=180
 					<br/>	= x= 5.
 					"},
 					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
@@ -548,17 +608,17 @@
 					"
 					<br/>Suppose Y invested $y
 					<br/>Then,	40000 /y = 2 / 3
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=(40000Ãƒâ€”3 / 2).
-					<br/>	Ã¢â‚¬Â¹=Ã¢â‚¬Âº y=60000.
+					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº y=(40000ÃƒÆ’Ã¢â‚¬â€�3 / 2).
+					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº y=60000.
 
 					"},
 					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
 					"explanation13":
 					"
-					<br/>A : B : C	=(10Ãƒâ€”7):(12Ãƒâ€”5):(15Ãƒâ€”3)
+					<br/>A : B : C	=(10ÃƒÆ’Ã¢â‚¬â€�7):(12ÃƒÆ’Ã¢â‚¬â€�5):(15ÃƒÆ’Ã¢â‚¬â€�3)
 					<br/>	= 70 :60 :45
 					<br/>	= 14 :12 :9
-					<br/>c's rent	=$(175Ãƒâ€”9/35)
+					<br/>c's rent	=$(175ÃƒÆ’Ã¢â‚¬â€�9/35)
 					<br/>	= $45.
 
 					"},
@@ -584,36 +644,85 @@
 	},
 	{
 		"num":"5",
-		"topic":"Percentages",
+		"topic":"Triangles",
 		"contents":
 					[ {"content1":
 					"
-					<br/>The term percent means for every hundred. A fraction whose denominator is 100 called a percentage and the numerator of the fraction is called the rate percent. It is denoted as symbol %
-					<br/><b>Important Applications:-</b> 
-					<br/><b>1:-</b> To find % equivalent of a fraction or decimal, multiply that fraction/decimal to 100.
-					<br/>Ex. 2/5 = (2/5)*100 = 40%
-					<br/><b>2:-</b> To increase a number by a given rate (%), multiply the number to (100+ rate)/100.
-					<br/>Ex. Increase 40 by 30% = 40X (100+30)/100 = 40X130/100 = 52					
-					<br/><b>3:-</b> To decrease a number by a given rate (%), multiply the number to (100- rate)/100.
-					<br/>Ex. Decrease 40 by 30% = 40X (100-30)/100 = 40X70/100 = 28					
-					<br/><b>4:-</b> % increase of a number = (Total Increase/ Initial Value) X 100.
-					<br/>Ex. Price of Car has been increased from 400,000 to 500,000, find the % increase. = [(500,000-400,000)/400,000] X 100 = (100,000/400,000)X100 = 25%
-					<br/><b>5:-</b>% decrease of a number = (Total Decrease/ Initial Value) X 100
-					<br/>Ex. Price of Dell Laptop has Fallen from 25,000 to 20,000, find the % decrease. = [(25,000-20,000)/25,000] X 100 = (5,000/25,000)X100 = 20%
-					<br/><b>6:-</b>If the present value of a machine is P and it depreciates by r% anually, the value of machine after n years is = P*[(1-(R/100))^n]
-					<br/><b>7:-</b>If A's income is r% more than of B, then B's income is less than of A by [(r/(100+r))*100]%
-					<br/><b>8:-</b>If A's income is r% less than of B, then B's income is more than of A by [(r/(100-r))*100]%
-					<br/><b>9:-</b> If the price of a commodity increase by r% then reduction in consumption, so as not to increase the expenditure is [(r/(100+r))*100]%
-					<br/><b>10:-</b>If the price of a commodity decrease by r% then increasae in consumption, so as not to decrease the expenditure is [(r/(100-r))*100]%
+					<br/>The plane figure bounded by the union of 3 lines, which join 3 non – collinear points, is called a triangle. It is denoted by symbol ∆.
+					<br/><b>Properties of Triangle:</b>
+					<br/>---diagram-----
+					<br/>The sum of interior angles of a triangle is 180°.
+					<br/>The sum of an interior angle and the adjacent exterior angle is 180°.
+					<br/>Two exterior angles having same vertex are congruent.
+					<br/>The sum of lengths of any 2 sides of a triangle is always greater than the third side. In ∆ABC a + b > c ; b + c > a ; a + c > b
+					<br/>The difference of any 2 sides is always less than the 3rd side.
+				    <br/>In ∆ ABC a – b < c; b – c < a; a – c < b
+				    <br/>A triangle will have at least 2 acute angles
+					<br/><b>Types of Triangles:	</b>			
+					<br/>With regard to their sides, triangles are of 3 types
+					<br/>------diagram--
+					<br/>With regard to angles, triangles are of three types:
+					<br/>------diagram--
+					<br/><b>Similarity of Triangles:</b>
+					<br/>When Are Triangles Similar?
+					<br/>Two triangles are similar if any one of the following three possible scenarios is met:
+					<br/>1.	AAA [Angle Angle Angle] - The corresponding angles of each triangle have the same measurement. In other words, the above triangles are similar if: Angle L = Angle O; Angle N = Angle Q; Angle M = Angle P
+					<br/>2.	SAS [Side Angle Side] - An angle in one triangle is the same measurement as an angle in the other triangle and the two sides containing these angles have the same ratio. In other words, the above triangles are similar if: Angle L = Angle O; Side LM/Side OP = Side LN/Side OQ
+					<br/><b>Note:</b> Any other combination of side, angle, side also proves similarity.
+					<br/>3.	SSS [Side Side Side] - Each pair of corresponding sides have the same ratio. In other words, the above triangles are similar if: Side LM/Side OP = Side LN/Side OQ = Side MN/Side PQ 			
+					<br/><b>Properties of Similar Triangles:</b>
+					<br/>1.	Corresponding angles are the same measurement.
+					<br/>2.	The perimeter of each triangle is in the same ratio as the sides.
+					<br/>3.	Corresponding sides are all in the same proportion.
+					<br/>4.	The triangles on each side of the altitude drawn from the vertex of the right angle to the hypotenuse are similar to the original triangle and to each other.
+					<br/><b>Congruency of Triangles:</b>
+					<br/>When Are Triangles Congruent?
+					<br/>Two triangles are congruent if any one of the following three possible scenarios is met:
+					<br/>1.	SAS [Side Angle Side] - Two pairs of corresponding sides are equal and the corresponding angle between the sides is equal. In other words, the above triangles are congruent if: Side SW = Side UV; Angle W = Angle V; Side WR = Side VT
+					<br/><b>Note:</b> Any other combination of side, angle, side also proves congruence.
+					<br/>2.	ASA [Angle Side Angle] - Two pairs of corresponding angles are equal and the corresponding side between them is equal. In other words, the above triangles are congruent if: Angle R = Angle T; Side RW = Side TV; Angle W = Angle V
+					<br/><b>Note:</b> Any other combination of angle, side, angle also proves congruence.
+					<br/>3.	SSS [Side Side Side] - All three pairs of corresponding sides are equal. In other words, the above triangles are congruent if: Side RS = Side TU; = Side RW = Side TV; Side SW = Side UV
+					<br/><b>Properties of Congruent Triangles:</b>
+					<br/>1.	Corresponding angles have the same measurement.
+					<br/>2.	Corresponding sides have the same measurement.
+					<br/><b>Triangle Based Theorems:</b>
+					<br/><b>•	Pythagoras Theorem: </b>
+					<br/>In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other 2 sides.
+					<br/>AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup>
+					<br/>-------diagram --------
+					<br/>In an 'Obtuse angle triangle', AB<sup>2</sup> + BC<sup>2</sup> < AC<sup>2</sup>
+					<br/>In an 'Acute angle triangle', AB<sup>2</sup> + BC<sup>2</sup> < AC<sup>2</sup>
+					<br/><b>•	Midpoint Theorem:</b>
+					<br/>The segment joining the midpoints of any 2 sides of triangle is parallel to the third side and is half of the third side.
+					<br/>-------diagram --------
+					<br/>If AD = DB, AE = EC, then DE is parallel to BC and DE = 1/2BC
+					<br/><b>•	Basic Proportionality Theorem:</b>
+					<br/>If a line is drawn parallel to one side of a triangle and intersects other sides in 2 distinct points, then the other sides are divided in the same ratio by it.
+					<br/>-------diagram --------
+					<br/>If DE is parallel to BC, then AD/DB=  AE/EC
+					<br/><b>•	Interior Angle Bisector Theorem:</b>
+					<br/>The angle bisector of any angle of a triangle divides the side opposite to the angle in the ratio of the remaining two sides.
+					<br/>-------diagram --------
+					<br/>In ∆ ABC, if AD is the angle bisector of ∠ BAC, then, AB/AC=  BC/CD
+					<br/><b>•	Exterior Angle Bisector Theorem:</b>
+					<br/>The angle bisector of any exterior angle of a triangle divides the side opposite to the angle (externally) in the ratio of the remaining two sides.
+					<br/>-------diagram --------
+					<br/>In ∆ ABC, CD is the exterior angle bisector, Here, CA/CB=  BD/CD
+					<br/><b>•	Appollonius Theorem:</b>
+					<br/>The sum of squares of any two sides of a triangle is equal to twice the sum of the square of the median to the third side and square of half the third side:
+					<br/>-------diagram --------
+					<br/>AD is the median of ∆ ABC. AB<sup>2</sup> + AC<sup>2</sup> = 2(AD<sup>2</sup> + DC<sup>2</sup>)
+					
 					"}],
 		"examples":
 					[ {"example1":
 					"
 					<b>A test has 20 questions. If peter gets 80% correct, how many questions did peter missed?</b>
-					<br/>The number of correct answers is 80% of 20 or 80/100 Ã— 20
-					<br/>80/100 Ã— 20 = 0.80 Ã— 20 = 16
+					<br/>The number of correct answers is 80% of 20 or 80/100 Ãƒâ€” 20
+					<br/>80/100 Ãƒâ€” 20 = 0.80 Ãƒâ€” 20 = 16
 					<br/>Recall that 16 is called the percentage. It is the answer you get when you take the percent of a number
-					<br/>Since the test has 20 questions and he got 16 correct answers, the number of questions he missed is 20 âˆ’ 16 = 4
+					<br/>Since the test has 20 questions and he got 16 correct answers, the number of questions he missed is 20 Ã¢Ë†â€™ 16 = 4
 					<br/>Peter missed 4 questions
 
 					"},
@@ -621,7 +730,7 @@
 					"
 					<b>24 students in a class took an algebra test. If 18 students passed the test, what percent do not pass?</b>
 					<br/>First, find out how many student did not pass.
-					<br/>Number of students who did not pass is 24 âˆ’ 18 = 6
+					<br/>Number of students who did not pass is 24 Ã¢Ë†â€™ 18 = 6
 					<br/>Then, write down the following equation:
 					<br/>x% of 24 = 6 or x% times 24 = 6
 					<br/>To get x%, just divide 6 by 24
@@ -730,7 +839,7 @@
 					 "
 					 <br/>4% of a is  = 4a/100
 					<br/>Since this equals 8, we have 4a/100 = 8
-					<br/>Solving for a yields a=8Ã—(100/4) = 200
+					<br/>Solving for a yields a=8Ãƒâ€”(100/4) = 200
 					<br/>Also, 8% of b equals = 8b/100, and this equals 4
 					<br/>Hence, we have (8/100) X b = 4
 					<br/>Solving for b yields  b = 50.
@@ -745,14 +854,14 @@
 					<br/>So, (D) is correct.
 					 
 					 "},
-					 {"question12":"If 50% of x equals the sum of y and 20, then what is the value of x â€“ 2y?", "answer12":"40", "option12":"20;40;60;80",
+					 {"question12":"If 50% of x equals the sum of y and 20, then what is the value of x Ã¢â‚¬â€œ 2y?", "answer12":"40", "option12":"20;40;60;80",
 					 "explanation12":
 					 "
 					 <br/>50% of x equals the sum of y and 20. Expressing this as an equation yields:
 					<br/>(50/100) X x=y+20
 					<br/>x/2 = y+20
 					<br/>x=2y+40
-					<br/>xâ€“2y=40
+					<br/>xÃ¢â‚¬â€œ2y=40
 					 
 					 "},
 					 {"question13":"A vendor sells 60 percent of apples he had and throws away 15 percent of the remainder. Next day he sells 50 percent of the remainder and throws away the rest. What percent of his apples does the vendor throw?", "answer13":"23", "option13":"17;23;77;None of these",
@@ -786,33 +895,92 @@
 	},
 	{
 		"num":"6",
-		"topic":"Profit & Loss",
+		"topic":"Circles",
 		"contents":
 					[ {"content1":
 					"
-					<br/>The price at which a person buys a product is the cost price of the product, known as CP
-					<br/>The price at which a person sells a product is the Sales price of the product, known as SP.
-					<br/>If SP>CP, the difference, SP-CP is known as profit or gain.
-					<br/>Profit = SP-CP
-					<br/>Profit % = (Profit/CP)*100 (see example 1)
-					<br/>SP = CP*[(100+Profit%)/100]
-					<br/>CP = (100*SP)/(100+Profit%)
-					<br/>If however, SP<CP, then the difference, CP-SP is Loss.
-					<br/>Loss = CP-SP
-					<br/>Loss % = (Loss/CP)*100
-					<br/>SP = CP*[(100-Loss%)/100]
-					<br/>CP = (100*SP)/(100-Loss%)
-					<br/><b>Important Points :- </b>
-					<br/>1. IF an article is sold at a profit of x% SP = (100+x)% of CP
-					<br/>2. IF an article is sold at a loss of y% SP = (100-x)% of CP
-					<br/>3. When a person sells 2 items of same cost as 1 at a profit of x% and other at a loss of x%, He will always incur loss. Loss% = x2/100
-					<br/>4. If a shopkeeper sells his goods at C.P., but uses false weight of x kg, his profit is: Profit% = [True weight - False weight)/False weight]*100
-					<br/>5. While selling goods, adding a certain percentage on the cost price is known as marked price, And  this % addition is known as percentage mark up.
-					<br/>Marked Price = CP + Mark up
-					<br/>Marked Price = CP + % Mark up on CP
-					<br/>If discount is also given on this, Selling Price = Marked Price - % discount.
-					<br/>6. If goods are sold as buy x get y free then Discount % = [y/(x+y)]*100
-					<br/>7. If 2 successive discounts x% and y% is given then, Effective discount = [(x+y) - xy/100]%
+					<br/>The set of point in a given plane, which lie at a fixed distance from a fixed point, forms a circle. The fixed point is called the centre of the circle and fixed distance is called the radius (r) of the circle. 
+					<br/>--------diagram--------
+					<br/><b>Circumference(c):</b>
+					<br/>The circumference of a circle is the distance around the circle. It contains 360° at the circle. The value of circumference is equal to 2πr. C = 2πr, where π = 22/7 = 3.1416
+					<br/><b>Secant:</b>
+					<br/>A secant is a line, which intersects the circle in two distinct points.
+					<br/><b>Chord:</b>
+					<br/>A chord is a segment whose endpoints lie on the circle. 
+					<br/><b>Diameter(d):</b>
+					<br/>The diameter is the chord passing through the center of the circle. The length of the diameter of a circle is twice the radius of the circle.  Diameter is the largest chord of the circle.
+					<br/><b>Tangent:</b>
+					<br/>Tangent is a line in the plane of a circle and having one and only one point common with the circle. The common point is called the point of contact.
+					<br/><b>Semicircle:</b>
+					<br/>Half of a circle cut off by a diameter is called the semicircle. 
+					<br/><b>Arc:</b>
+					<br/>An arc is a part of a circle. A minor arc is an arc less  than a semicircle and a major arc is an arc greater than a semi circle.
+					<br/><b>Central Angle:</b>
+					<br/>An angle in the plane of the circle with its vertex at the centre is called a central angle.
+					<br/><b>Type of circles</b>
+					<br/><b>1.	Congruent Circles:</b>
+					<br/>Circles with equal radius are called congruent circles.
+					<br/><b>2.	Concentric Circles</b>
+					<br/>Circles lying in the same plane with a common centre are called concentric circles.
+					<br/><b>3.	Tangent Circles</b>
+					<br/>Circles lying in same plane and having one and only one point in common are called tangent circles
+					<br/><b>Properties of Chords, Tangents & Secants</b>
+					<br/><b>Chords</b>
+					<br/>1.	The perpendicular from the centre of a circle to a chord bisect the chord.
+					<br/>--------diagram--------
+					<br/>2.	Equal chords of a centre or congruent circles are equidistant from the centre.
+					<br/>--------diagram--------
+					<br/>If AB = CD, then OM = ON. Conversely, two chords of a circle or congruent circles that are equidistant from the centre are equal. If OM = ON, then AB = CD.
+					<br/>3.	In a circle or congruent circles, equal chords subtend equal angles at the centre. If AB = CD, then m ∠ COD = m∠ AOB.
+					<br/>--------diagram--------
+					<br/>Conversely, chords, which subtend equal angles at the centre of the same or congruent circles, are equal. If  m ∠ COD = m∠ AOB, then AB = CD
+					<br/><b>Tangent</b>
+					<br/>1.	The tangent at any point of a circle and the radius through that point are perpendicular to each other. (Tangent Perpendicular theorem)
+					<br/>--------diagram--------
+					<br/>2.	Given a point on the circle, there is one and only one tangent to the circle passing through that point.
+					<br/>3.	From an exterior point of the circle, two tangents can be drawn onto the circle.
+					<br/>4.	The length of 2 tangent segments, from the exterior point to the circle, are equal
+					<br/>--------diagram--------
+					<br/>PA = PB and OA ⊥ AP, OB ⊥ PB and OAPB is a kite.
+					<br/>5.	If two circles are such that one lies completely inside the other without touching each other then there will be no tangent common to these circles.
+					<br/>6.	If two circles touch externally, then distance between their centers = Sum of their radius. Distance between centers = O1P + O2P
+					<br/>--------diagram--------
+					<br/>If two circles touch internally, then they have only one common tangent. Distance between their centers = Difference of their radius. Distance between centers = O1P - O2P
+					<br/>7.	For two circles with Centers O1 and O2 and radius of r1 and r2 for two circles. Then, Length of Direct Common Tangent = √((distance between centers)<sup>2</sup> – (r1-r2)<sup>2</sup> )
+					<br/>Length of Direct Common Tangent =  √((distance between centers)<sup>2</sup> – (r1+r2)<sup>2</sup> )
+					<br/>--------diagram--------
+					<br/><b>Tangent – Secant – Chord Properties</b>
+					<br/>1.	The angle subtended by a diameter.
+					<br/>	a)	A diameter of a circle subtends an obtuse angle at a point in the interior of the circle.
+					<br/>	b)	A diameter of a circle subtends an acute angle at a point in the exterior of the circle.
+					<br/>	c)	A diameter of a circle subtends a right angle at a point on the circle.
+					<br/>--------diagram--------
+					<br/>Conversely, if a chord subtends a right angle at a point on the circle, then the chord is diameter of the circle.
+					<br/>2.	Angles inscribed in the same arc are equal and vice versa.
+					<br/>--------diagram--------
+					<br/>3.	If a line segment joining 2 points subtends equal angles at two other points lying on the same side of the line containing the segment, then the four points lie on the same circle.
+					<br/>4.	Equal arcs of a circle or congruent circles have equal chords. 
+					<br/>--------diagram--------
+					<br/>If m(arc AB) = m (arc CD), then AB = CD. Conversely, equal chords of a circle or congruent circles have their corresponding arcs equal. If AB = CD, then m(arc AB) = m (arc CD)
+					<br/>5.	Inscribed Angle Theorem: - The measure of an inscribed angle is half the measure of its intercepted arc. 
+					<br/>--------diagram--------
+					<br/>m∠APB = ½ m (Arc AB) = ½ m ∠ AOB
+					<br/>6.	Alternate Segment Theorem:- The angle formed by a tangent and secant is half the intercepted arc.
+					<br/>--------diagram--------
+					<br/>m ∠ AEC = m ∠ CDE
+					<br/>7.	If two secants intersect in the exterior of a circle, the angle so formed is equal to half the difference of the measure of the arcs intercepted by them.
+					<br/>--------diagram--------
+					<br/>m ∠ CAE = ½ [m (arc CE – arc BD]
+					<br/>8.	If two secants intersect in the interior of the circle, the angle so formed is equal to half the sum of the measure of the arcs intercepted by them.
+					<br/>--------diagram--------
+					<br/>m ∠ AEB = ½ [m (arc CD + arc AB]
+					<br/>9.	If a tangent and a secant intersect in the exterior of a circle, the angle so formed is equal to half the difference of the measure of the arc intercepted by them.
+					<br/>--------diagram--------
+					<br/>m ∠ APD = ½ [m (arc AD – arc BD]
+					<br/>10.	If PD is a tangent and AP is a secant intersecting the circle at B, then PD<sup>2</sup>=PB X PA
+					<br/>11.	If AB and CD are two secants intersecting at point O then, AO X BO = CO X DO
+					
+					
 					"}],
 		"examples":
 					[ {"example1":
@@ -841,7 +1009,7 @@
 					 "
 					 <br/>Let C.P. = Rs. 100. Then, marked price = Rs. 150.
 					<br/>S.P. = 75% of Rs. 150 = Rs. 112.50.
-					<br/>âˆ´ Gain% = 12.50%
+					<br/>Ã¢Ë†Â´ Gain% = 12.50%
 					 
 					 "},
 					{"question2":"A retailer buys 40 pens at the marked price of 35 pens from a wholesaler. If he sells these pens giving a discount of 1%, what is the profit percent?", "answer2":"10 %", "option2":"12 %;10 %;15 %;16 %",
@@ -849,25 +1017,25 @@
 					 "
 					 <br/>Let the marked price of each pen be Re. 1.
 					<br/>Then, C.P. of 40 pens = Rs. 36. S.P. of 40 pens = 99% of Rs. 40 = Rs. 39.60.
-					<br/>âˆ´ Profit% = [3.60/36 * 100]% = 10%.
+					<br/>Ã¢Ë†Â´ Profit% = [3.60/36 * 100]% = 10%.
 					 
 					 "},
 					 {"question3":"John bought 15 apples for Rs.10 and sold them at the rate of 12 apples for Rs.12. What is the percentage of profit made by him?", "answer3":"50 %", "option3":"50 %;60 %;65 %;100 %",
 					 "explanation3":
 					 "
-					 <br/>He got profit â‡’ profit % = 15/10 * 12/12 = 1.5 â‡’ 50%.
+					 <br/>He got profit Ã¢â€¡â€™ profit % = 15/10 * 12/12 = 1.5 Ã¢â€¡â€™ 50%.
 					 "},
 					 {"question4":"30% loss on cost price in what percent loss on selling price?", "answer4":"42.85 %", "option4":"28 %;38 %;40.35 %;42.85 %",
 					 "explanation4":
 					 "
-					 <br/>Loss = 30% on CP i.e., 0.3CP â‡’ SP = 0.7CP Loss % on 
+					 <br/>Loss = 30% on CP i.e., 0.3CP Ã¢â€¡â€™ SP = 0.7CP Loss % on 
 					 <br/>SP = loss/SP * 100 = 0.3CP/0.7CP * 100 = 42.85%.
 					 
 					 "},
 					 {"question5":"David purchased a house for Rs.75000 and a site for Rs.15000 respectively, if he sold the house for Rs.83000 and the site for Rs.10000, then find the resultant percentage of gain?", "answer5":"3.33 %", "option5":"30 %;300/3 %;31/3 %;3.33 %",
 					 "explanation5":
 					 "
-					 <br/>Total CP = 90000 & total SP = 93000 â‡’ gain = SP/CP = 93000/90000 = 1.0333 = 3.33%.
+					 <br/>Total CP = 90000 & total SP = 93000 Ã¢â€¡â€™ gain = SP/CP = 93000/90000 = 1.0333 = 3.33%.
 					 "},
 					 {"question6":"If the cost price of 20 articles is equal to the selling price of 25 articles, what is the % profit or loss made by the merchant?", "answer6":"20 % loss", "option6":"25 % loss;25 % profit;20 % loss;20 % profit",
 					 "explanation6":
@@ -939,7 +1107,7 @@
 					 {"question11":"One-fifth of the cost price, one-seventh of the marked price and one-sixth of the selling price are all equal. What is the gain or loss to the trader?", "answer11":"20 %", "option11":"120 %;140 %;162/3 %;20 %",
 					 "explanation11":
 					 "
-					 <br/>CP/5 = SP/6 â‡’ SP/CP = 1.2 â‡’ 20% gain.
+					 <br/>CP/5 = SP/6 Ã¢â€¡â€™ SP/CP = 1.2 Ã¢â€¡â€™ 20% gain.
 					 "},
 					 {"question12":"If an article is sold at 5% gain instead of 5% loss,the seller gets Rs 6.72 more. The C.P of the article is?", "answer12":"148.81", "option12":"132.82;138.55;148.81;150.45",
 					 "explanation12":
@@ -958,9 +1126,9 @@
 					 "
 					 <br/>Let C.P. be Rs. 100. Then, S.P. = Rs. 123.50.
 					<br/>Let marked price be Rs. x. Then, 
-					<br/>95/100x = 123.50 â‡’ x = Rs. [12350/95] = Rs. 130.
+					<br/>95/100x = 123.50 Ã¢â€¡â€™ x = Rs. [12350/95] = Rs. 130.
 					<br/>Now, S.P. = Rs. 130, C.P. = Rs. 100.
-					<br/>âˆ´ Profit% = 30%.
+					<br/>Ã¢Ë†Â´ Profit% = 30%.
 					 
 					 "},
 					 {"question15":"Even after reducing the marked price of a transistor by Rs. 32, a shopkeeper makes a profit of 15%. If the cost price be Rs.320, what percentage of profit would he have made if he had sold the transistor at the marked price?", "answer15":"", "option15":"18 %;20 %;25 %;32 %",
@@ -968,591 +1136,9 @@
 					 "
 					 <br/>C.P. = Rs. 320, Profit = 15%
 					<br/>S.P. Rs. [115/100 * 320] = Rs. 368. Marked price = Rs. (368 + 32) = Rs. 400.
-					<br/>âˆ´ Required profit% = [80/320 * 100] % = 25%
-					 
-					 "}
-					]
-	},
-	{
-		"num":"7",
-		"topic":"Ratio & Proportion",
-		"contents":
-					[ {"content1":
-					"
-					<b>1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>...+10<sup>2</sup> = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
-					"}],
-		"examples":
-					[ {"example1":
-					"
-					<b>If x/y = 4/5, find the value of (3x+4y)/(4x+3y)</b>
-					<br/>(3x+4y)/(4x+3y) = (3x/y+ 4)/(4x/y+3)=  (3 X 4/5+ 4)/(4 X 4/5+ 3) = 32/31
-					"},
-					{"example2":
-					"
-					<b>Find the greatest of 3 natural numbers which are in the ratio 3 : 2 : 5, if the sum of their squares is 1862</b>
-					<br/>If the numbers are 3x, 2x and 5x, then 9x<sup>2</sup>+ 4x<sup>2</sup>+ 25x<sup>2</sup>=1862
-					<br/>So x<sup>2</sup> = 49 or x = 7
-					<br/>So the greatest number = 5x = 35
-
-					"}],
-		"practices":
-					[					
-					{"question1":"A sum of money is to be distributed among A, B, C, D in the proportion of5:2:4:3. If C gets $ 1000 more than D, what is B's share?", "answer1":"2000", "option1":"500;1500;2000;None of these",
-					 "explanation1":
-					 "
-					 <br/>Let the shares of A, B, C and D be $ 5x, $ 2x, $ 4x and $ 3x respectively.
-					<br/>Then, 4xâˆ’3x=1000
-					<br/>â‡’ x=1000.
-					<br/>B's share =$2x=$(2Ã—1000)= $ 2000.
-					 
-					 "},
-					{"question2":"A sum of $312 was divided among 100 boys and girls in such a way that the boy gets $3.60 and each girl $2.40 the number of girls is", "answer2":"40", "option2":"35;40;45;50",
-					 "explanation2":
-					 "
-					 <br/>Step (i) Let x be the number of boys and y be the number of girls. 
-					<br/>Given total number of boys and girls = 100
-					<br/>x+y=100           -------------- (i)
-					<br/>Step (ii) A boy gets $ 3.60 and a girl gets $ 2.40
-					<br/>The amount given to 100 boys and girls = $ 312
-					<br/>3.60x+2.40y=312 -------------- (ii)
-					<br/>Step (iii) 
-					<br/>Solving (i) and (ii)
-					<br/>3.60x+3.60y=360       ------- Multiply (i) by 3.60
-					<br/>â‡’ 3.60x+2.40y=312 --------- (ii)
-					<br/>1.20y=48
-					<br/>y= (48/1.20) = 40
-					<br/>â‡’ Number of girls = 40
-					 
-					 "},
-					 {"question3":"In a mixture 60 litres, the ratio of milk and water 2:1. If the this ratio is to be1:2, then the quantity of water to be further added is:", "answer3":"60 liters", "option3":"20 liters;30 liters;40 liters;60 liters",
-					 "explanation3":
-					 "
-					 <br/>Quantity of milk =(60Ã—2/3)litres =40 litres.
-					<br/>Quantity of water in it =(60âˆ’40) litres =20 litres.
-					<br/>New ratio =1:2
-					<br/>Let quantity of water to be added further be x litres.
-					<br/>Then, milk : water
-					<br/>Now, [40/(20 + x)] = 1/2
-					<br/>â‡’ 20+x=80
-					<br/>â‡’ x= 60				 
-					 "},
-					 {"question4":"Seats for Mathematics, Physics and Biology in a school are in the ratio 5:7:8. There is a proposal to increase these seats by 40%, 50% and 75% respectively. What will be the ratio of increased seats?", "answer4":"2:3:4", "option4":"2:3:4;2:3:5;6:7:8;6:8:9",
-					 "explanation4":
-					 "
-					 <br/>Originally, let the number of seats for Mathematics, Physics and Biology be 5x, 7x and 8x respectively.
-					<br/>Number of increased seats are (140% of 5x), (150% of 7x) and (175% of 8x).
-					<br/>â‡’ (140/100Ã—5x),(150/100Ã—7x)and( 175/100Ã—8x)
-					<br/>â‡’ 7x, 21x/2 and14x.
-					<br/>â‡’ The required ratio =7x:21x/2:14x
-					<br/>â‡’ 14x:21x:28x
-					<br/>â‡’ 2 : 3 : 4
-					 
-					 "},
-					 {"question5":"If 40% of a number is equal to two-third of another number, what is the ratio of first number to the second number?", "answer5":"5:3", "option5":"2:5;3:7;5:3;7:3",
-					 "explanation5":
-					 "
-					 <br/>Let 40% of A= 2/3
-					<br/>Then, 
-					<br/>40A/100 = 2B/3
-					<br/>â‡’ 2A/5 = 2B/3
-					<br/>â‡’ A:B= 5 : 3.					 
-					 "},
-					 {"question6":"The third proportional to 0.36 and 0.48 is :", "answer6":"0.64", "option6":"0.64;0.1728;0.42;0.94",
-					 "explanation6":
-					 "
-					 <br/>Let the third proportional to 0.36 and 0.48 be x
-					<br/>Then, 0.36 : 0.48 :: 0.48 : x	 
-					<br/>	 	x =	 	0.48 x 0.48
-					<br/>0.36
-					<br/>	 	 = 0.64.
-										 
-					 "},
-					 {"question7":"The salaries of A, B, C are in the ratio 2 : 3 : 5. if the increments of 15%, 10% and 20% are allowed respectively in their salaries, then what will be the new ratio of their salaries?", "answer7":"", "option7":"3 : 3 : 10;10 : 11 : 20;23 : 33 : 60;Cannot be determined",
-					 "explanation7":
-					 "
-					 <br/>Let A = 2k, B = 3k and C = 5k.
-					<br/>	A's new salary =	115
-					<br/>100
-					<br/>	 of 2k =	 	115
-					<br/>100
-					<br/>	 x 2k	 	=	23
-					<br/>10
-					<br/>	 k	 	 	 
-					<br/>
-					<br/> 
-					<br/> 	B's new salary =	110
-					<br/>100
-					<br/>	 of 3k =	 	110
-					<br/>100
-					<br/>	 x 3k	 	=	33
-					<br/>10
-					<br/>	 k	 	 	 
-					<br/>
-					<br/> 
-					<br/> 	C's new salary =	120
-					<br/>100
-					<br/>	 of 5k =	 	120
-					<br/>100
-					<br/>	 x 5k	 	 = 6k	 	 	 	 
-					<br/> 	New ratio =	23k
-					<br/>10
-					<br/>	:	33k
-					<br/>10
-					<br/>	 : 6k = 23 : 33 : 60.
-
-					 
-					 "},
-					 {"question8":"Zinc and copper are melted together in the ratio 9 : 11. What is the weight of melted mixture, if 28.8 kg of zinc has been consumed in it?", "answer8":"64 kg", "option8":"58 kg;64 kg;68 kg;70 kg",
-					 "explanation8":
-					 "
-					 <br/>For 9 kg zinc, mixture melted = (9 + 11) kg.
-					<br/>For 28.8 kg zinc, mixture melted =	 	20
-					<br/>9
-					<br/>	 x 28.8	 	 kg = 64 kg.
-					 
-					 "},
-					 {"question9":"If 40% of a number is equal to two-third of another number, What is the ratio of first number to the second number?", "answer9":"5 : 3", "option9":"5 : 3;3 : 7;7 : 3;11 : 3",
-					 "explanation9":
-					 "
-					 <br/>Let 40% of A =2/3B. Then,40A/100=2/3B
-					 <br/>2A/5=2B/3
-					 <br/>A/B=2/3 x 5/2=5/3
-					 <br/>A : B = 5 : 3.
-					 "},
-					 {"question10":"The ratio of 43.5 : 25 is same as :", "answer10":"4 : 1", "option10":"2 : 1;4 : 1;7 : 5;7 : 10",
-					 "explanation10":
-					 "
-					 
-					 "},
-					 {"question11":"A and B are two alloys of gold and copper prepared  by mixing metals in the ratio 7 : 2 and 7 : 11 respectively. If equal quantities of the alloys are melted to form a third alloy C, the ratio of gold and copper in C will be:", "answer11":"7 : 5", "option11":"5 : 7;5 : 9;7 : 5;9 : 5",
-					 "explanation11":
-					 "
-					 <br/>Gold in C =	 	7/9	+	7/18 units =	7/6 units. Copper in C =	 	2/9	+	11/18 units =	5/6 units.
-					 <br/>Gold : Copper =	7/6 :	5/6	 = 7 : 5.
-
-					 "},
-					 {"question12":"In a bag, there are coins of 25 p. 10 p and 5 p in the ratio of 1 : 2 : 3. If there are $ 30 in all, how many 5 p coins are there?", "answer12":"150", "option12":"150;100;50;200",
-					 "explanation12":
-					 "
-					 <br/>Let the number of 25 p, 10 p  and 5 p coins x, 2x and 3x respectively.
-					<br/>Then, sum of their values = $	 	25X/100	+	10 x 2X/100	+	5 x 3X/100 	 = $	60x/100
-					<br/>60x/100	 = 30,	 x =	30 x 100/60	 = 50.	 	 	 
-					<br/>Hence, the number of 5 p coins = (3 x 50) = 150.
-					 
-					 "},
-					 {"question13":"If a carton containing a dozen mirrors is dropped, which of the following cannot be the ratio of broken mirrors to unbroken mirrors?", "answer13":"3 : 2", "option13":"2 : 1;3 : 1;3 : 2;7 : 5",
-					 "explanation13":
-					 "
-					 <br/>For dividing 12 into two whole numbers, the sum of the tatio terms must be a factor of 12. 
-					<br/>So, they cannot be in the ratio 3 : 2.
-					 
-					 "},
-					 {"question14":"The ratio of the incomes of A and B is 5 : 4 and the ratio of their expenditures is 3 : 2. If at the end of the year, each saves $ 1600, then the income of A is :", "answer14":"$ 4000", "option14":"$ 3400;$ 3600;$ 4400;$ 4000",
-					 "explanation14":
-					 "
-					 <br/>Let the incomes of A and B be $ 5x and $ 4x respectively
-					<br/>and let their expenditures be $ 3y and $ 2y respectively.
-					<br/>Then, 5x - 3y = 1600        ....(i)        and       4x - 2y = 1600        ....(ii)
-					<br/>On multiplying (i) by 2, (ii) by 3 and subtracting, we get : 2x = 1600	 	  x = 800.	 
-					<br/> A's income = $ 5x = $ (5 x 800) = $ 4000.
-
-					 "},
-					 {"question15":"If A : B = 2 : 3, B : C = 4 : 5 and C : D = 6 : 7, then A : B : C : D is:", "answer15":"16 : 24 : 30 : 35", "option15":"16 : 22 : 30 : 35;16 : 24 : 15 : 35;16 : 24 : 30 : 35;18 : 24 : 30 : 35",
-					 "explanation15":
-					 "
-					 <br/>A : B = 2 : 3, B : C = 4 : 5 =	 	4 x	3/4 	:	 	5 x	3/4	 	 = 3 :	15/4
-	 	 			 <br/>and C : D = 6 : 7 =	 	6 x	15/24 	:	 	7 x	15/24	 	=	15/4	:	35/8
- 	 				<br/> A : B : C : D = 2 : 3 :	15/4	:	35/8	 = 16 : 24 : 30 : 35.
-
-					 "}					
-					 ]
-	},
-	{
-		"num":"8",
-		"topic":"Time & Work",
-		"contents":
-					[ {"content1":
-					"
-					<b>1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>...+10<sup>2</sup> = 385</b>
-					<br/><b>Step 1:-</b> Add 1 to the last number of series: 10+1 = 11
-					<br/><br/><b>Step 2:-</b> Multiply last number of series to 2 and add 1: 10X2 + 1 = 21
-					<br/><br/><b>Step 3:-</b> Multiply numbers from step 1, Step 2 and last number of series: 11X21X10 = 2310
-					<br/><br/><b>Step 4:-</b> Divide this number by 6: 2310/6 = 385.
-					<br/><br/><b>Note:-</b>Or use this formula for adding  square of n numbers starting from 1: n(n+1)(2n+1)/6.
-					"}],
-		"examples":
-					[ {"example1":
-					"
-					<b>A group of laborers do a piece of work in 10 days, but five of them are absent and so rest do the work in 12 days, Find the original number of laborers.</b>
-					<br/>Men                            Days
-					<br/>X                                    10
-					<br/>x-5                                 12
-					<br/>So x/(x-5)=  12/10
-					<br/>Or 12x â€“ 60 = 10 x
-					<br/>Or x = 30
-					<br/>So original number of workers are 30
-
-					"},
-					{"example2":
-					"
-					<b>2 women, A and B can mow a field in 8 and 12 hours respectively. They work for an hour alternatively, A beginning at 9 a.m. When will the work will be completed?</b>
-					<br/>In the first 2 hours, A and B will mow (1/8+1/12)=  5/24 th of the field
-					<br/>In 8 hrs, 20/24 th of the work,  now left work is 4/24 th 
-					<br/>Now A works for 1 hour and does 1/8 th of the work; Work left = 1/24 th, which B can do in 1/2 hr. 
-					<br/>So total time taken = 8 + 1 + Â½ = 9 Â½ hrs.
-					<br/>So work will be over at 6:30 p.m.
-
-					"}],
-		"practices":
-					[					
-					{"question1":"A is thrice as good a workman as B and therefore is able to finish a job in 60 days less than B. Working together, they can do it in:", "answer1":"22.5 days", "option1":"20 days;22.5 days;25 days;30 days",
-					 "explanation1":
-					 "
-					 <br/>Ratio of times taken by A and B = 1 : 3.
-					<br/>If difference of time is 2 days, B takes 3 days.
-					<br/>If difference of time is 60 days, B takes	 	3/2	 x 60	 	 = 90 days.	 
-					<br/>So, A takes 30 days to do the work.
-					<br/>A's 1 day's work =	1/30	 ; B's 1 day's work =	1/90	 
-					<br/>(A + B)'s 1 day's work =	 	1/30	+	1/90 	=	4/90	=	2/45
-					<br/>	A and B together can do the work in	45/2	 = 22+1/2	 days.
-					 "},
-					{"question2":"A and B together can complete a work in 12 days. A alone can complete it in 20 days. If B does the work only for half a day daily, then in how many days A and B together will complete the work?", "answer2":"15 days", "option2":"10 days;11 days;15 days;20 days",
-					 "explanation2":
-					 "
-					 <br/>B's 1 day's work =	 	1/12	-	1/20	 	=	2/60	=	1/30
-					<br/>Now, (A + B)'s 1 day's work =	 	1/20	+	1/60	 	=	4/60	=	1/15.	[	 	  B works for half day only	]	 	 
-					<br/>So, A and B together will complete the work in 15 days.
-					 
-					 "},
-					 {"question3":"A, B and C can do a piece of work in 20, 30 and 60 days respectively. In how many days can A do the work if he is assisted by B and C on every third day?", "answer3":"", "option3":"12 days;15 days;16 days;8 days",
-					 "explanation3":
-					 "
-					 <br/>A's 2 day's work =	 	1/20	x 2	 	=	1/10
-					<br/>(A + B + C)'s 1 day's work =	 	1/20	+	1/30	+	1/60	 	=	6/60	=	1/10.
-					<br/>Work done in 3 days =	 	1/10	+	1/10	 	=	1/5	.
-					<br/>Now,	1/5	work is done in 3 days.
-					<br/>Whole work will be done in (3 x 5) = 15 days.
-					 
-					 "},
-					 {"question4":"If A can do	1/4	  of a work in 3 days and B can do	1/6	  of the same work in 4 days, how much will A get if both work together and are paid $ 180 in all?", "answer4":"$ 120", "option4":"$ 36;$ 60;$ 108;$ 120",
-					 "explanation4":
-					 "
-					 <br/>Whole wok is done by A in (3 x 4) = 12 days.
-					<br/>Whole work is done by B in (4 x 6) = 24 days.
-					<br/>Aâ€™s wages : Bâ€™s wages = Aâ€™s 1 dayâ€™s work : Bâ€™s 1 dayâ€™s work =	1/12	 :	1/24	 = 2 : 1	 
-					<br/>A's share = $	 	2/3	 x 180	 	 = $ 120.
-					 "},
-					 {"question5":"A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days. A lone can finish the remaining work?", "answer5":"6", "option5":"5;5.5;6;8",
-					 "explanation5":
-					 "
-					 <br/>B's 10 day's work =	 	1/15	 x 10	 	=	2/3 . Remaining work =	 	1 -	2/3	 	=	1/3
-					<br/>Now,	1/18 work is done by A in 1 day.	 
-					<br/>1/3  work is done by A in	 	18 x	1/3	 = 6 days.
-					 "},
-					 {"question6":"A can finish a work in 18 days and B can do the same work in half the time taken by A. Then, working together, what part of the same work they can finish in a day?", "answer6":"1/6", "option6":"1/6;1/9;2/5;1/13",
-					 "explanation6":
-					 "
-					 <br/>A's 1 day's work =	1/18	 and B's 1 day's work =	1/9
-	 				 <br/>(A + B)'s 1 day's work =	 	1/18	+	1/9	 	=	1/6
-					 "},
-					 {"question7":"A and B can do a piece of work in 30 days, while B and C can do the same work in 24 days and C and A in 20 days. They all work together for 10 days when B and C leave. How many days more will A take to finish the work?", "answer7":"18 days", "option7":"18 days;24 days;30 days;36 days",
-					 "explanation7":
-					 "
-					 <br/>2(A + B + C)â€™s 1 dayâ€™s work =	 	1/30	+	1/24	+	1/20	=	15/120	=	1/8
-					 <br/>(A + B + C)'s 1 day's work =	1/16
-	 				 <br/>Work done by A, B and C in 10 days =	10/16	=	5/8	. Remaining work =	 	1 -	5/8	 	=	3/8
-	 				 <br/>A's 1 day's work =	 	1/16	-	1/24	 	=	1/48
-	 				 <br/>Now,	1/48	 work is done by A in 1 day.
-	 				 <br/>So,	3/8	  Work will be done by A in	 	48 x	3/8	 	 = 18 days.
-
-					 "},
-					 {"question8":"A sum of money is sufficient to pay Aâ€™s wages for 21 days and Bâ€™s wages for 28 days. The same money is sufficient to pay the wages of both for:", "answer8":"12 days", "option8":"12 days;12.5 days;14 days;24 days",
-					 "explanation8":
-					 "
-					 <br/>Let total money be $ x.
-					 <br/>A's 1 day's wages = $	x/21 , B's 1 day's wages = $	x/28
-					 <br/>(A + B)'s 1 day's wages = $	 	x/21	+	x/28	= $	x/12
-					 <br/>Money is sufficient to pay the wages of both for 12 days.
-					 "},
-					 {"question9":"A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hou$ How long will B alone take to do it?", "answer9":"12 hours", "option9":"8 hours;10 hours;12 hours;24 hours",
-					 "explanation9":
-					 "
-					 <br/>A's 1 hour's work =	1/4	 ; (B + C)'s 1 hour's work =	1/3	 ; (A + C)'s 1 hour's work =	1/2
-					 <br/>(A + B + C)'s 1 hour's work =	 	1/4	+	1/3	 	=	7/12
-	 	 			 <br/>(A + B + C)'s 1 hour's work =	 	1/4	+	1/3	 	=	7/12
-	 	 			 <br/>B's 1 hour's work =	 	7/12 -	1/2	 	=	1/12
-					 <br/>B alone will take 12 hours to do the work.
-					 "},
-					 {"question10":"A man can do a piece of work in 5 days, but with the help of his son, he can do it in 3 days. In what time can the son do it alone?", "answer10":"7.5 days", "option10":"0.5 days;7 days;7.5 days;8 days",
-					 "explanation10":
-					 "
-					 <br/>Son's 1 day's work =	 	1/3	-	1/5	 	=	2/15
-					 <br/>The son alone can do the work in	15/2	  =  7+1/2	 = days.	 	 
-					 "},
-					 {"question11":"A alone can do a piece of work in 6 days and B alone in 8 days. A and B undertook to do it for $ 3200. With the help of C, they completed the work in 3 dyas. How much is to be paid to C?", "answer11":"$ 400", "option11":"$ 375;$ 400;$ 600;$ 800",
-					 "explanation11":
-					 "
-					 <br/>Câ€™s 1 dayâ€™s work =	1/3	-	 	1/6	+	1/8	 	=	1/3	-	7/24 =	1/24
-					 <br/>Aâ€™s wages : Bâ€™s wages : Câ€™s wages =	1/6	:	1/8	:	1/24	 = 4 : 3 : 1.
-					 <br/>C's share = $	 	1/8	 x 3200	 	 = $ 400	 
-					 "},
-					 {"question12":"A works twice as fast as B. If B can complete a work in 12 days independently, the number of days in which A and B can together finish the work is:", "answer12":"4 days", "option12":"4 days;6 days;8 days;18 days",
-					 "explanation12":
-					 "
-					 <br/>Ratio of rates of working of A and B = 2 : 1. So, ratio of times taken = 1 : 2.
- 	 				 <br/>A's 1 day's work =	1/6	 ; B's 1 day's work =	1/12
- 	 				 <br/>(A + B)'s 1 day's work =	 	1/6	+	1/12	 	=	3/12	=	1/4
- 	 				 <br/>So, A and B together can finish the work in 4 days.
-					 
-					 "},
-					 {"question13":"A can finish a work in 24 days, B in 9 days and C in 12 days. B and C start the work but are forced to leave after 3 days. The remaining work was done by A in:", "answer13":"10 days", "option13":"5 days;10 days;6 days;16 days",
-					 "explanation13":
-					 "
-					 <br/>(B + C)â€™s 1 dayâ€™s work =	 	1/9	+	1/12 	=	7/36
-	 	 			 <br/>Work done by B and C in 3 days =	 	7/36	 x 3	 	=	7/12 
-					 <br/>Remaining work =	 	1 -	7/12 	=	5/12
-					 <br/>Now,	1/24  Work is done by A in 1 day.	 	 
-					 <br/>So,	5/12 work is done by A in	 	24 x	5/12	 = 10 days.
-					 
-					 "},
-					 {"question14":"A and B can together finish a work in 30 days. They worked together for 20 days and then B left. After another 20 days, A finished the remaining work. In how many days A alone can finish the job?", "answer14":"60", "option14":"40;50;54;60",
-					 "explanation14":
-					 "
-					 <br/>(A + B)'s 20 days' work =	 	1/30	 x 20	 	=	2/3	. Remaining work =	 	1 -	2/3 	=	1/3
-					 <br/>Now,	1/3	  work is done by A in 20 days.	 	 	 
-					 <br/>Whole work will be done by A in (20 x 3) = 60 days.					 
-					 "},
-					 {"question15":"A and B can do a piece of work in 45 days and 40 days respectively. They began to do the work together but A leaves after some days and then B completed the remaining work in 23 days. The number of days after which A left the work was:", "answer15":"9", "option15":"6;8;9;12",
-					 "explanation15":
-					 "
-					 <br/>(A + B)â€™s 1 dayâ€™s work =	 	1/45	+	1/40	 	=	17/360
-	 	 			 <br/>Work done by B in 23 days =	 	1/40	 x 23	 	=	23/40	. Remaining work =	 	1 -	23/40	 	=	17/40
-					 <br/>Now,	17/360  Work was done by (A + B) in 1 day.
-					 <br/>17/40	 work was done by (A + B) in	 	1 x	360/17	x	17/40	 	 = 9 days.	
-					 <br/>A left after 9 days. 
-					 "}
-					]
-	},
-	{
-		"num":"9",
-		"topic":"Time, Speed & Distance",
-		"contents":
-					[ {"content1":
-					"
-					<b>The speed of a body is defined as the distance covered by it in unit time.</b>
-					<br/><b>Speed = Distance/Time <br/>Time = Distance/Speed <br/> Distance = Speed X Time</b>
-					<br/><br/><b>Important Points:-</b>
-					<br/><b>1:-</b> If a body travels d1, d2,d3Ã¢â‚¬Â¦..dn distances at a speed of s1,s2,s3...sn km/hr,  in time t1, t2,t3Ã¢â‚¬Â¦Ã¢â‚¬Â¦tn, then the average speed  = (Total Distance Travelled)/(Total Time Taken) = (d1+d2+d3+Ã¢â€¹Â¯..dn)/(t1+t2+t3+Ã¢â€¹Â¯..tn).
-					<br/><br/><b>2:-</b> If a certain distance d, from A to B, is covered at Ã¢â‚¬ËœaÃ¢â‚¬â„¢ km/hr and the same distance is covered again from B to A in Ã¢â‚¬ËœbÃ¢â‚¬â„¢ km/hr, then the average speed during whole journey= 2ab/((a+b)) km/hr. 
-					<br/>Also, if  t1 and t2 is the time taken to travel from A to B and B to A, respectively, the distance Ã¢â‚¬ËœdÃ¢â‚¬â„¢ from A to B is given by:
-					<br/> d= (t1+t2) 2ab/((a+b))  
-					<br/> d= (t1-t2) 2ab/((a-b))  
-					<br/> d= (a-b) t1t2/((t1-t2))  
-					<br/><br/><b>3:-</b> While travelling a certain distance , if a man changes his speed in the ratio m:n, then the ratio of time becomes n:m.
-					<br/><br/><b>4:-</b> If two person A and B start at the same time in opposite directions from two points and arrive at the two points in Ã¢â‚¬ËœaÃ¢â‚¬â„¢ and Ã¢â‚¬ËœbÃ¢â‚¬â„¢ hrs, respectively after having met, then.
-					<br/>(A's Speed)/(B's Speed)  = Ã¢Ë†Å¡b/Ã¢Ë†Å¡a  
-					<br/><br/><b>5:-</b> To convert km/hr to m/s, multiply by 5/18 and to convert m/s to km/hr, multiply by 18/5..
-					
-					"},
-					{"content2":
-					"
-					<b>Relative Speed:-</b>
-					<br/><b>Relative speed means the speed of an object A with respect to another object B, which may be stationary, moving (in the same direction or opposite direction)</b>
-					<br/><b>Cases:-</b>
-					<br/><br/><b>Case 1 : </b> When one object is stationary and other is moving.
-					<br>Relative speed of stationary object and moving object = Speed of the moving object
-					<br/><br/><b>Case 2 : </b>When two objects are moving in opposite direction
-					<br/>Relative speed  = Sum of their speeds
-					<br/><br/><b>Case 3 : </b> When two objects are moving in same direction
-					<br/>Relative speed  = Difference of their speeds
-					<br/><br/><b>Important Points:-</b>
-					<br/><b>1:-</b> Time taken by a moving object Ã¢â‚¬ËœxÃ¢â‚¬â„¢meters long in passing a stationary object Ã¢â‚¬ËœyÃ¢â‚¬â„¢ meters long from the time they meet, is same as the time taken by the moving object to cover Ã¢â‚¬Ëœx+yÃ¢â‚¬â„¢ meters with its own speed.
-					<br/><br/><b>2:-</b> If two objects of length Ã¢â‚¬ËœxÃ¢â‚¬â„¢ and Ã¢â‚¬ËœyÃ¢â‚¬â„¢ meters move in the same direction or in opposite direction at Ã¢â‚¬ËœaÃ¢â‚¬â„¢ and Ã¢â‚¬ËœbÃ¢â‚¬â„¢ m/s, then the time taken to cross each other  from the time they meet. 
-					<br/> = (Sum of their length)/(Relative Speed)  
-					<br/> = (x+y)/(a-b)  (In case of same direction)  
-					<br/> = (x+y)/(a+b)  (In case of opposite direction)
-					<br/><br/><b>3:-</b> If the speed of a boat in still water is x km/hr and the speed of the stream is y km/hr speed while travelling with the stream i.e., speed downstream = (x+y) km/hr speed while travelling against the stream i.e., speed upstream = (x-y) km/hr.
-					<br/><br/><b>4:-</b> Speed of the boat in still water =1/2(Speed with Stream + Speed against stream) 
-					<br/>    Speed of the river =1/2(Speed with Stream - Speed against stream).
-					"}
-					],
-		"examples":
-					[ {"example1":
-					"
-					<b>In travelling from city A to city B, John drove for 1 hour at 50 mph and for 3 hours at 60 mph.  What was his average speed for the whole trip?</b>
-					<br/>The total distance is 1*50+3*60=230. And the total time is 4 hours.  Hence,
-					<br/>Average Speed = (Total Distance)/(Total Time)=  230/4=57.5
-					<br/>The answer is 57.5  
-					<br/>Note, the answer is not the mere average of 50 and 60. Rather the average is closer to 60 because he travelled longer at 60 mph (3 hrs) than at 50 mph (1 hr).
-					"},
-					{"example2":
-					"
-					<b>A person can raw 7 Â½ km/hr in still water. It takes him twice as long to row up a distance as to row down the same distance. Find the speed of stream</b>
-					<br/>Speed up-stream + Speed down-stream = 2 X 7 Â½  = 15 km/hr
-					<br/>Since the time taken are in the ratio 2 : 1, the speeds will be in the ratio 1 : 2
-					<br/>So Speed up-stream = (1/3) X 15 = 5 km/hr
-					<br/>Speed down â€“ stream = (2/3) X 15 = 10 km/hr
-					<br/>Speed of stream = Â½ (10 â€“ 5) = 2.5 km/hr
-					"}],
-		"practices":
-					[					
-					{"question1":"If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is?", "answer1":"50 km", "option1":"50 km;56 km;70 km;80 km",
-					 "explanation1":
-					 "
-					 <br/>Let the actual distance travelled be x km.
-					 <br/>Then,	x/10	=	x + 20/14
-					 <br/>14x = 10x + 200
-					 <br/> 4x = 200
-					 <br/> x = 50 km.
-					 
-					 "},
-					{"question2":"In covering a distance of 30 km, Abhay takes 2 hours more than Sameer. If Abhay doubles his speed, then he would take 1 hour less than Sameer. Abhay's speed is:", "answer2":"5 kmph", "option2":"5 kmph;6 kmph;6.25 kmph;7.5 kmph",
-					 "explanation2":
-					 "
-					<br/> Let Abhay's speed be x km/hr.
-					<br/>Then,	30/x	-	30/2x	= 3
-					<br/>  6x = 30
-					<br/>  x = 5 km/hr.
-					 
-					 "},
-					 {"question3":"Walking at the rate of 4kmph a man cover certain distance in 2hr 45 min. Running at a speed of 16.5 kmph the man will cover the same distance in.", "answer3":"40 min", "option3":"12 min;25 min;40 min;60 min",
-					 "explanation3":
-					 "
-					 <br/>Distance = Speed X Time
-					<br/>Here time  = 2 hr 45 min = 11/4 hr
-					<br/>Distance  = 4 X 11/4 = 11 km
-					<br/>New Speed = 16.5 kmph
-					<br/>Therefore time = 11/16.5 = 2/3 hr = 40 min.
-					 
-					 "},
-					 {"question4":"A man sitting in train travelling at the rate of 50 km/hr observes that it takes 9 sec for a goods train travelling in the opposite direction to pass him. If the goods train is 187.5m long. Find its speed", "answer4":"25  kmph", "option4":"40  kmph;30  kmph;24  kmph;25  kmph",
-					 "explanation4":
-					 "
-					 <br/>Solution:
-					<br/>Let the speed of goods train be x km/hr.
-					<br/>Then, (50+x)Ã—(5/18) = 187.5/9
-					<br/>â‡’ x= 25 km/hr										 
-					 "},
-					 {"question5":"Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?", "answer5":"10", "option5":"4;6;8;10",
-					 "explanation5":
-					 "
-					 <br/>Due to stoppages, it covers 9 km less.
-					<br/>Time taken to cover 9 km =(9/54) X 60 min = 10 min 
-					 
-					 "},
-					 {"question6":"A car driver driving in fog, passes a pedestrian who was walking at the rate of 2km/h in the same direction. The pedestrian could see the car for 6 min and it was visible to him up to a distance of 0.6 km. The speed of the car would be :", "answer6":"8  kmph", "option6":"8  kmph;800  mph;6.25 kmph;15 kmph",
-					 "explanation6":
-					 "
-					 <br/>Traveller distance in 6 min = (2/60) X 6 = 2/10 km.
-					<br/>Total distance in 6 min = (2/10) + (6/10) = 8/10 km
-					<br/>Speed = (8/10) X 10 
-					<br/>= 8 km/hr
-					 "},
-					 {"question7":"In a race, the speeds of A and B are in the ratio 3:4. A takes 30 minutes more than B to reach the destination. The time taken by A to reach the destination is:", "answer7":"2 hr", "option7":"1 hr;1.5 hr;2 hr;2.5 hr",
-					 "explanation7":
-					 "
-					 <br/>Ratio of speeds = 3:4
-					 <br/>Distance remaining constant, the ratio of time taken = 4:3
-					 <br/>A takes 0.5 hours more than B
-					 <br/>Hence time taken by A=4Ã—0.5= 2 hour
-					 
-					 "},
-					 {"question8":"A train traveling at 72 kmph crosses a platform in 30 seconds and a man standing on the platform in 18 seconds. What is the length of the platform in meters?", "answer8":"240 meter", "option8":"240 meter;360 meter;420 meter;600 meter",
-					 "explanation8":
-					 "
-					 <br/>The extra time that the train takes when crossing the platform is on account of the extra distance that it has to cover = length of the platform.
-					<br/>Therefore, length of the platform = speed of train * extra time taken to cross the platform
-					<br/>Length of platform = 72 kmph * 12 seconds
-					<br/>Converting 72 kmph into m/sec, we get 72 kmph = (5/18) X 72 = 20 m/sec
-					<br/>Therefore, length of the platform = 20 * 12 = 240 meters. 
-										 
-					 "},
-					 {"question9":"Jane covered a distance of 340 miles between city A and city taking a total of 5 hours. If part of the distance was covered at 60 miles per hour speed and the balance at 80 miles per hour speed, how many hours did she travel at 60 miles per hour?", "answer9":"3 hours", "option9":"2 hours 30 minutes;3 hours;2 hours;1 hour 45 minutes",
-					 "explanation9":
-					 "
-					 <br/>Let 'x' hours be the time for which Jane traveled at 60 miles per hour.
-					<br/>As the total time taken to cover 340 miles is 5 hours, Jane would have traveled (5 - x) hours at 80 miles per hour.
-					<br/>Distance covered at 60 miles per hour = Speed * time = 60 * x = 60x miles
-					<br/>Distance covered at 80 miles per hour = Speed * time = 80 (5 - x) = 400 - 80x miles
-					<br/>Total distance covered = Distance covered at 60 miles per hour + Distance covered at 80 miles per hour.
-					<br/>Therefore, total distance = 60x + 400 - 80x.
-					<br/>But, we know that the total distance = 340 miles.
-					<br/>Therefore, 340 = 60x + 400 - 80x 
-					<br/>=> 20x = 60 or x = 3 hours. 
-					 
-					 "},
-					 {"question10":"Steve traveled the first 2 hours of his journey at 40 mph and the remaining 3 hours of his journey at 80 mph. What is his average speed for the entire journey?", "answer10":"64 mph", "option10":"60 mph;56.67 mph;53.33 mph;64 mph",
-					 "explanation10":
-					 "
-					 <br/>Total distance traveled by Steve = Distance covered in the first 2 hours + distance covered in the next 3 hours.
-					<br/>Distance covered in the first 2 hours = speed * time = 40 * 2 = 80 miles
-					<br/>Distance covered in the next 3 hours = speed * time = 80 * 3 = 240 miles
-					<br/>Therefore, total distance covered = 80 + 240 = 320 miles
-					<br/>Total time taken = 2 + 3 = 5 hours.
-					<br/>Hence, average speed = 320/5 = 64 miles per hour. 
-					 
-					 "},
-					 {"question11":"A farmer travelled a distance of 61 km in 9 hours. He travelled partly on foot @ 4 km/hr and partly on bicycle @ 9 km/hr. The distance travelled on foot is:", "answer11":"16  kmph", "option11":"14 km;15 km;16  kmph;17 km",
-					 "explanation11":
-					 "
-					 <br/>Let the distance travelled on foot be x km.
-					<br/>Then, distance travelled on bicycle = (61 -x) km.
-					<br/>So (x/4) + (61 â€“ x)  = 9
-					<br/>  9x + 4(61 -x) = 9 x 36
-					<br/>  5x = 80
-					<br/>  x = 16 km.
-					 
-					 "},
-					 {"question12":"A thief steals a car and drives it at 15 km/hr. The theft has been discovered after one hour and the owner of the car sets off in another car at 25 km/hr. When will the owner overtake the thief from the starting point? ", "answer12":"1.5 hr", "option12":"1 hr;1.5 hr;2 hr;2.5 hr",
-					 "explanation12":
-					 "
-					 <br/>Distance covered by the thief in one hour = 15 km
-					<br/>Now this distance is to be covered by the relative speed of (25âˆ’15)=10km/hr
-					<br/>Hence, time required to cover this distance at a speed of 10km/hr: 15/10 
-					<br/>= 1.5 hr
-					 
-					 "},
-					 {"question13":"Walking at 3/4 of his usual place, a man reaches his office 20 minute late. Find his usual time?", "answer13":"1 hr ", "option13":"2 hr ;1 hr ;3 hr ;3.5 hr ",
-					 "explanation13":
-					 "
-					 <br/>Let the original speed be S and time be T
-					<br/>If new speed=S X (3/4), then new time would be T X (4/3) (D = ST = Constant)
-					<br/>Given, (3T/4) â€“ T = 20T/3
-					<br/>â‡’ T=60 minutes
-					<br/>= 1 hour 
-					 
-					 "},
-					 {"question14":"A train traveling at 100 kmph overtakes a motorbike traveling at 64 kmph in 40 seconds. What is the length of the train in meters?", "answer14":"400 meter", "option14":"1777 meter;1822 meter;400 meter;1100 meter",
-					 "explanation14":
-					 "
-					 <br/>When a train overtakes another object such as a motorbike, whose length is negligible compared to the length of the train, then the distance traveled by the train while overtaking the motorbike is the same as the length of the train.
-					<br/>The length of the train = distance traveled by the train while overtaking the motorbike 
-					<br/>= relative speed between the train and the motorbike * time taken
-					<br/>In this case, as both the objects i.e., the train and the motorbike are moving in the same direction, the relative speed between them = difference between their respective speeds = 100 - 64 = 36 kmph.
-					<br/>Distance traveled by the train while overtaking the motorbike = 36 kmph * 40 seconds.
-					<br/>The final answer is given in meters and the speed is given in kmph and the time in seconds. 
-					<br/>So let us convert the given speed from kmph to m/sec.
-					<br/>1 kmph = (5/18) m/sec
-					<br/>Therefore, 36 kmph = 36 * (5 /18) = 10 m/sec.
-					<br/>Relative speed = 10 m/sec. Time taken = 40 seconds.
-					<br/>Therefore, distance traveled = 10 * 40 = 400 meters. 
-					 
-					 "},
-					 {"question15":"The ratio between the speeds of two trains is 7 : 8. If the second train runs 400 km in 4 hours, then the speed of the first train is:", "answer15":"87.5 kmph", "option15":"70 kmph;75 kmph;84 kmph;87.5 kmph",
-					 "explanation15":
-					 "
-					 <br/>Let the speed of two trains be 7x and 8x km/hr.
-					<br/>Then, 8x =				(400/4) = 100
-					<br/>  x =			(100/8) =12.5		
-					<br/> Speed of first train = (7 x 12.5) km/hr = 87.5 km/hr.
+					<br/>Ã¢Ë†Â´ Required profit% = [80/320 * 100] % = 25%
 					 
 					 "}
 					]
 	}
-	
 ]
