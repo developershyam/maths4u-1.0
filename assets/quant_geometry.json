@@ -41,24 +41,154 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>What is the average of x, 2x, and 6?</b>
-					<br/>By the definition of an average, we get:(x+2x+6)/3= (3x+6)/3= (3 (x+2) )/3=x+2 
-					<br/>Hence the answer is x +2
-					"}],
+					<b>A triangle and a parallelogram are constructed on the same base such that their areas are equal. If the altitude of the parallelogram is 100 m , then the altitude of the triangle is?</b>
+					<br/>Let the altitude of the triangle be hïand base of each be b.
+					<br/>Then , (½ × b × h1) where h2 = 100 m.= h1 = 2h2
+					<br/>= ( 2 x 100) m
+					<br/>= 200 m.
+					"},
+					{"example2":
+					"
+					<b>A tank is 25 m long, 12 m wide and 6 m deep. The cost of plastering its walls and bottom at 75 paise per sq. m, is?</b>
+					<br/>Area to be plastered	= [2(l + b) x h] + (l x b)
+					<br/>= {[2(25 + 12) x 6] + (25 x 12)} m<sup>2</sup>
+					<br/>= (444 + 300) m<sup>2</sup>
+					<br/>= 744 m2.
+					<br/>Cost of plastering = Rs. 744 x 75/100	= Rs. 558.
+					"}
+					],
 		"practices":
 					[
-					{
-						"question1":"The average weight of a group of 30 friends increases by 1 kg when the weight of their football coach was added. If average weight of the group after including the weight of the football coach is 31kgs, what is the weight of their football coach in kgs?", "answer1":"61 kgs", "option1":"31 kgs;61 kgs;60 kgs;62 kgs",
-						"explanation1":
-						"
-						<br/>The new average weight of the group after including the football coach = 31.
-						<br/>As the new average is 1kg more than the old average, old average without including the football coach = 30 kgs.
-						<br/>The total weight of the 30 friends without including the football coach = 30 * 30 = 900.
-						<br/>After including the football coach, the number people in the group increases to 31 and the average weight of the group increases by 1kg.
-						<br/>Therefore, the total weight of the group after including the weight of the football coach = 31 * 31 = 961 kgs.
-						<br/>Therefore, the weight of the football coach = 961 - 900 = 61 kgs.
-						"
-					}					
+					{"question1":"The ratio between the length and the breadth of a rectangular park is 3 : 2. If a man cycling along the boundary of the park at the speed of 12 km/hr completes one round in 8 minutes, then the area of the park (in sq. m) is:", "answer1":"153600", "option1":"15360;153600;30720;307200",
+					 "explanation1":
+					 "
+					 <br/>Perimeter = Distance covered in 8 min. =	 	12000/60 x 8	 m = 1600 m.
+					 <br/>Let length = 3x metres and breadth = 2x metres.
+					<br/>Then, 2(3x + 2x) = 1600 or x = 160.
+					<br/> Length = 480 m and Breadth = 320 m.
+					<br/> Area = (480 x 320) m<sup>2</sup> = 153600 m<sup>2</sup>.
+					 
+					 "},
+					{"question2":"An error 2% in excess is made while measuring the side of a square. The percentage of error in the calculated area of the square is:", "answer2":"4.04%", "option2":"2%;2.02%;4%;4.04%",
+					 "explanation2":
+					 "
+					<br/>100 cm is read as 102 cm.
+					<br/>A<sub>1</sub> = (100 x 100) cm<sup>2</sup> and A<sub>2</sub> (102 x 102) cm<sup>2</sup>.
+					<br/>(A<sub>2</sub> - A<sub>1</sub>) = [(102)<sup>2</sup> - (100)<sup>2</sup>]
+					<br/>= (102 + 100) x (102 - 100)
+					<br/>= 404 cm<sup>2</sup>.
+					<br/>Percentage error =	 	(404/100 x 100)	x 100 %	= 4.04%
+					 
+					 "},
+					 {"question3":"The diagonal of a rectangle is 41 cm and its area is 20 sq. cm. The perimeter of the rectangle must be:", "answer3":"18 cm", "option3":"9 cm;18 cm;20 cm;41 cm",
+					 "explanation3":
+					 "
+					 <br/>√((l<sup>2</sup>+ b<sup>2</sup>)) = √41.
+					<br/>Also, lb = 20.
+					<br/>(l + b)<sup>2</sup> = (l<sup>2</sup> + b<sup>2</sup>) + 2lb = 41 + 40 = 81
+					<br/>(l + b) = 9.
+					<br/>Perimeter = 2(l + b) = 18 cm.
+					 
+					 "},
+					 {"question4":"The difference between the length and breadth of a rectangle is 23 m. If its perimeter is 206 m, then its area is:", "answer4":"2520 m<sup>2</sup>", "option4":"1520 m<sup>2</sup>;2420 m<sup>2</sup>;2480 m<sup>2</sup>;2520 m<sup>2</sup>",
+					 "explanation4":
+					 "
+					<br/>We have: (l - b) = 23 and 2(l + b) = 206 or (l + b) = 103.
+					<br/>Solving the two equations, we get: l = 63 and b = 40.
+					<br/>Area = (l x b) = (63 x 40) m<sup>2</sup> = 2520 m<sup>2</sup>.
+					 "},
+					 {"question5":"A tank is 25 m long, 12 m wide and 6 m deep. The cost of plastering its walls and bottom at 75 paise per sq. m, is:", "answer5":"Rs. 558", "option5":"Rs. 456;Rs. 458;Rs. 558;Rs. 568",
+					 "explanation5":
+					 "
+					 <br/>Area to be plastered	= [2(l + b) x h] + (l x b)
+					<br/>= {[2(25 + 12) x 6] + (25 x 12)} m<sup>2</sup>
+					<br/>= (444 + 300) m<sup>2</sup>
+					<br/>= 744 m2.
+					<br/>Cost of plastering = Rs. 744 x 75/100	= Rs. 558.
+					 "},
+					 {"question6":"The perimeter of a rhombus are 24 cm and 10 cm, the area and the perimeter of the rhombus is", "answer6":"70 sq.m", "option6":"64 sq.m;70 sq.m;78 sq.m;84 sq.m",
+					 "explanation6":
+					 "
+					 <br/>Perimeter of the rhombus	= 56 m
+					 <br/>Each side of the rhombus	= 56 / 4 m 	= 14 m.
+					 <br/>Height of the rhombus	= 5 m
+					 <br/>Area	= (14 x 5) m²
+					 <br/>	= 70 m²
+					 
+					 "},
+					 {"question7":"2 metres broad pathway is to be constructed around a rectangular plot on the inside. The area of the plots is 96 sq.m. The rate of construction is Rs. 50 per square metre. Find the total cost of the construction?", "answer7":"Data inadequate", "option7":"Rs.2400;Rs.4000;Data inadequate;None of these",
+					 "explanation7":
+					 "
+					 <br/>Given lb =96
+					<br/>Area of pathway	= [(l-4)(b-4)-lb] 	= 16-4(l+b)
+					<br/>Which cannot be determined. so, data is inadequate.
+					 
+					 "},
+					 {"question8":"If a square and a rhombus stand on the same base, then the ratio of the areas of the square and the rhombus is", "answer8":"Equal to 1", "option8":"greater than 1;Equal to1/2;Equal to 1;Equal  1/4",
+					 "explanation8":
+					 "
+					 <br/>A square and a rhombus on the same base are equal in area.
+					 "},
+					 {"question9":"The length of a rectangle is halved, while its breadth is tripled. What is the percentage change in area?", "answer9":"", "option9":"25% increase;50% increase;50% decrease;75% decrease",
+					 "explanation9":
+					 "
+					 <br/>Let original length = x and original breadth = y.
+					<br/>Original area = xy.
+					<br/>New length =	x/2	
+					<br/>New breadth = 3y.
+					<br/>New area =	 	x/2	x 3y	 	=	3/2xy.
+					<br/>Increase % =	 	1/2xy x	1/xy x 100	 %	= 50%.			
+					 
+					 "},
+					 {"question10":"A rectangular park 60 m long and 40 m wide has two concrete crossroads running in the middle of the park and rest of the park has been used as a lawn. If the area of the lawn is 2109 sq. m, then what is the width of the road?", "answer10":"3 m", "option10":"2.91 m;3 m;5.82 m;None of these",
+					 "explanation10":
+					 "
+					 <br/>Area of the park = (60 x 40) m<sup>2</sup> = 2400 m<sup>2</sup>.
+					<br/>Area of the lawn = 2109 m<sup>2</sup>.
+					<br/>Area of the crossroads = (2400 - 2109) m<sup>2</sup> = 291 m<sup>2</sup>.
+					<br/>60x + 40x - x<sup>2</sup> = 291
+					<br/>x<sup>2</sup> - 100x + 291 = 0
+					<br/>(x - 97)(x - 3) = 0
+					<br/>x = 3.
+					 "},
+					 {"question11":"A triangle and a parallelogram are constructed on the same base such that their areas are equal. If the altitude of the parallelogram is 100 m , then the altitude of the triangle is", "answer11":"200m", "option11":"10√2 m;100m;100√2 m;200m",
+					 "explanation11":
+					 "
+					 <br/>Let the altitude of the triangle be hïand base of each be b.
+					<br/>Then , (½ × b × h1) where h2 = 100 m.= h1 = 2h2
+					<br/>= ( 2 x 100) m
+					<br/>= 200 m.
+					 
+					 "},
+					 {"question12":"A rectangular plot measuring 90 metres by 50 metres is to be enclosed by wire fencing. If the poles of the fence are kept 5 metres apart, how many poles will be needed?", "answer12":"56", "option12":"55;56;57;58",
+					 "explanation12":
+					 "
+					 <br/>Perimeter of the plot	= 2 ( 90 + 50 )	= 280 m.
+					 <br/>Number of poles	= (280 / 5)	= 56 m. 
+					 "},
+					 {"question13":"A typist uses a sheet measuring 20cm by 30cm lengthwise. If a margin of 2 cm is left on each side and a 3 cm margin on top and bottom, then percent of the page used for typing is", "answer13":"64", "option13":"40;60;64;72",
+					 "explanation13":
+					 "
+					 <br/>Area of the sheet	= (20 x 30 ) cm²
+					<br/>= 600 cm²
+					<br/>Area used for typing	= [(20 - 4) x (30 - 6)] cm²
+					<br/>= 384 cm²
+					<br/>Required percentage	= (384 / 600 x 100)%
+					<br/>=64%.
+					 "},
+					 {"question14":"The breadth of a rectangular field is 60% of its length. If the perimeter of the field is 800 m.What is the area of the field?", "answer14":"37500 Sq.m", "option14":"18750 Sq.m;37500 Sq.m;40000 Sq.m;48000 Sq.m",
+					 "explanation14":
+					 "
+					 <br/>So length =250 m; breadth=150m
+					 <br/>Area = (250 x 150)m² = 37500 m²
+					 "},
+					 {"question15":"What is the least number of squares tiles required to pave the floor of a room 15 m 17 cm long and 9 m 2 cm broad?", "answer15":"814", "option15":"814;820;840;844",
+					 "explanation15":
+					 "
+					 <br/>Length of largest tile = H.C.F. of 1517 cm and 902 cm = 41 cm.
+					<br/>Area of each tile = (41 x 41) cm².
+					<br/>Required number of tiles =	 	(1517 x 902)/(41 x 41) = 814.
+					 "}				
 					]
 	},
 	{
@@ -101,28 +231,143 @@
 					"					
 					}],
 		"examples":
-					[ {"example1":
+					[ 
+					{"example1":
 					"
-					<b>Calculate how much we will get by investing  1000 for 1 year with a bank that pays 5% p.a. simple interest.</b>
-					<br/>At the end of the year we have Interest=1000ÃƒÆ’Ã¢â‚¬â€�5%=1000ÃƒÆ’Ã¢â‚¬â€�5/100=1000ÃƒÆ’Ã¢â‚¬â€�0.05=50
-					<br/>With an opening balance of  1000 at the start of the year, the closing balance at the end of the year will therefore be
-					<br/>Closing balance=Opening balance+ Interest=1000+50=1050
-
+					<b>An iron cubes of side 10 cm is hammered into a rectangular sheet of thickness 0.5 cm. If the sides of the sheet are in the ratio 1 : 5 the sides are?</b>
+					<br/>Let the sides of the sheet be x and 5x.
+					<br/>Then,volume of the sheet= volume of the cube
+					<br/>‹=› x × 5x ×1/2
+					<br/>‹=› 10×10×10
+					<br/>‹=› 5x²= 2000
+					<br/>‹=› x²= 400
+					<br/>‹=› x = 20.
+					"},
+					{"example2":
+					"
+					<b>How many cubes of 10 cm edge can be put in a cubical box of 1 m edge?</b>
+					<br/>= (100×100×100 /10×10×10) = 1000.
 					"}
-		],
+					],
 		"practices":
 					[
-					{"question1":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B", "answer1":"Rs. 6400", "option1":"Rs. 6400;Rs. 6500;Rs. 7200;Rs. 7500",
-					"explanation1":
-					"
-					<br/>Let the sum invested in Scheme A be Rs. x and that in Scheme B be Rs. (13900 - x).
-					<br/>Then,	 	x x 14 x 2	 	+	 	(13900 - x) x 11 x 2	 	= 3508
-					<br/>		100				100		
-					<br/>  28x - 22x = 350800 - (13900 x 22)
-					<br/>  6x = 45000
-					<br/>  x = 7500.
-					<br/>So, sum invested in Scheme B = Rs. (13900 - 7500) = Rs. 6400.
-					"}
+					{"question1":"A right triangle with sides 3 cm, 4 cm and 5 cm is rotated the side of 3 cm to form a cone. The volume of the cone so formed is:", "answer1":"12πcm<sup>3</sup>", "option1":"12πcm<sup>3</sup>;15πcm<sup>3</sup>;16πcm<sup>3</sup>;20πcm<sup>3</sup>",
+					 "explanation1":
+					 "
+					 <br/>Clearly, we have r = 3 cm and h = 4 cm.
+					 <br/>Volume = 1/3 πr²h = (1	x π x 32 x 4)cm<sup>3</sup>	= 12π cm<sup>3</sup>.
+					 "},
+					{"question2":"66 cubic centimeters of silver is drawn into a wire 1 mm in diameter. The length of the wire in meters will be:", "answer2":"84", "option2":"84;90;168;336",
+					 "explanation2":
+					 "
+					 <br/>Let the length of the wire be h.
+					<br/>Radius =	1/2mm 	=	1/20cm.	Then,
+					<br/> 22/7 x	1/20 x	1/20 x h = 66.	
+					 <br/>h= (66 x 20 x 20 x 7)/22 = 8400 cm = 84 m.				 
+					 "},
+					 {"question3":"The curved surface area of a cylindrical pillar is 264 m2 and its volume is 924 m3. Find the ratio of its diameter to its height.", "answer3":"7:3", "option3":"3:7;7:3;6:7;7:6",
+					 "explanation3":
+					 "
+					 <br/>πr²h/2πrh = 924/264
+					 <br/>r = 924/264 x 2 = 7 m.
+					 <br/>And, 2πrh = 264,
+					 <br/>h= 264 x	7/22	x	1/2	x	1/7	 	= 6m.	
+					 <br/>Required ratio =	2r/h	=	14/6	= 7 : 3.			 
+					 "},
+					 {"question4":"A boat having a length 3 m and breadth 2 m is floating on a lake. The boat sinks by 1 cm when a man gets on it. The mass of the man is:", "answer4":"60kg", "option4":"12kg;60kg;72kg;96kg",
+					 "explanation4":
+					 "
+					 <br/>Volume of water displaced	= (3 x 2 x 0.01) m<sup>3</sup> = 0.06 m<sup>3</sup>.
+					 <br/>Mass of man	= Volume of water displaced x Density of water = (0.06 x 1000) kg = 60 kg.
+					 "},
+					 {"question5":"The cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. Then the volume of the cube is", "answer5":"9261cm<sup>3</sup>", "option5":"8500cm<sup>3</sup>;9000cm<sup>3</sup>;9250cm<sup>3</sup>;9261cm<sup>3</sup>",
+					 "explanation5":
+					 "
+					 <br/>= (34398 / 13)
+					 <br/>‹=›2646cm<sup>3</sup>
+					 <br/>‹=›6a²= 2646
+					 <br/>‹=›a²= 441
+					 <br/>‹=›a = 21.
+					 "},
+					 {"question6":"An iron cubes of side 10 cm is hammered into a rectangular sheet of thickness 0.5 cm. If the sides of the sheet are in the ratio 1 : 5 the sides are", "answer6":"20cm, 100cm", "option6":"10cm, 50cm;20cm, 100cm;40cm, 200cm;None of these",
+					 "explanation6":
+					 "
+					<br/>Let the sides of the sheet be x and 5x.
+					<br/>Then,volume of the sheet= volume of the cube
+					<br/>‹=› x × 5x ×1/2
+					<br/>‹=› 10×10×10
+					<br/>‹=› 5x²= 2000
+					<br/>‹=› x²= 400
+					<br/>‹=› x = 20.
+					 "},
+					 {"question7":"How many cubes of 10 cm edge can be put in a cubical box of 1 m edge?", "answer7":"1000", "option7":"10;10;1000;10000",
+					 "explanation7":
+					 "
+					 <br/>= (100×100×100 /10×10×10)‹=› 1000.
+					 "},
+					 {"question8":"What is the total surface area of a right circular cone of height 14 cm and base radius 7 cm?", "answer8":"498.35cm²", "option8":"344.35cm²;462cm²;498.35cm²;None of these",
+					 "explanation8":
+					 "
+					 <br/>h = 14 cm, r = 7 cm.
+					<br/>So, l = (7)² + (14)² = 245 = 75 cm.
+					<br/>Total surface area	=  πrl +  πr²
+					<br/>= 22/7 x 7 x 75 +	22/7 x 7 x 7 cm²	
+					<br/>= [154(5 + 1)] cm²
+					<br/>= (154 x 3.236) cm²
+					<br/>= 498.35 cm².
+					 "},
+					 {"question9":"Spheres A and B have their radil 40 cm and 10 cm respectively. The ratio of the surface area of A to the surface area of B is", "answer9":"16:1", "option9":"1:4;1:16;4:1;16:1",
+					 "explanation9":
+					 "
+					 <br/>Let the radil of A and B be r and R respectively.
+					<br/>= 4Πr²/ 4ΠR²
+					<br/>‹=› r² / R²
+					<br/>‹=› (r/R)²
+					<br/>‹=›(40/10)²
+					<br/>‹=› 16 : 1.
+					 
+					 "},
+					 {"question10":"The curved surface area of a right circular cyliner of base radius r is obtained by multiplying its volume by ", "answer10":"2/rkm", "option10":"r²km;2r²km;r/2km;2/rkm",
+					 "explanation10":
+					 "
+					 <br/>Curved surface area = 2∏rh = (2∏r²h) 2/r = (Volume * 2/r).
+					 "},
+					 {"question11":"The radii of two cones are in the ratio 2:1, their volumes are equal. Find the ratio of their heights.", "answer11":"1/4", "option11":"1/4;1/8;2/4;4/1",
+					 "explanation11":
+					 "
+					 <br/>Let their radii be 2x, x and their heights be h and H respectively. Then,
+					 <br/>1/3 * π * (2x)² * h = 1/3 * π * x² * H
+					 <br/>or
+					 <br/>h/H = 1/4.
+					 
+					 "},
+					 {"question12":"The slant height of a right circular cone is 10 m and its height is 8 m. Find the area of its curved surface.", "answer12":"60π m²", "option12":"30π m²;40π m²;50π m²;60π m²",
+					 "explanation12":
+					 "
+					 <br/>l = 10 m, h = 8. So, r = √l² - h² = √(10)² - 8² = 6 m.
+					<br/>Curved surface area = πrl = (π * 6 * 10) m² = 60 m²
+					 "},
+					 {"question13":"A cone of height 7 cm and base radius 3 cm is carved from a rectangular block of wood 10 cm * 5 cm * 2 cm. The percentage of wood wasted is :", "answer13":"34%", "option13":"26%;28%;32%;34%",
+					 "explanation13":
+					 "
+					 <br/>Volume of the block = (10 * 5 * 2)cm³ = 100 cm³
+					 <br/>Volume of the cone carved out = [1/3 * 22/7 * 3 * 3 * 7] cm³ 
+					 <br/>= 66 cm³
+					 <br/>Wood wasted = (100 - 66)% = 34%.
+					 "},
+					 {"question14":"The perimeter of one face a of cube is 20 cm. Its volume must be", "answer14":"125cm³", "option14":"125cm³;400cm³;1000cm³;8000cm³",
+					 "explanation14":
+					 "
+					 <br/>Edge of the cube	= (20 / 4) cm ‹=› 5 cm.
+					<br/>Volume	= (5×5×5)cm³ ‹=›125 cm³.
+					 "},
+					 {"question15":"66 cubic centimetres of silver is drawn into a wire 1 mm in diameter. The length of the wire in metres will be :", "answer15":"84m", "option15":"84m;88m;120m;137m",
+					 "explanation15":
+					 "
+					 <br/>Let the length of the wire b h.
+					<br/>Radius = 1/2 mm = 1/20 cm. Then,
+					<br/>22/7 * 1/20 * 1/20 * h = 66 ⇔ = [66 * 20 * 20 * 7 / 22] = 8400cm = 84 m.
+					 "}
 					]
 	},
 	{
