@@ -437,217 +437,156 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>In a 60 liters mixture of milk and water, the quantity of milk is 5 %. In how much quantity, should milk be added to this mixture so that the quantity of milk in the mixture becomes 15 % ?</b>
-					<br/>Here in this question:
-					<br/>X= 60 liters,         p= 5 %,                 q= 15 %
-					<br/>The quantity of milk to be added  to the mixture to make it 15 % in mixture-
-	                <br/>=60*{(15-5)/(100-15)
-	                <br/>=60*(10/85)
-	                <br/>=120/17 liters 
-
+					<b>One angle of Pentagon is 60°. If all the other angles being equal, find each of other angles?</b>
+					<br/>Sum of interior angles of a polygon
+					<br/>= (2n-4)90° = (10 – 4)90° = 540°
+					<br/>One angle is 60°, hence sum of the angles = 480°
+					<br/>Each of other angles = 480°/4 = 120°
 					"},
 					{"example2":
 					"
-					<b>Tea worth $126 per kg are mixed with a third variety in the ratio 1: 1 : 2. If the mixture is worth $153 per kg, the price of the third variety per kg will be</b>
-					<br/>Since first second varieties are mixed in equal proportions, so their average price = $(126+135/2) = $130.50
-					<br/>So, the mixture is formed by mixing two varieties, one at $ 130.50 per kg and the other at say, $ x per kg in the ratio 2 : 2, i.e., 1 : 1. We have to find x.
-					<br/>Cost of 1 kg tea of 1st kind	Cost of 1 kg tea of 2nd kind
-					 
-					<br/> x-153/22.50 = 1 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x - 153 = 22.50 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x=175.50.
-					<br/>Hence, price of the third variety = $175.50 per kg.
-
+					<b>Diagonals of a parallelogram are 6cm and 8cm respectively. If one side is 5 cm, find its area?</b>
+					<br/>Diagonals of parallelogram divide each other equally, 
+					<br/>So half diagonal will be 3 and 4
+					<br/>As side of parallelogram is 5,
+					<br/>So this forms Pythagoras triplet and angle is 90°
+					<br/>So parallelogram is rhombus.
+					<br/>Area = ½ X 6 X 8 = 24.
 					"}],
 		"practices":
 					[					
-					{"question1":"A container contains 40 litres of milk. From this container 4 litres of milk was taken out and replaced by water. This process was repeated further two times. How much milk is now contained by the container.", "answer1":"29.16 liters", "option1":"26.26  liters;27.36  liters;28 liters;29.16 liters",
-					"explanation1":
-					"
-					<br/>Amount of milk left after 3 operations
-					"},
-					{"question2":"A merchant has 100 lbs of sugar, part of which he sells at 7% profit and the rest at 17% profit. He gains 10 % on the whole. Find how much is sold at 7% profit? ", "answer2":"70 lbs", "option2":"70 lbs;40 lbs;80 lbs;95 lbs",
-					"explanation2":
-					"
-					<br/>Let's say price per lbs is $10 
-					<br/>7% profit over $10 is 10.7 
-					<br/>A merchant bought x lbs at $10.7 
-					<br/>17% profit over $10 is 11.7 
-					<br/>A merchant bought y lbs at $11.7 
-					<br/>10% profit over $10 is 11 
-					<br/>A merchant bought (x+y) lbs at $11 
-					<br/>10.7(X) + 11.7(y) = 11(x+y) 
-					<br/>10.7(X) + 11.7(y) = 11x + 11y 
-					<br/>0.7(y) = 0.3 x 
-					<br/>Only possible values here would be x = 70 and y = 30 
-
-					"},
-					{"question3":"", "answer3":"7 : 9", "option3":"4 : 3;6 : 9;7 : 9;5 : 6",
-					"explanation3":
-					"
-					<br/>Let the C.P. of spirit be Re. 1 litre.
-					<br/>Spirit in 1 litre mix. of A = 5/7 litre, C.P. of 1 litre mix. in A = Re. 5/7
-					<br/>Spirit in 1 litre mix. of B = 7/13 litre, C.P. of 1 litre mix. in B = Re. 7/13
-					<br/>Spirit in 1 litre mix. of C = 8/13 litre, Mean price = Re. 8/13.
-					<br/>By the rule of alligation, we have:
-					<br/>Cost of 1 litre mixture in A	Cost of 1 litre mixture in B
-					<br/>Required ratio = 1/13 : 9/91 = 7 : 9.
-
-					"},
-					{"question4":"A can contains a mixture of two liquids A and B in the ratio 7 : 5. When 9 liters of mixture are drawn off and the can is filled with B, the ratio of A and B becomes 7 : 9. How many litres of liquid A was contained by the can initially?", "answer4":"21", "option4":"21;25;10;15",
-					"explanation4":
-					"
-					<br/>Suppose the can initially contains 7x and 5x litres of mixtures A and B respectively
-					<br/>Quantity of A in mixture left 
-					<br/>= (7x - 7/12 x 9) litres = (7x - 21/4) litres.
-					<br/>Quantity of B in mixture left 
-					<br/>= (5x - 5/12 x 9) litres = (5x - 15/4) litres.
-					<br/>(7x - 21/4) / [(5x - 15/4)+9] = 7/9 = ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 28x - 21/20x + 21 = 7/9 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 252x - 189 = 140x + 147
-					<br/> 	=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 112x = 336 =ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ x = 3.
-
-					"},
-					{"question5":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16 : 65. How much wine the cask hold originally ?", "answer5":"24 liters", "option5":"18 liters;24 liters;32 liters;41 liters",
-					"explanation5":
-					"
-					<br/>Let the quantity of the wine in the cask originally be x litres
-					<br/>then, quantity of wine left in cask after 4 operations
-					<br/>= [x(1- 8/x)4] litres.
-					<br/>Therefore x(1- 8/x)4 / x = 16/81 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº (1- 8/x)4 = (2/3)2 
-					<br/>=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº (x - 8 / x) = 2/3 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 3x - 24 = 2x =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x = 24.
-
-					"},
-					{"question6":"How many kilograms of sugar costing $9 per kg must be mixed with 27 kg of sugar costing $7 per Kg so that there may be a gain of 10% by selling the mixture at $9.24 per Kg?", "answer6":"63 kg", "option6":"36 kg;63 kg;42 kg;60 kg",
-					"explanation6":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg sugar of 1st kind	C.P. of 1 kg sugar of 2nd kind 
-					<br/>Ratio of quantities of 1st and 2nd kind = 14 : 6 = 7 : 3.
-					<br/>Let x kg of sugar of 1st kind be mixed with 27 kg of 2nd kind.
-					<br/>Then, 7 : 3 = x : 27 or x = (7 x 27 / 3) = 63 kg.
-
-					"},
-					{"question7":"In what ratio must rice at $9.30 per Kg be mixed with rice at $10.80 per Kg so that the mixture be worth $10 per Kg?", "answer7":"8 : 7", "option7":"8 : 7;7 : 8;8 : 9;9 : 8",
-					"explanation7":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg rice of 1st kind (in paise)	C.P. of 1 kg rice of 2nd kind (in paise)
-					<br/>Required ratio = 80 : 70 = 8 : 7.
-
-					"},
-					{"question8":"In what ratio must be a grocer mix two varities of tea worth $60 a kg and $65 a Kg so that by selling the mixture at $68.20 a Kg he may gain 10%?", "answer8":"3 : 2", "option8":"3 : 4;3 : 2;3 : 5;4 : 5",
-					"explanation8":
-					"
-					<br/>S.P. of 1 kg of the mixture = $ 68.20, Gain = 10 %
-					<br/>C.P. of 1 kg of the mixture = $ (100 / 110 x 68.20) = $ 62.
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 kg tea of 1st kind	C.P. of 1 kg tea of 2nd kind
-					<br/>Required ratio = 3 : 2.
-
-					"},
-					{"question9":"The cost of Type 1 rice is $15 per kg and Type 2 rice is $20 per kg. If both Type 1 and Type 2 are mixed in the ratio of 2 : 3, then the price per kg of the mixed variety of rice is", "answer9":"$ 18", "option9":"$ 19.50;$ 19;$ 18;$ 18.50",
-					"explanation9":
-					"
-					<br/>Let the price of the mixed variety be $ x per kg. By the rule of alligation, we have :
-					<br/>Cost of 1 kg of type 1 rice	Cost of 1 kg of type 2 rice
-					<br/>(20-x)/(x-15) = 2/3 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 60 - 3x = 2x - 30
-					<br/>=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº 5x = 90 =ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº x = 18.
-					<br/>so, price of the mixture is $ 18 per kg.
-
-					"},
-					{"question10":"In what ratio must water be mixed with milk costing $12 per litre to obtain a mixture worth of $8 per litre?", "answer10":"1 : 2", "option10":"1 : 2;2 : 1;4 : 3;5 : 3",
-					"explanation10":
-					"
-					<br/>By the rule of alligation:
-					<br/>C.P. of 1 litre of water	C.P. of 1 litre of milk
-					<br/>Ratio of water to milk = 4 : 8 = 1 : 2
-
-					"},
-					{"question11":"", "answer11":"2 : 3", "option11":"1 : 3;2 : 3;3 : 4;4 : 5",
-					"explanation11":
-					"
-					<br/>By the rule of alligation:
-					<br/>Cost of 1 kg rice of 1st kind	Cost of 1 kg rice of 2nd kind
-					<br/>Required ratio = 60 : 90 = 2 : 3
-
-					"},
-					{"question12":"One quantity of wheat at Rs 9.30 per Kg is mixed with another quality at a certain rate in the ratio 8:7. If the mixture so formed be worth Rs 10 per Kg, what is the rate per Kg of the second quality of wheat?", "answer12":"$ 10.80", "option12":"$ 12.47;$ 10.80;$ 15.17;$ 47.66",
-					"explanation12":
-					"
-					<br/>Let the rate of second quality be Rs x per Kg.
-					<br/>C.P of 1Kg wheat of 1st kind = 930p 
-					<br/>C.P of 1 Kg wheat of 2nd kind = 100x p 
-					<br/>Mean price = 1000p
-					<br/>By rule of alligation we have required ratio 8 : 7
-					<br/>   930                         x
-					<br/> 
-					<br/>         \                  /
-					<br/>        (Mean Price)
-					<br/>                (10)
-					<br/>         /                  \
-					<br/> 
-					<br/>   x-10        :          0.7     ::       8        :          7
-					<br/>So we get required ratio,  (x-10) : 0.7 :: 8 : 7
-					<br/>ÃƒÂ¢Ã¢â‚¬Â¡Ã¢â‚¬â„¢ x = 10.80 per Kg
-
-					"},
-					{"question13":"", "answer13":"56 km", "option13":"46 km;56 km;62 km;52 km",
-					"explanation13":
-					"
-					<br/>Distance covered in 1 hour on foot = 8 km 
-					<br/>Distance covered in 1 hour on bicycle = 17 km
-					<br/>Average distance covered in 1 hour = 90/9 km   = 10km (mean distance)
-					<br/>Distance covered in        Distance covered in
-					<br/>1 hour on foot                  1 hour on bicycle
-					<br/>      (8 km)                                  (17 km)
-					<br/> 
-					<br/>                     \                       /
-					<br/>                     Mean Distance
-					<br/>                           (10 km)
-					<br/>                    /                        \
-					<br/> 
-					<br/>     (17 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 10)          :           (10 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 8)
-					<br/>            7                                   2 
-					<br/>Thus out of 9 hours, he took 7 hours on foot
-					<br/>Distance covered on foot  = (8 ÃƒÆ’Ã¢â‚¬â€� 7) Km  = 56 km
-
-					"},
-					{"question14":"", "answer14":"8 : 7", "option14":"6 : 5;3 : 7;8 : 7;6 : 1",
-					"explanation14":
-					"
-					<br/>C.P of 1 Kg                   C.P of 1 Kg
-					<br/>rice of 1st                   rice of 2nd
-					<br/>kind (930p)                kind (1080p)
-					<br/> 
-					<br/>             \                        /
-					<br/>                Mean Price
-					<br/>                  (1000p)
-					<br/>             /                       \
-					<br/> 
-					<br/>              (1080 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 1000)  :        (1000 -  930)
-					<br/>                      80                             70
-					<br/>Thus, required ratio = 80 : 70 = 8 : 7
-
-					"},
-					{"question15":"In what proportion must rice at $ 3.10 per kg be mixed with rice at $ 3.60 per kg so that the mixture be worth $ 3.25 per kg?", "answer15":"7 : 3", "option15":"3 : 7;5 : 3;3 : 5;7 : 3",
-					"explanation15":
-					"
-					<br/>C.P of a unit quantity of 1st kind  = 310p (in paise)
-					<br/>C.P of a unit quantity of 2nd kind  = 360p
-					<br/>Mean price = 325p
-					<br/>C.P of unit quantity         C.P of unit quantity
-					<br/>of 1st kind                         of 2nd kind
-					<br/>    (310p)                         (360p)
-					<br/> 
-					<br/>                     \                       /
-					<br/>                        Mean Price
-					<br/>                         (325p)
-					<br/>                    /                        \
-					<br/> 
-					<br/> (360 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 325)          :           (325 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 310)
-					<br/>       35                                       15
-					<br/>
-					<br/>Required ratio = 35 : 15 = 7 : 3
-					<br/>They must be mixed in the ratio 7 : 3
-
-					"}
+					{"question1":"One angle of Pentagon is 60°. If all the other angles being equal, find each of other angles?", "answer1":"120°", "option1":"120°;60°;190°;150°",
+					 "explanation1":
+					 "
+					<br/>Sum of interior angles of a polygon
+					<br/>= (2n-4)90° = (10 – 4)90° = 540°
+					<br/>One angle is 60°, hence sum of the angles = 480°
+					<br/>Each of other angles = 480°/4 = 120°		 
+					 "},
+					{"question2":"The sum of the interior angles of a polygon is 1620° . How many sides does polygon have?", "answer2":"11", "option2":"9;10;11;12",
+					 "explanation2":
+					 "
+					 <br/>We have, sum of the interior angles of a polygon 
+					<br/>= (2n-4)90° = 1620°
+					<br/>Or 2n – 4 =1620/90 = 18
+					<br/>Or 2n = 22 or n = 11
+					 "},
+					 {"question3":"Determine the value of x in the figure below.-----------diagram---", "answer3":"9", "option3":"11;15;12;9",
+					 "explanation3":
+					 "
+					 <br/>We know that the sum of the interior angles of quadrilateral JESK is 360°, so we have
+					<br/>Substitution with the angle measures we were given yields
+					<br/>Now, we just simplify our equation and solve for x.
+					 "},
+					 {"question4":"--diagram----", "answer4":"4°", "option4":"3°;4°;5°;None of the above",
+					 "explanation4":
+					 "
+					 <br/>Again, the object in question is a quadrilateral.  If we add up all four angles in this quadrilateral, the sum will be 360°
+					 <br/> That is, 	(24x+3) °+86°+75°+100° =360°,  24x+264°=360°,
+					 <br/> 24x=96°
+					 <br/> x=4°
+					 "},
+					 {"question5":"Diagonals of a parallelogram are 6cm and 8cm respectively. If one side is 5 cm, find its area?", "answer5":"24  sq. cm.", "option5":"48 sq. cm.;30 sq. cm.;24  sq. cm.;40 sq. cm.",
+					 "explanation5":
+					 "
+					 <br/>Diagonals of parallelogram divide each other equally, 
+					<br/>So half diagonal will be 3 and 4
+					<br/>As side of parallelogram is 5,
+					<br/>So this forms Pythagoras triplet and angle is 90°
+					<br/>So parallelogram is rhombus.
+					<br/>Area = ½ X 6 X 8 = 24.		 
+					 "},
+					 {"question6":"The rectangular courtyard ABCD of side 50 ft and 42 ft encloses a lawn EFGH surrounded by a 6ft wide gravel path. Find the cost of spreading gravel along the path if gravelling cost is Rs. 10 per  sq. ft.", "answer6":"Rs. 9600", "option6":"Rs. 96;Rs. 480;Rs.  51.60;Rs. 9600",
+					 "explanation6":
+					 "
+					 <br/>Area of the gravel path = (50 X 42) – (38 X 30)
+					<br/>= 2100 – 1140 = 960
+					<br/>Total cost of gravelling = 960 X 10 = 9600.
+					 
+					 "},
+					 {"question7":"Which of the following is not correct:", "answer7":"All parallelogram are trapezium", "option7":"All squares are kite;All rhombus are kite;All rhombus are parallelogram;All parallelogram are trapezium",
+					 "explanation7":
+					 "
+					 <br/>To be a kite a quadrilateral has two pairs of equal and adjacent sides.
+					<br/>Square and rhombus both have all four sides same.
+					<br/>Hence square and rhombus both are kites. Hence [1] and [2] are true.
+					<br/>All the opposite sides of rhombus are parallel hence rhombus is parallelogram. Hence [3] is also true.
+					<br/>For a quadrilateral to be trapezium. One pair of opposite side has to be parallel and the other pair has to be non parallel.
+					 
+					 "},
+					 {"question8":"How many square stones with sides measuring 80cm will be required to form a footpath 6 meters wide around the boundary of a lawn 50m long and 50m board?", "answer8":"2100", "option8":"1200;2100;2345;2200",
+					 "explanation8":
+					 "
+					 <br/>Area of outer space – Area of inner space
+					<br/>= (62X62) – (50X50) = 1344 m²
+					<br/>Number of stones = 1344/0.64 = 2100
+					 "},
+					 {"question9":"In a nonagon the maximum interior angle is θ. The maximum possible value of  θ?", "answer9":"140°", "option9":"120°;130°;140°;160°",
+					 "explanation9":
+					 "
+					 <br/>Nonagon will have 9 sides. For minimum value of  θ all interior angles should be equal.
+					<br/>In that case the nonagon will be a regular one.
+					<br/>Hence  θ minimum = (n – 2)π/n
+					<br/>For Nonagon n = 9;
+					<br/>= (9 – 2) π/9 = 7 π/9 = 140°	 
+					 "},
+					 {"question10":"The perimeter of a regular hexagon is 36 cm. Find its area.", "answer10":"54√3", "option10":"18√3;36√3;27√3;54√3",
+					 "explanation10":
+					 "
+					 <br/>Side of hexagon = 36/6 = 6cm.
+					<br/>Area = 3√3/2 X 6^2 = 54√3
+					 "},
+					 {"question11":"Angles of a quadrilateral when arranged in ascending /descending order the difference between any two consecutive angle is constant. If the largest angle is 150° then what is the value of smallest angle in radians?", "answer11":"π/6", "option11":"π/2;π/4;π/6;30",
+					 "explanation11":
+					 "
+					 <br/>Let the four angles be a – 3d, a – d, a + d & a + 3d respectively. 
+					<br/>Sum of all angles of a quadrilateral  = 360°
+					<br/>Or 4a = 360°
+					<br/>Or a = 90° ………(1)
+					<br/>Also a + 3d = 150°
+					<br/>So 3d = 60° using (1)
+					<br/>Or d = 20° …………(2)
+					<br/>Hence smallest angel is a – 3d =  90° - 60° = 30° or π/6 radians.
+					 "},
+					 {"question12":"------diagram----", "answer12":"5°", "option12":"5°;15°;10°;8°",
+					 "explanation12":
+					 "
+					<br/>The figure in this problem is a quadrilateral.  Then all four of the angles in this quadrilateral will add up to 360°. That is,
+					<br/>70°+(23x−5) °+110°+(14x) °=360°
+					<br/>Simplifying the left side of this equation, we obtain
+					<br/>70°+(23x−5) °+110°+(14x) °=360°
+					<br/>37x+175°=360°
+					<br/>37x=185°
+					<br/>x=5°
+					 "},
+					 {"question13":"Vertices of a quadrilateral ABCD are A(0, 0), B(4, 5), C(9, 9) and D(5, 4). What is the shape of the quadrilateral?", "answer13":"Rhombus", "option13":"Square;Rectangle but not a square;Rhombus;Parallelogram but not a rhombus",
+					 "explanation13":
+					 "
+					 <br/>The lengths of the four sides, AB, BC, CD and DA are all equal to √41 . 
+					<br/>Hence, the given quadrilateral is either a Rhombus or a Square.
+					<br/>Now let us compute the lengths of the two diagonals AC and BD. 
+					<br/>The length of AC is √162 and the length of BD is √2 . 
+					<br/>As the diagonals are not equal and the sides are equal, the given quadrilateral is a Rhombus.
+					 "},
+					 {"question14":"ABCD is an isosceles trapezoid (isosceles trapezium).  What is the size of angle A?---diagram-----", "answer14":"121°", "option14":"59°;91°;111°;121°",
+					 "explanation14":
+					 "
+					 <br/>The interior angles of a quadrilateral add up to 360°
+					<br/>We also know that an isosceles trapezoid has two pairs of equal angles, so ∠C = ∠D 
+					<br/>and ∠A = ∠B
+					<br/>Angle C + Angle D = 59° + 59° = 118°
+					<br/>So Angle A + Angle B = 360° - 118° = 242°
+					<br/>So Angle A = Angle B = ½ × 242° = 121°
+					<br/>(Note that this also means that ∠A + ∠D = 180° and that ∠B + ∠C = 180°)
+					 "},
+					 {"question15":"Which of the following statements is false?", "answer15":"A trapezoid (trapezium) is also a parallelogram", "option15":"A rectangle is also a parallelogram;A trapezoid (trapezium) is also a parallelogram;A rhombus is also a parallelogram;A rhombus is also a kite",
+					 "explanation15":
+					 "
+					 <br/>A rectangle has opposite sides that are parallel and equal in length. Therefore a rectangle is also a parallelogram. A is true.
+					<br/>A trapezoid (called a trapezium in the UK) has just one pair of opposite sides parallel. A trapezoid is, therefore, not a parallelogram. B is false.
+					<br/>A rhombus has opposite sides parallel, so it is also a parallelogram. C is true.
+					<br/>A rhombus also has adjacent sides equal. So a rhombus is also a kite. D is true.
+					 "}
 					]
 	},	
 	{
@@ -730,161 +669,137 @@
 		"examples":
 					[ {"example1":
 					"
-					<b>If Jammie $ 2000 and Robb invested for $ 1000  for a period of 12 months. If they earned a profit of $ 300 at the end of year, what will be their share?</b>
-					<br/>As we know 
-					<br/>(Investment of A)/(Investment of B) = (Profit/Loss of A)/(Profit/Loss of B)
-					<br/> So Profit of Jammie/Profit of Robb = 2000/1000 = 2/1
-					<br/>Share of Jammie = (2/3)*300 = $200
-					<br/>Share of Robb = (1/3)*300 = $100
-
+					<b>A is a point on y-axis at a distance of 5 units from x-axis lying below x-axis. The co-ordinates of A are?</b>
+					<br/>The co-ordinates of A are A(0, -5)
 					"},
 					{"example2":
 					"
-					<b>A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs. 855, the total profit is:</b>
-					<br/>Solution	Let the total profit be Rs. 100.
-					<br/>After paying to charity, A's share = Rs.	 	95 x	3	 	= Rs. 57.
-					<br/>If A's share is Rs. 57, total profit = Rs. 100.
-					<br/>If A's share Rs. 855, total profit =	 	100	x 855	 	= 1500.
-				
+					<b>If the distance of the point P(x, y) from A(a, 0) is a + x, then y² = ?</b>
+					<br/>√(x-a)²+(y-0)² = a + x 
+					<br/>= (x-a)² + y²
+					<br/>= (a+x)² => y² = (x-a)²-(x-a)²-4ax => y² = 4ax
 					"}],
 		"practices":
 					[ 
-					{"question1":"A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is $ 855, the total profit is:", "answer1":"$ 1500", "option1":"$ 1425;$ 1537.50;$ 1500;$ 1576",
-					"explanation1":
-					"
-					<br/>Let the total profit be $ 100.
-					<br/>After paying to charity, A's share = $	 	95 x	3	 	= $ 57.
-					<br/>If A's share is $ 57, total profit = $ 100.
-					<br/>If A's share $ 855, total profit =	 	100	x 855	 	= 1500.
-					"},
-					{"question2":"A, B and C jointly thought of engaging themselves in a business venture. It was agreed that A would invest $ 6500 for 6 months, B, $ 8400 for 5 months and C, $ 10,000 for 3 months. A wants to be the working member for which, he was to receive 5% of the profits. The profit earned was $ 7400. Calculate the share of B in the profit.", "answer2":"$ 2660", "option2":"$ 1900;$ 2000;$ 2660;$ 2840",
-					"explanation2":
-					"
-					<br/>For managing, A received = 5% of $ 7400 = $ 370.
-					<br/>Balance = $ (7400 - 370) = $ 7030.
-					<br/>Ratio of their investments = (6500 x 6) : (8400 x 5) : (10000 x 3)
-					<br/>   = 39000 : 42000 : 30000
-					<br/>   = 13 : 14 : 10
-					 <br/> B's share = $	 	7030 x	14	 	= $ 2660.
-
-					"},
-					{"question3":"A, B, C subscribe $ 50,000 for a business. A subscribes $ 4000 more than B and B $ 5000 more than C. Out of a total profit of $ 35,000, A receives:", "answer3":"$ 14700", "option3":"$ 8400;$ 11900;$ 13000;$ 14700",
-					"explanation3":
-					"
-					<br/>Let C = x.
-					<br/>Then, B = x + 5000 and A = x + 5000 + 4000 = x + 9000.
-					<br/>So, x + x + 5000 + x + 9000 = 50000
-					<br/>  3x = 36000
-					<br/> x = 12000
-					<br/>A : B : C = 21000 : 17000 : 12000 = 21 : 17 : 12.
-					<br/>  A's share = $	 	35000 x	21	 	= $ 14,700.
-
-					"},
-					{"question4":"Three partners shared the profit in a business in the ratio 5 : 7 : 8. They had partnered for 14 months, 8 months and 7 months respectively. What was the ratio of their investments?", "answer4":"20 : 49 : 64", "option4":"5:7:8;20 : 49 : 64;38 : 28 : 21;None of these",
-					"explanation4":
-					"
-					<br/>Let their investments be $ x for 14 months, $ y for 8 months and $ z for 7 months respectively.
-					<br/>Then, 14x : 8y : 7z = 5 : 7 : 8.
-					<br/>Now,	14x	=	5	        98x = 40y         y =	49	x
-					<br/>	8y		7		20	
-					<br/>And,	14x	=	5	        112x = 35z         z =	112	x =	16	x.
-					<br/>	7z		8		35		5	
-					<br/> x : y : z = x :	49	x	:	16	x	= 20 : 49 : 64.
-
-					"},
-					{"question5":"A starts business with $ 3500 and after 5 months, B joins with A as his partner. After a year, the profit is divided in the ratio 2 : 3. What is B's contribution in the capital?", "answer5":"$ 9000", "option5":"$ 7500;$ 8000;$ 8500;$ 9000",
-					"explanation5":
-					"
-					<br/>Let B's capital be $ x.
-					<br/>Then,	 	3500 x 12	=	2	 
-					<br/>		7x		3	
-					<br/>  14x = 126000
-					<br/>  x = 9000.
-
-					"},
-					{"question6":"A and B started a partnership business investing some amount in the ratio of 3 : 5. C joined then after six months with an amount equal to that of B. In what proportion should the profit at the end of one year be distributed among A, B and C?", "answer6":"6 : 10 : 5", "option6":"3 : 5 : 2;3 : 5 : 5;6 : 10 : 5;4 :  5 : 2 ",
-					"explanation6":
-					"
-					<br/>Let the initial investments of A and B be 3x and 5x.
-					<br/>A : B : C = (3x x 12) : (5x x 12) : (5x x 6) = 36 : 60 : 30 = 6 : 10 : 5.
-
-					"},
-					{"question7":"A and B started a business in partnership investing $ 20,000 and $ 15,000 respectively. After six months, C joined them with $ 20,000. What will be B's share in total profit of $ 25,000 earned at the end of 2 years from the starting of the business?", "answer7":"$ 7500", "option7":"$ 7500;$ 9000;$ 9500;$ 10000",
-					"explanation7":
-					"
-					<br/>A : B : C = (20,000 x 24) : (15,000 x 24) : (20,000 x 18) = 4 : 3 : 3.
-					<br/> B's share = $	 	25000 x	3	 	= $ 7,500.
-					"},
-					{"question8":"P and Q started a business investing $85,000 and $15,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?", "answer8":"17 : 3", "option8":"3 : 4;3 : 5;15 : 23;17 : 3",
-					"explanation8":
-					"
-					<br/>P : Q = 85000 : 15000
-					<br/>=85 : 15
-					<br/>=17 : 3
-					"},
-					{"question9":"Sam and Jack started a business investing $22,500 and $35,000 respectively. Out of a total profit of $ 13,800. Jack's share is", "answer9":"$ 8400 ", "option9":"$ 5400;$ 7200;$ 8400 ;$ 9600",
-					"explanation9":
-					"
-					<br/>Ratio of their shares	= 22500 : 35000
-					<br/>	=9 : 14.
-					<br/>Jack's share	= $(13800ÃƒÆ’Ã¢â‚¬â€�14/23)
-					<br/>	= $ 8400.
-
-					"},
-					{"question10":"Rebakah, Haley and Juely invested $8000, $4000 and $8000 respectively in a business. Juely left after six months .If after eight months, there was a gain of $4005, then what will be the share of Haley?", "answer10":"$ 1890", "option10":"$ 1892;$ 1890;$ 1602;$ 1780",
-					"explanation10":
-					"
-					<br/>Rebakah : Haley : Juely	=(8000ÃƒÆ’Ã¢â‚¬â€�6):(4000ÃƒÆ’Ã¢â‚¬â€�8):(8000ÃƒÆ’Ã¢â‚¬â€�8)
-					<br/>	= 48 : 32 : 64
-					<br/>	= 3 : 2 : 4.
-					<br/>Haley's share	= $4005ÃƒÆ’Ã¢â‚¬â€�2/9)
-					<br/>	= $890.
-					"},
-					{"question11":"A started a business with $21,000 and is joined afterwards by B with $36,000. After how many months did B join if the profits at the end of the year are divided equally?", "answer11":"4", "option11":"3;4;5;6",
-					"explanation11":
-					"
-					<br/>Suppose B joined after x months.
-					<br/>Then,	21000ÃƒÆ’Ã¢â‚¬â€�12=36000ÃƒÆ’Ã¢â‚¬â€�(12 - x)
-					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº36x=180
-					<br/>	= x= 5.
-					"},
-					{"question12":"X and Y invested in a business. They earned some profit which they divided in the ratio of 2 : 3. If X invested $40,000. the amount invested by Y is", "answer12":"$ 60000", "option12":"$ 45000;$ 50000;$ 60000;$ 65000",
-					"explanation12":
-					"
-					<br/>Suppose Y invested $y
-					<br/>Then,	40000 /y = 2 / 3
-					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº y=(40000ÃƒÆ’Ã¢â‚¬â€�3 / 2).
-					<br/>	ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹=ÃƒÂ¢Ã¢â€šÂ¬Ã‚Âº y=60000.
-
-					"},
-					{"question13":"A, B, C rent a pasture. A puts 10 oxen for 7 months, B puts 12 oxen for 5 months and C puts 15 oxen for 3 months for grazing. If the rent of the pasture is $ 175, how much must C pay as his share of rent?", "answer13":"$ 45", "option13":"$ 45;$ 50;$ 55;$ 60",
-					"explanation13":
-					"
-					<br/>A : B : C	=(10ÃƒÆ’Ã¢â‚¬â€�7):(12ÃƒÆ’Ã¢â‚¬â€�5):(15ÃƒÆ’Ã¢â‚¬â€�3)
-					<br/>	= 70 :60 :45
-					<br/>	= 14 :12 :9
-					<br/>c's rent	=$(175ÃƒÆ’Ã¢â‚¬â€�9/35)
-					<br/>	= $45.
-
-					"},
-					{"question14":"Lord Tyrion started a software business by investing $ 50,000. After six months, Lord Tivion joined her with a capital of $ 80,000. After 3 years, they earned a profit of $ 24,500. What was Lord Tyrion's share in the profit?", "answer14":"$ 10500", "option14":"$ 9423;$ 10250;$ 12500;$ 10500",
-					"explanation14":
-					"
-					<br/>Lord Tyrion : Lord Tivion = (50000 x 36) : (80000 x 30) = 3 : 4.
-					<br/>  Lord Tyrion's share = $	 	24500 x	3	 	= $ 10,500.
-
-					"},
-					{"question15":"A began a business with $ 85,000. He was joined afterwards by B with $ 42,500. For how much period does B join, if the profits at the end of the year are divided in the ratio of 3 : 1?", "answer15":"8 months", "option15":"4 months;5 months;6 months;8 months",
-					"explanation15":
-					"
-					<br/>Suppose B joined for x months. Then,
-					<br/>Then,	 	85000 x 12	=	3	 
-					<br/>		42500 x x		1	
-					<br/>  x =	 	85000 x 12	 	= 8.
-					<br/>		42500 x 3		
-					<br/>So, B joined for 8 months.
-
-					"}
+					{"question1":"In which quadrant does the point(-4, -7) lie?", "answer1":"3", "option1":"1;2;3;4",
+					 "explanation1":
+					 "
+					 <br/>The point (-4, -7) lies in 3rd quadrant.
+					 "},
+					{"question2":"Find the distance of the point A(4, -4) from the origin.", "answer2":"8√2", "option2":"3√2;2√8;6√2;8√2",
+					 "explanation2":
+					 "
+					 <br/>OA = √[4²+(-4)²] = √[16+16] = √32 = 8√2
+					 "},
+					 {"question3":"A is a point on y-axis at a distance of 5 units from x-axis lying below x-axis. The co-ordinates of A are?", "answer3":"(0, -5)", "option3":"(5, 0);(-5, 0);(0, 5);(0, -5)",
+					 "explanation3":
+					 "
+					<br/>The co-ordinates of A are A(0, -5)
+					 "},
+					 {"question4":"Find the distance of the point A(4, -2) from the origin.", "answer4":"2v5 units", "option4":"4v5 units;2v5 units;5v2 units;7v2 units",
+					 "explanation4":
+					 "
+					 <br/>OA = v4 - 0²+(-2 - 0)² = v16+4 = v20 = radic;4*5 = 2v5 units
+					 "},
+					 {"question5":"If the distance of the point P(x, y) from A(a, 0) is a + x, then y² = ?", "answer5":"4ax", "option5":"8ax;6ax;4ax;2ax",
+					 "explanation5":
+					 "
+					<b>v(x-a)²+(y-0)² = a + x 
+					<b>= (x-a)² + y²
+					<b>= (a+x)² => y² = (x-a)²-(x-a)²-4ax => y² = 4ax
+					 "},
+					 {"question6":"The points A(-4, 0), B(1, -4), and C(5, 1) are the vertices of", "answer6":"An isosceles right angled triangle", "option6":"An isosceles right angled triangle;An equilateral triangle;A scalene triangle;None of These",
+					 "explanation6":
+					 "
+					 <br/>AB² = (1 + 4)² + (-4 - 0)² 
+					<br/>= 25 + 16 = 41, 
+					<br/>BC² = (5 - 1)² + (1 + 4)² = 4² + 5²
+					<br/>= 16 + 25 = 41 
+					<br/>AC² = (5 + 4)² + (1 - 0)² 
+					<br/>= 81 + 1 = 82 
+					<br/>AB = BC and AB² = BC² = AC² 
+					<br/>?ABC is an isosceles right angled triangle
+					 
+					 "},
+					 {"question7":"Find the value of k for which the points A(-2, 5), B(3, k) and C(6, 1) are collinear.", "answer7":"5", "option7":"5;7;4;1",
+					 "explanation7":
+					 "
+					 <br/>x1 = -2, x2 = 3, x3 = 6 and y1 = 5, y2 = k, y3 = -1 
+					  <br/>Now ? = 0 <=> -2(k + 1) + 3(-1 + 5) + 6(5 - k) = 0 
+				      <br/><=> -2 (k+1) + 3(4) + 6(5-k) = 0 
+				      <br/><=> -2k-2 + 12+30 -6k = 0 
+				      <br/><=> 40 - 8k = 0 
+				      <br/><=> -8k = -40 
+				      <br/> <=> k = 5.
+					 "},
+					 {"question8":"If the A(2, 3), B(5, k), and C(6, 7) are collinear, then k = ?", "answer8":"6", "option8":"11;12;18;6",
+					 "explanation8":
+					 "
+					 <br/>x1 = 2, x2 = 5, x3 = 6 and y1 = 3, y2 = k, y3 = 7 
+					<br/>Now ? = 0 <=> 2(k - 7) + 5(7 - 3) + 6(3 - k) = 0 
+					<br/><=> 1/2 [2 (k-7) + 5(4) + 6(3-k)] = 0 
+					<br/><=> 2k - 14 + 20 + 18 - 6k = 0 
+					<br/><=> 24 - 4k = 0 
+					<br/><=> 4k = 24 
+					<br/><=> k = 6.
+				 
+					 "},
+					 {"question9":"Find the co-ordinates of the centroid of ?ABC whose vertices are A(7, -3), B(5, -4) and C(-3, -5)?", "answer9":"3, -4", "option9":"3, -3;4, -4;3, -4;None of these",
+					 "explanation9":
+					 "
+					<br/>x1 = 7, x2 = 5, x3 = -3 and y1 = -3, y2 = -4, y3 = -5 
+					<br/>= [(7 + 5 - 3)/3, (-3 - 4 - 5)/3] 
+					<br/>= (12-3)/3, -12/3) 
+					<br/>= (9/3, -12/3) 
+					<br/>= (3, -4)
+					 "},
+					 {"question10":"The co-ordinates of the end points of a diameter AB of a circle are A(-6, 8) and B(-10, 6). Find the co-ordinates of its centre.", "answer10":"-8, 7", "option10":"-8, 7;-7, 8;7, -8;-8, -7",
+					 "explanation10":
+					 "
+					 <br/>The center O is the mid point of AB. 
+					<br/>Co-ordinates of O are [(-6-10)/2, (8+6)/2] 
+					<br/>= -16/2, 14/2 
+					<br/>= (-8, 7)
+					 "},
+					 {"question11":"Find the co-ordinates of a point P which divides the join of A(5, -4) and B(10, 8) in the ratio 3 : 2", "answer11":"8, 7", "option11":"9, 5;7, 8;8, 7;9, -7",
+					 "explanation11":
+					 "
+					 <br/>Required point is P = (mx2 + nx1)/m+n, (my2 + ny1)/m+n 
+					<br/>P((3(10) + 2(5))/5, (3(15) + 2(-5))/5) 
+					<br/>=(30 + 10)/5, (45-10)/5 
+					<br/>= P(8, 7)
+					 "},
+					 {"question12":"The end points of a line segment AB are A(-6, 4) and B(12,24). Its midpoint is:", "answer12":"(3, 14)", "option12":"(14, 4);(-4, 14);(3, 14);(-3, 14)",
+					 "explanation12":
+					 "
+					 <br/>Midpoint is C((-6+12)/2, (4+24)/2) 
+					<br/>(-6/2, 28/2) = (-3, 14)
+					 "},
+					 {"question13":"The vertices of a quadrilateral ABCD are A(0, 0), B(3,3), C(3, 6) and D(0, 3). Then , ABCD is a", "answer13":"Parallelogram", "option13":"Square;Rectangle;Rhombus;Parallelogram",
+					 "explanation13":
+					 "
+					 <br/>Answer: Option 'B'
+					<br/>AB2 = (3-0)² + (3-0)² = 18 
+					<br/>BC2 = (3-3)² + (6-3)² = 9 
+					<br/>CD2 = (0-3)² + (3-6)² =18 
+					<br/>AD2 = (0-0)² + (3-0)² = 9 
+					<br/>AB = CD = v18 => 3v2, 
+					<br/>BC = AD = v9 
+					<br/>AC2 = (3-0)² + (6-0)² = 9 + 36 = 45 
+					<br/>BD2 = (0-3)² + (3-3)² = 9 + 0 = 9 
+					<br/>AC ? BD 
+					<br/>ABCD is a parallelogram.
+					 "},
+					 {"question14":"If for a line m = tan? < 0, then", "answer14":"? is obtuse", "option14":"? is acute;? is obtuse;? = 90°;? = 60°",
+					 "explanation14":
+					 "
+					 <br/>m = tan ?  < 0 => is obtuse
+					 "},
+					 {"question15":"If for a line m = tan? > 0, then", "answer15":"? is acute", "option15":"? is acute;? is obtuse;? = 90°;? = 60°",
+					 "explanation15":
+					 "
+					 <br/>m = tan ?  < 0 => is acute
+					 "}
 					]
 	},
 	{
